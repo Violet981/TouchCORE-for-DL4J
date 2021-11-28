@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_il9AgC-_Eey7CdRMNoOOSg" name="MultilayerNN_load_from_disk">
+  <realizes href="DL4J_M1.core#_-cX6MPkLEeuiC8tSaKvCTg"/>
+  <realizes href="DL4J_M1.core#_dDZVkOMNEeup8sSe_2PnyA"/>
+  <coreConcern href="DL4J_M1.core#_bV6McNf-EeuGxOJxjWx4FA"/>
+  <structuralView xmi:id="_il9AgS-_Eey7CdRMNoOOSg">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_7_eNgC-_Eey7CdRMNoOOSg" name="MultiLayerNetwork" instanceClassName="org.deeplearning4j.nn.multilayer.MultiLayerNetwork"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_89swUC-_Eey7CdRMNoOOSg" name="ModelSerializer" visibility="public" instanceClassName="org.deeplearning4j.util.ModelSerializer">
+      <operations xmi:id="_BtEpgC_AEey7CdRMNoOOSg" name="restoreMultiLayerNetwork" visibility="public" returnType="_7_eNgC-_Eey7CdRMNoOOSg" static="true">
+        <parameters xmi:id="_BtEpgS_AEey7CdRMNoOOSg" name="arg0" type="_il9AiC-_Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_BtEpgi_AEey7CdRMNoOOSg" name="arg1" type="_il9AhS-_Eey7CdRMNoOOSg"/>
+      </operations>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_il9Agy-_Eey7CdRMNoOOSg"/>
+    <types xsi:type="ram:RAny" xmi:id="_il9AhC-_Eey7CdRMNoOOSg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_il9AhS-_Eey7CdRMNoOOSg"/>
+    <types xsi:type="ram:RInt" xmi:id="_il9Ahi-_Eey7CdRMNoOOSg"/>
+    <types xsi:type="ram:RChar" xmi:id="_il9Ahy-_Eey7CdRMNoOOSg"/>
+    <types xsi:type="ram:RString" xmi:id="_il9AiC-_Eey7CdRMNoOOSg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_il9AiS-_Eey7CdRMNoOOSg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_il9Aii-_Eey7CdRMNoOOSg"/>
+    <types xsi:type="ram:RLong" xmi:id="_il9Aiy-_Eey7CdRMNoOOSg"/>
+    <types xsi:type="ram:RByte" xmi:id="_il9AjC-_Eey7CdRMNoOOSg"/>
+  </structuralView>
+  <instantiations xmi:id="_il9AjS-_Eey7CdRMNoOOSg">
+    <source xsi:type="ram:Aspect" href="load_from_disk.ram#_UvkmECYoEeycop2z6HNniQ"/>
+  </instantiations>
+  <instantiations xmi:id="_OoVrQEDFEeyLS6kOktOebw">
+    <source xsi:type="ram:Aspect" href="multilayer_network.ram#_UwYUQOikEeuYGrJtKWO0Hg"/>
+  </instantiations>
+  <layout xmi:id="_il9Aji-_Eey7CdRMNoOOSg">
+    <containers xmi:id="_il9Ajy-_Eey7CdRMNoOOSg" key="_il9AgS-_Eey7CdRMNoOOSg">
+      <value xmi:id="_7_fboC-_Eey7CdRMNoOOSg" key="_7_eNgC-_Eey7CdRMNoOOSg">
+        <value xmi:id="_7_fboS-_Eey7CdRMNoOOSg" x="502.0" y="259.0"/>
+      </value>
+      <value xmi:id="_89t-cC-_Eey7CdRMNoOOSg" key="_89swUC-_Eey7CdRMNoOOSg">
+        <value xmi:id="_89t-cS-_Eey7CdRMNoOOSg" x="532.0" y="392.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_4BtCUC-9Eey7CdRMNoOOSg" name="ImageTransform">
+  <realizes href="DL4J_M1.core#_rbwuUNgBEeuGxOJxjWx4FA"/>
+  <realizes href="DL4J_M1.core#_DpZB4NgAEeuGxOJxjWx4FA"/>
+  <coreConcern href="DL4J_M1.core#_bV6McNf-EeuGxOJxjWx4FA"/>
+  <structuralView xmi:id="_4BtCUS-9Eey7CdRMNoOOSg">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_4BtCUi-9Eey7CdRMNoOOSg" name="ImageTransform" visibility="public" instanceClassName="org.datavec.image.transform.ImageTransform" interface="true">
+      <operations xmi:id="_4BtCUy-9Eey7CdRMNoOOSg" name="transform" visibility="public" returnType="_4BtCVi-9Eey7CdRMNoOOSg">
+        <parameters xmi:id="_4BtCVC-9Eey7CdRMNoOOSg" name="arg0" type="_4BtCVi-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_4BtCVS-9Eey7CdRMNoOOSg" name="arg1" type="_4BtCVy-9Eey7CdRMNoOOSg"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_4BtCVi-9Eey7CdRMNoOOSg" name="ImageWritable" instanceClassName="org.datavec.image.data.ImageWritable"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_4BtCVy-9Eey7CdRMNoOOSg" name="Random" instanceClassName="java.util.Random"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_6hA9YC-9Eey7CdRMNoOOSg" name="ImageTransformProcess" instanceClassName="org.datavec.image.transform.ImageTransformProcess"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_8Uj-oC-9Eey7CdRMNoOOSg" name="ColorConversionTransform" instanceClassName="org.datavec.image.transform.ColorConversionTransform"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_Di_UMC--Eey7CdRMNoOOSg" name="CropImageTransform" instanceClassName="org.datavec.image.transform.CropImageTransform"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_viFVMC--Eey7CdRMNoOOSg" name="ResizeImageTransform" instanceClassName="org.datavec.image.transform.ResizeImageTransform"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_wvXnsC--Eey7CdRMNoOOSg" name="FilterImageTransform" instanceClassName="org.datavec.image.transform.FilterImageTransform"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_x6EgQC--Eey7CdRMNoOOSg" name="RotateImageTransform" instanceClassName="org.datavec.image.transform.RotateImageTransform"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_y-2XAC--Eey7CdRMNoOOSg" name="ScaleImageTransform" instanceClassName="org.datavec.image.transform.ScaleImageTransform"/>
+    <classes xsi:type="ram:Class" xmi:id="_Wd3zkDmzEey74d7HYWi3GA" name="Transformclass"/>
+    <types xsi:type="ram:RVoid" xmi:id="_4BtCWC-9Eey7CdRMNoOOSg"/>
+    <types xsi:type="ram:RAny" xmi:id="_4BtCWS-9Eey7CdRMNoOOSg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_4BtCWi-9Eey7CdRMNoOOSg"/>
+    <types xsi:type="ram:RInt" xmi:id="_4BtCWy-9Eey7CdRMNoOOSg"/>
+    <types xsi:type="ram:RChar" xmi:id="_4BtCXC-9Eey7CdRMNoOOSg"/>
+    <types xsi:type="ram:RString" xmi:id="_4BtCXS-9Eey7CdRMNoOOSg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_4BtCXi-9Eey7CdRMNoOOSg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_4BtCXy-9Eey7CdRMNoOOSg"/>
+    <types xsi:type="ram:RLong" xmi:id="_4BtCYC-9Eey7CdRMNoOOSg"/>
+    <types xsi:type="ram:RByte" xmi:id="_4BtCYS-9Eey7CdRMNoOOSg"/>
+  </structuralView>
+  <instantiations xmi:id="_5Xbc8EDFEeyLS6kOktOebw">
+    <source xsi:type="ram:Aspect" href="transform_data.ram#_JQLAACYnEeycop2z6HNniQ"/>
+  </instantiations>
+  <instantiations xmi:id="_QugREEDGEeyLS6kOktOebw">
+    <source xsi:type="ram:Aspect" href="image_data.ram#_8XuCsNgNEeuGxOJxjWx4FA"/>
+  </instantiations>
+  <layout xmi:id="_4Bu3gC-9Eey7CdRMNoOOSg">
+    <containers xmi:id="_4Bu3gS-9Eey7CdRMNoOOSg" key="_4BtCUS-9Eey7CdRMNoOOSg">
+      <value xmi:id="_4Bu3gi-9Eey7CdRMNoOOSg" key="_4BtCUi-9Eey7CdRMNoOOSg">
+        <value xmi:id="_4Bu3gy-9Eey7CdRMNoOOSg" x="639.48645" y="182.3837"/>
+      </value>
+      <value xmi:id="_4Bu3hC-9Eey7CdRMNoOOSg" key="_4BtCVi-9Eey7CdRMNoOOSg">
+        <value xmi:id="_4Bu3hS-9Eey7CdRMNoOOSg" x="234.29565" y="115.11508"/>
+      </value>
+      <value xmi:id="_4Bu3hi-9Eey7CdRMNoOOSg" key="_4BtCVy-9Eey7CdRMNoOOSg">
+        <value xmi:id="_4Bu3hy-9Eey7CdRMNoOOSg" x="32.194916" y="247.73041"/>
+      </value>
+      <value xmi:id="_6hCLgC-9Eey7CdRMNoOOSg" key="_6hA9YC-9Eey7CdRMNoOOSg">
+        <value xmi:id="_6hCykC-9Eey7CdRMNoOOSg" x="410.0" y="320.0"/>
+      </value>
+      <value xmi:id="_8UlMwC-9Eey7CdRMNoOOSg" key="_8Uj-oC-9Eey7CdRMNoOOSg">
+        <value xmi:id="_8UlMwS-9Eey7CdRMNoOOSg" x="179.29565" y="465.8728"/>
+      </value>
+      <value xmi:id="_DjAiUC--Eey7CdRMNoOOSg" key="_Di_UMC--Eey7CdRMNoOOSg">
+        <value xmi:id="_DjAiUS--Eey7CdRMNoOOSg" x="628.0435" y="465.8728"/>
+      </value>
+      <value xmi:id="_viI_kC--Eey7CdRMNoOOSg" key="_viFVMC--Eey7CdRMNoOOSg">
+        <value xmi:id="_viI_kS--Eey7CdRMNoOOSg" x="903.87524" y="327.49176"/>
+      </value>
+      <value xmi:id="_wvaD8C--Eey7CdRMNoOOSg" key="_wvXnsC--Eey7CdRMNoOOSg">
+        <value xmi:id="_wvaD8S--Eey7CdRMNoOOSg" x="1039.3732" y="548.5173"/>
+      </value>
+      <value xmi:id="_x6GVcC--Eey7CdRMNoOOSg" key="_x6EgQC--Eey7CdRMNoOOSg">
+        <value xmi:id="_x6GVcS--Eey7CdRMNoOOSg" x="301.33997" y="664.79584"/>
+      </value>
+      <value xmi:id="_y-4zQC--Eey7CdRMNoOOSg" key="_y-2XAC--Eey7CdRMNoOOSg">
+        <value xmi:id="_y-4zQS--Eey7CdRMNoOOSg" x="625.0435" y="664.79584"/>
+      </value>
+      <value xmi:id="_XVoiADmzEey74d7HYWi3GA" key="_Wd3zkDmzEey74d7HYWi3GA">
+        <value xmi:id="_XVoiATmzEey74d7HYWi3GA" x="825.0" y="496.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

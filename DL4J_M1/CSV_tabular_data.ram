@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_bw5TECTQEeyXgIyMe68nzg" name="CSV tabular data">
+  <realizes href="DL4J_M1.core#_ngRjoNgWEeuGxOJxjWx4FA"/>
+  <coreConcern href="DL4J_M1.core#_bV6McNf-EeuGxOJxjWx4FA"/>
+  <structuralView xmi:id="_bw5TESTQEeyXgIyMe68nzg">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_bw5TEiTQEeyXgIyMe68nzg" name="CSVRecordReader" visibility="public" instanceClassName="org.datavec.api.records.reader.impl.csv.CSVRecordReader">
+      <operations xmi:id="_bw5TEyTQEeyXgIyMe68nzg" name="next" visibility="public" returnType="_bw5TFyTQEeyXgIyMe68nzg"/>
+      <operations xmi:id="_bw5TFCTQEeyXgIyMe68nzg" name="initialize" visibility="public" returnType="_bw5THSTQEeyXgIyMe68nzg">
+        <parameters xmi:id="_bw5TFSTQEeyXgIyMe68nzg" name="arg0" type="_bw5TGSTQEeyXgIyMe68nzg"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_bw5TFiTQEeyXgIyMe68nzg" name="Writable" instanceClassName="org.datavec.api.writable.Writable" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_bw5TFyTQEeyXgIyMe68nzg" name="List" instanceClassName="java.util.List" interface="true">
+      <typeParameters xmi:id="_bw5TGCTQEeyXgIyMe68nzg" name="E" genericType="_bw5TFiTQEeyXgIyMe68nzg"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_bw5TGSTQEeyXgIyMe68nzg" name="InputSplit" instanceClassName="org.datavec.api.split.InputSplit" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_bw5TGiTQEeyXgIyMe68nzg" name="RecordReaderDataSetIterator" visibility="public" instanceClassName="org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator">
+      <operations xmi:id="_bw5TGyTQEeyXgIyMe68nzg" name="next" visibility="public" returnType="_bw5THCTQEeyXgIyMe68nzg"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_bw5THCTQEeyXgIyMe68nzg" name="DataSet" instanceClassName="org.nd4j.linalg.dataset.DataSet"/>
+    <types xsi:type="ram:RVoid" xmi:id="_bw5THSTQEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RAny" xmi:id="_bw5THiTQEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_bw5THyTQEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RInt" xmi:id="_bw5TICTQEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RChar" xmi:id="_bw5TISTQEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RString" xmi:id="_bw5TIiTQEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_bw5TIyTQEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_bw56ICTQEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RLong" xmi:id="_bw56ISTQEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RByte" xmi:id="_bw56IiTQEeyXgIyMe68nzg"/>
+  </structuralView>
+  <layout xmi:id="_bw56JCTQEeyXgIyMe68nzg">
+    <containers xmi:id="_bw56JSTQEeyXgIyMe68nzg" key="_bw5TESTQEeyXgIyMe68nzg">
+      <value xmi:id="_bw56JiTQEeyXgIyMe68nzg" key="_bw5TEiTQEeyXgIyMe68nzg">
+        <value xmi:id="_bw56JyTQEeyXgIyMe68nzg" x="347.99994" y="396.92807"/>
+      </value>
+      <value xmi:id="_bw56KCTQEeyXgIyMe68nzg" key="_bw5TFiTQEeyXgIyMe68nzg">
+        <value xmi:id="_bw56KSTQEeyXgIyMe68nzg" x="1072.0011" y="503.00043"/>
+      </value>
+      <value xmi:id="_bw56KiTQEeyXgIyMe68nzg" key="_bw5TFyTQEeyXgIyMe68nzg">
+        <value xmi:id="_bw56KyTQEeyXgIyMe68nzg" x="959.0006" y="260.00018"/>
+      </value>
+      <value xmi:id="_bw56LCTQEeyXgIyMe68nzg" key="_bw5TGSTQEeyXgIyMe68nzg">
+        <value xmi:id="_bw56LSTQEeyXgIyMe68nzg" x="774.0006" y="260.00018"/>
+      </value>
+      <value xmi:id="_bw56LiTQEeyXgIyMe68nzg" key="_bw5TGiTQEeyXgIyMe68nzg">
+        <value xmi:id="_bw56LyTQEeyXgIyMe68nzg" x="389.00073" y="622.0007"/>
+      </value>
+      <value xmi:id="_bw56MCTQEeyXgIyMe68nzg" key="_bw5THCTQEeyXgIyMe68nzg">
+        <value xmi:id="_bw56MSTQEeyXgIyMe68nzg" x="856.0008" y="545.00055"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

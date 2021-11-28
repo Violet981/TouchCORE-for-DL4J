@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_Nm9wMCYeEeyRlp131N6WbQ" name="operate data">
+  <realizes href="DL4J_M1.core#_ijIysNf_EeuGxOJxjWx4FA"/>
+  <coreConcern href="DL4J_M1.core#_bV6McNf-EeuGxOJxjWx4FA"/>
+  <structuralView xmi:id="_Nm9wMSYeEeyRlp131N6WbQ">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_Nm9wMiYeEeyRlp131N6WbQ" name="Schema" instanceClassName="org.datavec.api.transform.schema.Schema"/>
+    <classes xsi:type="ram:Class" xmi:id="_Nm9wMyYeEeyRlp131N6WbQ" name="SchemaBuilder" visibility="public">
+      <operations xmi:id="_Nm9wNCYeEeyRlp131N6WbQ" name="addColumnLong" visibility="public" returnType="_Nm9wNiYeEeyRlp131N6WbQ">
+        <parameters xmi:id="_Nm9wNSYeEeyRlp131N6WbQ" name="arg0" type="_Nm-XRCYeEeyRlp131N6WbQ"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_Nm9wNiYeEeyRlp131N6WbQ" name="Schema$Builder" instanceClassName="org.datavec.api.transform.schema.Schema$Builder"/>
+    <types xsi:type="ram:RVoid" xmi:id="_Nm9wNyYeEeyRlp131N6WbQ"/>
+    <types xsi:type="ram:RAny" xmi:id="_Nm-XQCYeEeyRlp131N6WbQ"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_Nm-XQSYeEeyRlp131N6WbQ"/>
+    <types xsi:type="ram:RInt" xmi:id="_Nm-XQiYeEeyRlp131N6WbQ"/>
+    <types xsi:type="ram:RChar" xmi:id="_Nm-XQyYeEeyRlp131N6WbQ"/>
+    <types xsi:type="ram:RString" xmi:id="_Nm-XRCYeEeyRlp131N6WbQ"/>
+    <types xsi:type="ram:RDouble" xmi:id="_Nm-XRSYeEeyRlp131N6WbQ"/>
+    <types xsi:type="ram:RFloat" xmi:id="_Nm-XRiYeEeyRlp131N6WbQ"/>
+    <types xsi:type="ram:RLong" xmi:id="_Nm-XRyYeEeyRlp131N6WbQ"/>
+    <types xsi:type="ram:RByte" xmi:id="_Nm-XSCYeEeyRlp131N6WbQ"/>
+  </structuralView>
+  <layout xmi:id="_NnAMcCYeEeyRlp131N6WbQ">
+    <containers xmi:id="_NnAMcSYeEeyRlp131N6WbQ" key="_Nm9wMSYeEeyRlp131N6WbQ">
+      <value xmi:id="_NnAMciYeEeyRlp131N6WbQ" key="_Nm9wMiYeEeyRlp131N6WbQ">
+        <value xmi:id="_NnAMcyYeEeyRlp131N6WbQ" x="604.0" y="250.0"/>
+      </value>
+      <value xmi:id="_NnAMdCYeEeyRlp131N6WbQ" key="_Nm9wMyYeEeyRlp131N6WbQ">
+        <value xmi:id="_NnAMdSYeEeyRlp131N6WbQ" x="628.0" y="382.99994"/>
+      </value>
+      <value xmi:id="_NnAMdiYeEeyRlp131N6WbQ" key="_Nm9wNiYeEeyRlp131N6WbQ">
+        <value xmi:id="_NnAMdyYeEeyRlp131N6WbQ" x="279.99973" y="372.99994"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

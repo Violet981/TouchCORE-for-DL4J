@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_Cla_oCZxEeyD3eQvvo0_7w" name="predict">
+  <realizes href="DL4J_M1.core#_JJODMPXyEeuFE_jiQ8MXng"/>
+  <coreConcern href="DL4J_M1.core#_bV6McNf-EeuGxOJxjWx4FA"/>
+  <structuralView xmi:id="_Cla_oSZxEeyD3eQvvo0_7w">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_Cla_oiZxEeyD3eQvvo0_7w" name="SplitTestAndTrain" visibility="public" instanceClassName="org.nd4j.linalg.dataset.SplitTestAndTrain">
+      <operations xmi:id="_Cla_oyZxEeyD3eQvvo0_7w" name="getTest" visibility="public" returnType="_Cla_pCZxEeyD3eQvvo0_7w"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_Cla_pCZxEeyD3eQvvo0_7w" name="DataSet" instanceClassName="org.nd4j.linalg.dataset.DataSet"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_DL06sCalEeynp-_8-R4e8w" name="Evaluation" visibility="public" instanceClassName="org.deeplearning4j.eval.Evaluation">
+      <operations xmi:id="_F5k6YCalEeynp-_8-R4e8w" name="Evaluation" visibility="public" returnType="_DL06sCalEeynp-_8-R4e8w" operationType="Constructor"/>
+      <operations xmi:id="_HPZd0CalEeynp-_8-R4e8w" name="Evaluation" visibility="public" returnType="_DL06sCalEeynp-_8-R4e8w" operationType="Constructor">
+        <parameters xmi:id="_HPZd0SalEeynp-_8-R4e8w" name="arg0" type="_ClbmsSZxEeyD3eQvvo0_7w"/>
+      </operations>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_Cla_pSZxEeyD3eQvvo0_7w"/>
+    <types xsi:type="ram:RAny" xmi:id="_Cla_piZxEeyD3eQvvo0_7w"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_ClbmsCZxEeyD3eQvvo0_7w"/>
+    <types xsi:type="ram:RInt" xmi:id="_ClbmsSZxEeyD3eQvvo0_7w"/>
+    <types xsi:type="ram:RChar" xmi:id="_ClbmsiZxEeyD3eQvvo0_7w"/>
+    <types xsi:type="ram:RString" xmi:id="_ClbmsyZxEeyD3eQvvo0_7w"/>
+    <types xsi:type="ram:RDouble" xmi:id="_ClbmtCZxEeyD3eQvvo0_7w"/>
+    <types xsi:type="ram:RFloat" xmi:id="_ClbmtSZxEeyD3eQvvo0_7w"/>
+    <types xsi:type="ram:RLong" xmi:id="_ClbmtiZxEeyD3eQvvo0_7w"/>
+    <types xsi:type="ram:RByte" xmi:id="_ClbmtyZxEeyD3eQvvo0_7w"/>
+  </structuralView>
+  <instantiations xmi:id="_ClbmuCZxEeyD3eQvvo0_7w">
+    <source xsi:type="ram:Aspect" href="run_network.ram#_xXde0CZwEeyD3eQvvo0_7w"/>
+  </instantiations>
+  <layout xmi:id="_ClbmuSZxEeyD3eQvvo0_7w">
+    <containers xmi:id="_ClbmuiZxEeyD3eQvvo0_7w" key="_Cla_oSZxEeyD3eQvvo0_7w">
+      <value xmi:id="_ClbmuyZxEeyD3eQvvo0_7w" key="_Cla_oiZxEeyD3eQvvo0_7w">
+        <value xmi:id="_ClbmvCZxEeyD3eQvvo0_7w" x="692.0" y="203.0"/>
+      </value>
+      <value xmi:id="_ClbmvSZxEeyD3eQvvo0_7w" key="_Cla_pCZxEeyD3eQvvo0_7w">
+        <value xmi:id="_ClbmviZxEeyD3eQvvo0_7w" x="1132.0006" y="425.0004"/>
+      </value>
+      <value xmi:id="_DL7oYCalEeynp-_8-R4e8w" key="_DL06sCalEeynp-_8-R4e8w">
+        <value xmi:id="_DL7oYSalEeynp-_8-R4e8w" x="498.0" y="378.00018"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

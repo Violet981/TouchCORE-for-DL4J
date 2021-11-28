@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_75ioYCZuEeyh18mdaTesGQ" name="customize layer settings">
+  <realizes href="DL4J_M1.core#_JAgAQPkMEeuiC8tSaKvCTg"/>
+  <coreConcern href="DL4J_M1.core#_bV6McNf-EeuGxOJxjWx4FA"/>
+  <structuralView xmi:id="_75ioYSZuEeyh18mdaTesGQ">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_75ioYiZuEeyh18mdaTesGQ" name="NeuralNetConfiguration" instanceClassName="org.deeplearning4j.nn.conf.NeuralNetConfiguration"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_75ioYyZuEeyh18mdaTesGQ" name="NeuralNetConfiguration$Builder" instanceClassName="org.deeplearning4j.nn.conf.NeuralNetConfiguration$Builder"/>
+    <classes xsi:type="ram:Class" xmi:id="_75ioZCZuEeyh18mdaTesGQ" name="NeuralNetConfigurationBuilder" visibility="public">
+      <operations xmi:id="_75ioZSZuEeyh18mdaTesGQ" name="list" visibility="public" returnType="_75ioZyZuEeyh18mdaTesGQ"/>
+      <operations xmi:id="_75ioZiZuEeyh18mdaTesGQ" name="graphBuilder" visibility="public" returnType="_75ioaCZuEeyh18mdaTesGQ"/>
+      <operations xmi:id="_CT184CZwEeyD3eQvvo0_7w" name="layer" visibility="public" returnType="_75ioZCZuEeyh18mdaTesGQ"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_75ioZyZuEeyh18mdaTesGQ" name="NeuralNetConfigurationListBuilder" visibility="public">
+      <operations xmi:id="_PkCAkCZwEeyD3eQvvo0_7w" name="layer" visibility="public" returnType="_75ioaSZuEeyh18mdaTesGQ">
+        <parameters xmi:id="_PkCAkSZwEeyD3eQvvo0_7w" name="arg0" type="_75iobCZuEeyh18mdaTesGQ"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_75ioaCZuEeyh18mdaTesGQ" name="ComputationGraphConfigurationGraphBuilder" visibility="public">
+      <operations xmi:id="_wzE00CZvEeyD3eQvvo0_7w" name="addInputs" visibility="public" returnType="_75ioaCZuEeyh18mdaTesGQ">
+        <parameters xmi:id="_wzE00SZvEeyD3eQvvo0_7w" name="arg0" type="_75iobiZuEeyh18mdaTesGQ"/>
+      </operations>
+      <operations xmi:id="_zCyNoCZvEeyD3eQvvo0_7w" name="setOutputs" visibility="public" returnType="_75ioaCZuEeyh18mdaTesGQ">
+        <parameters xmi:id="_zCyNoSZvEeyD3eQvvo0_7w" name="arg0" type="_75iobiZuEeyh18mdaTesGQ"/>
+      </operations>
+      <operations xmi:id="_1uJAoCZvEeyD3eQvvo0_7w" name="addLayers" visibility="public" returnType="_75ioaCZuEeyh18mdaTesGQ">
+        <parameters xmi:id="_1uJAoSZvEeyD3eQvvo0_7w" name="arg0" type="_75iobiZuEeyh18mdaTesGQ"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_YORCQCZvEeyD3eQvvo0_7w" name="DenseLayerBuilder" visibility="public">
+      <operations xmi:id="_gXEVYCZvEeyD3eQvvo0_7w" name="build" visibility="public" returnType="_YORCQCZvEeyD3eQvvo0_7w"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_h1UcECZvEeyD3eQvvo0_7w" name="OutputLayerBuilder" visibility="public">
+      <operations xmi:id="_lCzEsCZvEeyD3eQvvo0_7w" name="build" visibility="public" returnType="_h1UcECZvEeyD3eQvvo0_7w"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_75ioaSZuEeyh18mdaTesGQ"/>
+    <types xsi:type="ram:RAny" xmi:id="_75ioaiZuEeyh18mdaTesGQ"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_75ioayZuEeyh18mdaTesGQ"/>
+    <types xsi:type="ram:RInt" xmi:id="_75iobCZuEeyh18mdaTesGQ"/>
+    <types xsi:type="ram:RChar" xmi:id="_75iobSZuEeyh18mdaTesGQ"/>
+    <types xsi:type="ram:RString" xmi:id="_75iobiZuEeyh18mdaTesGQ"/>
+    <types xsi:type="ram:RDouble" xmi:id="_75iobyZuEeyh18mdaTesGQ"/>
+    <types xsi:type="ram:RFloat" xmi:id="_75iocCZuEeyh18mdaTesGQ"/>
+    <types xsi:type="ram:RLong" xmi:id="_75iocSZuEeyh18mdaTesGQ"/>
+    <types xsi:type="ram:RByte" xmi:id="_75iociZuEeyh18mdaTesGQ"/>
+  </structuralView>
+  <instantiations xmi:id="_75iocyZuEeyh18mdaTesGQ">
+    <source xsi:type="ram:Aspect" href="manually_build_network.ram#_kETWUAmKEeyWSY4C072WoQ"/>
+  </instantiations>
+  <layout xmi:id="_75iodCZuEeyh18mdaTesGQ">
+    <containers xmi:id="_75iodSZuEeyh18mdaTesGQ" key="_75ioYSZuEeyh18mdaTesGQ">
+      <value xmi:id="_75iodiZuEeyh18mdaTesGQ" key="_75ioYiZuEeyh18mdaTesGQ">
+        <value xmi:id="_75iodyZuEeyh18mdaTesGQ" x="462.0" y="234.0"/>
+      </value>
+      <value xmi:id="_75ioeCZuEeyh18mdaTesGQ" key="_75ioYyZuEeyh18mdaTesGQ">
+        <value xmi:id="_75ioeSZuEeyh18mdaTesGQ" x="487.0" y="403.0"/>
+      </value>
+      <value xmi:id="_75ioeiZuEeyh18mdaTesGQ" key="_75ioZCZuEeyh18mdaTesGQ">
+        <value xmi:id="_75ioeyZuEeyh18mdaTesGQ" x="388.0" y="550.1492"/>
+      </value>
+      <value xmi:id="_75iofCZuEeyh18mdaTesGQ" key="_75ioZyZuEeyh18mdaTesGQ">
+        <value xmi:id="_75iofSZuEeyh18mdaTesGQ" x="891.9999" y="292.99988"/>
+      </value>
+      <value xmi:id="_75iofiZuEeyh18mdaTesGQ" key="_75ioaCZuEeyh18mdaTesGQ">
+        <value xmi:id="_75iofyZuEeyh18mdaTesGQ" x="956.0" y="388.0"/>
+      </value>
+      <value xmi:id="_YORCQSZvEeyD3eQvvo0_7w" key="_YORCQCZvEeyD3eQvvo0_7w">
+        <value xmi:id="_YORCQiZvEeyD3eQvvo0_7w" x="833.3313" y="707.54834"/>
+      </value>
+      <value xmi:id="_h1WRQCZvEeyD3eQvvo0_7w" key="_h1UcECZvEeyD3eQvvo0_7w">
+        <value xmi:id="_h1WRQSZvEeyD3eQvvo0_7w" x="1132.0" y="575.1492"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

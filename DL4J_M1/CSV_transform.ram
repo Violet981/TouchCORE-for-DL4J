@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_BaJN0C-9EeyoztDuLd0r_g" name="CSVTabularTransform">
+  <realizes href="DL4J_M1.core#_rbwuUNgBEeuGxOJxjWx4FA"/>
+  <realizes href="DL4J_M1.core#_CEYy8NgAEeuGxOJxjWx4FA"/>
+  <realizes href="DL4J_M1.core#_ngRjoNgWEeuGxOJxjWx4FA"/>
+  <coreConcern href="DL4J_M1.core#_bV6McNf-EeuGxOJxjWx4FA"/>
+  <structuralView xmi:id="_BaJN0S-9EeyoztDuLd0r_g">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_BaJN0i-9EeyoztDuLd0r_g" name="DataNormalization" visibility="public" instanceClassName="org.nd4j.linalg.dataset.api.preprocessor.DataNormalization" interface="true">
+      <operations xmi:id="_BaJN0y-9EeyoztDuLd0r_g" name="fit" visibility="public" returnType="_BaJN3S-9EeyoztDuLd0r_g">
+        <parameters xmi:id="_BaJN1C-9EeyoztDuLd0r_g" name="arg0" type="_BaJN2S-9EeyoztDuLd0r_g"/>
+      </operations>
+      <operations xmi:id="_BaJN1S-9EeyoztDuLd0r_g" name="transform" visibility="public" returnType="_BaJN3S-9EeyoztDuLd0r_g">
+        <parameters xmi:id="_BaJN1i-9EeyoztDuLd0r_g" name="arg0" type="_BaJN2i-9EeyoztDuLd0r_g"/>
+      </operations>
+      <operations xmi:id="_BaJN1y-9EeyoztDuLd0r_g" name="transformLabel" visibility="public" returnType="_BaJN3S-9EeyoztDuLd0r_g">
+        <parameters xmi:id="_BaJN2C-9EeyoztDuLd0r_g" name="arg0" type="_BaJN2i-9EeyoztDuLd0r_g"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_BaJN2S-9EeyoztDuLd0r_g" name="DataSetIterator" instanceClassName="org.nd4j.linalg.dataset.api.iterator.DataSetIterator" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_BaJN2i-9EeyoztDuLd0r_g" name="INDArray" instanceClassName="org.nd4j.linalg.api.ndarray.INDArray" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_BaJN2y-9EeyoztDuLd0r_g" name="NormalizerStandardize" visibility="public" instanceClassName="org.nd4j.linalg.dataset.api.preprocessor.NormalizerStandardize">
+      <operations xmi:id="_BaJN3C-9EeyoztDuLd0r_g" name="NormalizerStandardize" visibility="public" returnType="_BaJN2y-9EeyoztDuLd0r_g" operationType="Constructor"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_TPE8UDmzEey74d7HYWi3GA" name="TransformCSV"/>
+    <types xsi:type="ram:RVoid" xmi:id="_BaJN3S-9EeyoztDuLd0r_g"/>
+    <types xsi:type="ram:RAny" xmi:id="_BaJN3i-9EeyoztDuLd0r_g"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_BaJN3y-9EeyoztDuLd0r_g"/>
+    <types xsi:type="ram:RInt" xmi:id="_BaJN4C-9EeyoztDuLd0r_g"/>
+    <types xsi:type="ram:RChar" xmi:id="_BaJN4S-9EeyoztDuLd0r_g"/>
+    <types xsi:type="ram:RString" xmi:id="_BaJN4i-9EeyoztDuLd0r_g"/>
+    <types xsi:type="ram:RDouble" xmi:id="_BaJN4y-9EeyoztDuLd0r_g"/>
+    <types xsi:type="ram:RFloat" xmi:id="_BaJN5C-9EeyoztDuLd0r_g"/>
+    <types xsi:type="ram:RLong" xmi:id="_BaJN5S-9EeyoztDuLd0r_g"/>
+    <types xsi:type="ram:RByte" xmi:id="_BaJN5i-9EeyoztDuLd0r_g"/>
+  </structuralView>
+  <instantiations xmi:id="_72jKwEDFEeyLS6kOktOebw">
+    <source xsi:type="ram:Aspect" href="transform_data.ram#_JQLAACYnEeycop2z6HNniQ"/>
+  </instantiations>
+  <instantiations xmi:id="_NnxJoEDGEeyLS6kOktOebw">
+    <source xsi:type="ram:Aspect" href="CSV_tabular_data.ram#_bw5TECTQEeyXgIyMe68nzg"/>
+  </instantiations>
+  <layout xmi:id="_BaJN6C-9EeyoztDuLd0r_g">
+    <containers xmi:id="_BaJN6S-9EeyoztDuLd0r_g" key="_BaJN0S-9EeyoztDuLd0r_g">
+      <value xmi:id="_BaJN6i-9EeyoztDuLd0r_g" key="_BaJN0i-9EeyoztDuLd0r_g">
+        <value xmi:id="_BaJN6y-9EeyoztDuLd0r_g" x="333.0" y="71.0"/>
+      </value>
+      <value xmi:id="_BaJN7C-9EeyoztDuLd0r_g" key="_BaJN2S-9EeyoztDuLd0r_g">
+        <value xmi:id="_BaJN7S-9EeyoztDuLd0r_g" x="66.10297" y="84.000275"/>
+      </value>
+      <value xmi:id="_BaJN7i-9EeyoztDuLd0r_g" key="_BaJN2i-9EeyoztDuLd0r_g">
+        <value xmi:id="_BaJN7y-9EeyoztDuLd0r_g" x="13.0" y="226.00027"/>
+      </value>
+      <value xmi:id="_BaJN8C-9EeyoztDuLd0r_g" key="_BaJN2y-9EeyoztDuLd0r_g">
+        <value xmi:id="_BaJN8S-9EeyoztDuLd0r_g" x="365.0" y="290.0"/>
+      </value>
+      <value xmi:id="_TPLqADmzEey74d7HYWi3GA" key="_TPE8UDmzEey74d7HYWi3GA">
+        <value xmi:id="_TPLqATmzEey74d7HYWi3GA" x="87.0" y="353.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

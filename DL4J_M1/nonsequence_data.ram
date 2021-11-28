@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_qmtisCTOEeyXgIyMe68nzg" name="nonsequence data">
+  <realizes href="DL4J_M1.core#_arJ9QNgUEeuGxOJxjWx4FA"/>
+  <coreConcern href="DL4J_M1.core#_bV6McNf-EeuGxOJxjWx4FA"/>
+  <structuralView xmi:id="_qmtisSTOEeyXgIyMe68nzg">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_qmtisiTOEeyXgIyMe68nzg" name="RecordReader" instanceClassName="org.datavec.api.records.reader.RecordReader" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_qmtisyTOEeyXgIyMe68nzg" name="BaseRecordReader" superTypes="_qmtisiTOEeyXgIyMe68nzg" instanceClassName="org.datavec.api.records.reader.BaseRecordReader"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_qmtitCTOEeyXgIyMe68nzg" name="LineRecordReader" superTypes="_qmtisyTOEeyXgIyMe68nzg" instanceClassName="org.datavec.api.records.reader.impl.LineRecordReader"/>
+    <types xsi:type="ram:RVoid" xmi:id="_qmtitiTOEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RAny" xmi:id="_qmtityTOEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_qmtiuCTOEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RInt" xmi:id="_qmtiuSTOEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RChar" xmi:id="_qmtiuiTOEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RString" xmi:id="_qmtiuyTOEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_qmtivCTOEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_qmtivSTOEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RLong" xmi:id="_qmtiviTOEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RByte" xmi:id="_qmtivyTOEeyXgIyMe68nzg"/>
+  </structuralView>
+  <instantiations xmi:id="_qmtiwCTOEeyXgIyMe68nzg">
+    <source xsi:type="ram:Aspect" href="single_format_of_data.ram#_PUSl8NgEEeuGxOJxjWx4FA"/>
+  </instantiations>
+  <layout xmi:id="_qmtiwSTOEeyXgIyMe68nzg">
+    <containers xmi:id="_qmtiwiTOEeyXgIyMe68nzg" key="_qmtisSTOEeyXgIyMe68nzg">
+      <value xmi:id="_qmtiwyTOEeyXgIyMe68nzg" key="_qmtisiTOEeyXgIyMe68nzg">
+        <value xmi:id="_qmtixCTOEeyXgIyMe68nzg" x="568.0" y="99.0"/>
+      </value>
+      <value xmi:id="_qmtixSTOEeyXgIyMe68nzg" key="_qmtisyTOEeyXgIyMe68nzg">
+        <value xmi:id="_qmtixiTOEeyXgIyMe68nzg" x="545.5" y="321.0001"/>
+      </value>
+      <value xmi:id="_qmtixyTOEeyXgIyMe68nzg" key="_qmtitCTOEeyXgIyMe68nzg">
+        <value xmi:id="_qmtiyCTOEeyXgIyMe68nzg" x="549.5" y="486.00006"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_yebDsCZsEeyatsJceXdPFg" name="seed">
+  <structuralView xmi:id="_yebDsSZsEeyatsJceXdPFg">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_yebDsyZsEeyatsJceXdPFg" name="NeuralNetConfiguration$Builder" instanceClassName="org.deeplearning4j.nn.conf.NeuralNetConfiguration$Builder"/>
+    <classes xsi:type="ram:Class" xmi:id="_yebDtCZsEeyatsJceXdPFg" name="NeuralNetConfigurationBuilder" visibility="public">
+      <operations xmi:id="_yebDtSZsEeyatsJceXdPFg" name="seed">
+        <returnType xsi:type="ram:ImplementationClass" href="manually_build_network.ram#_kETWUgmKEeyWSY4C072WoQ"/>
+        <parameters xmi:id="_yebDtiZsEeyatsJceXdPFg" name="arg0" type="_yebDuiZsEeyatsJceXdPFg"/>
+      </operations>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_yebDtyZsEeyatsJceXdPFg"/>
+    <types xsi:type="ram:RAny" xmi:id="_yebDuCZsEeyatsJceXdPFg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_yebDuSZsEeyatsJceXdPFg"/>
+    <types xsi:type="ram:RInt" xmi:id="_yebDuiZsEeyatsJceXdPFg"/>
+    <types xsi:type="ram:RChar" xmi:id="_yebDuyZsEeyatsJceXdPFg"/>
+    <types xsi:type="ram:RString" xmi:id="_yebDvCZsEeyatsJceXdPFg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_yebDvSZsEeyatsJceXdPFg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_yebDviZsEeyatsJceXdPFg"/>
+    <types xsi:type="ram:RLong" xmi:id="_yebDvyZsEeyatsJceXdPFg"/>
+    <types xsi:type="ram:RByte" xmi:id="_yebDwCZsEeyatsJceXdPFg"/>
+  </structuralView>
+  <layout xmi:id="_yebDwiZsEeyatsJceXdPFg">
+    <containers xmi:id="_yebDwyZsEeyatsJceXdPFg" key="_yebDsSZsEeyatsJceXdPFg">
+      <value xmi:id="_yebDxiZsEeyatsJceXdPFg" key="_yebDsyZsEeyatsJceXdPFg">
+        <value xmi:id="_yebDxyZsEeyatsJceXdPFg" x="759.49994" y="417.00003"/>
+      </value>
+      <value xmi:id="_yebDyCZsEeyatsJceXdPFg" key="_yebDtCZsEeyatsJceXdPFg">
+        <value xmi:id="_yebDySZsEeyatsJceXdPFg" x="714.99994" y="275.05457"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

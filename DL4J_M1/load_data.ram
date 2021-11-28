@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_IZawcNgCEeuGxOJxjWx4FA" name="load data">
+  <realizes href="DL4J_M1.core#_hL_ZkNf_EeuGxOJxjWx4FA"/>
+  <coreConcern href="DL4J_M1.core#_bV6McNf-EeuGxOJxjWx4FA"/>
+  <structuralView xmi:id="_IZawcdgCEeuGxOJxjWx4FA">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_IZawctgCEeuGxOJxjWx4FA" name="DataSetIterator" instanceClassName="org.nd4j.linalg.dataset.api.iterator.DataSetIterator" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_xHOm4NgCEeuGxOJxjWx4FA" name="RecordReaderDataSetIterator" visibility="public" superTypes="_IZawctgCEeuGxOJxjWx4FA" instanceClassName="org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator">
+      <operations xmi:id="_B650sCX9EeyXgIyMe68nzg" name="RecordReaderDataSetIterator" visibility="public" returnType="_xHOm4NgCEeuGxOJxjWx4FA" operationType="Constructor">
+        <parameters xmi:id="_B650sSX9EeyXgIyMe68nzg" name="arg0" type="_zO5eANgCEeuGxOJxjWx4FA"/>
+        <parameters xmi:id="_B650siX9EeyXgIyMe68nzg" name="arg1" type="_IZawdtgCEeuGxOJxjWx4FA"/>
+        <parameters xmi:id="_B650syX9EeyXgIyMe68nzg" name="arg2" type="_IZawdtgCEeuGxOJxjWx4FA"/>
+        <parameters xmi:id="_B650tCX9EeyXgIyMe68nzg" name="arg3" type="_IZawdtgCEeuGxOJxjWx4FA"/>
+      </operations>
+      <operations xmi:id="_EeOlcCafEeyD3eQvvo0_7w" name="RecordReaderDataSetIterator" visibility="public" returnType="_xHOm4NgCEeuGxOJxjWx4FA" operationType="Constructor">
+        <parameters xmi:id="_EeOlcSafEeyD3eQvvo0_7w" name="arg0" type="_zO5eANgCEeuGxOJxjWx4FA"/>
+        <parameters xmi:id="_EeOlciafEeyD3eQvvo0_7w" name="arg1" type="_IZawdtgCEeuGxOJxjWx4FA"/>
+      </operations>
+      <operations xmi:id="_FUjJcCafEeyD3eQvvo0_7w" name="RecordReaderDataSetIterator" visibility="public" returnType="_xHOm4NgCEeuGxOJxjWx4FA" operationType="Constructor">
+        <parameters xmi:id="_FUjJcSafEeyD3eQvvo0_7w" name="arg0" type="_zO5eANgCEeuGxOJxjWx4FA"/>
+        <parameters xmi:id="_FUjJciafEeyD3eQvvo0_7w" name="arg1" type="_IZawdtgCEeuGxOJxjWx4FA"/>
+        <parameters xmi:id="_FUjJcyafEeyD3eQvvo0_7w" name="arg2" type="_IZawdtgCEeuGxOJxjWx4FA"/>
+        <parameters xmi:id="_FUjJdCafEeyD3eQvvo0_7w" name="arg3" type="_IZawdtgCEeuGxOJxjWx4FA"/>
+        <parameters xmi:id="_FUjJdSafEeyD3eQvvo0_7w" name="arg4" type="_IZawddgCEeuGxOJxjWx4FA"/>
+      </operations>
+      <operations xmi:id="_FnvLMCafEeyD3eQvvo0_7w" name="RecordReaderDataSetIterator" visibility="public" returnType="_xHOm4NgCEeuGxOJxjWx4FA" operationType="Constructor">
+        <parameters xmi:id="_FnvLMSafEeyD3eQvvo0_7w" name="arg0" type="_zO5eANgCEeuGxOJxjWx4FA"/>
+        <parameters xmi:id="_FnvLMiafEeyD3eQvvo0_7w" name="arg1" type="_IZawdtgCEeuGxOJxjWx4FA"/>
+        <parameters xmi:id="_FnvLMyafEeyD3eQvvo0_7w" name="arg2" type="_IZawdtgCEeuGxOJxjWx4FA"/>
+        <parameters xmi:id="_FnvLNCafEeyD3eQvvo0_7w" name="arg3" type="_IZawdtgCEeuGxOJxjWx4FA"/>
+        <parameters xmi:id="_FnvLNSafEeyD3eQvvo0_7w" name="arg4" type="_IZawdtgCEeuGxOJxjWx4FA"/>
+      </operations>
+      <operations xmi:id="_F6vmwCafEeyD3eQvvo0_7w" name="RecordReaderDataSetIterator" visibility="public" returnType="_xHOm4NgCEeuGxOJxjWx4FA" operationType="Constructor">
+        <parameters xmi:id="_F6vmwSafEeyD3eQvvo0_7w" name="arg0" type="_zO5eANgCEeuGxOJxjWx4FA"/>
+        <parameters xmi:id="_F6vmwiafEeyD3eQvvo0_7w" name="arg1" type="_F6quQCafEeyD3eQvvo0_7w"/>
+        <parameters xmi:id="_F6vmwyafEeyD3eQvvo0_7w" name="arg2" type="_IZawdtgCEeuGxOJxjWx4FA"/>
+        <parameters xmi:id="_F6vmxCafEeyD3eQvvo0_7w" name="arg3" type="_IZawdtgCEeuGxOJxjWx4FA"/>
+        <parameters xmi:id="_F6vmxSafEeyD3eQvvo0_7w" name="arg4" type="_IZawdtgCEeuGxOJxjWx4FA"/>
+        <parameters xmi:id="_F6vmxiafEeyD3eQvvo0_7w" name="arg5" type="_IZawdtgCEeuGxOJxjWx4FA"/>
+        <parameters xmi:id="_F6vmxyafEeyD3eQvvo0_7w" name="arg6" type="_IZawdtgCEeuGxOJxjWx4FA"/>
+        <parameters xmi:id="_F6vmyCafEeyD3eQvvo0_7w" name="arg7" type="_IZawddgCEeuGxOJxjWx4FA"/>
+      </operations>
+      <operations xmi:id="_Fm6zcSX9EeyXgIyMe68nzg" name="next" visibility="public" returnType="_FmxCcCX9EeyXgIyMe68nzg"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_zO5eANgCEeuGxOJxjWx4FA" name="RecordReader" visibility="public" instanceClassName="org.datavec.api.records.reader.RecordReader" interface="true">
+      <operations xmi:id="_dm0F0NgDEeuGxOJxjWx4FA" name="next" visibility="public" returnType="_dmri8NgDEeuGxOJxjWx4FA"/>
+      <operations xmi:id="_gRKMMNgDEeuGxOJxjWx4FA" name="nextRecord" visibility="public" returnType="_gRF6wNgDEeuGxOJxjWx4FA"/>
+      <operations xmi:id="_hi6vANgDEeuGxOJxjWx4FA" name="hasNext" visibility="public" returnType="_IZawddgCEeuGxOJxjWx4FA"/>
+      <operations xmi:id="_ipxCUNgDEeuGxOJxjWx4FA" name="initialize" visibility="public" returnType="_IZawc9gCEeuGxOJxjWx4FA">
+        <parameters xmi:id="_ipxCUdgDEeuGxOJxjWx4FA" name="arg0" type="_9TE4sNgCEeuGxOJxjWx4FA"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_07pTsNgCEeuGxOJxjWx4FA" name="BaseRecordReader" visibility="public" superTypes="_zO5eANgCEeuGxOJxjWx4FA" instanceClassName="org.datavec.api.records.reader.BaseRecordReader">
+      <operations xmi:id="_nchmsNgDEeuGxOJxjWx4FA" name="next" visibility="public" returnType="_dmri8NgDEeuGxOJxjWx4FA"/>
+      <operations xmi:id="_oGHWQNgDEeuGxOJxjWx4FA" name="nextRecord" visibility="public" returnType="_gRF6wNgDEeuGxOJxjWx4FA"/>
+      <operations xmi:id="_o8YP4NgDEeuGxOJxjWx4FA" name="hasNext" visibility="public" returnType="_IZawddgCEeuGxOJxjWx4FA"/>
+      <operations xmi:id="_pwGy4NgDEeuGxOJxjWx4FA" name="initialize" visibility="public" returnType="_IZawc9gCEeuGxOJxjWx4FA">
+        <parameters xmi:id="_pwGy4dgDEeuGxOJxjWx4FA" name="arg0" type="_9TE4sNgCEeuGxOJxjWx4FA"/>
+      </operations>
+      <operations xmi:id="_SN6okCafEeyD3eQvvo0_7w" name="initialize" visibility="public" returnType="_IZawc9gCEeuGxOJxjWx4FA">
+        <parameters xmi:id="_SN6okSafEeyD3eQvvo0_7w" name="arg0" type="_SNyswCafEeyD3eQvvo0_7w"/>
+        <parameters xmi:id="_SN6okiafEeyD3eQvvo0_7w" name="arg1" type="_9TE4sNgCEeuGxOJxjWx4FA"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_7zFsoNgCEeuGxOJxjWx4FA" name="Record" superTypes="_gRF6wNgDEeuGxOJxjWx4FA" instanceClassName="org.datavec.api.records.impl.Record"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_9TE4sNgCEeuGxOJxjWx4FA" name="InputSplit" instanceClassName="org.datavec.api.split.InputSplit" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_DhT8kNgDEeuGxOJxjWx4FA" name="Writable" instanceClassName="org.datavec.api.writable.Writable" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_dmri8NgDEeuGxOJxjWx4FA" name="List" instanceClassName="java.util.List" interface="true">
+      <typeParameters xmi:id="_dmri8dgDEeuGxOJxjWx4FA" name="E" genericType="_DhT8kNgDEeuGxOJxjWx4FA"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_gRF6wNgDEeuGxOJxjWx4FA" name="Record" instanceClassName="org.datavec.api.records.Record" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_qteEwCX8EeyXgIyMe68nzg" name="ClassPathResource" visibility="public" instanceClassName="org.datavec.api.util.ClassPathResource">
+      <operations xmi:id="_sVP64CX8EeyXgIyMe68nzg" name="ClassPathResource" visibility="public" returnType="_qteEwCX8EeyXgIyMe68nzg" operationType="Constructor">
+        <parameters xmi:id="_sVP64SX8EeyXgIyMe68nzg" name="arg0" type="_IZaweNgCEeuGxOJxjWx4FA"/>
+      </operations>
+      <operations xmi:id="_tToOsyX8EeyXgIyMe68nzg" name="getFile" visibility="public" returnType="_tToOsCX8EeyXgIyMe68nzg"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_tToOsCX8EeyXgIyMe68nzg" name="File" instanceClassName="java.io.File"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_FmxCcCX9EeyXgIyMe68nzg" name="DataSet" visibility="public" instanceClassName="org.nd4j.linalg.dataset.DataSet">
+      <operations xmi:id="_RkM10CaiEeyD3eQvvo0_7w" name="shuffle" visibility="public" returnType="_IZawc9gCEeuGxOJxjWx4FA"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_F6quQCafEeyD3eQvvo0_7w" name="WritableConverter" instanceClassName="org.datavec.api.io.WritableConverter" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_SNyswCafEeyD3eQvvo0_7w" name="Configuration" superTypes="_DhT8kNgDEeuGxOJxjWx4FA" instanceClassName="org.datavec.api.conf.Configuration"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_jFwIYCafEeyD3eQvvo0_7w" name="FileSplit" visibility="public" instanceClassName="org.datavec.api.split.FileSplit">
+      <operations xmi:id="_lwDLcCafEeyD3eQvvo0_7w" name="FileSplit" visibility="public" returnType="_jFwIYCafEeyD3eQvvo0_7w" operationType="Constructor">
+        <parameters xmi:id="_lwDLcSafEeyD3eQvvo0_7w" name="arg0" type="_tToOsCX8EeyXgIyMe68nzg"/>
+      </operations>
+      <operations xmi:id="_mKtuMiafEeyD3eQvvo0_7w" name="FileSplit" visibility="public" returnType="_jFwIYCafEeyD3eQvvo0_7w" operationType="Constructor">
+        <parameters xmi:id="_mKtuMyafEeyD3eQvvo0_7w" name="arg0" type="_tToOsCX8EeyXgIyMe68nzg"/>
+        <parameters xmi:id="_mKtuNCafEeyD3eQvvo0_7w" name="arg1" type="_mKqq4CafEeyD3eQvvo0_7w"/>
+      </operations>
+      <operations xmi:id="_mqQJ4CafEeyD3eQvvo0_7w" name="FileSplit" visibility="public" returnType="_jFwIYCafEeyD3eQvvo0_7w" operationType="Constructor">
+        <parameters xmi:id="_mqQJ4SafEeyD3eQvvo0_7w" name="arg0" type="_tToOsCX8EeyXgIyMe68nzg"/>
+        <parameters xmi:id="_mqQJ4iafEeyD3eQvvo0_7w" name="arg1" type="_l98dgCafEeyD3eQvvo0_7w"/>
+      </operations>
+      <operations xmi:id="_nJjVACafEeyD3eQvvo0_7w" name="FileSplit" visibility="public" returnType="_jFwIYCafEeyD3eQvvo0_7w" operationType="Constructor">
+        <parameters xmi:id="_nJjVASafEeyD3eQvvo0_7w" name="arg0" type="_tToOsCX8EeyXgIyMe68nzg"/>
+        <parameters xmi:id="_nJm_YCafEeyD3eQvvo0_7w" name="arg1" type="_l98dgCafEeyD3eQvvo0_7w"/>
+        <parameters xmi:id="_nJm_YSafEeyD3eQvvo0_7w" name="arg2" type="_IZawddgCEeuGxOJxjWx4FA"/>
+      </operations>
+      <operations xmi:id="_nfRGUCafEeyD3eQvvo0_7w" name="FileSplit" visibility="public" returnType="_jFwIYCafEeyD3eQvvo0_7w" operationType="Constructor">
+        <parameters xmi:id="_nfRGUSafEeyD3eQvvo0_7w" name="arg0" type="_tToOsCX8EeyXgIyMe68nzg"/>
+        <parameters xmi:id="_nfRGUiafEeyD3eQvvo0_7w" name="arg1" type="_l98dgCafEeyD3eQvvo0_7w"/>
+        <parameters xmi:id="_nfRGUyafEeyD3eQvvo0_7w" name="arg2" type="_mKqq4CafEeyD3eQvvo0_7w"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_mKqq4CafEeyD3eQvvo0_7w" name="Random" instanceClassName="java.util.Random"/>
+    <types xsi:type="ram:RVoid" xmi:id="_IZawc9gCEeuGxOJxjWx4FA"/>
+    <types xsi:type="ram:RAny" xmi:id="_IZawdNgCEeuGxOJxjWx4FA"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_IZawddgCEeuGxOJxjWx4FA"/>
+    <types xsi:type="ram:RInt" xmi:id="_IZawdtgCEeuGxOJxjWx4FA"/>
+    <types xsi:type="ram:RChar" xmi:id="_IZawd9gCEeuGxOJxjWx4FA"/>
+    <types xsi:type="ram:RString" xmi:id="_IZaweNgCEeuGxOJxjWx4FA"/>
+    <types xsi:type="ram:RDouble" xmi:id="_IZawedgCEeuGxOJxjWx4FA"/>
+    <types xsi:type="ram:RFloat" xmi:id="_IZawetgCEeuGxOJxjWx4FA"/>
+    <types xsi:type="ram:RLong" xmi:id="_IZawe9gCEeuGxOJxjWx4FA"/>
+    <types xsi:type="ram:RByte" xmi:id="_IZawfNgCEeuGxOJxjWx4FA"/>
+    <types xsi:type="ram:RArray" xmi:id="_l98dgCafEeyD3eQvvo0_7w" type="_IZaweNgCEeuGxOJxjWx4FA"/>
+  </structuralView>
+  <layout xmi:id="_IZbXgNgCEeuGxOJxjWx4FA">
+    <containers xmi:id="_IZbXgdgCEeuGxOJxjWx4FA" key="_IZawcdgCEeuGxOJxjWx4FA">
+      <value xmi:id="_IZbXgtgCEeuGxOJxjWx4FA" key="_IZawctgCEeuGxOJxjWx4FA">
+        <value xmi:id="_IZbXg9gCEeuGxOJxjWx4FA" x="-239.9878" y="94.0"/>
+      </value>
+      <value xmi:id="_xHRqMNgCEeuGxOJxjWx4FA" key="_xHOm4NgCEeuGxOJxjWx4FA">
+        <value xmi:id="_xHRqMdgCEeuGxOJxjWx4FA" x="-711.9878" y="472.9319"/>
+      </value>
+      <value xmi:id="_zO76QNgCEeuGxOJxjWx4FA" key="_zO5eANgCEeuGxOJxjWx4FA">
+        <value xmi:id="_zO76QdgCEeuGxOJxjWx4FA" x="443.99976" y="94.0"/>
+      </value>
+      <value xmi:id="_07qh0NgCEeuGxOJxjWx4FA" key="_07pTsNgCEeuGxOJxjWx4FA">
+        <value xmi:id="_07qh0dgCEeuGxOJxjWx4FA" x="470.99976" y="498.9298"/>
+      </value>
+      <value xmi:id="_7zG6wNgCEeuGxOJxjWx4FA" key="_7zFsoNgCEeuGxOJxjWx4FA">
+        <value xmi:id="_7zG6wdgCEeuGxOJxjWx4FA" x="905.5008" y="250.00012"/>
+      </value>
+      <value xmi:id="_9TGt4NgCEeuGxOJxjWx4FA" key="_9TE4sNgCEeuGxOJxjWx4FA">
+        <value xmi:id="_9TGt4dgCEeuGxOJxjWx4FA" x="839.3528" y="377.93164"/>
+      </value>
+      <value xmi:id="_DhWY0NgDEeuGxOJxjWx4FA" key="_DhT8kNgDEeuGxOJxjWx4FA">
+        <value xmi:id="_DhW_4NgDEeuGxOJxjWx4FA" x="75.91177" y="-28.99997"/>
+      </value>
+      <value xmi:id="_dmumQNgDEeuGxOJxjWx4FA" key="_dmri8NgDEeuGxOJxjWx4FA">
+        <value xmi:id="_dmumQdgDEeuGxOJxjWx4FA" x="173.68335" y="-167.98923"/>
+      </value>
+      <value xmi:id="_gRHv8NgDEeuGxOJxjWx4FA" key="_gRF6wNgDEeuGxOJxjWx4FA">
+        <value xmi:id="_gRHv8dgDEeuGxOJxjWx4FA" x="904.0008" y="94.0"/>
+      </value>
+      <value xmi:id="_quNroCX8EeyXgIyMe68nzg" key="_qteEwCX8EeyXgIyMe68nzg">
+        <value xmi:id="_quNroSX8EeyXgIyMe68nzg" x="1089.992" y="365.95703"/>
+      </value>
+      <value xmi:id="_tToOsSX8EeyXgIyMe68nzg" key="_tToOsCX8EeyXgIyMe68nzg">
+        <value xmi:id="_tToOsiX8EeyXgIyMe68nzg" x="1163.9999" y="194.45673"/>
+      </value>
+      <value xmi:id="_Fm6MYCX9EeyXgIyMe68nzg" key="_FmxCcCX9EeyXgIyMe68nzg">
+        <value xmi:id="_Fm6zcCX9EeyXgIyMe68nzg" x="708.0004" y="-28.99997"/>
+      </value>
+      <value xmi:id="_F6u_sCafEeyD3eQvvo0_7w" key="_F6quQCafEeyD3eQvvo0_7w">
+        <value xmi:id="_F6u_sSafEeyD3eQvvo0_7w" x="341.48535" y="-28.99997"/>
+      </value>
+      <value xmi:id="_SNz64CafEeyD3eQvvo0_7w" key="_SNyswCafEeyD3eQvvo0_7w">
+        <value xmi:id="_SNz64SafEeyD3eQvvo0_7w" x="72.428894" y="194.45673"/>
+      </value>
+      <value xmi:id="_jFwIYSafEeyD3eQvvo0_7w" key="_jFwIYCafEeyD3eQvvo0_7w">
+        <value xmi:id="_jFwIYiafEeyD3eQvvo0_7w" x="950.9923" y="553.10345"/>
+      </value>
+      <value xmi:id="_mKtuMCafEeyD3eQvvo0_7w" key="_mKqq4CafEeyD3eQvvo0_7w">
+        <value xmi:id="_mKtuMSafEeyD3eQvvo0_7w" x="1083.9478" y="52.472366"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>
