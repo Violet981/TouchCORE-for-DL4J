@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_YdY-0CYsEeycop2z6HNniQ" name="publish data">
+  <realizes href="DL4J_M1.core#_tfm1YNgBEeuGxOJxjWx4FA"/>
+  <coreConcern href="DL4J_M1.core#_bV6McNf-EeuGxOJxjWx4FA"/>
+  <structuralView xmi:id="_YdY-0SYsEeycop2z6HNniQ">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_YdY-0iYsEeycop2z6HNniQ" name="DataSet" instanceClassName="org.nd4j.linalg.dataset.api.DataSet" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_YdY-0yYsEeycop2z6HNniQ" name="DataSet" visibility="public" superTypes="_YdY-0iYsEeycop2z6HNniQ" instanceClassName="org.nd4j.linalg.dataset.DataSet">
+      <operations xmi:id="_YdY-1CYsEeycop2z6HNniQ" name="save" visibility="public" returnType="_YdY-1yYsEeycop2z6HNniQ">
+        <parameters xmi:id="_YdY-1SYsEeycop2z6HNniQ" name="arg0" type="_YdY-1iYsEeycop2z6HNniQ"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_YdY-1iYsEeycop2z6HNniQ" name="File" instanceClassName="java.io.File"/>
+    <types xsi:type="ram:RVoid" xmi:id="_YdY-1yYsEeycop2z6HNniQ"/>
+    <types xsi:type="ram:RAny" xmi:id="_YdY-2CYsEeycop2z6HNniQ"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_YdY-2SYsEeycop2z6HNniQ"/>
+    <types xsi:type="ram:RInt" xmi:id="_YdY-2iYsEeycop2z6HNniQ"/>
+    <types xsi:type="ram:RChar" xmi:id="_YdY-2yYsEeycop2z6HNniQ"/>
+    <types xsi:type="ram:RString" xmi:id="_YdY-3CYsEeycop2z6HNniQ"/>
+    <types xsi:type="ram:RDouble" xmi:id="_YdY-3SYsEeycop2z6HNniQ"/>
+    <types xsi:type="ram:RFloat" xmi:id="_YdY-3iYsEeycop2z6HNniQ"/>
+    <types xsi:type="ram:RLong" xmi:id="_YdY-3yYsEeycop2z6HNniQ"/>
+    <types xsi:type="ram:RByte" xmi:id="_YdY-4CYsEeycop2z6HNniQ"/>
+  </structuralView>
+  <instantiations xmi:id="_YdY-4SYsEeycop2z6HNniQ">
+    <source xsi:type="ram:Aspect" href="operate_data.ram#_Nm9wMCYeEeyRlp131N6WbQ"/>
+  </instantiations>
+  <layout xmi:id="_YdY-4iYsEeycop2z6HNniQ">
+    <containers xmi:id="_YdY-4yYsEeycop2z6HNniQ" key="_YdY-0SYsEeycop2z6HNniQ">
+      <value xmi:id="_YdY-5CYsEeycop2z6HNniQ" key="_YdY-0iYsEeycop2z6HNniQ">
+        <value xmi:id="_YdY-5SYsEeycop2z6HNniQ" x="539.50024" y="120.99979"/>
+      </value>
+      <value xmi:id="_YdY-5iYsEeycop2z6HNniQ" key="_YdY-0yYsEeycop2z6HNniQ">
+        <value xmi:id="_YdY-5yYsEeycop2z6HNniQ" x="541.00024" y="376.00024"/>
+      </value>
+      <value xmi:id="_YdY-6CYsEeycop2z6HNniQ" key="_YdY-1iYsEeycop2z6HNniQ">
+        <value xmi:id="_YdY-6SYsEeycop2z6HNniQ"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

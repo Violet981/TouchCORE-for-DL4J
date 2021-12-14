@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_LGE8QCYoEeycop2z6HNniQ" name="store network">
+  <realizes href="DL4J_M1.core#_KnWM0PkNEeuiC8tSaKvCTg"/>
+  <coreConcern href="DL4J_M1.core#_bV6McNf-EeuGxOJxjWx4FA"/>
+  <structuralView xmi:id="_LGE8QSYoEeycop2z6HNniQ">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_LGE8QiYoEeycop2z6HNniQ" name="ModelSerializer" visibility="public" instanceClassName="org.deeplearning4j.util.ModelSerializer">
+      <operations xmi:id="_LGE8QyYoEeycop2z6HNniQ" name="writeModel" visibility="public" returnType="_LGE8SiYoEeycop2z6HNniQ" static="true">
+        <parameters xmi:id="_LGE8RCYoEeycop2z6HNniQ" name="arg0" type="_LGE8RyYoEeycop2z6HNniQ"/>
+        <parameters xmi:id="_LGE8RSYoEeycop2z6HNniQ" name="arg1" type="_LGE8TyYoEeycop2z6HNniQ"/>
+        <parameters xmi:id="_LGE8RiYoEeycop2z6HNniQ" name="arg2" type="_LGE8TCYoEeycop2z6HNniQ"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_LGE8RyYoEeycop2z6HNniQ" name="Model" instanceClassName="org.deeplearning4j.nn.api.Model" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_LGE8SCYoEeycop2z6HNniQ" name="ComputationGraph" superTypes="_LGE8RyYoEeycop2z6HNniQ" instanceClassName="org.deeplearning4j.nn.graph.ComputationGraph"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_LGE8SSYoEeycop2z6HNniQ" name="MultiLayerNetwork" instanceClassName="org.deeplearning4j.nn.multilayer.MultiLayerNetwork"/>
+    <types xsi:type="ram:RVoid" xmi:id="_LGE8SiYoEeycop2z6HNniQ"/>
+    <types xsi:type="ram:RAny" xmi:id="_LGE8SyYoEeycop2z6HNniQ"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_LGE8TCYoEeycop2z6HNniQ"/>
+    <types xsi:type="ram:RInt" xmi:id="_LGE8TSYoEeycop2z6HNniQ"/>
+    <types xsi:type="ram:RChar" xmi:id="_LGE8TiYoEeycop2z6HNniQ"/>
+    <types xsi:type="ram:RString" xmi:id="_LGE8TyYoEeycop2z6HNniQ"/>
+    <types xsi:type="ram:RDouble" xmi:id="_LGE8UCYoEeycop2z6HNniQ"/>
+    <types xsi:type="ram:RFloat" xmi:id="_LGE8USYoEeycop2z6HNniQ"/>
+    <types xsi:type="ram:RLong" xmi:id="_LGE8UiYoEeycop2z6HNniQ"/>
+    <types xsi:type="ram:RByte" xmi:id="_LGE8UyYoEeycop2z6HNniQ"/>
+  </structuralView>
+  <layout xmi:id="_LGE8VCYoEeycop2z6HNniQ">
+    <containers xmi:id="_LGE8VSYoEeycop2z6HNniQ" key="_LGE8QSYoEeycop2z6HNniQ">
+      <value xmi:id="_LGE8ViYoEeycop2z6HNniQ" key="_LGE8QiYoEeycop2z6HNniQ">
+        <value xmi:id="_LGE8VyYoEeycop2z6HNniQ" x="416.0" y="197.0"/>
+      </value>
+      <value xmi:id="_LGE8WCYoEeycop2z6HNniQ" key="_LGE8RyYoEeycop2z6HNniQ">
+        <value xmi:id="_LGE8WSYoEeycop2z6HNniQ"/>
+      </value>
+      <value xmi:id="_LGE8WiYoEeycop2z6HNniQ" key="_LGE8SCYoEeycop2z6HNniQ">
+        <value xmi:id="_LGE8WyYoEeycop2z6HNniQ"/>
+      </value>
+      <value xmi:id="_LGE8XCYoEeycop2z6HNniQ" key="_LGE8SSYoEeycop2z6HNniQ">
+        <value xmi:id="_LGE8XSYoEeycop2z6HNniQ"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

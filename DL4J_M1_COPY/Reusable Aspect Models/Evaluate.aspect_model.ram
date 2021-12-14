@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_EvbWkFYoEeyZn4w4eybuYw" name="Evaluate">
+  <structuralView xmi:id="_EvbWkVYoEeyZn4w4eybuYw">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_RW_UAFYoEeyZn4w4eybuYw" name="Evaluation" visibility="public" instanceClassName="org.nd4j.evaluation.classification.Evaluation">
+      <operations xmi:id="_SKnJUlYoEeyZn4w4eybuYw" name="Evaluation" returnType="_RW_UAFYoEeyZn4w4eybuYw" operationType="Constructor"/>
+      <operations xmi:id="_SlJJMVYoEeyZn4w4eybuYw" name="Evaluation" returnType="_RW_UAFYoEeyZn4w4eybuYw" operationType="Constructor">
+        <parameters xmi:id="_SlJJMlYoEeyZn4w4eybuYw" name="arg0" type="_EvbWlVYoEeyZn4w4eybuYw"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_TM664FYoEeyZn4w4eybuYw" name="Evaluation" visibility="public">
+      <operations xmi:id="_xODMMVYoEeyZn4w4eybuYw" name="eval" returnType="_EvbWmFYoEeyZn4w4eybuYw">
+        <parameters xmi:id="_xODMMlYoEeyZn4w4eybuYw" name="arg0" type="_tn9PQFYoEeyZn4w4eybuYw"/>
+        <parameters xmi:id="_xODMM1YoEeyZn4w4eybuYw" name="arg1" type="_tn9PQFYoEeyZn4w4eybuYw"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_tn9PQFYoEeyZn4w4eybuYw" name="INDArray" instanceClassName="org.nd4j.linalg.api.ndarray.INDArray" interface="true"/>
+    <types xsi:type="ram:RVoid" xmi:id="_EvbWklYoEeyZn4w4eybuYw"/>
+    <types xsi:type="ram:RAny" xmi:id="_EvbWk1YoEeyZn4w4eybuYw"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_EvbWlFYoEeyZn4w4eybuYw"/>
+    <types xsi:type="ram:RInt" xmi:id="_EvbWlVYoEeyZn4w4eybuYw"/>
+    <types xsi:type="ram:RChar" xmi:id="_EvbWllYoEeyZn4w4eybuYw"/>
+    <types xsi:type="ram:RString" xmi:id="_EvbWl1YoEeyZn4w4eybuYw"/>
+    <types xsi:type="ram:RDouble" xmi:id="_EvbWmFYoEeyZn4w4eybuYw"/>
+    <types xsi:type="ram:RFloat" xmi:id="_EvbWmVYoEeyZn4w4eybuYw"/>
+    <types xsi:type="ram:RLong" xmi:id="_EvbWmlYoEeyZn4w4eybuYw"/>
+    <types xsi:type="ram:RByte" xmi:id="_EvbWm1YoEeyZn4w4eybuYw"/>
+  </structuralView>
+  <layout xmi:id="_EvbWnFYoEeyZn4w4eybuYw">
+    <containers xmi:id="_EvbWnVYoEeyZn4w4eybuYw" key="_EvbWkVYoEeyZn4w4eybuYw">
+      <value xmi:id="_RW_UAVYoEeyZn4w4eybuYw" key="_RW_UAFYoEeyZn4w4eybuYw">
+        <value xmi:id="_RW_UAlYoEeyZn4w4eybuYw" x="208.99988" y="152.0"/>
+      </value>
+      <value xmi:id="_TM8JAFYoEeyZn4w4eybuYw" key="_TM664FYoEeyZn4w4eybuYw">
+        <value xmi:id="_TM8JAVYoEeyZn4w4eybuYw" x="485.48694" y="364.0"/>
+      </value>
+      <value xmi:id="_tn92UFYoEeyZn4w4eybuYw" key="_tn9PQFYoEeyZn4w4eybuYw">
+        <value xmi:id="_tn92UVYoEeyZn4w4eybuYw" x="645.0" y="176.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

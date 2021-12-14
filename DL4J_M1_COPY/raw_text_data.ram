@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_G2L_wCX5EeyXgIyMe68nzg" name="raw text data">
+  <realizes href="DL4J_M1.core#_EzD_sNgAEeuGxOJxjWx4FA"/>
+  <coreConcern href="DL4J_M1.core#_bV6McNf-EeuGxOJxjWx4FA"/>
+  <structuralView xmi:id="_G2L_wSX5EeyXgIyMe68nzg">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_G2L_wiX5EeyXgIyMe68nzg" name="File" visibility="public" instanceClassName="java.io.File">
+      <operations xmi:id="_G2L_wyX5EeyXgIyMe68nzg" name="getAbsolutePath" visibility="public" returnType="_G2L_ySX5EeyXgIyMe68nzg"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_uiGooCYrEeycop2z6HNniQ" name="BasicLineIterator" visibility="public" superTypes="_8HFpcCagEeyD3eQvvo0_7w">
+      <operations xmi:id="_6jRGQCagEeyD3eQvvo0_7w" name="create" visibility="public" returnType="_uiGooCYrEeycop2z6HNniQ" operationType="Constructor"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_8HFpcCagEeyD3eQvvo0_7w" name="SentenceIterator"/>
+    <classes xsi:type="ram:Class" xmi:id="_ApA8gCahEeyD3eQvvo0_7w" name="DefaultTokenizerFactory" visibility="public" superTypes="_LHaOACahEeyD3eQvvo0_7w">
+      <operations xmi:id="_ZfqtACahEeyD3eQvvo0_7w" name="create" visibility="public" returnType="_ApA8gCahEeyD3eQvvo0_7w" operationType="Constructor"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_LHaOACahEeyD3eQvvo0_7w" name="TokenizerFactory" visibility="public">
+      <operations xmi:id="_ViDA4CahEeyD3eQvvo0_7w" name="create" visibility="public" returnType="_LHaOACahEeyD3eQvvo0_7w" operationType="Constructor"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_G2L_xCX5EeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RAny" xmi:id="_G2L_xSX5EeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_G2L_xiX5EeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RInt" xmi:id="_G2L_xyX5EeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RChar" xmi:id="_G2L_yCX5EeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RString" xmi:id="_G2L_ySX5EeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_G2L_yiX5EeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_G2L_yyX5EeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RLong" xmi:id="_G2L_zCX5EeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RByte" xmi:id="_G2L_zSX5EeyXgIyMe68nzg"/>
+  </structuralView>
+  <layout xmi:id="_G2L_zyX5EeyXgIyMe68nzg">
+    <containers xmi:id="_G2L_0CX5EeyXgIyMe68nzg" key="_G2L_wSX5EeyXgIyMe68nzg">
+      <value xmi:id="_G2L_0SX5EeyXgIyMe68nzg" key="_G2L_wiX5EeyXgIyMe68nzg">
+        <value xmi:id="_G2L_0iX5EeyXgIyMe68nzg" x="377.0" y="278.0"/>
+      </value>
+      <value xmi:id="_uiUrECYrEeycop2z6HNniQ" key="_uiGooCYrEeycop2z6HNniQ">
+        <value xmi:id="_uiV5MCYrEeycop2z6HNniQ" x="872.0051" y="427.959"/>
+      </value>
+      <value xmi:id="_8HHeoCagEeyD3eQvvo0_7w" key="_8HFpcCagEeyD3eQvvo0_7w">
+        <value xmi:id="_8HHeoSagEeyD3eQvvo0_7w" x="872.5051" y="288.0"/>
+      </value>
+      <value xmi:id="_ApA8gSahEeyD3eQvvo0_7w" key="_ApA8gCahEeyD3eQvvo0_7w">
+        <value xmi:id="_ApA8giahEeyD3eQvvo0_7w" x="517.0448" y="607.99994"/>
+      </value>
+      <value xmi:id="_LHcDMCahEeyD3eQvvo0_7w" key="_LHaOACahEeyD3eQvvo0_7w">
+        <value xmi:id="_LHcDMSahEeyD3eQvvo0_7w" x="548.537" y="482.99988"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

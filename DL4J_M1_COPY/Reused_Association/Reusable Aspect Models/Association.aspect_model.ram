@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_BoNIYIg2Eeq1FIh4giSfig" name="Association">
+  <structuralView xmi:id="_BoNIYYg2Eeq1FIh4giSfig">
+    <classes xsi:type="ram:Class" xmi:id="_CDWzUIg2Eeq1FIh4giSfig" name="Source"/>
+    <classes xsi:type="ram:Class" xmi:id="_CwatoIg2Eeq1FIh4giSfig" name="Target"/>
+    <types xsi:type="ram:RVoid" xmi:id="_BoNIYog2Eeq1FIh4giSfig"/>
+    <types xsi:type="ram:RAny" xmi:id="_BoNIY4g2Eeq1FIh4giSfig"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_BoNIZIg2Eeq1FIh4giSfig"/>
+    <types xsi:type="ram:RInt" xmi:id="_BoNIZYg2Eeq1FIh4giSfig"/>
+    <types xsi:type="ram:RChar" xmi:id="_BoNIZog2Eeq1FIh4giSfig"/>
+    <types xsi:type="ram:RString" xmi:id="_BoNIZ4g2Eeq1FIh4giSfig"/>
+    <types xsi:type="ram:RDouble" xmi:id="_BoNIaIg2Eeq1FIh4giSfig"/>
+    <types xsi:type="ram:RFloat" xmi:id="_BoNIaYg2Eeq1FIh4giSfig"/>
+    <types xsi:type="ram:RLong" xmi:id="_BoNIaog2Eeq1FIh4giSfig"/>
+    <types xsi:type="ram:RByte" xmi:id="_BoNIa4g2Eeq1FIh4giSfig"/>
+  </structuralView>
+  <layout xmi:id="_BoNIbIg2Eeq1FIh4giSfig">
+    <containers xmi:id="_BoNIbYg2Eeq1FIh4giSfig" key="_BoNIYYg2Eeq1FIh4giSfig">
+      <value xmi:id="_CDXaYIg2Eeq1FIh4giSfig" key="_CDWzUIg2Eeq1FIh4giSfig">
+        <value xmi:id="_CDXaYYg2Eeq1FIh4giSfig" x="302.49988" y="239.00012"/>
+      </value>
+      <value xmi:id="_CwatoYg2Eeq1FIh4giSfig" key="_CwatoIg2Eeq1FIh4giSfig">
+        <value xmi:id="_Cwatoog2Eeq1FIh4giSfig" x="835.4998" y="239.00012"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

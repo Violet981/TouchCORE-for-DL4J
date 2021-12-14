@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_XJ71YIg_EeqW6O16wdTpZA" name="TreeMap">
+  <structuralView xmi:id="_XJ71YYg_EeqW6O16wdTpZA">
+    <classes xsi:type="ram:Class" xmi:id="_YED7UIg_EeqW6O16wdTpZA" name="Source" visibility="public"/>
+    <classes xsi:type="ram:Class" xmi:id="_YoooAIg_EeqW6O16wdTpZA" name="Target"/>
+    <classes xsi:type="ram:Class" xmi:id="_ZIGLMIg_EeqW6O16wdTpZA" name="Key"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_cpGz0Ig_EeqW6O16wdTpZA" name="TreeMap" instanceClassName="java.util.TreeMap">
+      <typeParameters xmi:id="_cpGz0Yg_EeqW6O16wdTpZA" name="K" genericType="_ZIGLMIg_EeqW6O16wdTpZA"/>
+      <typeParameters xmi:id="_cpGz0og_EeqW6O16wdTpZA" name="V" genericType="_YoooAIg_EeqW6O16wdTpZA"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_XJ71Yog_EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RAny" xmi:id="_XJ71Y4g_EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_XJ71ZIg_EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RInt" xmi:id="_XJ71ZYg_EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RChar" xmi:id="_XJ71Zog_EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RString" xmi:id="_XJ71Z4g_EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RDouble" xmi:id="_XJ71aIg_EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RFloat" xmi:id="_XJ71aYg_EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RLong" xmi:id="_XJ71aog_EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RByte" xmi:id="_XJ71a4g_EeqW6O16wdTpZA"/>
+  </structuralView>
+  <layout xmi:id="_XJ71bIg_EeqW6O16wdTpZA">
+    <containers xmi:id="_XJ71bYg_EeqW6O16wdTpZA" key="_XJ71YYg_EeqW6O16wdTpZA">
+      <value xmi:id="_YED7Uog_EeqW6O16wdTpZA" key="_YED7UIg_EeqW6O16wdTpZA">
+        <value xmi:id="_YED7U4g_EeqW6O16wdTpZA" x="146.05634" y="190.71089"/>
+      </value>
+      <value xmi:id="_YoooAog_EeqW6O16wdTpZA" key="_YoooAIg_EeqW6O16wdTpZA">
+        <value xmi:id="_YoooA4g_EeqW6O16wdTpZA" x="763.6242" y="190.77136"/>
+      </value>
+      <value xmi:id="_ZIGLMog_EeqW6O16wdTpZA" key="_ZIGLMIg_EeqW6O16wdTpZA">
+        <value xmi:id="_ZIGLM4g_EeqW6O16wdTpZA" x="450.13086" y="-20.546041"/>
+      </value>
+      <value xmi:id="_cpGz04g_EeqW6O16wdTpZA" key="_cpGz0Ig_EeqW6O16wdTpZA">
+        <value xmi:id="_cpGz1Ig_EeqW6O16wdTpZA" x="428.13086" y="180.71089"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>
