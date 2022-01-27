@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
-<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_LGE8QCYoEeycop2z6HNniQ" name="store network">
-  <realizes href="DL4J_M1.core#_KnWM0PkNEeuiC8tSaKvCTg"/>
-  <coreConcern href="DL4J_M1.core#_bV6McNf-EeuGxOJxjWx4FA"/>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_LGE8QCYoEeycop2z6HNniQ" name="store computationGraph">
   <structuralView xmi:id="_LGE8QSYoEeycop2z6HNniQ">
     <classes xsi:type="ram:ImplementationClass" xmi:id="_LGE8QiYoEeycop2z6HNniQ" name="ModelSerializer" visibility="public" instanceClassName="org.deeplearning4j.util.ModelSerializer">
-      <operations xmi:id="_LGE8QyYoEeycop2z6HNniQ" name="writeModel" visibility="public" returnType="_LGE8SiYoEeycop2z6HNniQ" static="true">
+      <operations xmi:id="_LGE8QyYoEeycop2z6HNniQ" name="writeModel" returnType="_LGE8SiYoEeycop2z6HNniQ" static="true">
         <parameters xmi:id="_LGE8RCYoEeycop2z6HNniQ" name="arg0" type="_LGE8RyYoEeycop2z6HNniQ"/>
         <parameters xmi:id="_LGE8RSYoEeycop2z6HNniQ" name="arg1" type="_LGE8TyYoEeycop2z6HNniQ"/>
         <parameters xmi:id="_LGE8RiYoEeycop2z6HNniQ" name="arg2" type="_LGE8TCYoEeycop2z6HNniQ"/>
@@ -12,7 +10,12 @@
     </classes>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_LGE8RyYoEeycop2z6HNniQ" name="Model" instanceClassName="org.deeplearning4j.nn.api.Model" interface="true"/>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_LGE8SCYoEeycop2z6HNniQ" name="ComputationGraph" superTypes="_LGE8RyYoEeycop2z6HNniQ" instanceClassName="org.deeplearning4j.nn.graph.ComputationGraph"/>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_LGE8SSYoEeycop2z6HNniQ" name="MultiLayerNetwork" instanceClassName="org.deeplearning4j.nn.multilayer.MultiLayerNetwork"/>
+    <classes xsi:type="ram:Class" xmi:id="_8VPQkHpaEeyOw5BiW9joAA" name="ComputationGraph" visibility="public">
+      <operations xmi:id="_HY2vAnpbEeyOw5BiW9joAA" name="save" returnType="_LGE8SiYoEeycop2z6HNniQ">
+        <parameters xmi:id="_HY2vA3pbEeyOw5BiW9joAA" name="f" type="_TsnmsHpbEeyOw5BiW9joAA"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_TsnmsHpbEeyOw5BiW9joAA" name="java.io.File"/>
     <types xsi:type="ram:RVoid" xmi:id="_LGE8SiYoEeycop2z6HNniQ"/>
     <types xsi:type="ram:RAny" xmi:id="_LGE8SyYoEeycop2z6HNniQ"/>
     <types xsi:type="ram:RBoolean" xmi:id="_LGE8TCYoEeycop2z6HNniQ"/>
@@ -27,16 +30,19 @@
   <layout xmi:id="_LGE8VCYoEeycop2z6HNniQ">
     <containers xmi:id="_LGE8VSYoEeycop2z6HNniQ" key="_LGE8QSYoEeycop2z6HNniQ">
       <value xmi:id="_LGE8ViYoEeycop2z6HNniQ" key="_LGE8QiYoEeycop2z6HNniQ">
-        <value xmi:id="_LGE8VyYoEeycop2z6HNniQ" x="416.0" y="197.0"/>
+        <value xmi:id="_LGE8VyYoEeycop2z6HNniQ" x="314.99994" y="196.94159"/>
       </value>
       <value xmi:id="_LGE8WCYoEeycop2z6HNniQ" key="_LGE8RyYoEeycop2z6HNniQ">
-        <value xmi:id="_LGE8WSYoEeycop2z6HNniQ"/>
+        <value xmi:id="_LGE8WSYoEeycop2z6HNniQ" x="-96.61957" y="44.005997"/>
       </value>
       <value xmi:id="_LGE8WiYoEeycop2z6HNniQ" key="_LGE8SCYoEeycop2z6HNniQ">
-        <value xmi:id="_LGE8WyYoEeycop2z6HNniQ"/>
+        <value xmi:id="_LGE8WyYoEeycop2z6HNniQ" x="282.9998" y="44.027466"/>
       </value>
-      <value xmi:id="_LGE8XCYoEeycop2z6HNniQ" key="_LGE8SSYoEeycop2z6HNniQ">
-        <value xmi:id="_LGE8XSYoEeycop2z6HNniQ"/>
+      <value xmi:id="_8VP3oHpaEeyOw5BiW9joAA" key="_8VPQkHpaEeyOw5BiW9joAA">
+        <value xmi:id="_8VP3oXpaEeyOw5BiW9joAA" x="53.000305" y="206.92581"/>
+      </value>
+      <value xmi:id="_TsnmsXpbEeyOw5BiW9joAA" key="_TsnmsHpbEeyOw5BiW9joAA">
+        <value xmi:id="_TsnmsnpbEeyOw5BiW9joAA" x="174.52408" y="341.99988"/>
       </value>
     </containers>
   </layout>

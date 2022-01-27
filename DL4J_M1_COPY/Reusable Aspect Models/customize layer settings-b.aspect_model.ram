@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_BViWsH-2EeyZ-7-iWk9v9g" name="ComputationGraph_layer_settings">
+  <structuralView xmi:id="_BViWsX-2EeyZ-7-iWk9v9g">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_LPihsH-2EeyZ-7-iWk9v9g" name="ComputationGraph" instanceClassName="org.deeplearning4j.nn.graph.ComputationGraph"/>
+    <types xsi:type="ram:RVoid" xmi:id="_BViWsn-2EeyZ-7-iWk9v9g"/>
+    <types xsi:type="ram:RAny" xmi:id="_BViWs3-2EeyZ-7-iWk9v9g"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_BViWtH-2EeyZ-7-iWk9v9g"/>
+    <types xsi:type="ram:RInt" xmi:id="_BViWtX-2EeyZ-7-iWk9v9g"/>
+    <types xsi:type="ram:RChar" xmi:id="_BViWtn-2EeyZ-7-iWk9v9g"/>
+    <types xsi:type="ram:RString" xmi:id="_BViWt3-2EeyZ-7-iWk9v9g"/>
+    <types xsi:type="ram:RDouble" xmi:id="_BViWuH-2EeyZ-7-iWk9v9g"/>
+    <types xsi:type="ram:RFloat" xmi:id="_BViWuX-2EeyZ-7-iWk9v9g"/>
+    <types xsi:type="ram:RLong" xmi:id="_BViWun-2EeyZ-7-iWk9v9g"/>
+    <types xsi:type="ram:RByte" xmi:id="_BViWu3-2EeyZ-7-iWk9v9g"/>
+  </structuralView>
+  <layout xmi:id="_BViWvH-2EeyZ-7-iWk9v9g">
+    <containers xmi:id="_BViWvX-2EeyZ-7-iWk9v9g" key="_BViWsX-2EeyZ-7-iWk9v9g">
+      <value xmi:id="_LPihsX-2EeyZ-7-iWk9v9g" key="_LPihsH-2EeyZ-7-iWk9v9g">
+        <value xmi:id="_LPihsn-2EeyZ-7-iWk9v9g" x="93.0" y="130.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

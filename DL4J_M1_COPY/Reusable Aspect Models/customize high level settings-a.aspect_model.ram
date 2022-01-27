@@ -42,8 +42,8 @@
     <types xsi:type="ram:RFloat" xmi:id="_C-ffKVBvEeyN4P1-Ks0QgQ"/>
     <types xsi:type="ram:RLong" xmi:id="_C-ffKlBvEeyN4P1-Ks0QgQ"/>
     <types xsi:type="ram:RByte" xmi:id="_C-ffK1BvEeyN4P1-Ks0QgQ"/>
-    <types xsi:type="ram:REnum" xmi:id="_-jN_YFwvEey2kfH7pC-8tQ" name="Org.nd4j.linalg.activations.Activation"/>
-    <types xsi:type="ram:REnum" xmi:id="_pndhsFwwEey2kfH7pC-8tQ" name="Org.deeplearning4j.nn.weights.WeightInit">
+    <types xsi:type="ram:REnum" xmi:id="_-jN_YFwvEey2kfH7pC-8tQ" name="org.nd4j.linalg.activations.Activation"/>
+    <types xsi:type="ram:REnum" xmi:id="_pndhsFwwEey2kfH7pC-8tQ" name="org.deeplearning4j.nn.weights.WeightInit">
       <literals xmi:id="_Ia1vUFwxEey2kfH7pC-8tQ" name="DISTRIBUTION"/>
       <literals xmi:id="_Ia1vUVwxEey2kfH7pC-8tQ" name="IDENTITY"/>
       <literals xmi:id="_Ia1vUlwxEey2kfH7pC-8tQ" name="LECUN_NORMAL"/>
@@ -67,7 +67,7 @@
       <literals xmi:id="_mXwPA1wxEey2kfH7pC-8tQ" name="XAVIER_UNIFORM"/>
       <literals xmi:id="_mXwPBFwxEey2kfH7pC-8tQ" name="ZERO"/>
     </types>
-    <types xsi:type="ram:REnum" xmi:id="_t1dzMFwwEey2kfH7pC-8tQ" name="Org.deeplearning4j.nn.api.OptimizationAlgo">
+    <types xsi:type="ram:REnum" xmi:id="_t1dzMFwwEey2kfH7pC-8tQ" name="org.deeplearning4j.nn.api.OptimizationAlgo">
       <literals xmi:id="_74Up8FwwEey2kfH7pC-8tQ" name="COUNJUNCTION_GRADIENT"/>
       <literals xmi:id="_74Up8VwwEey2kfH7pC-8tQ" name="LBFGS"/>
       <literals xmi:id="_74Up8lwwEey2kfH7pC-8tQ" name="LINE_GRADIENT_DESCENT"/>
@@ -92,13 +92,13 @@
         <value xmi:id="_Pud58lutEey7B8ESbWoW2g" x="246.69666" y="365.67184"/>
       </value>
       <value xmi:id="_YT6s0VutEey7B8ESbWoW2g" key="_YT6s0FutEey7B8ESbWoW2g">
-        <value xmi:id="_YT6s0lutEey7B8ESbWoW2g" x="610.70966" y="523.2856"/>
+        <value xmi:id="_YT6s0lutEey7B8ESbWoW2g" x="610.7096" y="521.8535"/>
       </value>
       <value xmi:id="_-jPNgFwvEey2kfH7pC-8tQ" key="_-jN_YFwvEey2kfH7pC-8tQ">
         <value xmi:id="_-jPNgVwvEey2kfH7pC-8tQ" x="466.5069" y="215.49991"/>
       </value>
       <value xmi:id="_pndhsVwwEey2kfH7pC-8tQ" key="_pndhsFwwEey2kfH7pC-8tQ">
-        <value xmi:id="_pndhslwwEey2kfH7pC-8tQ" x="1080.4512" y="380.17184"/>
+        <value xmi:id="_pndhslwwEey2kfH7pC-8tQ" x="1336.6626" y="443.57788"/>
       </value>
       <value xmi:id="_t1dzMVwwEey2kfH7pC-8tQ" key="_t1dzMFwwEey2kfH7pC-8tQ">
         <value xmi:id="_t1dzMlwwEey2kfH7pC-8tQ" x="1145.8002" y="215.49991"/>
