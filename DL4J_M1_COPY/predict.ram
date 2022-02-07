@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_Cla_oCZxEeyD3eQvvo0_7w" name="predict">
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_Cla_oCZxEeyD3eQvvo0_7w" name="MLNetwork_predict">
   <structuralView xmi:id="_Cla_oSZxEeyD3eQvvo0_7w">
     <classes xsi:type="ram:ImplementationClass" xmi:id="_Cla_oiZxEeyD3eQvvo0_7w" name="SplitTestAndTrain" visibility="public" instanceClassName="org.nd4j.linalg.dataset.SplitTestAndTrain">
       <operations xmi:id="_Cla_oyZxEeyD3eQvvo0_7w" name="getTest" returnType="_Cla_pCZxEeyD3eQvvo0_7w"/>
@@ -8,10 +8,22 @@
       <operations xmi:id="_Y5ZgElYpEeyZn4w4eybuYw" name="getFeatures" returnType="_rGTAQFYnEeyZn4w4eybuYw"/>
     </classes>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_rGTAQFYnEeyZn4w4eybuYw" name="INDArray" instanceClassName="org.nd4j.linalg.api.ndarray.INDArray" interface="true"/>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_fk_1YFYpEeyZn4w4eybuYw" name="MultiLayerNetwork" instanceClassName="org.deeplearning4j.nn.multilayer.MultiLayerNetwork"/>
-    <classes xsi:type="ram:Class" xmi:id="_gnvEwFYpEeyZn4w4eybuYw" name="MultiLayerNetwork" visibility="public">
-      <operations xmi:id="_mS6e4lYpEeyZn4w4eybuYw" name="output" returnType="_ClbmtCZxEeyD3eQvvo0_7w">
+    <classes xsi:type="ram:Class" xmi:id="_gnvEwFYpEeyZn4w4eybuYw" name="org.deeplearning4j.nn.multilayer.MultiLayerNetwork" visibility="public">
+      <operations xmi:id="_mS6e4lYpEeyZn4w4eybuYw" name="output" returnType="_rGTAQFYnEeyZn4w4eybuYw">
         <parameters xmi:id="_mS6e41YpEeyZn4w4eybuYw" name="arg0" type="_rGTAQFYnEeyZn4w4eybuYw"/>
+      </operations>
+      <operations xmi:id="_WAohwYeCEeya4pIzzxiKVg" name="output" returnType="_rGTAQFYnEeyZn4w4eybuYw">
+        <parameters xmi:id="_WAohwoeCEeya4pIzzxiKVg" name="arg0" type="_a3xP0IeCEeya4pIzzxiKVg"/>
+      </operations>
+      <operations xmi:id="_fq8D4YeCEeya4pIzzxiKVg" name="output" returnType="_rGTAQFYnEeyZn4w4eybuYw">
+        <parameters xmi:id="_fq8D4oeCEeya4pIzzxiKVg" name="arg0" type="_a3xP0IeCEeya4pIzzxiKVg"/>
+        <parameters xmi:id="_fq8D44eCEeya4pIzzxiKVg" name="arg1" type="_ClbmsCZxEeyD3eQvvo0_7w"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_a3xP0IeCEeya4pIzzxiKVg" name="DataSetIterator" visibility="public" instanceClassName="org.nd4j.linalg.dataset.api.iterator.DataSetIterator" interface="true">
+      <operations xmi:id="_1YHiAoeCEeya4pIzzxiKVg" name="hasNext" returnType="_ClbmsCZxEeyD3eQvvo0_7w"/>
+      <operations xmi:id="_2DWQUIeCEeya4pIzzxiKVg" name="next" returnType="_Cla_pCZxEeyD3eQvvo0_7w">
+        <parameters xmi:id="_2DWQUYeCEeya4pIzzxiKVg" name="arg0" type="_ClbmsSZxEeyD3eQvvo0_7w"/>
       </operations>
     </classes>
     <types xsi:type="ram:RVoid" xmi:id="_Cla_pSZxEeyD3eQvvo0_7w"/>
@@ -28,19 +40,19 @@
   <layout xmi:id="_ClbmuSZxEeyD3eQvvo0_7w">
     <containers xmi:id="_ClbmuiZxEeyD3eQvvo0_7w" key="_Cla_oSZxEeyD3eQvvo0_7w">
       <value xmi:id="_ClbmuyZxEeyD3eQvvo0_7w" key="_Cla_oiZxEeyD3eQvvo0_7w">
-        <value xmi:id="_ClbmvCZxEeyD3eQvvo0_7w" x="994.33887" y="168.96355"/>
+        <value xmi:id="_ClbmvCZxEeyD3eQvvo0_7w" x="798.4288" y="119.9635"/>
       </value>
       <value xmi:id="_ClbmvSZxEeyD3eQvvo0_7w" key="_Cla_pCZxEeyD3eQvvo0_7w">
-        <value xmi:id="_ClbmviZxEeyD3eQvvo0_7w" x="786.9288" y="509.3985"/>
+        <value xmi:id="_ClbmviZxEeyD3eQvvo0_7w" x="881.02264" y="254.31451"/>
       </value>
       <value xmi:id="_rGTAQVYnEeyZn4w4eybuYw" key="_rGTAQFYnEeyZn4w4eybuYw">
-        <value xmi:id="_rGTAQlYnEeyZn4w4eybuYw" x="911.289" y="298.06503"/>
-      </value>
-      <value xmi:id="_fk_1YVYpEeyZn4w4eybuYw" key="_fk_1YFYpEeyZn4w4eybuYw">
-        <value xmi:id="_fk_1YlYpEeyZn4w4eybuYw" x="337.0" y="159.0"/>
+        <value xmi:id="_rGTAQlYnEeyZn4w4eybuYw" x="713.2889" y="308.06512"/>
       </value>
       <value xmi:id="_gnvEwVYpEeyZn4w4eybuYw" key="_gnvEwFYpEeyZn4w4eybuYw">
-        <value xmi:id="_gnvEwlYpEeyZn4w4eybuYw" x="481.8183" y="302.79294"/>
+        <value xmi:id="_gnvEwlYpEeyZn4w4eybuYw" x="244.91571" y="172.26659"/>
+      </value>
+      <value xmi:id="_a3x24IeCEeya4pIzzxiKVg" key="_a3xP0IeCEeya4pIzzxiKVg">
+        <value xmi:id="_a3x24YeCEeya4pIzzxiKVg" x="265.42618" y="370.13528"/>
       </value>
     </containers>
   </layout>

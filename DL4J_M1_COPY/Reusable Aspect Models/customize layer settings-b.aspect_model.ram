@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="ASCII"?>
 <ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_BViWsH-2EeyZ-7-iWk9v9g" name="ComputationGraph_layer_settings">
   <structuralView xmi:id="_BViWsX-2EeyZ-7-iWk9v9g">
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_LPihsH-2EeyZ-7-iWk9v9g" name="ComputationGraph" instanceClassName="org.deeplearning4j.nn.graph.ComputationGraph"/>
+    <classes xsi:type="ram:Class" xmi:id="_l5VSsH_VEeyU_ODeo8VEOg" name="org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder" visibility="public">
+      <operations xmi:id="_s5gUYn_WEeyU_ODeo8VEOg" name="graphBuilder" returnType="_12L7gH_WEeyU_ODeo8VEOg"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_12L7gH_WEeyU_ODeo8VEOg" name="org.deeplearning4.nn.conf.ComputationGraphConfiguration.GraphBuilder" visibility="public">
+      <operations xmi:id="_7r-qMn_WEeyU_ODeo8VEOg" name="addInputs" returnType="_12L7gH_WEeyU_ODeo8VEOg">
+        <parameters xmi:id="_7r-qM3_WEeyU_ODeo8VEOg" name="arg0" type="_BViWt3-2EeyZ-7-iWk9v9g"/>
+      </operations>
+      <operations xmi:id="_CZcAsX_XEeyU_ODeo8VEOg" name="addLayer" returnType="_12L7gH_WEeyU_ODeo8VEOg">
+        <parameters xmi:id="_CZcAsn_XEeyU_ODeo8VEOg" name="arg0" type="_BViWt3-2EeyZ-7-iWk9v9g"/>
+        <parameters xmi:id="_CZcAs3_XEeyU_ODeo8VEOg" name="arg1" type="_TDcf4H_XEeyU_ODeo8VEOg"/>
+        <parameters xmi:id="_CZcAtH_XEeyU_ODeo8VEOg" name="arg2" type="_BViWt3-2EeyZ-7-iWk9v9g"/>
+      </operations>
+      <operations xmi:id="_Og5hwX_XEeyU_ODeo8VEOg" name="setOutpus" returnType="_12L7gH_WEeyU_ODeo8VEOg">
+        <parameters xmi:id="_Og5hwn_XEeyU_ODeo8VEOg" name="arg0" type="_BViWt3-2EeyZ-7-iWk9v9g"/>
+      </operations>
+      <operations xmi:id="_bM-5MX_fEeyyCqN7ry3a1w" name="addVertex" returnType="_12L7gH_WEeyU_ODeo8VEOg">
+        <parameters xmi:id="_bM-5Mn_fEeyyCqN7ry3a1w" name="arg0" type="_BViWt3-2EeyZ-7-iWk9v9g"/>
+        <parameters xmi:id="_bM-5M3_fEeyyCqN7ry3a1w" name="arg1" type="_VLHdYH_fEeyyCqN7ry3a1w"/>
+        <parameters xmi:id="_bM-5NH_fEeyyCqN7ry3a1w" name="arg2" type="_bM8c8H_fEeyyCqN7ry3a1w"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_TDcf4H_XEeyU_ODeo8VEOg" name="Layer" instanceClassName="org.deeplearning4j.nn.api.Layer" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_VLHdYH_fEeyyCqN7ry3a1w" name="GraphVertex" abstract="true" instanceClassName="org.deeplearning4j.nn.conf.graph.GraphVertex"/>
     <types xsi:type="ram:RVoid" xmi:id="_BViWsn-2EeyZ-7-iWk9v9g"/>
     <types xsi:type="ram:RAny" xmi:id="_BViWs3-2EeyZ-7-iWk9v9g"/>
     <types xsi:type="ram:RBoolean" xmi:id="_BViWtH-2EeyZ-7-iWk9v9g"/>
@@ -12,11 +34,21 @@
     <types xsi:type="ram:RFloat" xmi:id="_BViWuX-2EeyZ-7-iWk9v9g"/>
     <types xsi:type="ram:RLong" xmi:id="_BViWun-2EeyZ-7-iWk9v9g"/>
     <types xsi:type="ram:RByte" xmi:id="_BViWu3-2EeyZ-7-iWk9v9g"/>
+    <types xsi:type="ram:RArray" xmi:id="_bM8c8H_fEeyyCqN7ry3a1w" type="_BViWt3-2EeyZ-7-iWk9v9g"/>
   </structuralView>
   <layout xmi:id="_BViWvH-2EeyZ-7-iWk9v9g">
     <containers xmi:id="_BViWvX-2EeyZ-7-iWk9v9g" key="_BViWsX-2EeyZ-7-iWk9v9g">
-      <value xmi:id="_LPihsX-2EeyZ-7-iWk9v9g" key="_LPihsH-2EeyZ-7-iWk9v9g">
-        <value xmi:id="_LPihsn-2EeyZ-7-iWk9v9g" x="93.0" y="130.0"/>
+      <value xmi:id="_l5VSsX_VEeyU_ODeo8VEOg" key="_l5VSsH_VEeyU_ODeo8VEOg">
+        <value xmi:id="_l5VSsn_VEeyU_ODeo8VEOg" x="855.44165" y="207.74205"/>
+      </value>
+      <value xmi:id="_12L7gX_WEeyU_ODeo8VEOg" key="_12L7gH_WEeyU_ODeo8VEOg">
+        <value xmi:id="_12L7gn_WEeyU_ODeo8VEOg" x="214.23203" y="327.195"/>
+      </value>
+      <value xmi:id="_TDdG8H_XEeyU_ODeo8VEOg" key="_TDcf4H_XEeyU_ODeo8VEOg">
+        <value xmi:id="_TDdG8X_XEeyU_ODeo8VEOg" x="716.0" y="43.999985"/>
+      </value>
+      <value xmi:id="_VLHdYX_fEeyyCqN7ry3a1w" key="_VLHdYH_fEeyyCqN7ry3a1w">
+        <value xmi:id="_VLHdYn_fEeyyCqN7ry3a1w" x="1146.4417" y="74.7655"/>
       </value>
     </containers>
   </layout>

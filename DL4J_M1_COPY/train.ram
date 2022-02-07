@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="ASCII"?>
-<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_9QeUMCZwEeyD3eQvvo0_7w" name="train">
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_9QeUMCZwEeyD3eQvvo0_7w" name="MLNetwork_train">
   <structuralView xmi:id="_9QeUMSZwEeyD3eQvvo0_7w">
     <classes xsi:type="ram:ImplementationClass" xmi:id="_9QeUMiZwEeyD3eQvvo0_7w" name="SplitTestAndTrain" visibility="public" instanceClassName="org.nd4j.linalg.dataset.SplitTestAndTrain">
       <operations xmi:id="__DtzcyZwEeyD3eQvvo0_7w" name="getTrain" returnType="__DtzcCZwEeyD3eQvvo0_7w"/>
     </classes>
     <classes xsi:type="ram:ImplementationClass" xmi:id="__DtzcCZwEeyD3eQvvo0_7w" name="DataSet" instanceClassName="org.nd4j.linalg.dataset.DataSet"/>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_OL7rYDAXEey58_FnXFs1HQ" name="MultiLayerNetwork" instanceClassName="org.deeplearning4j.nn.multilayer.MultiLayerNetwork"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_0UmfQIdxEey9s9rg1qpZmA" name="DataSetIterator" visibility="public" instanceClassName="org.nd4j.linalg.dataset.api.iterator.DataSetIterator" interface="true">
+      <operations xmi:id="_28AmYodxEey9s9rg1qpZmA" name="hasNext" returnType="_9QeUNSZwEeyD3eQvvo0_7w"/>
+      <operations xmi:id="_-PFLYYdxEey9s9rg1qpZmA" name="next" returnType="__DtzcCZwEeyD3eQvvo0_7w">
+        <parameters xmi:id="_-PFLYodxEey9s9rg1qpZmA" name="arg0" type="_9QeUNiZwEeyD3eQvvo0_7w"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_OsTy0IdyEeyXwqDbAaieeg" name="org.deeplearning4j.nn.multilayer.MultiLayerNetwork" visibility="public">
+      <operations xmi:id="_n6ercYdyEeyXwqDbAaieeg" name="fit" returnType="_9QeUMyZwEeyD3eQvvo0_7w">
+        <parameters xmi:id="_n6ercodyEeyXwqDbAaieeg" name="arg0" type="__DtzcCZwEeyD3eQvvo0_7w"/>
+      </operations>
+      <operations xmi:id="_pExUUYdyEeyXwqDbAaieeg" name="fit" returnType="_9QeUMyZwEeyD3eQvvo0_7w"/>
+      <operations xmi:id="_yeYIAYdyEeyXwqDbAaieeg" name="fit" returnType="_9QeUMyZwEeyD3eQvvo0_7w">
+        <parameters xmi:id="_yeYIAodyEeyXwqDbAaieeg" name="arg0" type="_0UmfQIdxEey9s9rg1qpZmA"/>
+      </operations>
+      <operations xmi:id="_9mUFwYdyEeyXwqDbAaieeg" name="fit" returnType="_9QeUMyZwEeyD3eQvvo0_7w">
+        <parameters xmi:id="_9mUFwodyEeyXwqDbAaieeg" name="arg0" type="_7EawwIdyEeyXwqDbAaieeg"/>
+        <parameters xmi:id="_9mUFw4dyEeyXwqDbAaieeg" name="arg1" type="_7EawwIdyEeyXwqDbAaieeg"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_7EawwIdyEeyXwqDbAaieeg" name="INDArray" instanceClassName="org.nd4j.linalg.api.ndarray.INDArray" interface="true"/>
     <types xsi:type="ram:RVoid" xmi:id="_9QeUMyZwEeyD3eQvvo0_7w"/>
     <types xsi:type="ram:RAny" xmi:id="_9QeUNCZwEeyD3eQvvo0_7w"/>
     <types xsi:type="ram:RBoolean" xmi:id="_9QeUNSZwEeyD3eQvvo0_7w"/>
@@ -23,10 +42,16 @@
         <value xmi:id="_9QeUQSZwEeyD3eQvvo0_7w" x="585.0" y="264.0"/>
       </value>
       <value xmi:id="__DtzcSZwEeyD3eQvvo0_7w" key="__DtzcCZwEeyD3eQvvo0_7w">
-        <value xmi:id="__DtzciZwEeyD3eQvvo0_7w"/>
+        <value xmi:id="__DtzciZwEeyD3eQvvo0_7w" x="-45.000305"/>
       </value>
-      <value xmi:id="_OL9gkDAXEey58_FnXFs1HQ" key="_OL7rYDAXEey58_FnXFs1HQ">
-        <value xmi:id="_OL9gkTAXEey58_FnXFs1HQ" x="63.00006" y="203.99994"/>
+      <value xmi:id="_0UmfQYdxEey9s9rg1qpZmA" key="_0UmfQIdxEey9s9rg1qpZmA">
+        <value xmi:id="_0UmfQodxEey9s9rg1qpZmA" x="367.00018" y="-12.0"/>
+      </value>
+      <value xmi:id="_OsVA8IdyEeyXwqDbAaieeg" key="_OsTy0IdyEeyXwqDbAaieeg">
+        <value xmi:id="_OsVA8YdyEeyXwqDbAaieeg" x="9.999603" y="178.0001"/>
+      </value>
+      <value xmi:id="_7EawwYdyEeyXwqDbAaieeg" key="_7EawwIdyEeyXwqDbAaieeg">
+        <value xmi:id="_7EawwodyEeyXwqDbAaieeg" x="181.4996" y="-53.999863"/>
       </value>
     </containers>
   </layout>

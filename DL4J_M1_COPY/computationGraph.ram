@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="ASCII"?>
-<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_mzi-wOikEeuYGrJtKWO0Hg" name="computationGraph">
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_mzi-wOikEeuYGrJtKWO0Hg" name="ComputationGraph">
   <structuralView xmi:id="_mzi-weikEeuYGrJtKWO0Hg">
     <classes xsi:type="ram:ImplementationClass" xmi:id="_mzjl0eikEeuYGrJtKWO0Hg" name="ComputationGraphConfiguration" instanceClassName="org.deeplearning4j.nn.conf.ComputationGraphConfiguration"/>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_fumooFugEeyXfJE6Kd1O8A" name="ComputationGraph" visibility="public" instanceClassName="org.deeplearning4j.nn.graph.ComputationGraph">
-      <operations xmi:id="_g5km8lugEeyXfJE6Kd1O8A" name="ComputationGraph" returnType="_fumooFugEeyXfJE6Kd1O8A" operationType="Constructor">
-        <parameters xmi:id="_g5km81ugEeyXfJE6Kd1O8A" name="arg0" type="_mzjl0eikEeuYGrJtKWO0Hg"/>
+    <classes xsi:type="ram:Class" xmi:id="_2RDh4FugEey7lsxjJkMbzQ" name="org.deeplearning4j.nn.graph.ComputationGraph" visibility="public">
+      <operations xmi:id="_xdcaAIdzEeyXwqDbAaieeg" name="create" returnType="_2RDh4FugEey7lsxjJkMbzQ" operationType="Constructor">
+        <parameters xmi:id="_zIx6cIdzEeyXwqDbAaieeg" name="arg0" type="_mzjl0eikEeuYGrJtKWO0Hg"/>
       </operations>
-    </classes>
-    <classes xsi:type="ram:Class" xmi:id="_2RDh4FugEey7lsxjJkMbzQ" name="ComputationGraph" visibility="public">
       <operations xmi:id="_5tksElugEey7lsxjJkMbzQ" name="init" returnType="_mzjl0uikEeuYGrJtKWO0Hg"/>
     </classes>
     <types xsi:type="ram:RVoid" xmi:id="_mzjl0uikEeuYGrJtKWO0Hg"/>
@@ -24,13 +22,10 @@
   <layout xmi:id="_mzjl3OikEeuYGrJtKWO0Hg">
     <containers xmi:id="_mzjl3eikEeuYGrJtKWO0Hg" key="_mzi-weikEeuYGrJtKWO0Hg">
       <value xmi:id="_mzjl4uikEeuYGrJtKWO0Hg" key="_mzjl0eikEeuYGrJtKWO0Hg">
-        <value xmi:id="_mzjl4-ikEeuYGrJtKWO0Hg" x="873.65" y="367.44742"/>
-      </value>
-      <value xmi:id="_fupE4FugEeyXfJE6Kd1O8A" key="_fumooFugEeyXfJE6Kd1O8A">
-        <value xmi:id="_fupE4VugEeyXfJE6Kd1O8A" x="929.9999" y="176.99992"/>
+        <value xmi:id="_mzjl4-ikEeuYGrJtKWO0Hg" x="890.3683" y="213.40002"/>
       </value>
       <value xmi:id="_2RFXEFugEey7lsxjJkMbzQ" key="_2RDh4FugEey7lsxjJkMbzQ">
-        <value xmi:id="_2RFXEVugEey7lsxjJkMbzQ" x="405.0" y="152.0"/>
+        <value xmi:id="_2RFXEVugEey7lsxjJkMbzQ" x="350.068" y="47.895607"/>
       </value>
     </containers>
   </layout>

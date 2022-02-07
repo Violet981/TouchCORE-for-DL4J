@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_JJGZMIeDEeya4pIzzxiKVg" name="ComputationGraph_predict">
+  <structuralView xmi:id="_JJGZMYeDEeya4pIzzxiKVg">
+    <classes xsi:type="ram:Class" xmi:id="_LYPxUIeDEeya4pIzzxiKVg" name="org.deeplearning4j.nn.graph.ComputationGraph" visibility="public">
+      <operations xmi:id="_uacIwoeDEeya4pIzzxiKVg" name="output" returnType="_b_w9MIeDEeya4pIzzxiKVg">
+        <parameters xmi:id="_uacIw4eDEeya4pIzzxiKVg" name="arg0" type="_b_w9MIeDEeya4pIzzxiKVg"/>
+      </operations>
+      <operations xmi:id="_wtd7UIeDEeya4pIzzxiKVg" name="output" returnType="_b_w9MIeDEeya4pIzzxiKVg">
+        <parameters xmi:id="_wtd7UYeDEeya4pIzzxiKVg" name="arg0" type="_ikw7QIeDEeya4pIzzxiKVg"/>
+      </operations>
+      <operations xmi:id="_zco3UIeDEeya4pIzzxiKVg" name="output" returnType="_b_w9MIeDEeya4pIzzxiKVg">
+        <parameters xmi:id="_zco3UYeDEeya4pIzzxiKVg" name="arg0" type="_ikw7QIeDEeya4pIzzxiKVg"/>
+        <parameters xmi:id="_zco3UoeDEeya4pIzzxiKVg" name="arg1" type="_JJGZNIeDEeya4pIzzxiKVg"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_b_w9MIeDEeya4pIzzxiKVg" name="INDArray" instanceClassName="org.nd4j.linalg.api.ndarray.INDArray" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_dfj8AIeDEeya4pIzzxiKVg" name="DataSet" visibility="public" instanceClassName="org.nd4j.linalg.dataset.DataSet">
+      <operations xmi:id="_eiXc0YeDEeya4pIzzxiKVg" name="getFeatures" returnType="_b_w9MIeDEeya4pIzzxiKVg"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_ikw7QIeDEeya4pIzzxiKVg" name="DataSetIterator" visibility="public" instanceClassName="org.nd4j.linalg.dataset.api.iterator.DataSetIterator" interface="true">
+      <operations xmi:id="_jfPmgoeDEeya4pIzzxiKVg" name="hasNext" returnType="_JJGZNIeDEeya4pIzzxiKVg"/>
+      <operations xmi:id="_kHOMgIeDEeya4pIzzxiKVg" name="next" returnType="_dfj8AIeDEeya4pIzzxiKVg">
+        <parameters xmi:id="_kHOMgYeDEeya4pIzzxiKVg" name="arg0" type="_JJGZNYeDEeya4pIzzxiKVg"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_ryUP8IeDEeya4pIzzxiKVg" name="SplitTestAndTrain" visibility="public" instanceClassName="org.nd4j.linalg.dataset.SplitTestAndTrain">
+      <operations xmi:id="_sfna0oeDEeya4pIzzxiKVg" name="getTest" returnType="_dfj8AIeDEeya4pIzzxiKVg"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_JJGZMoeDEeya4pIzzxiKVg"/>
+    <types xsi:type="ram:RAny" xmi:id="_JJGZM4eDEeya4pIzzxiKVg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_JJGZNIeDEeya4pIzzxiKVg"/>
+    <types xsi:type="ram:RInt" xmi:id="_JJGZNYeDEeya4pIzzxiKVg"/>
+    <types xsi:type="ram:RChar" xmi:id="_JJGZNoeDEeya4pIzzxiKVg"/>
+    <types xsi:type="ram:RString" xmi:id="_JJGZN4eDEeya4pIzzxiKVg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_JJGZOIeDEeya4pIzzxiKVg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_JJGZOYeDEeya4pIzzxiKVg"/>
+    <types xsi:type="ram:RLong" xmi:id="_JJGZOoeDEeya4pIzzxiKVg"/>
+    <types xsi:type="ram:RByte" xmi:id="_JJGZO4eDEeya4pIzzxiKVg"/>
+  </structuralView>
+  <layout xmi:id="_JJGZPIeDEeya4pIzzxiKVg">
+    <containers xmi:id="_JJGZPYeDEeya4pIzzxiKVg" key="_JJGZMYeDEeya4pIzzxiKVg">
+      <value xmi:id="_LYQYYIeDEeya4pIzzxiKVg" key="_LYPxUIeDEeya4pIzzxiKVg">
+        <value xmi:id="_LYQYYYeDEeya4pIzzxiKVg" x="373.99988" y="71.00009"/>
+      </value>
+      <value xmi:id="_b_w9MYeDEeya4pIzzxiKVg" key="_b_w9MIeDEeya4pIzzxiKVg">
+        <value xmi:id="_b_w9MoeDEeya4pIzzxiKVg" x="92.00037" y="270.00006"/>
+      </value>
+      <value xmi:id="_dfkjEIeDEeya4pIzzxiKVg" key="_dfj8AIeDEeya4pIzzxiKVg">
+        <value xmi:id="_dfkjEYeDEeya4pIzzxiKVg" x="648.0003" y="270.00006"/>
+      </value>
+      <value xmi:id="_ikxiUIeDEeya4pIzzxiKVg" key="_ikw7QIeDEeya4pIzzxiKVg">
+        <value xmi:id="_ikxiUYeDEeya4pIzzxiKVg" x="372.00003" y="258.00006"/>
+      </value>
+      <value xmi:id="_ryUP8YeDEeya4pIzzxiKVg" key="_ryUP8IeDEeya4pIzzxiKVg">
+        <value xmi:id="_ryUP8oeDEeya4pIzzxiKVg" x="910.0003" y="270.00006"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

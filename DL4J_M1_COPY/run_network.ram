@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
 <ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_xXde0CZwEeyD3eQvvo0_7w" name="run network">
-  <realizes href="DL4J_M1.core#_90Og4PXxEeuFE_jiQ8MXng"/>
-  <coreConcern href="DL4J_M1.core#_bV6McNf-EeuGxOJxjWx4FA"/>
   <structuralView xmi:id="_xXde0SZwEeyD3eQvvo0_7w">
     <classes xsi:type="ram:ImplementationClass" xmi:id="_xXde0iZwEeyD3eQvvo0_7w" name="SplitTestAndTrain" visibility="public" instanceClassName="org.nd4j.linalg.dataset.SplitTestAndTrain">
-      <operations xmi:id="_xXde0yZwEeyD3eQvvo0_7w" name="SplitTestAndTrain" visibility="public" returnType="_xXde0iZwEeyD3eQvvo0_7w" operationType="Constructor">
+      <operations xmi:id="_xXde0yZwEeyD3eQvvo0_7w" name="SplitTestAndTrain" returnType="_xXde0iZwEeyD3eQvvo0_7w" operationType="Constructor">
         <parameters xmi:id="_xXde1CZwEeyD3eQvvo0_7w" name="arg0" type="_xXde1iZwEeyD3eQvvo0_7w"/>
         <parameters xmi:id="_xXde1SZwEeyD3eQvvo0_7w" name="arg1" type="_xXde1iZwEeyD3eQvvo0_7w"/>
       </operations>
@@ -27,7 +25,7 @@
         <value xmi:id="_xXde5CZwEeyD3eQvvo0_7w" x="638.0" y="381.0"/>
       </value>
       <value xmi:id="_xXde5SZwEeyD3eQvvo0_7w" key="_xXde1iZwEeyD3eQvvo0_7w">
-        <value xmi:id="_xXde5iZwEeyD3eQvvo0_7w" x="1154.0009" y="205.0003"/>
+        <value xmi:id="_xXde5iZwEeyD3eQvvo0_7w" x="772.0" y="203.91359"/>
       </value>
     </containers>
   </layout>

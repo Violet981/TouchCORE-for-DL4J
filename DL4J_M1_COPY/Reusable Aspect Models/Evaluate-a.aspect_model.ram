@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_mLv-IIeFEey8e4cqDpGaNg" name="multilayerNN_Evaluate">
+  <structuralView xmi:id="_mLv-IYeFEey8e4cqDpGaNg">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_qGgjgIeFEey8e4cqDpGaNg" name="Evaluation" instanceClassName="org.deeplearning4j.eval.Evaluation"/>
+    <types xsi:type="ram:RVoid" xmi:id="_mLv-IoeFEey8e4cqDpGaNg"/>
+    <types xsi:type="ram:RAny" xmi:id="_mLv-I4eFEey8e4cqDpGaNg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_mLv-JIeFEey8e4cqDpGaNg"/>
+    <types xsi:type="ram:RInt" xmi:id="_mLv-JYeFEey8e4cqDpGaNg"/>
+    <types xsi:type="ram:RChar" xmi:id="_mLv-JoeFEey8e4cqDpGaNg"/>
+    <types xsi:type="ram:RString" xmi:id="_mLv-J4eFEey8e4cqDpGaNg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_mLv-KIeFEey8e4cqDpGaNg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_mLv-KYeFEey8e4cqDpGaNg"/>
+    <types xsi:type="ram:RLong" xmi:id="_mLv-KoeFEey8e4cqDpGaNg"/>
+    <types xsi:type="ram:RByte" xmi:id="_mLv-K4eFEey8e4cqDpGaNg"/>
+  </structuralView>
+  <layout xmi:id="_mLv-LIeFEey8e4cqDpGaNg">
+    <containers xmi:id="_mLv-LYeFEey8e4cqDpGaNg" key="_mLv-IYeFEey8e4cqDpGaNg">
+      <value xmi:id="_qGgjgYeFEey8e4cqDpGaNg" key="_qGgjgIeFEey8e4cqDpGaNg">
+        <value xmi:id="_qGgjgoeFEey8e4cqDpGaNg" x="265.0" y="48.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>
