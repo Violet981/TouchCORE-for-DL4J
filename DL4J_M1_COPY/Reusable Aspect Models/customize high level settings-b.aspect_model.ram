@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_GH8Q0JBAEeyLZYLWYJ9cng" name="general_high_level_settings">
+  <structuralView xmi:id="_GH8Q0ZBAEeyLZYLWYJ9cng">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_MbMXkJBAEeyLZYLWYJ9cng" name="AdaDeltaUpdater" visibility="public" instanceClassName="org.nd4j.linalg.learning.AdaDeltaUpdater">
+      <operations xmi:id="_NX7soZBAEeyLZYLWYJ9cng" name="AdaDeltaUpdater" returnType="_MbMXkJBAEeyLZYLWYJ9cng" operationType="Constructor">
+        <parameters xmi:id="_NX7sopBAEeyLZYLWYJ9cng" name="arg0" type="_NX1mAJBAEeyLZYLWYJ9cng"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_NX1mAJBAEeyLZYLWYJ9cng" name="AdaDelta" superTypes="_MbfdEJBBEeyjnI-k4MEcig" visibility="public" instanceClassName="org.nd4j.linalg.learning.config.AdaDelta">
+      <operations xmi:id="_ATWmkpBBEeyjnI-k4MEcig" name="AdaDelta" returnType="_NX1mAJBAEeyLZYLWYJ9cng" operationType="Constructor"/>
+      <operations xmi:id="_AiUPoJBBEeyjnI-k4MEcig" name="AdaDelta" returnType="_NX1mAJBAEeyLZYLWYJ9cng" operationType="Constructor">
+        <parameters xmi:id="_AiUPoZBBEeyjnI-k4MEcig" name="arg0" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+        <parameters xmi:id="_AiUPopBBEeyjnI-k4MEcig" name="arg1" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_Q0YlYJBAEeyLZYLWYJ9cng" name="RmsProp" superTypes="_MbfdEJBBEeyjnI-k4MEcig" visibility="public" instanceClassName="org.nd4j.linalg.learning.config.RmsProp">
+      <operations xmi:id="_GZv9EpBBEeyjnI-k4MEcig" name="RmsProp" returnType="_Q0YlYJBAEeyLZYLWYJ9cng" operationType="Constructor"/>
+      <operations xmi:id="_GsUTwZBBEeyjnI-k4MEcig" name="RmsProp" returnType="_Q0YlYJBAEeyLZYLWYJ9cng" operationType="Constructor">
+        <parameters xmi:id="_GsUTwpBBEeyjnI-k4MEcig" name="arg0" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+      </operations>
+      <operations xmi:id="_G8rD8ZBBEeyjnI-k4MEcig" name="RmsProp" returnType="_Q0YlYJBAEeyLZYLWYJ9cng" operationType="Constructor">
+        <parameters xmi:id="_G8rD8pBBEeyjnI-k4MEcig" name="arg0" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+        <parameters xmi:id="_G8rD85BBEeyjnI-k4MEcig" name="arg1" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+        <parameters xmi:id="_G8rD9JBBEeyjnI-k4MEcig" name="arg2" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_SUKWEJBAEeyLZYLWYJ9cng" name="AdaGradUpdater" visibility="public" instanceClassName="org.nd4j.linalg.learning.AdaGradUpdater">
+      <operations xmi:id="_TLql0pBAEeyLZYLWYJ9cng" name="AdaGradUpdater" returnType="_SUKWEJBAEeyLZYLWYJ9cng" operationType="Constructor">
+        <parameters xmi:id="_TLql05BAEeyLZYLWYJ9cng" name="arg0" type="_TLp-wJBAEeyLZYLWYJ9cng"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_TLp-wJBAEeyLZYLWYJ9cng" name="AdaGrad" superTypes="_MbfdEJBBEeyjnI-k4MEcig" visibility="public" instanceClassName="org.nd4j.linalg.learning.config.AdaGrad">
+      <operations xmi:id="_BcTyspBBEeyjnI-k4MEcig" name="AdaGrad" returnType="_TLp-wJBAEeyLZYLWYJ9cng" operationType="Constructor"/>
+      <operations xmi:id="_BtBIMZBBEeyjnI-k4MEcig" name="AdaGrad" returnType="_TLp-wJBAEeyLZYLWYJ9cng" operationType="Constructor">
+        <parameters xmi:id="_BtBIMpBBEeyjnI-k4MEcig" name="arg0" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+      </operations>
+      <operations xmi:id="_B7b-sZBBEeyjnI-k4MEcig" name="AdaGrad" returnType="_TLp-wJBAEeyLZYLWYJ9cng" operationType="Constructor">
+        <parameters xmi:id="_B7b-spBBEeyjnI-k4MEcig" name="arg0" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+        <parameters xmi:id="_B7b-s5BBEeyjnI-k4MEcig" name="arg1" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_VCx4cJBAEeyLZYLWYJ9cng" name="AdamUpdater" visibility="public" instanceClassName="org.nd4j.linalg.learning.AdamUpdater">
+      <operations xmi:id="_VqjqJJBAEeyLZYLWYJ9cng" name="AdamUpdater" returnType="_VCx4cJBAEeyLZYLWYJ9cng" operationType="Constructor">
+        <parameters xmi:id="_VqjqJZBAEeyLZYLWYJ9cng" name="arg0" type="_VqjDEJBAEeyLZYLWYJ9cng"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_VqjDEJBAEeyLZYLWYJ9cng" name="Adam" superTypes="_MbfdEJBBEeyjnI-k4MEcig" visibility="public" instanceClassName="org.nd4j.linalg.learning.config.Adam">
+      <operations xmi:id="_Z_aKgpBAEeyLZYLWYJ9cng" name="Adam" returnType="_VqjDEJBAEeyLZYLWYJ9cng" operationType="Constructor"/>
+      <operations xmi:id="_alU7AZBAEeyLZYLWYJ9cng" name="Adam" returnType="_VqjDEJBAEeyLZYLWYJ9cng" operationType="Constructor">
+        <parameters xmi:id="_alU7ApBAEeyLZYLWYJ9cng" name="arg0" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+      </operations>
+      <operations xmi:id="_a3mWwZBAEeyLZYLWYJ9cng" name="Adam" returnType="_VqjDEJBAEeyLZYLWYJ9cng" operationType="Constructor">
+        <parameters xmi:id="_a3mWwpBAEeyLZYLWYJ9cng" name="arg0" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+        <parameters xmi:id="_a3mWw5BAEeyLZYLWYJ9cng" name="arg1" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+        <parameters xmi:id="_a3mWxJBAEeyLZYLWYJ9cng" name="arg2" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+        <parameters xmi:id="_a3mWxZBAEeyLZYLWYJ9cng" name="arg3" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+      </operations>
+      <operations xmi:id="_zK-MUZBGEeyjnI-k4MEcig" name="Adam" returnType="_VqjDEJBAEeyLZYLWYJ9cng" operationType="Constructor">
+        <parameters xmi:id="_zK-MUpBGEeyjnI-k4MEcig" name="arg0" type="_zK9lQJBGEeyjnI-k4MEcig"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_c_vH8JBAEeyLZYLWYJ9cng" name="NadamUpdater" visibility="public" instanceClassName="org.nd4j.linalg.learning.NadamUpdater">
+      <operations xmi:id="_eV6QspBAEeyLZYLWYJ9cng" name="NadamUpdater" returnType="_c_vH8JBAEeyLZYLWYJ9cng" operationType="Constructor">
+        <parameters xmi:id="_eV6Qs5BAEeyLZYLWYJ9cng" name="arg0" type="_eV5poJBAEeyLZYLWYJ9cng"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_eV5poJBAEeyLZYLWYJ9cng" name="Nadam" superTypes="_MbfdEJBBEeyjnI-k4MEcig" visibility="public" instanceClassName="org.nd4j.linalg.learning.config.Nadam">
+      <operations xmi:id="_fL_kIZBAEeyLZYLWYJ9cng" name="Nadam" returnType="_eV5poJBAEeyLZYLWYJ9cng" operationType="Constructor"/>
+      <operations xmi:id="_fZJ2YZBAEeyLZYLWYJ9cng" name="Nadam" returnType="_eV5poJBAEeyLZYLWYJ9cng" operationType="Constructor">
+        <parameters xmi:id="_fZJ2YpBAEeyLZYLWYJ9cng" name="arg0" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+      </operations>
+      <operations xmi:id="_fliFgZBAEeyLZYLWYJ9cng" name="Nadam" returnType="_eV5poJBAEeyLZYLWYJ9cng" operationType="Constructor">
+        <parameters xmi:id="_fliFgpBAEeyLZYLWYJ9cng" name="arg0" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+        <parameters xmi:id="_fliFg5BAEeyLZYLWYJ9cng" name="arg1" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+        <parameters xmi:id="_fliFhJBAEeyLZYLWYJ9cng" name="arg2" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+        <parameters xmi:id="_fliFhZBAEeyLZYLWYJ9cng" name="arg3" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_ugtrYJBAEeyjnI-k4MEcig" name="RmsPropUpdater" visibility="public" instanceClassName="org.nd4j.linalg.learning.RmsPropUpdater">
+      <operations xmi:id="_vbobgpBAEeyjnI-k4MEcig" name="RmsPropUpdater" returnType="_ugtrYJBAEeyjnI-k4MEcig" operationType="Constructor">
+        <parameters xmi:id="_vbobg5BAEeyjnI-k4MEcig" name="arg0" type="_Q0YlYJBAEeyLZYLWYJ9cng"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_yH5NcJBAEeyjnI-k4MEcig" name="NesterovsUpdater" visibility="public" instanceClassName="org.nd4j.linalg.learning.NesterovsUpdater">
+      <operations xmi:id="_yudeNJBAEeyjnI-k4MEcig" name="NesterovsUpdater" returnType="_yH5NcJBAEeyjnI-k4MEcig" operationType="Constructor">
+        <parameters xmi:id="_yudeNZBAEeyjnI-k4MEcig" name="arg0" type="_yuc3IJBAEeyjnI-k4MEcig"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_yuc3IJBAEeyjnI-k4MEcig" name="Nesterovs" superTypes="_MbfdEJBBEeyjnI-k4MEcig" visibility="public" instanceClassName="org.nd4j.linalg.learning.config.Nesterovs">
+      <operations xmi:id="_D6DAcpBBEeyjnI-k4MEcig" name="Nesterovs" returnType="_yuc3IJBAEeyjnI-k4MEcig" operationType="Constructor"/>
+      <operations xmi:id="_ELG7QZBBEeyjnI-k4MEcig" name="Nesterovs" returnType="_yuc3IJBAEeyjnI-k4MEcig" operationType="Constructor">
+        <parameters xmi:id="_ELG7QpBBEeyjnI-k4MEcig" name="arg0" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+      </operations>
+      <operations xmi:id="_EhjsYZBBEeyjnI-k4MEcig" name="Nesterovs" returnType="_yuc3IJBAEeyjnI-k4MEcig" operationType="Constructor">
+        <parameters xmi:id="_EhjsYpBBEeyjnI-k4MEcig" name="arg0" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+        <parameters xmi:id="_EhjsY5BBEeyjnI-k4MEcig" name="arg1" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_2jBU8JBAEeyjnI-k4MEcig" name="SgdUpdater" visibility="public" instanceClassName="org.nd4j.linalg.learning.SgdUpdater">
+      <operations xmi:id="_3S22dJBAEeyjnI-k4MEcig" name="SgdUpdater" returnType="_2jBU8JBAEeyjnI-k4MEcig" operationType="Constructor">
+        <parameters xmi:id="_3S22dZBAEeyjnI-k4MEcig" name="arg0" type="_3S2PYJBAEeyjnI-k4MEcig"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_3S2PYJBAEeyjnI-k4MEcig" name="Sgd" superTypes="_MbfdEJBBEeyjnI-k4MEcig" visibility="public" instanceClassName="org.nd4j.linalg.learning.config.Sgd">
+      <operations xmi:id="_C6irQJBBEeyjnI-k4MEcig" name="Sgd" returnType="_3S2PYJBAEeyjnI-k4MEcig" operationType="Constructor"/>
+      <operations xmi:id="_DJ1EcZBBEeyjnI-k4MEcig" name="Sgd" returnType="_3S2PYJBAEeyjnI-k4MEcig" operationType="Constructor">
+        <parameters xmi:id="_DJ1EcpBBEeyjnI-k4MEcig" name="arg0" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_5VvUMJBAEeyjnI-k4MEcig" name="AMSGradUpdater" visibility="public" instanceClassName="org.nd4j.linalg.learning.AMSGradUpdater">
+      <operations xmi:id="_6AZaxJBAEeyjnI-k4MEcig" name="AMSGradUpdater" returnType="_5VvUMJBAEeyjnI-k4MEcig" operationType="Constructor">
+        <parameters xmi:id="_6AZaxZBAEeyjnI-k4MEcig" name="arg0" type="_6AYzsJBAEeyjnI-k4MEcig"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_6AYzsJBAEeyjnI-k4MEcig" name="AMSGrad" superTypes="_MbfdEJBBEeyjnI-k4MEcig" visibility="public" instanceClassName="org.nd4j.linalg.learning.config.AMSGrad">
+      <operations xmi:id="_HdU58pBBEeyjnI-k4MEcig" name="AMSGrad" returnType="_6AYzsJBAEeyjnI-k4MEcig" operationType="Constructor"/>
+      <operations xmi:id="_HwVVgZBBEeyjnI-k4MEcig" name="AMSGrad" returnType="_6AYzsJBAEeyjnI-k4MEcig" operationType="Constructor">
+        <parameters xmi:id="_HwVVgpBBEeyjnI-k4MEcig" name="arg0" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+      </operations>
+      <operations xmi:id="_IA-ZkZBBEeyjnI-k4MEcig" name="AMSGrad" returnType="_6AYzsJBAEeyjnI-k4MEcig" operationType="Constructor">
+        <parameters xmi:id="_IA-ZkpBBEeyjnI-k4MEcig" name="arg0" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+        <parameters xmi:id="_IA-Zk5BBEeyjnI-k4MEcig" name="arg1" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+        <parameters xmi:id="_IA-ZlJBBEeyjnI-k4MEcig" name="arg2" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+        <parameters xmi:id="_IA-ZlZBBEeyjnI-k4MEcig" name="arg3" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_8JZuoJBAEeyjnI-k4MEcig" name="NoOpUpdater" visibility="public" instanceClassName="org.nd4j.linalg.learning.NoOpUpdater">
+      <operations xmi:id="_8vW7ZZBAEeyjnI-k4MEcig" name="NoOpUpdater" returnType="_8JZuoJBAEeyjnI-k4MEcig" operationType="Constructor">
+        <parameters xmi:id="_8vW7ZpBAEeyjnI-k4MEcig" name="arg0" type="_8vW7YJBAEeyjnI-k4MEcig"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_8vW7YJBAEeyjnI-k4MEcig" name="NoOp" superTypes="_MbfdEJBBEeyjnI-k4MEcig" visibility="public" instanceClassName="org.nd4j.linalg.learning.config.NoOp">
+      <operations xmi:id="__fCNspBAEeyjnI-k4MEcig" name="NoOp" returnType="_8vW7YJBAEeyjnI-k4MEcig" operationType="Constructor"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_MbfdEJBBEeyjnI-k4MEcig" name="IUpdater" instanceClassName="org.nd4j.linalg.learning.config.IUpdater" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_zK9lQJBGEeyjnI-k4MEcig" name="ISchedule" instanceClassName="org.nd4j.linalg.schedule.ISchedule" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_3lMU4JBGEeyjnI-k4MEcig" name="StepSchedule" superTypes="_zK9lQJBGEeyjnI-k4MEcig" visibility="public" instanceClassName="org.nd4j.linalg.schedule.StepSchedule">
+      <operations xmi:id="_4nxMMpBGEeyjnI-k4MEcig" name="StepSchedule" returnType="_3lMU4JBGEeyjnI-k4MEcig" operationType="Constructor">
+        <parameters xmi:id="_4nxMM5BGEeyjnI-k4MEcig" name="arg0" type="_4nwlIJBGEeyjnI-k4MEcig"/>
+        <parameters xmi:id="_4nxMNJBGEeyjnI-k4MEcig" name="arg1" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+        <parameters xmi:id="_4nxMNZBGEeyjnI-k4MEcig" name="arg2" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+        <parameters xmi:id="_4nxMNpBGEeyjnI-k4MEcig" name="arg3" type="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+      </operations>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_GH8Q0pBAEeyLZYLWYJ9cng"/>
+    <types xsi:type="ram:RAny" xmi:id="_GH8Q05BAEeyLZYLWYJ9cng"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_GH8Q1JBAEeyLZYLWYJ9cng"/>
+    <types xsi:type="ram:RInt" xmi:id="_GH8Q1ZBAEeyLZYLWYJ9cng"/>
+    <types xsi:type="ram:RChar" xmi:id="_GH8Q1pBAEeyLZYLWYJ9cng"/>
+    <types xsi:type="ram:RString" xmi:id="_GH8Q15BAEeyLZYLWYJ9cng"/>
+    <types xsi:type="ram:RDouble" xmi:id="_GH8Q2JBAEeyLZYLWYJ9cng"/>
+    <types xsi:type="ram:RFloat" xmi:id="_GH8Q2ZBAEeyLZYLWYJ9cng"/>
+    <types xsi:type="ram:RLong" xmi:id="_GH8Q2pBAEeyLZYLWYJ9cng"/>
+    <types xsi:type="ram:RByte" xmi:id="_GH8Q25BAEeyLZYLWYJ9cng"/>
+    <types xsi:type="ram:REnum" xmi:id="_Q_fMsJBBEeyjnI-k4MEcig" name="org.nd4j.linalg.activations.Activation">
+      <literals xmi:id="_iV1NcJBBEeyjnI-k4MEcig" name="CUBE"/>
+      <literals xmi:id="_iV1NcZBBEeyjnI-k4MEcig" name="ELU"/>
+      <literals xmi:id="_iV1NcpBBEeyjnI-k4MEcig" name="GELU"/>
+      <literals xmi:id="_iV1Nc5BBEeyjnI-k4MEcig" name="HARDSIGMOID"/>
+      <literals xmi:id="_iV1NdJBBEeyjnI-k4MEcig" name="HARDTANH"/>
+      <literals xmi:id="_iV1NdZBBEeyjnI-k4MEcig" name="IDENTITY"/>
+      <literals xmi:id="_iV10gJBBEeyjnI-k4MEcig" name="LEAKYRELU"/>
+      <literals xmi:id="_iV10gZBBEeyjnI-k4MEcig" name="MISH"/>
+      <literals xmi:id="_iV10gpBBEeyjnI-k4MEcig" name="RATIONALTANH"/>
+      <literals xmi:id="_iV10g5BBEeyjnI-k4MEcig" name="RECTIFIEDTANH"/>
+      <literals xmi:id="_iV10hJBBEeyjnI-k4MEcig" name="RELU"/>
+      <literals xmi:id="_iV10hZBBEeyjnI-k4MEcig" name="RELU8"/>
+      <literals xmi:id="_iV10hpBBEeyjnI-k4MEcig" name="RRELU"/>
+      <literals xmi:id="_iV10h5BBEeyjnI-k4MEcig" name="SELU"/>
+      <literals xmi:id="_iV2bkJBBEeyjnI-k4MEcig" name="SIGMOID"/>
+      <literals xmi:id="_paCQAJBBEeyjnI-k4MEcig" name="SOFTMAX"/>
+      <literals xmi:id="_paCQAZBBEeyjnI-k4MEcig" name="SOFTPLUS"/>
+      <literals xmi:id="_paCQApBBEeyjnI-k4MEcig" name="SOFTSIGN"/>
+      <literals xmi:id="_paCQA5BBEeyjnI-k4MEcig" name="SWISH"/>
+      <literals xmi:id="_paC3EJBBEeyjnI-k4MEcig" name="TANH"/>
+      <literals xmi:id="_paC3EZBBEeyjnI-k4MEcig" name="THRESHOLDEDRELU"/>
+    </types>
+    <types xsi:type="ram:REnum" xmi:id="_sFo6oJBBEeyjnI-k4MEcig" name="org.deeplearning4j.nn.api.OptimizationAlgo">
+      <literals xmi:id="_1krn8JBBEeyjnI-k4MEcig" name="CONJUNCTION_GRADIENT"/>
+      <literals xmi:id="_1krn8ZBBEeyjnI-k4MEcig" name="LBFGS"/>
+      <literals xmi:id="_1krn8pBBEeyjnI-k4MEcig" name="LINE_GRADIENT_DESCENT"/>
+      <literals xmi:id="_1krn85BBEeyjnI-k4MEcig" name="STOCHASTIC_GRADIENT_DESCENT"/>
+    </types>
+    <types xsi:type="ram:REnum" xmi:id="_3IGigJBBEeyjnI-k4MEcig" name="org.deeplearning4j.nn.weights.WeightInit">
+      <literals xmi:id="_QPkWMJBCEeyjnI-k4MEcig" name="DISTRIBUTION"/>
+      <literals xmi:id="_QPkWMZBCEeyjnI-k4MEcig" name="IDENTITY"/>
+      <literals xmi:id="_QPkWMpBCEeyjnI-k4MEcig" name="LECUN_NORMAL"/>
+      <literals xmi:id="_QPkWM5BCEeyjnI-k4MEcig" name="LECUN_UNIFORM"/>
+      <literals xmi:id="_QPkWNJBCEeyjnI-k4MEcig" name="NORMAL"/>
+      <literals xmi:id="_QPk9QJBCEeyjnI-k4MEcig" name="ONES"/>
+      <literals xmi:id="_QPk9QZBCEeyjnI-k4MEcig" name="RELU"/>
+      <literals xmi:id="_QPk9QpBCEeyjnI-k4MEcig" name="RELU_UNIFORM"/>
+      <literals xmi:id="_QPk9Q5BCEeyjnI-k4MEcig" name="SIGMOID_UNIFORM"/>
+      <literals xmi:id="_eY3zMJBCEeyjnI-k4MEcig" name="SUPPLIED"/>
+      <literals xmi:id="_eY4aQJBCEeyjnI-k4MEcig" name="UNIFORM"/>
+      <literals xmi:id="_eY4aQZBCEeyjnI-k4MEcig" name="VAR_SCALING_NORMAL_FAN_AVG"/>
+      <literals xmi:id="_eY4aQpBCEeyjnI-k4MEcig" name="VAR_SCALING_NORMAL_FAN_IN"/>
+      <literals xmi:id="_gW2i0JBCEeyjnI-k4MEcig" name="VAR_SCALING_NORMAL_FAN_OUT"/>
+      <literals xmi:id="_nddZIJBCEeyjnI-k4MEcig" name="VAR_SCALING_UNIFORM_FAN_AVG"/>
+      <literals xmi:id="_nddZIZBCEeyjnI-k4MEcig" name="VAR_SCALING_UNIFORM_FAN_IN"/>
+      <literals xmi:id="_nddZIpBCEeyjnI-k4MEcig" name="VAR_SCALING_UNIFORM_FAN_OUT"/>
+      <literals xmi:id="_uCvrEJBCEeyjnI-k4MEcig" name="XAVIER"/>
+      <literals xmi:id="_uCvrEZBCEeyjnI-k4MEcig" name="XAVIER_ZERO_IN"/>
+      <literals xmi:id="_uCvrEpBCEeyjnI-k4MEcig" name="XAVIER_LEGACY"/>
+      <literals xmi:id="_uCwSIJBCEeyjnI-k4MEcig" name="XAVIER_UNIFORM"/>
+      <literals xmi:id="_uCwSIZBCEeyjnI-k4MEcig" name="ZERO"/>
+    </types>
+    <types xsi:type="ram:REnum" xmi:id="_4nwlIJBGEeyjnI-k4MEcig" name="ScheduleType" instanceClassName="org.nd4j.linalg.schedule.ScheduleType">
+      <literals xmi:id="_4nwlIZBGEeyjnI-k4MEcig" name="ITERATION"/>
+      <literals xmi:id="_4nwlIpBGEeyjnI-k4MEcig" name="EPOCH"/>
+    </types>
+  </structuralView>
+  <layout xmi:id="_GH8Q3JBAEeyLZYLWYJ9cng">
+    <containers xmi:id="_GH8Q3ZBAEeyLZYLWYJ9cng" key="_GH8Q0ZBAEeyLZYLWYJ9cng">
+      <value xmi:id="_MbMXkZBAEeyLZYLWYJ9cng" key="_MbMXkJBAEeyLZYLWYJ9cng">
+        <value xmi:id="_MbMXkpBAEeyLZYLWYJ9cng" x="155.00012" y="123.061264"/>
+      </value>
+      <value xmi:id="_NX1mAZBAEeyLZYLWYJ9cng" key="_NX1mAJBAEeyLZYLWYJ9cng">
+        <value xmi:id="_NX1mApBAEeyLZYLWYJ9cng" x="499.00012" y="122.999954"/>
+      </value>
+      <value xmi:id="_Q0YlYZBAEeyLZYLWYJ9cng" key="_Q0YlYJBAEeyLZYLWYJ9cng">
+        <value xmi:id="_Q0YlYpBAEeyLZYLWYJ9cng" x="648.9999" y="355.00012"/>
+      </value>
+      <value xmi:id="_SUKWEZBAEeyLZYLWYJ9cng" key="_SUKWEJBAEeyLZYLWYJ9cng">
+        <value xmi:id="_SUKWEpBAEeyLZYLWYJ9cng" x="308.99985" y="355.00012"/>
+      </value>
+      <value xmi:id="_TLp-wZBAEeyLZYLWYJ9cng" key="_TLp-wJBAEeyLZYLWYJ9cng">
+        <value xmi:id="_TLp-wpBAEeyLZYLWYJ9cng" x="383.99985" y="8.391777"/>
+      </value>
+      <value xmi:id="_VCx4cZBAEeyLZYLWYJ9cng" key="_VCx4cJBAEeyLZYLWYJ9cng">
+        <value xmi:id="_VCx4cpBAEeyLZYLWYJ9cng" x="82.00006" y="506.0"/>
+      </value>
+      <value xmi:id="_VqjqIJBAEeyLZYLWYJ9cng" key="_VqjDEJBAEeyLZYLWYJ9cng">
+        <value xmi:id="_VqjqIZBAEeyLZYLWYJ9cng" x="-435.0002" y="248.00006"/>
+      </value>
+      <value xmi:id="_c_vH8ZBAEeyLZYLWYJ9cng" key="_c_vH8JBAEeyLZYLWYJ9cng">
+        <value xmi:id="_c_vH8pBAEeyLZYLWYJ9cng" x="-314.0002" y="428.00006"/>
+      </value>
+      <value xmi:id="_eV5poZBAEeyLZYLWYJ9cng" key="_eV5poJBAEeyLZYLWYJ9cng">
+        <value xmi:id="_eV5popBAEeyLZYLWYJ9cng" x="-314.30743"/>
+      </value>
+      <value xmi:id="_ugtrYZBAEeyjnI-k4MEcig" key="_ugtrYJBAEeyjnI-k4MEcig">
+        <value xmi:id="_uguScJBAEeyjnI-k4MEcig" x="64.0" y="273.00006"/>
+      </value>
+      <value xmi:id="_yH50gJBAEeyjnI-k4MEcig" key="_yH5NcJBAEeyjnI-k4MEcig">
+        <value xmi:id="_yH50gZBAEeyjnI-k4MEcig" x="419.0" y="275.0"/>
+      </value>
+      <value xmi:id="_yudeMJBAEeyjnI-k4MEcig" key="_yuc3IJBAEeyjnI-k4MEcig">
+        <value xmi:id="_yudeMZBAEeyjnI-k4MEcig" x="-479.37894" y="25.0"/>
+      </value>
+      <value xmi:id="_2jBU8ZBAEeyjnI-k4MEcig" key="_2jBU8JBAEeyjnI-k4MEcig">
+        <value xmi:id="_2jBU8pBAEeyjnI-k4MEcig" x="-107.99994" y="506.0"/>
+      </value>
+      <value xmi:id="_3S22cJBAEeyjnI-k4MEcig" key="_3S2PYJBAEeyjnI-k4MEcig">
+        <value xmi:id="_3S22cZBAEeyjnI-k4MEcig" x="-662.37854" y="135.06126"/>
+      </value>
+      <value xmi:id="_5VvUMZBAEeyjnI-k4MEcig" key="_5VvUMJBAEeyjnI-k4MEcig">
+        <value xmi:id="_5VvUMpBAEeyjnI-k4MEcig" x="358.54086" y="505.96094"/>
+      </value>
+      <value xmi:id="_6AZawJBAEeyjnI-k4MEcig" key="_6AYzsJBAEeyjnI-k4MEcig">
+        <value xmi:id="_6AZawZBAEeyjnI-k4MEcig"/>
+      </value>
+      <value xmi:id="_8JZuoZBAEeyjnI-k4MEcig" key="_8JZuoJBAEeyjnI-k4MEcig">
+        <value xmi:id="_8JZuopBAEeyjnI-k4MEcig" x="376.54086" y="686.9879"/>
+      </value>
+      <value xmi:id="_8vW7YZBAEeyjnI-k4MEcig" key="_8vW7YJBAEeyjnI-k4MEcig">
+        <value xmi:id="_8vW7YpBAEeyjnI-k4MEcig" x="-115.37872" y="686.9879"/>
+      </value>
+      <value xmi:id="_MbfdEZBBEeyjnI-k4MEcig" key="_MbfdEJBBEeyjnI-k4MEcig">
+        <value xmi:id="_MbfdEpBBEeyjnI-k4MEcig" x="-741.88745" y="686.9879"/>
+      </value>
+      <value xmi:id="_Q_ga0JBBEeyjnI-k4MEcig" key="_Q_fMsJBBEeyjnI-k4MEcig">
+        <value xmi:id="_Q_ga0ZBBEeyjnI-k4MEcig" x="925.86694" y="-144.5"/>
+      </value>
+      <value xmi:id="_sFo6oZBBEeyjnI-k4MEcig" key="_sFo6oJBBEeyjnI-k4MEcig">
+        <value xmi:id="_sFo6opBBEeyjnI-k4MEcig" x="1301.2509" y="-108.06435"/>
+      </value>
+      <value xmi:id="_3IGigZBBEeyjnI-k4MEcig" key="_3IGigJBBEeyjnI-k4MEcig">
+        <value xmi:id="_3IGigpBBEeyjnI-k4MEcig" x="1302.867" y="241.04227"/>
+      </value>
+      <value xmi:id="_zK9lQZBGEeyjnI-k4MEcig" key="_zK9lQJBGEeyjnI-k4MEcig">
+        <value xmi:id="_zK9lQpBGEeyjnI-k4MEcig"/>
+      </value>
+      <value xmi:id="_3lMU4ZBGEeyjnI-k4MEcig" key="_3lMU4JBGEeyjnI-k4MEcig">
+        <value xmi:id="_3lMU4pBGEeyjnI-k4MEcig" x="-194.39381" y="-107.87881"/>
+      </value>
+      <value xmi:id="_4nwlI5BGEeyjnI-k4MEcig" key="_4nwlIJBGEeyjnI-k4MEcig">
+        <value xmi:id="_4nwlJJBGEeyjnI-k4MEcig" x="-740.38745" y="-108.37881"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

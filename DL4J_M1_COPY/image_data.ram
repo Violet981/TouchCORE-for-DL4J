@@ -81,6 +81,10 @@
     <classes xsi:type="ram:ImplementationClass" xmi:id="_zeRVkCYIEeyXgIyMe68nzg" name="DataSet" instanceClassName="org.nd4j.linalg.dataset.DataSet"/>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_Z6IakIbMEeyREf-n8o6hBw" name="PathMultiLabelGenerator" instanceClassName="org.datavec.api.io.labels.PathMultiLabelGenerator" interface="true"/>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_nAE9IIbMEeyREf-n8o6hBw" name="Configuration" instanceClassName="org.datavec.api.conf.Configuration"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_ln028JBzEeyV4r6u3iMaJQ" name="BaseImageLoader" abstract="true" instanceClassName="org.datavec.image.loader.BaseImageLoader"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_sD_CEJBzEeyV4r6u3iMaJQ" name="ParentPathLabelGenerator" superTypes="_fkFfECYIEeyXgIyMe68nzg" visibility="public" instanceClassName="org.datavec.api.io.labels.ParentPathLabelGenerator">
+      <operations xmi:id="_tKxrApBzEeyV4r6u3iMaJQ" name="ParentPathLabelGenerator" returnType="_sD_CEJBzEeyV4r6u3iMaJQ" operationType="Constructor"/>
+    </classes>
     <types xsi:type="ram:RVoid" xmi:id="_8XuCtdgNEeuGxOJxjWx4FA"/>
     <types xsi:type="ram:RAny" xmi:id="_8XuCttgNEeuGxOJxjWx4FA"/>
     <types xsi:type="ram:RBoolean" xmi:id="_8XuCt9gNEeuGxOJxjWx4FA"/>
@@ -119,10 +123,16 @@
         <value xmi:id="_zeTKwSYIEeyXgIyMe68nzg" x="657.4073" y="-18.999939"/>
       </value>
       <value xmi:id="_Z6JBoIbMEeyREf-n8o6hBw" key="_Z6IakIbMEeyREf-n8o6hBw">
-        <value xmi:id="_Z6JBoYbMEeyREf-n8o6hBw" x="6.4584513" y="41.333412"/>
+        <value xmi:id="_Z6JBoYbMEeyREf-n8o6hBw" x="42.624924" y="156.00014"/>
       </value>
       <value xmi:id="_nAE9IYbMEeyREf-n8o6hBw" key="_nAE9IIbMEeyREf-n8o6hBw">
         <value xmi:id="_nAE9IobMEeyREf-n8o6hBw"/>
+      </value>
+      <value xmi:id="_ln028ZBzEeyV4r6u3iMaJQ" key="_ln028JBzEeyV4r6u3iMaJQ">
+        <value xmi:id="_ln028pBzEeyV4r6u3iMaJQ" x="422.0" y="5.0"/>
+      </value>
+      <value xmi:id="_sD_CEZBzEeyV4r6u3iMaJQ" key="_sD_CEJBzEeyV4r6u3iMaJQ">
+        <value xmi:id="_sD_CEpBzEeyV4r6u3iMaJQ" x="1237.3685" y="46.650414"/>
       </value>
     </containers>
   </layout>

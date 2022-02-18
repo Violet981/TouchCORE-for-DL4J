@@ -26,6 +26,26 @@
         <parameters xmi:id="_wA1WsVYeEey_CbpQ1r_TjQ" name="arg0" type="_wA0voFYeEey_CbpQ1r_TjQ"/>
         <parameters xmi:id="_wA1WslYeEey_CbpQ1r_TjQ" name="arg1" type="_bw5TICTQEeyXgIyMe68nzg"/>
       </operations>
+      <operations xmi:id="_P8oLIY-JEeypnfMsjRFa3Q" name="RecordReaderDataSetIterator" returnType="_bw5TGiTQEeyXgIyMe68nzg" operationType="Constructor">
+        <parameters xmi:id="_P8oLIo-JEeypnfMsjRFa3Q" name="arg0" type="_wA0voFYeEey_CbpQ1r_TjQ"/>
+        <parameters xmi:id="_P8oLI4-JEeypnfMsjRFa3Q" name="arg1" type="_bw5TICTQEeyXgIyMe68nzg"/>
+        <parameters xmi:id="_P8oLJI-JEeypnfMsjRFa3Q" name="arg2" type="_bw5TICTQEeyXgIyMe68nzg"/>
+        <parameters xmi:id="_P8oLJY-JEeypnfMsjRFa3Q" name="arg3" type="_bw5TICTQEeyXgIyMe68nzg"/>
+      </operations>
+      <operations xmi:id="_Qyc_4Y-JEeypnfMsjRFa3Q" name="RecordReaderDataSetIterator" returnType="_bw5TGiTQEeyXgIyMe68nzg" operationType="Constructor">
+        <parameters xmi:id="_Qyc_4o-JEeypnfMsjRFa3Q" name="arg0" type="_wA0voFYeEey_CbpQ1r_TjQ"/>
+        <parameters xmi:id="_Qyc_44-JEeypnfMsjRFa3Q" name="arg1" type="_bw5TICTQEeyXgIyMe68nzg"/>
+        <parameters xmi:id="_Qyc_5I-JEeypnfMsjRFa3Q" name="arg2" type="_bw5TICTQEeyXgIyMe68nzg"/>
+        <parameters xmi:id="_Qyc_5Y-JEeypnfMsjRFa3Q" name="arg3" type="_bw5TICTQEeyXgIyMe68nzg"/>
+        <parameters xmi:id="_Qyc_5o-JEeypnfMsjRFa3Q" name="arg4" type="_bw5THyTQEeyXgIyMe68nzg"/>
+      </operations>
+      <operations xmi:id="_Rfj9gY-JEeypnfMsjRFa3Q" name="RecordReaderDataSetIterator" returnType="_bw5TGiTQEeyXgIyMe68nzg" operationType="Constructor">
+        <parameters xmi:id="_Rfj9go-JEeypnfMsjRFa3Q" name="arg0" type="_wA0voFYeEey_CbpQ1r_TjQ"/>
+        <parameters xmi:id="_Rfj9g4-JEeypnfMsjRFa3Q" name="arg1" type="_bw5TICTQEeyXgIyMe68nzg"/>
+        <parameters xmi:id="_Rfj9hI-JEeypnfMsjRFa3Q" name="arg2" type="_bw5TICTQEeyXgIyMe68nzg"/>
+        <parameters xmi:id="_Rfj9hY-JEeypnfMsjRFa3Q" name="arg3" type="_bw5TICTQEeyXgIyMe68nzg"/>
+        <parameters xmi:id="_Rfj9ho-JEeypnfMsjRFa3Q" name="arg4" type="_bw5TICTQEeyXgIyMe68nzg"/>
+      </operations>
       <operations xmi:id="_bw5TGyTQEeyXgIyMe68nzg" name="next" returnType="_bw5THCTQEeyXgIyMe68nzg"/>
       <operations xmi:id="_0Cvs8VYeEey_CbpQ1r_TjQ" name="setCollectMetaData" returnType="_bw5THSTQEeyXgIyMe68nzg">
         <parameters xmi:id="_0Cvs8lYeEey_CbpQ1r_TjQ" name="arg0" type="_bw5THyTQEeyXgIyMe68nzg"/>
@@ -44,6 +64,13 @@
       <operations xmi:id="_K_hf0VYhEey_CbpQ1r_TjQ" name="loadFromMetaData" returnType="_Isg7YFYhEey_CbpQ1r_TjQ">
         <parameters xmi:id="_K_hf0lYhEey_CbpQ1r_TjQ" name="arg0" type="_ItgZ4FYhEey_CbpQ1r_TjQ"/>
       </operations>
+      <operations xmi:id="_uSC08I-KEeyJK9rWQnxChw" name="initialize" returnType="_bw5THSTQEeyXgIyMe68nzg">
+        <parameters xmi:id="_uSC08Y-KEeyJK9rWQnxChw" name="arg0" type="_uR65II-KEeyJK9rWQnxChw"/>
+        <parameters xmi:id="_uSC08o-KEeyJK9rWQnxChw" name="arg1" type="_bw5TGSTQEeyXgIyMe68nzg"/>
+      </operations>
+      <operations xmi:id="_vB49gY-KEeyJK9rWQnxChw" name="initialize" returnType="_bw5THSTQEeyXgIyMe68nzg">
+        <parameters xmi:id="_vB49go-KEeyJK9rWQnxChw" name="arg0" type="_bw5TGSTQEeyXgIyMe68nzg"/>
+      </operations>
     </classes>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_Isg7YFYhEey_CbpQ1r_TjQ" name="Record" instanceClassName="org.datavec.api.records.Record" interface="true"/>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_Is6kAFYhEey_CbpQ1r_TjQ" name="List" instanceClassName="java.util.List" interface="true">
@@ -53,6 +80,7 @@
     <classes xsi:type="ram:ImplementationClass" xmi:id="_IuAJIFYhEey_CbpQ1r_TjQ" name="List" instanceClassName="java.util.List" interface="true">
       <typeParameters xmi:id="_IuAJIVYhEey_CbpQ1r_TjQ" name="E" genericType="_ItgZ4FYhEey_CbpQ1r_TjQ"/>
     </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_uR65II-KEeyJK9rWQnxChw" name="Configuration" superTypes="_bw5TFiTQEeyXgIyMe68nzg" instanceClassName="org.datavec.api.conf.Configuration"/>
     <types xsi:type="ram:RVoid" xmi:id="_bw5THSTQEeyXgIyMe68nzg"/>
     <types xsi:type="ram:RAny" xmi:id="_bw5THiTQEeyXgIyMe68nzg"/>
     <types xsi:type="ram:RBoolean" xmi:id="_bw5THyTQEeyXgIyMe68nzg"/>
@@ -98,6 +126,9 @@
       </value>
       <value xmi:id="_IuAJIlYhEey_CbpQ1r_TjQ" key="_IuAJIFYhEey_CbpQ1r_TjQ">
         <value xmi:id="_IuAJI1YhEey_CbpQ1r_TjQ" x="38.79085" y="503.00043"/>
+      </value>
+      <value xmi:id="_uR65IY-KEeyJK9rWQnxChw" key="_uR65II-KEeyJK9rWQnxChw">
+        <value xmi:id="_uR65Io-KEeyJK9rWQnxChw"/>
       </value>
     </containers>
   </layout>

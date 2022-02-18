@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_13FfMJBEEeyjnI-k4MEcig" name="general_layer_settings">
+  <structuralView xmi:id="_13FfMZBEEeyjnI-k4MEcig">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_71Qt0JBEEeyjnI-k4MEcig" name="ConvolutionLayer" superTypes="_zjugAJBFEeyjnI-k4MEcig" instanceClassName="org.deeplearning4j.nn.conf.layers.ConvolutionLayer"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_gob6sJBFEeyjnI-k4MEcig" name="BaseLayer" abstract="true" instanceClassName="org.deeplearning4j.nn.layers.BaseLayer">
+      <typeParameters xmi:id="_gob6sZBFEeyjnI-k4MEcig" name="LayerConfT"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_h2NVYJBFEeyjnI-k4MEcig" name="BaseOutputLayer" abstract="true" instanceClassName="org.deeplearning4j.nn.layers.BaseOutputLayer">
+      <typeParameters xmi:id="_h2NVYZBFEeyjnI-k4MEcig" name="LayerConfT"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_wzP8cJBFEeyjnI-k4MEcig" name="DenseLayer" superTypes="_zjugAJBFEeyjnI-k4MEcig" instanceClassName="org.deeplearning4j.nn.conf.layers.DenseLayer"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_zjugAJBFEeyjnI-k4MEcig" name="FeedForwardLayer" abstract="true" instanceClassName="org.deeplearning4j.nn.conf.layers.FeedForwardLayer"/>
+    <classes xsi:type="ram:Class" xmi:id="_JnFpgJBGEeyjnI-k4MEcig" name="org.deeplearning4j.nn.conf.layers.FeedForwardLayer.Builder" visibility="public">
+      <operations xmi:id="_OUIncpBGEeyjnI-k4MEcig" name="create" returnType="_JnFpgJBGEeyjnI-k4MEcig" operationType="Constructor"/>
+      <operations xmi:id="_Qf3fMZBGEeyjnI-k4MEcig" name="nIn" returnType="_Wv2PgJBGEeyjnI-k4MEcig">
+        <parameters xmi:id="_Qf3fMpBGEeyjnI-k4MEcig" name="nIn" type="_13FfNZBEEeyjnI-k4MEcig"/>
+      </operations>
+      <operations xmi:id="_SFRWwZBGEeyjnI-k4MEcig" name="nIn" returnType="_Wv2PgJBGEeyjnI-k4MEcig">
+        <parameters xmi:id="_SFRWwpBGEeyjnI-k4MEcig" name="nIn" type="_13FfOpBEEeyjnI-k4MEcig"/>
+      </operations>
+      <operations xmi:id="_TvcZkZBGEeyjnI-k4MEcig" name="nOut" returnType="_Wv2PgJBGEeyjnI-k4MEcig">
+        <parameters xmi:id="_TvcZkpBGEeyjnI-k4MEcig" name="nOut" type="_13FfNZBEEeyjnI-k4MEcig"/>
+      </operations>
+      <operations xmi:id="_VWczoZBGEeyjnI-k4MEcig" name="nOut" returnType="_Wv2PgJBGEeyjnI-k4MEcig">
+        <parameters xmi:id="_VWczopBGEeyjnI-k4MEcig" name="nOut" type="_13FfOpBEEeyjnI-k4MEcig"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_Wv2PgJBGEeyjnI-k4MEcig" name="T"/>
+    <classes xsi:type="ram:Class" xmi:id="_B0_UQJBIEeyadOU3Wqy4Tw" name="org.deeplearning4j.nn.conf.layers.OutputLayer.Builder" visibility="public">
+      <operations xmi:id="_FTPj0pBIEeyadOU3Wqy4Tw" name="create" returnType="_B0_UQJBIEeyadOU3Wqy4Tw" operationType="Constructor"/>
+      <operations xmi:id="_FXqw0ZBIEeyadOU3Wqy4Tw" name="create" returnType="_B0_UQJBIEeyadOU3Wqy4Tw" operationType="Constructor">
+        <parameters xmi:id="_b2S6AJBIEeyadOU3Wqy4Tw" name="arg0" type="_WDt3YJBIEeyadOU3Wqy4Tw"/>
+      </operations>
+      <operations xmi:id="_H3BIIZBIEeyadOU3Wqy4Tw" name="build" returnType="_7FbKgJB_EeyPoLPtTyegLA"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_WDt3YJBIEeyadOU3Wqy4Tw" name="org.nd4j.linalg.lossfunctions.LossFunctions.LossFunction"/>
+    <classes xsi:type="ram:Class" xmi:id="_qAP3QJBIEeyadOU3Wqy4Tw" name="org.deeplearning4j.nn.conf.layers.BaseLayer.Builder" visibility="public">
+      <operations xmi:id="_vzpZQpBIEeyadOU3Wqy4Tw" name="activation" returnType="_Wv2PgJBGEeyjnI-k4MEcig">
+        <parameters xmi:id="_vzpZQ5BIEeyadOU3Wqy4Tw" name="arg0" type="_1l_yYJBIEeyadOU3Wqy4Tw"/>
+      </operations>
+      <operations xmi:id="_x2QxQZBIEeyadOU3Wqy4Tw" name="weightInit" returnType="_Wv2PgJBGEeyjnI-k4MEcig">
+        <parameters xmi:id="_x2QxQpBIEeyadOU3Wqy4Tw" name="arg0" type="_3IwloJBIEeyadOU3Wqy4Tw"/>
+      </operations>
+      <operations xmi:id="_X7DXAZBJEeyadOU3Wqy4Tw" name="l1" returnType="_Wv2PgJBGEeyjnI-k4MEcig">
+        <parameters xmi:id="_X7DXApBJEeyadOU3Wqy4Tw" name="arg0" type="_13FfOJBEEeyjnI-k4MEcig"/>
+      </operations>
+      <operations xmi:id="_ZkA44ZBJEeyadOU3Wqy4Tw" name="l2" returnType="_Wv2PgJBGEeyjnI-k4MEcig">
+        <parameters xmi:id="_ZkA44pBJEeyadOU3Wqy4Tw" name="arg0" type="_13FfOJBEEeyjnI-k4MEcig"/>
+      </operations>
+      <operations xmi:id="_hTY_YZBJEeyadOU3Wqy4Tw" name="updater" returnType="_Wv2PgJBGEeyjnI-k4MEcig">
+        <parameters xmi:id="_hTY_YpBJEeyadOU3Wqy4Tw" name="arg0" type="_jTi5QJBJEeyadOU3Wqy4Tw"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_DveOgJBJEeyadOU3Wqy4Tw" name="BatchNormalization" superTypes="_zjugAJBFEeyjnI-k4MEcig" instanceClassName="org.deeplearning4j.nn.conf.layers.BatchNormalization"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_jTi5QJBJEeyadOU3Wqy4Tw" name="IUpdater" instanceClassName="org.nd4j.linalg.learning.config.IUpdater" interface="true"/>
+    <classes xsi:type="ram:Class" xmi:id="_xuYyMJBJEeyadOU3Wqy4Tw" name="org.deeplearning4j.nn.conf.layers.DenseLayer.Builder" visibility="public">
+      <operations xmi:id="_1daBopBJEeyadOU3Wqy4Tw" name="create" returnType="_xuYyMJBJEeyadOU3Wqy4Tw" operationType="Constructor"/>
+      <operations xmi:id="_2iT0MZBJEeyadOU3Wqy4Tw" name="build" returnType="_wzP8cJBFEeyjnI-k4MEcig"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_BZmG0JBKEeyadOU3Wqy4Tw" name="org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder" visibility="public">
+      <operations xmi:id="_FXGeMZBKEeyadOU3Wqy4Tw" name="create" returnType="_BZmG0JBKEeyadOU3Wqy4Tw" operationType="Constructor"/>
+      <operations xmi:id="_KqoNUZBKEeyadOU3Wqy4Tw" name="kernalSize" returnType="_BZmG0JBKEeyadOU3Wqy4Tw">
+        <parameters xmi:id="_KqoNUpBKEeyadOU3Wqy4Tw" name="dotdotdot" type="_13FfNZBEEeyjnI-k4MEcig"/>
+      </operations>
+      <operations xmi:id="_MqoWMZBKEeyadOU3Wqy4Tw" name="stride" returnType="_BZmG0JBKEeyadOU3Wqy4Tw">
+        <parameters xmi:id="_MqoWMpBKEeyadOU3Wqy4Tw" name="dotdotdot" type="_13FfNZBEEeyjnI-k4MEcig"/>
+      </operations>
+      <operations xmi:id="_OKEvsZBKEeyadOU3Wqy4Tw" name="padding" returnType="_BZmG0JBKEeyadOU3Wqy4Tw">
+        <parameters xmi:id="_OKEvspBKEeyadOU3Wqy4Tw" name="dotdotdot" type="_13FfNZBEEeyjnI-k4MEcig"/>
+      </operations>
+      <operations xmi:id="_Qa7YAZBKEeyadOU3Wqy4Tw" name="build" returnType="_71Qt0JBEEeyjnI-k4MEcig"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_0MyR0JBKEeyadOU3Wqy4Tw" name="org.deeplearning4j.nn.conf.layers.BatchNormalization.Builder" visibility="public">
+      <operations xmi:id="_7RKTgpBKEeyadOU3Wqy4Tw" name="create" returnType="_0MyR0JBKEeyadOU3Wqy4Tw" operationType="Constructor"/>
+      <operations xmi:id="_-iGf0ZBKEeyadOU3Wqy4Tw" name="build" returnType="_DveOgJBJEeyadOU3Wqy4Tw"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_NXtCIJBLEeyadOU3Wqy4Tw" name="GlobalPoolingLayer" instanceClassName="org.deeplearning4j.nn.conf.layers.GlobalPoolingLayer"/>
+    <classes xsi:type="ram:Class" xmi:id="_WTf4cJBLEeyadOU3Wqy4Tw" name="org.deeplearning4j.nn.conf.layers.GlobalPoolingLayer.Builder" visibility="public">
+      <operations xmi:id="_acsicpBLEeyadOU3Wqy4Tw" name="create" returnType="_WTf4cJBLEeyadOU3Wqy4Tw" operationType="Constructor"/>
+      <operations xmi:id="_fwq9gZBLEeyadOU3Wqy4Tw" name="poolingType" returnType="_WTf4cJBLEeyadOU3Wqy4Tw">
+        <parameters xmi:id="_fwq9gpBLEeyadOU3Wqy4Tw" name="arg0" type="_mLEOEJBLEeyadOU3Wqy4Tw"/>
+      </operations>
+      <operations xmi:id="_i-rxoZBLEeyadOU3Wqy4Tw" name="poolingDimensions" returnType="_WTf4cJBLEeyadOU3Wqy4Tw">
+        <parameters xmi:id="_i-rxopBLEeyadOU3Wqy4Tw" name="dotdotdot" type="_13FfNZBEEeyjnI-k4MEcig"/>
+      </operations>
+      <operations xmi:id="_k4ZFQJBLEeyadOU3Wqy4Tw" name="build" returnType="_NXtCIJBLEeyadOU3Wqy4Tw"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_DgDyIJBMEeyadOU3Wqy4Tw" name="LossMCXENT" visibility="public" instanceClassName="org.nd4j.linalg.lossfunctions.impl.LossMCXENT">
+      <operations xmi:id="_Ea7e8pBMEeyadOU3Wqy4Tw" name="LossMCXENT" returnType="_DgDyIJBMEeyadOU3Wqy4Tw" operationType="Constructor">
+        <parameters xmi:id="_Ea7e85BMEeyadOU3Wqy4Tw" name="arg0" type="_Ea5pwJBMEeyadOU3Wqy4Tw"/>
+      </operations>
+      <operations xmi:id="_FR0qsZBMEeyadOU3Wqy4Tw" name="LossMCXENT" returnType="_DgDyIJBMEeyadOU3Wqy4Tw" operationType="Constructor"/>
+      <operations xmi:id="_FkK-8JBMEeyadOU3Wqy4Tw" name="LossMCXENT" returnType="_DgDyIJBMEeyadOU3Wqy4Tw" operationType="Constructor">
+        <parameters xmi:id="_FkK-8ZBMEeyadOU3Wqy4Tw" name="arg0" type="_13FfOJBEEeyjnI-k4MEcig"/>
+        <parameters xmi:id="_FkK-8pBMEeyadOU3Wqy4Tw" name="arg1" type="_Ea5pwJBMEeyadOU3Wqy4Tw"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_Ea5pwJBMEeyadOU3Wqy4Tw" name="INDArray" instanceClassName="org.nd4j.linalg.api.ndarray.INDArray" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_7FbKgJB_EeyPoLPtTyegLA" name="OutputLayer" instanceClassName="org.deeplearning4j.nn.conf.layers.OutputLayer"/>
+    <types xsi:type="ram:RVoid" xmi:id="_13FfMpBEEeyjnI-k4MEcig"/>
+    <types xsi:type="ram:RAny" xmi:id="_13FfM5BEEeyjnI-k4MEcig"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_13FfNJBEEeyjnI-k4MEcig"/>
+    <types xsi:type="ram:RInt" xmi:id="_13FfNZBEEeyjnI-k4MEcig"/>
+    <types xsi:type="ram:RChar" xmi:id="_13FfNpBEEeyjnI-k4MEcig"/>
+    <types xsi:type="ram:RString" xmi:id="_13FfN5BEEeyjnI-k4MEcig"/>
+    <types xsi:type="ram:RDouble" xmi:id="_13FfOJBEEeyjnI-k4MEcig"/>
+    <types xsi:type="ram:RFloat" xmi:id="_13FfOZBEEeyjnI-k4MEcig"/>
+    <types xsi:type="ram:RLong" xmi:id="_13FfOpBEEeyjnI-k4MEcig"/>
+    <types xsi:type="ram:RByte" xmi:id="_13FfO5BEEeyjnI-k4MEcig"/>
+    <types xsi:type="ram:REnum" xmi:id="_1l_yYJBIEeyadOU3Wqy4Tw" name="org.nd4j.linalg.activations.Activation"/>
+    <types xsi:type="ram:REnum" xmi:id="_3IwloJBIEeyadOU3Wqy4Tw" name="org.deeplearning4j.nn.weights.WeightInit"/>
+    <types xsi:type="ram:REnum" xmi:id="_mLEOEJBLEeyadOU3Wqy4Tw" name="PoolingType" instanceClassName="org.deeplearning4j.nn.conf.layers.PoolingType">
+      <literals xmi:id="_mLEOEZBLEeyadOU3Wqy4Tw" name="MAX"/>
+      <literals xmi:id="_mLEOEpBLEeyadOU3Wqy4Tw" name="AVG"/>
+      <literals xmi:id="_mLEOE5BLEeyadOU3Wqy4Tw" name="SUM"/>
+      <literals xmi:id="_mLEOFJBLEeyadOU3Wqy4Tw" name="PNORM"/>
+    </types>
+  </structuralView>
+  <layout xmi:id="_13FfPJBEEeyjnI-k4MEcig">
+    <containers xmi:id="_13FfPZBEEeyjnI-k4MEcig" key="_13FfMZBEEeyjnI-k4MEcig">
+      <value xmi:id="_71Qt0ZBEEeyjnI-k4MEcig" key="_71Qt0JBEEeyjnI-k4MEcig">
+        <value xmi:id="_71Qt0pBEEeyjnI-k4MEcig" x="190.00003" y="188.9336"/>
+      </value>
+      <value xmi:id="_gob6spBFEeyjnI-k4MEcig" key="_gob6sJBFEeyjnI-k4MEcig">
+        <value xmi:id="_gob6s5BFEeyjnI-k4MEcig" x="157.00003" y="416.7263"/>
+      </value>
+      <value xmi:id="_h2NVYpBFEeyjnI-k4MEcig" key="_h2NVYJBFEeyjnI-k4MEcig">
+        <value xmi:id="_h2NVY5BFEeyjnI-k4MEcig" x="-0.49980164" y="18.066277"/>
+      </value>
+      <value xmi:id="_wzP8cZBFEeyjnI-k4MEcig" key="_wzP8cJBFEeyjnI-k4MEcig">
+        <value xmi:id="_wzP8cpBFEeyjnI-k4MEcig" x="577.50006" y="18.128891"/>
+      </value>
+      <value xmi:id="_zjugAZBFEeyjnI-k4MEcig" key="_zjugAJBFEeyjnI-k4MEcig">
+        <value xmi:id="_zjugApBFEeyjnI-k4MEcig" x="537.163" y="160.12889"/>
+      </value>
+      <value xmi:id="_JnFpgZBGEeyjnI-k4MEcig" key="_JnFpgJBGEeyjnI-k4MEcig">
+        <value xmi:id="_JnFpgpBGEeyjnI-k4MEcig" x="-1232.1823" y="504.34656"/>
+      </value>
+      <value xmi:id="_Wv2PgZBGEeyjnI-k4MEcig" key="_Wv2PgJBGEeyjnI-k4MEcig">
+        <value xmi:id="_Wv2PgpBGEeyjnI-k4MEcig" x="-763.8395" y="80.31761"/>
+      </value>
+      <value xmi:id="_B1AiYJBIEeyadOU3Wqy4Tw" key="_B0_UQJBIEeyadOU3Wqy4Tw">
+        <value xmi:id="_B1AiYZBIEeyadOU3Wqy4Tw" x="-1167.8258" y="-100.87193"/>
+      </value>
+      <value xmi:id="_WDt3YZBIEeyadOU3Wqy4Tw" key="_WDt3YJBIEeyadOU3Wqy4Tw">
+        <value xmi:id="_WDt3YpBIEeyadOU3Wqy4Tw" x="-1141.8258" y="-195.5272"/>
+      </value>
+      <value xmi:id="_qAQeUJBIEeyadOU3Wqy4Tw" key="_qAP3QJBIEeyadOU3Wqy4Tw">
+        <value xmi:id="_qAQeUZBIEeyadOU3Wqy4Tw" x="-1241.7148" y="297.9524"/>
+      </value>
+      <value xmi:id="_1l_yYpBIEeyadOU3Wqy4Tw" key="_1l_yYJBIEeyadOU3Wqy4Tw">
+        <value xmi:id="_1l_yY5BIEeyadOU3Wqy4Tw" x="-1155.2148" y="32.566277"/>
+      </value>
+      <value xmi:id="_3IwlopBIEeyadOU3Wqy4Tw" key="_3IwloJBIEeyadOU3Wqy4Tw">
+        <value xmi:id="_3Iwlo5BIEeyadOU3Wqy4Tw" x="-1177.7148" y="132.07635"/>
+      </value>
+      <value xmi:id="_DveOgZBJEeyadOU3Wqy4Tw" key="_DveOgJBJEeyadOU3Wqy4Tw">
+        <value xmi:id="_DveOgpBJEeyadOU3Wqy4Tw" x="811.49976" y="544.9724"/>
+      </value>
+      <value xmi:id="_jTi5QpBJEeyadOU3Wqy4Tw" key="_jTi5QJBJEeyadOU3Wqy4Tw">
+        <value xmi:id="_jTi5Q5BJEeyadOU3Wqy4Tw" x="-1388.8246" y="117.576355"/>
+      </value>
+      <value xmi:id="_xuYyMZBJEeyadOU3Wqy4Tw" key="_xuYyMJBJEeyadOU3Wqy4Tw">
+        <value xmi:id="_xuYyMpBJEeyadOU3Wqy4Tw" x="-1779.0881" y="259.0865"/>
+      </value>
+      <value xmi:id="_BZmG0ZBKEeyadOU3Wqy4Tw" key="_BZmG0JBKEeyadOU3Wqy4Tw">
+        <value xmi:id="_BZmG0pBKEeyadOU3Wqy4Tw" x="-1225.8258" y="707.498"/>
+      </value>
+      <value xmi:id="_0MyR0ZBKEeyadOU3Wqy4Tw" key="_0MyR0JBKEeyadOU3Wqy4Tw">
+        <value xmi:id="_0MyR0pBKEeyadOU3Wqy4Tw" x="-691.73376" y="206.50757"/>
+      </value>
+      <value xmi:id="_NXtCIZBLEeyadOU3Wqy4Tw" key="_NXtCIJBLEeyadOU3Wqy4Tw">
+        <value xmi:id="_NXtCIpBLEeyadOU3Wqy4Tw" x="54.0002" y="-205.5272"/>
+      </value>
+      <value xmi:id="_WTf4cZBLEeyadOU3Wqy4Tw" key="_WTf4cJBLEeyadOU3Wqy4Tw">
+        <value xmi:id="_WTf4cpBLEeyadOU3Wqy4Tw" x="-560.46454" y="-75.87193"/>
+      </value>
+      <value xmi:id="_mLEOFZBLEeyadOU3Wqy4Tw" key="_mLEOEJBLEeyadOU3Wqy4Tw">
+        <value xmi:id="_mLEOFpBLEeyadOU3Wqy4Tw" x="-652.1151" y="328.56628"/>
+      </value>
+      <value xmi:id="_DgDyIZBMEeyadOU3Wqy4Tw" key="_DgDyIJBMEeyadOU3Wqy4Tw">
+        <value xmi:id="_DgDyIpBMEeyadOU3Wqy4Tw" x="-535.89154" y="-303.69437"/>
+      </value>
+      <value xmi:id="_Ea5pwZBMEeyadOU3Wqy4Tw" key="_Ea5pwJBMEeyadOU3Wqy4Tw">
+        <value xmi:id="_Ea5pwpBMEeyadOU3Wqy4Tw"/>
+      </value>
+      <value xmi:id="_7FbKgZB_EeyPoLPtTyegLA" key="_7FbKgJB_EeyPoLPtTyegLA">
+        <value xmi:id="_7FbKgpB_EeyPoLPtTyegLA" x="989.9657" y="-85.87193"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

@@ -20,10 +20,26 @@
         <parameters xmi:id="_QPfK4od0EeyXwqDbAaieeg" name="arg0" type="_OewNEId0EeyXwqDbAaieeg"/>
         <parameters xmi:id="_QPfK44d0EeyXwqDbAaieeg" name="arg1" type="_OewNEId0EeyXwqDbAaieeg"/>
       </operations>
+      <operations xmi:id="_xR9pcIr6EeywCee_v5QerA" name="setListeners" returnType="_d87AsodzEeyXwqDbAaieeg">
+        <parameters xmi:id="_xR9pcYr6EeywCee_v5QerA" name="dotdotdot" type="_u3o8EIr6EeywCee_v5QerA"/>
+      </operations>
     </classes>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_OewNEId0EeyXwqDbAaieeg" name="INDArray" instanceClassName="org.nd4j.linalg.api.ndarray.INDArray" interface="true"/>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_VGPB8Id1EeyXwqDbAaieeg" name="SplitTestAndTrain" visibility="public" instanceClassName="org.nd4j.linalg.dataset.SplitTestAndTrain">
       <operations xmi:id="_WCcykod1EeyXwqDbAaieeg" name="getTrain" returnType="_k4JGYIdzEeyXwqDbAaieeg"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_u3o8EIr6EeywCee_v5QerA" name="TrainingListener" instanceClassName="org.deeplearning4j.optimize.api.TrainingListener" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_i-E3oIr7EeywCee_v5QerA" name="BaseTrainingListener" superTypes="_u3o8EIr6EeywCee_v5QerA" abstract="true" instanceClassName="org.deeplearning4j.optimize.api.BaseTrainingListener">
+      <operations xmi:id="_Kuc1cIr8EeyM3NB952VwDQ" name="BaseTrainingListener" returnType="_i-E3oIr7EeywCee_v5QerA" operationType="Constructor"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_kCyc8Ir7EeywCee_v5QerA" name="ScoreIterationListener" superTypes="_i-E3oIr7EeywCee_v5QerA" visibility="public" instanceClassName="org.deeplearning4j.optimize.listeners.ScoreIterationListener">
+      <operations xmi:id="_MFBm0or8EeyM3NB952VwDQ" name="ScoreIterationListener" returnType="_kCyc8Ir7EeywCee_v5QerA" operationType="Constructor"/>
+      <operations xmi:id="_MXeowIr8EeyM3NB952VwDQ" name="ScoreIterationListener" returnType="_kCyc8Ir7EeywCee_v5QerA" operationType="Constructor">
+        <parameters xmi:id="_MXeowYr8EeyM3NB952VwDQ" name="arg0" type="_d87AtYdzEeyXwqDbAaieeg"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_lLslwIr7EeywCee_v5QerA" name="IterationListener" superTypes="_i-E3oIr7EeywCee_v5QerA" abstract="true" instanceClassName="org.deeplearning4j.optimize.api.IterationListener">
+      <operations xmi:id="_LX_hsYr8EeyM3NB952VwDQ" name="IterationListener" returnType="_lLslwIr7EeywCee_v5QerA" operationType="Constructor"/>
     </classes>
     <types xsi:type="ram:RVoid" xmi:id="_d87AsodzEeyXwqDbAaieeg"/>
     <types xsi:type="ram:RAny" xmi:id="_d87As4dzEeyXwqDbAaieeg"/>
@@ -45,13 +61,25 @@
         <value xmi:id="_k4JGYodzEeyXwqDbAaieeg" x="137.99994" y="130.0"/>
       </value>
       <value xmi:id="_7So9gYdzEeyXwqDbAaieeg" key="_7So9gIdzEeyXwqDbAaieeg">
-        <value xmi:id="_7So9godzEeyXwqDbAaieeg" x="585.3156" y="331.08563"/>
+        <value xmi:id="_7So9godzEeyXwqDbAaieeg" x="644.6605" y="278.0001"/>
       </value>
       <value xmi:id="_OewNEYd0EeyXwqDbAaieeg" key="_OewNEId0EeyXwqDbAaieeg">
         <value xmi:id="_OewNEod0EeyXwqDbAaieeg" x="260.99994" y="319.0001"/>
       </value>
       <value xmi:id="_VGPB8Yd1EeyXwqDbAaieeg" key="_VGPB8Id1EeyXwqDbAaieeg">
         <value xmi:id="_VGPB8od1EeyXwqDbAaieeg" x="549.99976" y="551.00006"/>
+      </value>
+      <value xmi:id="_u3o8EYr6EeywCee_v5QerA" key="_u3o8EIr6EeywCee_v5QerA">
+        <value xmi:id="_u3o8Eor6EeywCee_v5QerA" x="726.3156" y="692.90436"/>
+      </value>
+      <value xmi:id="_i-E3oYr7EeywCee_v5QerA" key="_i-E3oIr7EeywCee_v5QerA">
+        <value xmi:id="_i-E3oor7EeywCee_v5QerA" x="832.9998" y="483.99988"/>
+      </value>
+      <value xmi:id="_kCyc8Yr7EeywCee_v5QerA" key="_kCyc8Ir7EeywCee_v5QerA">
+        <value xmi:id="_kCyc8or7EeywCee_v5QerA" x="1235.0002" y="551.00006"/>
+      </value>
+      <value xmi:id="_lLslwYr7EeywCee_v5QerA" key="_lLslwIr7EeywCee_v5QerA">
+        <value xmi:id="_lLslwor7EeywCee_v5QerA" x="1036.9543" y="693.00006"/>
       </value>
     </containers>
   </layout>

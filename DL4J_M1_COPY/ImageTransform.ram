@@ -1,21 +1,120 @@
 <?xml version="1.0" encoding="ASCII"?>
 <ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_4BtCUC-9Eey7CdRMNoOOSg" name="ImageTransform">
   <structuralView xmi:id="_4BtCUS-9Eey7CdRMNoOOSg">
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_4BtCUi-9Eey7CdRMNoOOSg" name="ImageTransform" visibility="public" instanceClassName="org.datavec.image.transform.ImageTransform" interface="true">
-      <operations xmi:id="_4BtCUy-9Eey7CdRMNoOOSg" name="transform" returnType="_4BtCVi-9Eey7CdRMNoOOSg">
-        <parameters xmi:id="_4BtCVC-9Eey7CdRMNoOOSg" name="arg0" type="_4BtCVi-9Eey7CdRMNoOOSg"/>
-        <parameters xmi:id="_4BtCVS-9Eey7CdRMNoOOSg" name="arg1" type="_4BtCVy-9Eey7CdRMNoOOSg"/>
-      </operations>
-    </classes>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_4BtCVi-9Eey7CdRMNoOOSg" name="ImageWritable" instanceClassName="org.datavec.image.data.ImageWritable"/>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_4BtCVy-9Eey7CdRMNoOOSg" name="Random" instanceClassName="java.util.Random"/>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_6hA9YC-9Eey7CdRMNoOOSg" name="ImageTransformProcess" instanceClassName="org.datavec.image.transform.ImageTransformProcess"/>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_8Uj-oC-9Eey7CdRMNoOOSg" name="ColorConversionTransform" instanceClassName="org.datavec.image.transform.ColorConversionTransform"/>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_Di_UMC--Eey7CdRMNoOOSg" name="CropImageTransform" instanceClassName="org.datavec.image.transform.CropImageTransform"/>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_viFVMC--Eey7CdRMNoOOSg" name="ResizeImageTransform" instanceClassName="org.datavec.image.transform.ResizeImageTransform"/>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_wvXnsC--Eey7CdRMNoOOSg" name="FilterImageTransform" instanceClassName="org.datavec.image.transform.FilterImageTransform"/>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_x6EgQC--Eey7CdRMNoOOSg" name="RotateImageTransform" instanceClassName="org.datavec.image.transform.RotateImageTransform"/>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_y-2XAC--Eey7CdRMNoOOSg" name="ScaleImageTransform" instanceClassName="org.datavec.image.transform.ScaleImageTransform"/>
+    <classes xsi:type="ram:Class" xmi:id="_RRLqwJBvEeyqm49WQ95NxA" name="org.datavec.image.transform.CropImageTransform" visibility="public">
+      <operations xmi:id="__mcR4ZBvEeypRsCuVT-yPA" name="create" returnType="_RRLqwJBvEeyqm49WQ95NxA" operationType="Constructor">
+        <parameters xmi:id="_CvhisJBwEeypRsCuVT-yPA" name="arg0" type="_4BtCWy-9Eey7CdRMNoOOSg"/>
+      </operations>
+      <operations xmi:id="__qDmkZBvEeypRsCuVT-yPA" name="create" returnType="_RRLqwJBvEeyqm49WQ95NxA" operationType="Constructor">
+        <parameters xmi:id="_D_Z2MJBwEeypRsCuVT-yPA" name="arg0" type="_4BtCWy-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_EroqEJBwEeypRsCuVT-yPA" name="arg1" type="_4BtCWy-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_FaR4wJBwEeypRsCuVT-yPA" name="arg2" type="_4BtCWy-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_GEPbwJBwEeypRsCuVT-yPA" name="arg3" type="_4BtCWy-9Eey7CdRMNoOOSg"/>
+      </operations>
+      <operations xmi:id="__t3vkZBvEeypRsCuVT-yPA" name="create" returnType="_RRLqwJBvEeyqm49WQ95NxA" operationType="Constructor">
+        <parameters xmi:id="_HqvfgJBwEeypRsCuVT-yPA" name="arg0" type="_4BtCVy-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_IX45YJBwEeypRsCuVT-yPA" name="arg1" type="_4BtCWy-9Eey7CdRMNoOOSg"/>
+      </operations>
+      <operations xmi:id="__xXvgZBvEeypRsCuVT-yPA" name="create" returnType="_RRLqwJBvEeyqm49WQ95NxA" operationType="Constructor">
+        <parameters xmi:id="_McKAEJBwEeypRsCuVT-yPA" name="arg0" type="_4BtCVy-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_NE9sgJBwEeypRsCuVT-yPA" name="arg1" type="_4BtCWy-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_N3Z2EJBwEeypRsCuVT-yPA" name="arg2" type="_4BtCWy-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_Oj690JBwEeypRsCuVT-yPA" name="arg3" type="_4BtCWy-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_PLeGAJBwEeypRsCuVT-yPA" name="arg4" type="_4BtCWy-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_PxsYgJBwEeypRsCuVT-yPA" name="arg5" type="_4BtCWy-9Eey7CdRMNoOOSg"/>
+      </operations>
+      <operations xmi:id="_VUOM8ZBwEeypRsCuVT-yPA" name="transform" returnType="_4BtCVi-9Eey7CdRMNoOOSg">
+        <parameters xmi:id="_VUOM8pBwEeypRsCuVT-yPA" name="arg0" type="_4BtCVi-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_VUOM85BwEeypRsCuVT-yPA" name="arg1" type="_4BtCVy-9Eey7CdRMNoOOSg"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_k_FjUJBwEeypRsCuVT-yPA" name="org.datavec.image.transform.MultiImageTransform" visibility="public">
+      <operations xmi:id="_pH9dMpBwEeypRsCuVT-yPA" name="create" returnType="_k_FjUJBwEeypRsCuVT-yPA" operationType="Constructor">
+        <parameters xmi:id="_q_zIkJBwEeypRsCuVT-yPA" name="dotdotdot" type="_tQbHYJBwEeypRsCuVT-yPA"/>
+      </operations>
+      <operations xmi:id="_pO8O8ZBwEeypRsCuVT-yPA" name="create" returnType="_k_FjUJBwEeypRsCuVT-yPA" operationType="Constructor">
+        <parameters xmi:id="_2tYKAJBwEeypRsCuVT-yPA" name="arg0" type="_4BtCVy-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_4lHuwJBwEeypRsCuVT-yPA" name="dotdotdot" type="_tQbHYJBwEeypRsCuVT-yPA"/>
+      </operations>
+      <operations xmi:id="_NN-CEZBxEeyV4r6u3iMaJQ" name="transform" returnType="_4BtCVi-9Eey7CdRMNoOOSg">
+        <parameters xmi:id="_NN-CEpBxEeyV4r6u3iMaJQ" name="arg0" type="_4BtCVi-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_NN-CE5BxEeyV4r6u3iMaJQ" name="arg1" type="_4BtCVy-9Eey7CdRMNoOOSg"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_tQbHYJBwEeypRsCuVT-yPA" name="ImageTransform" visibility="public" instanceClassName="org.datavec.image.transform.ImageTransform" interface="true">
+      <operations xmi:id="_0ylRQpBwEeypRsCuVT-yPA" name="transform" returnType="_4BtCVi-9Eey7CdRMNoOOSg">
+        <parameters xmi:id="_0ylRQ5BwEeypRsCuVT-yPA" name="arg0" type="_4BtCVi-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_0ylRRJBwEeypRsCuVT-yPA" name="arg1" type="_4BtCVy-9Eey7CdRMNoOOSg"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_T2ZuoJBxEeyV4r6u3iMaJQ" name="org.datavec.image.transform.ResizeImageTransform" visibility="public">
+      <operations xmi:id="_ZpV9opBxEeyV4r6u3iMaJQ" name="create" returnType="_T2ZuoJBxEeyV4r6u3iMaJQ" operationType="Constructor">
+        <parameters xmi:id="_jEDkkJBxEeyV4r6u3iMaJQ" name="arg0" type="_4BtCWy-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_joDCcJBxEeyV4r6u3iMaJQ" name="arg1" type="_4BtCWy-9Eey7CdRMNoOOSg"/>
+      </operations>
+      <operations xmi:id="_Zs3ywZBxEeyV4r6u3iMaJQ" name="create" returnType="_T2ZuoJBxEeyV4r6u3iMaJQ" operationType="Constructor">
+        <parameters xmi:id="_kw0BUJBxEeyV4r6u3iMaJQ" name="arg0" type="_4BtCVy-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_lRjW4JBxEeyV4r6u3iMaJQ" name="arg1" type="_4BtCWy-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_l0nAoJBxEeyV4r6u3iMaJQ" name="arg2" type="_4BtCWy-9Eey7CdRMNoOOSg"/>
+      </operations>
+      <operations xmi:id="_eaUZUZBxEeyV4r6u3iMaJQ" name="transform" returnType="_4BtCVi-9Eey7CdRMNoOOSg">
+        <parameters xmi:id="_eaUZUpBxEeyV4r6u3iMaJQ" name="arg0" type="_4BtCVi-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_eaUZU5BxEeyV4r6u3iMaJQ" name="arg1" type="_4BtCVy-9Eey7CdRMNoOOSg"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_sBTMYJBxEeyV4r6u3iMaJQ" name="org.datavec.image.transform.RotateImageTransform" visibility="public">
+      <operations xmi:id="_vruPspBxEeyV4r6u3iMaJQ" name="create" returnType="_sBTMYJBxEeyV4r6u3iMaJQ" operationType="Constructor">
+        <parameters xmi:id="_xBbeYJBxEeyV4r6u3iMaJQ" name="arg0" type="_4BtCXy-9Eey7CdRMNoOOSg"/>
+      </operations>
+      <operations xmi:id="_vv2hwZBxEeyV4r6u3iMaJQ" name="create" returnType="_sBTMYJBxEeyV4r6u3iMaJQ" operationType="Constructor">
+        <parameters xmi:id="_yD5A8JBxEeyV4r6u3iMaJQ" name="arg0" type="_4BtCVy-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_y2dtYJBxEeyV4r6u3iMaJQ" name="arg1" type="_4BtCXy-9Eey7CdRMNoOOSg"/>
+      </operations>
+      <operations xmi:id="_v0oUEZBxEeyV4r6u3iMaJQ" name="create" returnType="_sBTMYJBxEeyV4r6u3iMaJQ" operationType="Constructor">
+        <parameters xmi:id="_z73PMJBxEeyV4r6u3iMaJQ" name="arg0" type="_4BtCVy-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_00GewJBxEeyV4r6u3iMaJQ" name="arg1" type="_4BtCXy-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_1glxUJBxEeyV4r6u3iMaJQ" name="arg2" type="_4BtCXy-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_2lAbsJBxEeyV4r6u3iMaJQ" name="arg3" type="_4BtCXy-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_3XhdwJBxEeyV4r6u3iMaJQ" name="arg4" type="_4BtCXy-9Eey7CdRMNoOOSg"/>
+      </operations>
+      <operations xmi:id="__HTz8ZBxEeyV4r6u3iMaJQ" name="transform" returnType="_4BtCVi-9Eey7CdRMNoOOSg">
+        <parameters xmi:id="__HTz8pBxEeyV4r6u3iMaJQ" name="arg0" type="_4BtCVi-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="__HTz85BxEeyV4r6u3iMaJQ" name="arg1" type="_4BtCVy-9Eey7CdRMNoOOSg"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_Es0D4JByEeyV4r6u3iMaJQ" name="org.datavec.image.transform.ScaleImageTransform" abstract="true" visibility="public">
+      <operations xmi:id="_IcCusZByEeyV4r6u3iMaJQ" name="create" returnType="_Es0D4JByEeyV4r6u3iMaJQ" operationType="Constructor">
+        <parameters xmi:id="_Jjb0kJByEeyV4r6u3iMaJQ" name="arg0" type="_4BtCXy-9Eey7CdRMNoOOSg"/>
+      </operations>
+      <operations xmi:id="_IfiHkZByEeyV4r6u3iMaJQ" name="create" returnType="_Es0D4JByEeyV4r6u3iMaJQ" operationType="Constructor">
+        <parameters xmi:id="_LgIx0JByEeyV4r6u3iMaJQ" name="arg0" type="_4BtCXy-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_MOklIJByEeyV4r6u3iMaJQ" name="arg1" type="_4BtCXy-9Eey7CdRMNoOOSg"/>
+      </operations>
+      <operations xmi:id="_IitXYZByEeyV4r6u3iMaJQ" name="create" returnType="_Es0D4JByEeyV4r6u3iMaJQ" operationType="Constructor">
+        <parameters xmi:id="_ORHrsJByEeyV4r6u3iMaJQ" name="arg0" type="_4BtCVy-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_O--QMJByEeyV4r6u3iMaJQ" name="arg1" type="_4BtCXy-9Eey7CdRMNoOOSg"/>
+      </operations>
+      <operations xmi:id="_IlQVEZByEeyV4r6u3iMaJQ" name="create" returnType="_Es0D4JByEeyV4r6u3iMaJQ" operationType="Constructor">
+        <parameters xmi:id="_QMVbMJByEeyV4r6u3iMaJQ" name="arg0" type="_4BtCVy-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_Q2rYsJByEeyV4r6u3iMaJQ" name="arg1" type="_4BtCXy-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_RnoUgJByEeyV4r6u3iMaJQ" name="arg2" type="_4BtCXy-9Eey7CdRMNoOOSg"/>
+      </operations>
+      <operations xmi:id="_ZPwjgZByEeyV4r6u3iMaJQ" name="transform" returnType="_4BtCVi-9Eey7CdRMNoOOSg">
+        <parameters xmi:id="_ZPwjgpByEeyV4r6u3iMaJQ" name="arg0" type="_4BtCVi-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_ZPwjg5ByEeyV4r6u3iMaJQ" name="arg1" type="_4BtCVy-9Eey7CdRMNoOOSg"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_cRZIgJByEeyV4r6u3iMaJQ" name="org.datavec.image.transform.ShowImageTransform" visibility="public">
+      <operations xmi:id="_fxgZQZByEeyV4r6u3iMaJQ" name="create" returnType="_cRZIgJByEeyV4r6u3iMaJQ" operationType="Constructor">
+        <parameters xmi:id="_nH27wJByEeyV4r6u3iMaJQ" name="arg0" type="_4BtCXS-9Eey7CdRMNoOOSg"/>
+      </operations>
+      <operations xmi:id="_sEq0AZByEeyV4r6u3iMaJQ" name="transform" returnType="_4BtCVi-9Eey7CdRMNoOOSg">
+        <parameters xmi:id="_sErbEJByEeyV4r6u3iMaJQ" name="arg0" type="_4BtCVi-9Eey7CdRMNoOOSg"/>
+        <parameters xmi:id="_sErbEZByEeyV4r6u3iMaJQ" name="arg1" type="_4BtCVy-9Eey7CdRMNoOOSg"/>
+      </operations>
+    </classes>
     <types xsi:type="ram:RVoid" xmi:id="_4BtCWC-9Eey7CdRMNoOOSg"/>
     <types xsi:type="ram:RAny" xmi:id="_4BtCWS-9Eey7CdRMNoOOSg"/>
     <types xsi:type="ram:RBoolean" xmi:id="_4BtCWi-9Eey7CdRMNoOOSg"/>
@@ -26,38 +125,38 @@
     <types xsi:type="ram:RFloat" xmi:id="_4BtCXy-9Eey7CdRMNoOOSg"/>
     <types xsi:type="ram:RLong" xmi:id="_4BtCYC-9Eey7CdRMNoOOSg"/>
     <types xsi:type="ram:RByte" xmi:id="_4BtCYS-9Eey7CdRMNoOOSg"/>
+    <types xsi:type="ram:RArray" xmi:id="_qz6wEJBtEey--fqeZYhrrA">
+      <type xsi:type="ram:ImplementationClass" href="image_data.ram#_flGywCYIEeyXgIyMe68nzg"/>
+    </types>
   </structuralView>
   <layout xmi:id="_4Bu3gC-9Eey7CdRMNoOOSg">
     <containers xmi:id="_4Bu3gS-9Eey7CdRMNoOOSg" key="_4BtCUS-9Eey7CdRMNoOOSg">
-      <value xmi:id="_4Bu3gi-9Eey7CdRMNoOOSg" key="_4BtCUi-9Eey7CdRMNoOOSg">
-        <value xmi:id="_4Bu3gy-9Eey7CdRMNoOOSg" x="639.48645" y="182.3837"/>
-      </value>
       <value xmi:id="_4Bu3hC-9Eey7CdRMNoOOSg" key="_4BtCVi-9Eey7CdRMNoOOSg">
-        <value xmi:id="_4Bu3hS-9Eey7CdRMNoOOSg" x="234.29565" y="115.11508"/>
+        <value xmi:id="_4Bu3hS-9Eey7CdRMNoOOSg" x="234.36658" y="113.98192"/>
       </value>
       <value xmi:id="_4Bu3hi-9Eey7CdRMNoOOSg" key="_4BtCVy-9Eey7CdRMNoOOSg">
         <value xmi:id="_4Bu3hy-9Eey7CdRMNoOOSg" x="32.194916" y="247.73041"/>
       </value>
-      <value xmi:id="_6hCLgC-9Eey7CdRMNoOOSg" key="_6hA9YC-9Eey7CdRMNoOOSg">
-        <value xmi:id="_6hCykC-9Eey7CdRMNoOOSg" x="410.0" y="320.0"/>
+      <value xmi:id="_RRM44JBvEeyqm49WQ95NxA" key="_RRLqwJBvEeyqm49WQ95NxA">
+        <value xmi:id="_RRM44ZBvEeyqm49WQ95NxA" x="789.45605" y="-172.03334"/>
       </value>
-      <value xmi:id="_8UlMwC-9Eey7CdRMNoOOSg" key="_8Uj-oC-9Eey7CdRMNoOOSg">
-        <value xmi:id="_8UlMwS-9Eey7CdRMNoOOSg" x="179.29565" y="465.8728"/>
+      <value xmi:id="_k_GKYJBwEeypRsCuVT-yPA" key="_k_FjUJBwEeypRsCuVT-yPA">
+        <value xmi:id="_k_GKYZBwEeypRsCuVT-yPA" x="-416.6851" y="-321.59024"/>
       </value>
-      <value xmi:id="_DjAiUC--Eey7CdRMNoOOSg" key="_Di_UMC--Eey7CdRMNoOOSg">
-        <value xmi:id="_DjAiUS--Eey7CdRMNoOOSg" x="573.9249" y="465.8728"/>
+      <value xmi:id="_tQbHYpBwEeypRsCuVT-yPA" key="_tQbHYJBwEeypRsCuVT-yPA">
+        <value xmi:id="_tQbHY5BwEeypRsCuVT-yPA" x="495.51636" y="-446.48514"/>
       </value>
-      <value xmi:id="_viI_kC--Eey7CdRMNoOOSg" key="_viFVMC--Eey7CdRMNoOOSg">
-        <value xmi:id="_viI_kS--Eey7CdRMNoOOSg" x="903.87524" y="327.49176"/>
+      <value xmi:id="_T2aVsJBxEeyV4r6u3iMaJQ" key="_T2ZuoJBxEeyV4r6u3iMaJQ">
+        <value xmi:id="_T2aVsZBxEeyV4r6u3iMaJQ" x="56.295654" y="-146.03334"/>
       </value>
-      <value xmi:id="_wvaD8C--Eey7CdRMNoOOSg" key="_wvXnsC--Eey7CdRMNoOOSg">
-        <value xmi:id="_wvaD8S--Eey7CdRMNoOOSg" x="1039.3732" y="548.5173"/>
+      <value xmi:id="_sBTMYZBxEeyV4r6u3iMaJQ" key="_sBTMYJBxEeyV4r6u3iMaJQ">
+        <value xmi:id="_sBTMYpBxEeyV4r6u3iMaJQ" x="-171.80508" y="-636.76746"/>
       </value>
-      <value xmi:id="_x6GVcC--Eey7CdRMNoOOSg" key="_x6EgQC--Eey7CdRMNoOOSg">
-        <value xmi:id="_x6GVcS--Eey7CdRMNoOOSg" x="301.33997" y="664.79584"/>
+      <value xmi:id="_Es0D4ZByEeyV4r6u3iMaJQ" key="_Es0D4JByEeyV4r6u3iMaJQ">
+        <value xmi:id="_Es0D4pByEeyV4r6u3iMaJQ" x="426.16626" y="-830.20087"/>
       </value>
-      <value xmi:id="_y-4zQC--Eey7CdRMNoOOSg" key="_y-2XAC--Eey7CdRMNoOOSg">
-        <value xmi:id="_y-4zQS--Eey7CdRMNoOOSg" x="622.9213" y="690.2629"/>
+      <value xmi:id="_cRZIgZByEeyV4r6u3iMaJQ" key="_cRZIgJByEeyV4r6u3iMaJQ">
+        <value xmi:id="_cRZIgpByEeyV4r6u3iMaJQ" x="421.985" y="-576.7782"/>
       </value>
     </containers>
   </layout>

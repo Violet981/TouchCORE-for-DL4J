@@ -1,34 +1,20 @@
 <?xml version="1.0" encoding="ASCII"?>
 <ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_Jbd7ECSoEeyXgIyMe68nzg" name="video data">
-  <realizes href="DL4J_M1.core#_f9UacNgUEeuGxOJxjWx4FA"/>
-  <coreConcern href="DL4J_M1.core#_bV6McNf-EeuGxOJxjWx4FA"/>
   <structuralView xmi:id="_Jbd7ESSoEeyXgIyMe68nzg">
-    <classes xsi:type="ram:Class" xmi:id="_Jbd7EiSoEeyXgIyMe68nzg" name="CodecRecordReader" visibility="public" abstract="true">
-      <operations xmi:id="_Tkjq8CSoEeyXgIyMe68nzg" name="hasNext" visibility="public" returnType="_Jbd7FSSoEeyXgIyMe68nzg"/>
-      <operations xmi:id="_sOU2ACSoEeyXgIyMe68nzg" name="next" visibility="public" abstract="true">
+    <classes xsi:type="ram:Class" xmi:id="_Jbd7EiSoEeyXgIyMe68nzg" name="CodecRecordReader" abstract="true" visibility="public">
+      <operations xmi:id="_Tkjq8CSoEeyXgIyMe68nzg" name="hasNext" returnType="_Jbd7FSSoEeyXgIyMe68nzg"/>
+      <operations xmi:id="_sOU2ACSoEeyXgIyMe68nzg" name="next" abstract="true">
         <returnType xsi:type="ram:ImplementationClass" href="sequence_data.ram#_Y2WyMCScEeyXgIyMe68nzg"/>
         <parameters xmi:id="_wcaAACSoEeyXgIyMe68nzg" name="arg0" type="_Jbd7FiSoEeyXgIyMe68nzg"/>
       </operations>
     </classes>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_9kfQkCSoEeyXgIyMe68nzg" name="Writable" instanceClassName="org.datavec.api.writable.Writable" interface="true"/>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_GOelMCSpEeyXgIyMe68nzg" name="SequenceRecordReaderDataSetIterator" visibility="public" instanceClassName="org.deeplearning4j.datasets.datavec.SequenceRecordReaderDataSetIterator">
-      <operations xmi:id="_8a8cUCStEeyXgIyMe68nzg" name="next" visibility="public" returnType="_7Jk7ECStEeyXgIyMe68nzg"/>
+      <operations xmi:id="_8a8cUCStEeyXgIyMe68nzg" name="next" returnType="_7Jk7ECStEeyXgIyMe68nzg"/>
     </classes>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_MIaNACSpEeyXgIyMe68nzg" name="List" instanceClassName="java.util.List" interface="true">
       <typeParameters xmi:id="_MIaNASSpEeyXgIyMe68nzg" name="E" genericType="_9kfQkCSoEeyXgIyMe68nzg"/>
     </classes>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_MImaQCSpEeyXgIyMe68nzg" name="List" instanceClassName="java.util.List" interface="true">
-      <typeParameters xmi:id="_MImaQSSpEeyXgIyMe68nzg" name="E" genericType="_MIaNACSpEeyXgIyMe68nzg"/>
-    </classes>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_TzJEECSpEeyXgIyMe68nzg" name="BaseRecordReader" instanceClassName="org.datavec.api.records.reader.BaseRecordReader"/>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_U9bF4CSpEeyXgIyMe68nzg" name="FileRecordReader" superTypes="_TzJEECSpEeyXgIyMe68nzg" instanceClassName="org.datavec.api.records.reader.impl.FileRecordReader"/>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_Xf30gCSpEeyXgIyMe68nzg" name="InputSplit" instanceClassName="org.datavec.api.split.InputSplit" interface="true"/>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_Y2ebECSpEeyXgIyMe68nzg" name="FileSplit" visibility="public" instanceClassName="org.datavec.api.split.FileSplit">
-      <operations xmi:id="_gXbEACSpEeyXgIyMe68nzg" name="FileSplit" visibility="public" returnType="_Y2ebECSpEeyXgIyMe68nzg" operationType="Constructor">
-        <parameters xmi:id="_gXbEASSpEeyXgIyMe68nzg" name="arg0" type="_gXUWUCSpEeyXgIyMe68nzg"/>
-      </operations>
-    </classes>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_gXUWUCSpEeyXgIyMe68nzg" name="File" instanceClassName="java.io.File"/>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_7Jk7ECStEeyXgIyMe68nzg" name="DataSet" instanceClassName="org.nd4j.linalg.dataset.DataSet"/>
     <types xsi:type="ram:RVoid" xmi:id="_Jbd7EySoEeyXgIyMe68nzg"/>
     <types xsi:type="ram:RAny" xmi:id="_Jbd7FCSoEeyXgIyMe68nzg"/>
@@ -79,24 +65,6 @@
       </value>
       <value xmi:id="_MIdQUCSpEeyXgIyMe68nzg" key="_MIaNACSpEeyXgIyMe68nzg">
         <value xmi:id="_MIdQUSSpEeyXgIyMe68nzg" x="956.468" y="187.9748"/>
-      </value>
-      <value xmi:id="_MIo2gCSpEeyXgIyMe68nzg" key="_MImaQCSpEeyXgIyMe68nzg">
-        <value xmi:id="_MIo2gSSpEeyXgIyMe68nzg" x="931.468" y="316.00012"/>
-      </value>
-      <value xmi:id="_TzLgUCSpEeyXgIyMe68nzg" key="_TzJEECSpEeyXgIyMe68nzg">
-        <value xmi:id="_TzLgUSSpEeyXgIyMe68nzg" x="395.0002" y="188.00018"/>
-      </value>
-      <value xmi:id="_U9diICSpEeyXgIyMe68nzg" key="_U9bF4CSpEeyXgIyMe68nzg">
-        <value xmi:id="_U9diISSpEeyXgIyMe68nzg" x="402.0002" y="404.0001"/>
-      </value>
-      <value xmi:id="_Xf5psCSpEeyXgIyMe68nzg" key="_Xf30gCSpEeyXgIyMe68nzg">
-        <value xmi:id="_Xf5psSSpEeyXgIyMe68nzg" x="694.00006" y="457.00006"/>
-      </value>
-      <value xmi:id="_Y2gQQCSpEeyXgIyMe68nzg" key="_Y2ebECSpEeyXgIyMe68nzg">
-        <value xmi:id="_Y2gQQSSpEeyXgIyMe68nzg" x="695.50006" y="316.00012"/>
-      </value>
-      <value xmi:id="_gXYnwCSpEeyXgIyMe68nzg" key="_gXUWUCSpEeyXgIyMe68nzg">
-        <value xmi:id="_gXYnwSSpEeyXgIyMe68nzg" x="695.50006" y="143.00014"/>
       </value>
       <value xmi:id="_7JmwQCStEeyXgIyMe68nzg" key="_7Jk7ECStEeyXgIyMe68nzg">
         <value xmi:id="_7JmwQSStEeyXgIyMe68nzg" x="966.468" y="756.00055"/>

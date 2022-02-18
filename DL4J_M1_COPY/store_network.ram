@@ -18,6 +18,10 @@
       <operations xmi:id="_HY2vAnpbEeyOw5BiW9joAA" name="save" returnType="_LGE8SiYoEeycop2z6HNniQ">
         <parameters xmi:id="_HY2vA3pbEeyOw5BiW9joAA" name="f" type="_J8YKgH_TEeyZ-7-iWk9v9g"/>
       </operations>
+      <operations xmi:id="_C2mZsZAxEeyJK9rWQnxChw" name="save" returnType="_LGE8SiYoEeycop2z6HNniQ">
+        <parameters xmi:id="_C2mZspAxEeyJK9rWQnxChw" name="f" type="_J8YKgH_TEeyZ-7-iWk9v9g"/>
+        <parameters xmi:id="_C2mZs5AxEeyJK9rWQnxChw" name="saveUpdater" type="_LGE8TCYoEeycop2z6HNniQ"/>
+      </operations>
     </classes>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_J8YKgH_TEeyZ-7-iWk9v9g" name="File" instanceClassName="java.io.File"/>
     <types xsi:type="ram:RVoid" xmi:id="_LGE8SiYoEeycop2z6HNniQ"/>

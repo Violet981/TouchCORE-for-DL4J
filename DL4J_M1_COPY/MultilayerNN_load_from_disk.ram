@@ -15,13 +15,21 @@
         <parameters xmi:id="_GRzrUn_VEeyU_ODeo8VEOg" name="arg1" type="_il9AhS-_Eey7CdRMNoOOSg"/>
       </operations>
     </classes>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_FAvsEH_VEeyU_ODeo8VEOg" name="File" instanceClassName="java.io.File"/>
-    <classes xsi:type="ram:Class" xmi:id="_HepR4H_VEeyU_ODeo8VEOg" name="org.deeplearning4j.nn.multilayer.MultilayerNetwork" visibility="public">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_FAvsEH_VEeyU_ODeo8VEOg" name="File" visibility="public" instanceClassName="java.io.File">
+      <operations xmi:id="_bfK81ZAvEeyJK9rWQnxChw" name="File" returnType="_FAvsEH_VEeyU_ODeo8VEOg" operationType="Constructor">
+        <parameters xmi:id="_bfK81pAvEeyJK9rWQnxChw" name="arg0" type="_bfK80JAvEeyJK9rWQnxChw"/>
+      </operations>
+      <operations xmi:id="_buXPYZAvEeyJK9rWQnxChw" name="File" returnType="_FAvsEH_VEeyU_ODeo8VEOg" operationType="Constructor">
+        <parameters xmi:id="_buXPYpAvEeyJK9rWQnxChw" name="arg0" type="_il9AiC-_Eey7CdRMNoOOSg"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_HepR4H_VEeyU_ODeo8VEOg" name="org.deeplearning4j.nn.multilayer.MultiLayerNetwork" visibility="public">
       <operations xmi:id="_NWLtAn_VEeyU_ODeo8VEOg" name="load" returnType="_HepR4H_VEeyU_ODeo8VEOg">
         <parameters xmi:id="_NWLtA3_VEeyU_ODeo8VEOg" name="arg0" type="_FAvsEH_VEeyU_ODeo8VEOg"/>
         <parameters xmi:id="_NWLtBH_VEeyU_ODeo8VEOg" name="arg1" type="_il9AhS-_Eey7CdRMNoOOSg"/>
       </operations>
     </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_bfK80JAvEeyJK9rWQnxChw" name="URI" instanceClassName="java.net.URI"/>
     <types xsi:type="ram:RVoid" xmi:id="_il9Agy-_Eey7CdRMNoOOSg"/>
     <types xsi:type="ram:RAny" xmi:id="_il9AhC-_Eey7CdRMNoOOSg"/>
     <types xsi:type="ram:RBoolean" xmi:id="_il9AhS-_Eey7CdRMNoOOSg"/>
@@ -46,6 +54,9 @@
       </value>
       <value xmi:id="_HeqgAH_VEeyU_ODeo8VEOg" key="_HepR4H_VEeyU_ODeo8VEOg">
         <value xmi:id="_HeqgAX_VEeyU_ODeo8VEOg" x="238.14001" y="146.59093"/>
+      </value>
+      <value xmi:id="_bfK80ZAvEeyJK9rWQnxChw" key="_bfK80JAvEeyJK9rWQnxChw">
+        <value xmi:id="_bfK80pAvEeyJK9rWQnxChw"/>
       </value>
     </containers>
   </layout>

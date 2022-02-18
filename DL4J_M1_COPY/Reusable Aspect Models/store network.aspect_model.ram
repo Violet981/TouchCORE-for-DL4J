@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_68bsIHq-EeyZ-K-uBHH2zg" name="MLNetwork_store">
   <structuralView xmi:id="_68bsIXq-EeyZ-K-uBHH2zg">
-    <classes xsi:type="ram:Class" xmi:id="_JufLMHq_EeyZ-K-uBHH2zg" name="org.deeplearning4j.nn.multilayer.MultilayerNetwork" superTypes="_0m5asH_SEeyZ-7-iWk9v9g" visibility="public">
+    <classes xsi:type="ram:Class" xmi:id="_JufLMHq_EeyZ-K-uBHH2zg" name="org.deeplearning4j.nn.multilayer.MultiLayerNetwork" superTypes="_0m5asH_SEeyZ-7-iWk9v9g" visibility="public">
       <operations xmi:id="_OIZKsHq_EeyZ-K-uBHH2zg" name="save" returnType="_68bsInq-EeyZ-K-uBHH2zg">
         <parameters xmi:id="_OIZKsXq_EeyZ-K-uBHH2zg" name="f" type="_de-TIHq_EeyZ-K-uBHH2zg"/>
+      </operations>
+      <operations xmi:id="_-RXwcZAvEeyJK9rWQnxChw" name="save" returnType="_68bsInq-EeyZ-K-uBHH2zg">
+        <parameters xmi:id="_-RXwcpAvEeyJK9rWQnxChw" name="f" type="_de-TIHq_EeyZ-K-uBHH2zg"/>
+        <parameters xmi:id="_-RXwc5AvEeyJK9rWQnxChw" name="saveUpdater" type="_68bsJHq-EeyZ-K-uBHH2zg"/>
       </operations>
     </classes>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_YKvZYHq_EeyZ-K-uBHH2zg" name="ModelSerializer" visibility="public" instanceClassName="org.deeplearning4j.util.ModelSerializer">

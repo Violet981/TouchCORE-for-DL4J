@@ -6,6 +6,7 @@
     </classes>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_Cla_pCZxEeyD3eQvvo0_7w" name="DataSet" visibility="public" instanceClassName="org.nd4j.linalg.dataset.DataSet">
       <operations xmi:id="_Y5ZgElYpEeyZn4w4eybuYw" name="getFeatures" returnType="_rGTAQFYnEeyZn4w4eybuYw"/>
+      <operations xmi:id="_x6CfsYfREeyK1IcStswRng" name="getLabels" returnType="_rGTAQFYnEeyZn4w4eybuYw"/>
     </classes>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_rGTAQFYnEeyZn4w4eybuYw" name="INDArray" instanceClassName="org.nd4j.linalg.api.ndarray.INDArray" interface="true"/>
     <classes xsi:type="ram:Class" xmi:id="_gnvEwFYpEeyZn4w4eybuYw" name="org.deeplearning4j.nn.multilayer.MultiLayerNetwork" visibility="public">
