@@ -3,18 +3,18 @@
   <artefacts xsi:type="core:COREFeatureModel" xmi:id="_iP1mkUDWEeyBfMro0AcMxQ" root="_iP1mkkDWEeyBfMro0AcMxQ">
     <features xmi:id="_iP1mkkDWEeyBfMro0AcMxQ" name="DL4J_M1" realizedBy="_1XUYUEDXEeyBfMro0AcMxQ" children="_5egQIEDXEeyBfMro0AcMxQ _6nTrQEDXEeyBfMro0AcMxQ _8xg5AEDXEeyBfMro0AcMxQ _E8-hkIeEEeya4pIzzxiKVg"/>
     <features xmi:id="_5egQIEDXEeyBfMro0AcMxQ" name="load data" children="_UrH68IrxEey-h9vburn2Ag _SWIPIEHXEeyor9GmK8BPBg" parent="_iP1mkkDWEeyBfMro0AcMxQ" parentRelationship="Mandatory"/>
-    <features xmi:id="_6nTrQEDXEeyBfMro0AcMxQ" name="operate input data" children="_4qqtgEDZEeyBfMro0AcMxQ _6TnBQEDZEeyBfMro0AcMxQ _73KesEDZEeyBfMro0AcMxQ" parent="_iP1mkkDWEeyBfMro0AcMxQ" parentRelationship="Optional" excludes="_wnDcYEDZEeyBfMro0AcMxQ _vyM4AEDZEeyBfMro0AcMxQ _04hRkEDZEeyBfMro0AcMxQ"/>
+    <features xmi:id="_6nTrQEDXEeyBfMro0AcMxQ" name="operate input data" children="_4qqtgEDZEeyBfMro0AcMxQ _6TnBQEDZEeyBfMro0AcMxQ _73KesEDZEeyBfMro0AcMxQ" parent="_iP1mkkDWEeyBfMro0AcMxQ" parentRelationship="Optional"/>
     <features xmi:id="_8xg5AEDXEeyBfMro0AcMxQ" name="specify network" children="_-t-60EDZEeyBfMro0AcMxQ _R4vfgEDaEeyBfMro0AcMxQ" parent="_iP1mkkDWEeyBfMro0AcMxQ" parentRelationship="Mandatory"/>
     <features xmi:id="_95E-AEDXEeyBfMro0AcMxQ" name="run network" realizedBy="_zEecAUHUEey6g5nE2PrOCw _8SBFYFYnEeyZn4w4eybuYw" children="_km_uYEDaEeyBfMro0AcMxQ _lbz2gEDaEeyBfMro0AcMxQ _-ghkUFYnEeyZn4w4eybuYw" parent="_E8-hkIeEEeya4pIzzxiKVg" parentRelationship="Mandatory"/>
-    <features xmi:id="_T9aX4EDYEeyBfMro0AcMxQ" name="sequence data" children="_vyM4AEDZEeyBfMro0AcMxQ _wnDcYEDZEeyBfMro0AcMxQ" parent="_UrH68IrxEey-h9vburn2Ag" parentRelationship="XOR"/>
-    <features xmi:id="_tiNyYEDZEeyBfMro0AcMxQ" name="nonsequence data" children="_zK0ZoEDZEeyBfMro0AcMxQ _04hRkEDZEeyBfMro0AcMxQ _2EKlUEDZEeyBfMro0AcMxQ" parent="_UrH68IrxEey-h9vburn2Ag" parentRelationship="XOR"/>
-    <features xmi:id="_vyM4AEDZEeyBfMro0AcMxQ" name="audio data" realizedBy="_DYDn0EDbEeyBfMro0AcMxQ" parent="_T9aX4EDYEeyBfMro0AcMxQ" parentRelationship="XOR"/>
-    <features xmi:id="_wnDcYEDZEeyBfMro0AcMxQ" name="video data" realizedBy="_LUrgIUDbEeyBfMro0AcMxQ" parent="_T9aX4EDYEeyBfMro0AcMxQ" parentRelationship="XOR"/>
-    <features xmi:id="_zK0ZoEDZEeyBfMro0AcMxQ" name="CSV tabular data" realizedBy="_ROnRgUDnEeyBfMro0AcMxQ _T8a7kUDnEeyBfMro0AcMxQ _4WP3UIBAEeyyCqN7ry3a1w _GePOMczLEeyXN6FQY8J6Pg" parent="_tiNyYEDZEeyBfMro0AcMxQ" parentRelationship="XOR"/>
-    <features xmi:id="_04hRkEDZEeyBfMro0AcMxQ" name="raw text data" realizedBy="_j8MyAUDnEeyBfMro0AcMxQ" parent="_tiNyYEDZEeyBfMro0AcMxQ" parentRelationship="XOR"/>
-    <features xmi:id="_2EKlUEDZEeyBfMro0AcMxQ" name="image data" realizedBy="_psIJQUDnEeyBfMro0AcMxQ _5Ulr4UDnEeyBfMro0AcMxQ _RKsWQMvNEeyudatNXAfKYQ" parent="_tiNyYEDZEeyBfMro0AcMxQ" parentRelationship="XOR"/>
-    <features xmi:id="_4qqtgEDZEeyBfMro0AcMxQ" name="structure data" realizedBy="_4WP3UIBAEeyyCqN7ry3a1w _RKsWQMvNEeyudatNXAfKYQ" parent="_6nTrQEDXEeyBfMro0AcMxQ" parentRelationship="OR"/>
-    <features xmi:id="_6TnBQEDZEeyBfMro0AcMxQ" name="transform data" realizedBy="_0xgiQUDnEeyBfMro0AcMxQ _T8a7kUDnEeyBfMro0AcMxQ _5Ulr4UDnEeyBfMro0AcMxQ" parent="_6nTrQEDXEeyBfMro0AcMxQ" parentRelationship="OR"/>
+    <features xmi:id="_T9aX4EDYEeyBfMro0AcMxQ" name="sequence data" children="_vyM4AEDZEeyBfMro0AcMxQ _wnDcYEDZEeyBfMro0AcMxQ _04hRkEDZEeyBfMro0AcMxQ" parent="_UrH68IrxEey-h9vburn2Ag" parentRelationship="OR"/>
+    <features xmi:id="_tiNyYEDZEeyBfMro0AcMxQ" name="nonsequence data" children="_zK0ZoEDZEeyBfMro0AcMxQ _2EKlUEDZEeyBfMro0AcMxQ" parent="_UrH68IrxEey-h9vburn2Ag" parentRelationship="OR"/>
+    <features xmi:id="_vyM4AEDZEeyBfMro0AcMxQ" name="audio data" realizedBy="_DYDn0EDbEeyBfMro0AcMxQ" parent="_T9aX4EDYEeyBfMro0AcMxQ" parentRelationship="OR"/>
+    <features xmi:id="_wnDcYEDZEeyBfMro0AcMxQ" name="video data" realizedBy="_LUrgIUDbEeyBfMro0AcMxQ" parent="_T9aX4EDYEeyBfMro0AcMxQ" parentRelationship="OR"/>
+    <features xmi:id="_zK0ZoEDZEeyBfMro0AcMxQ" name="CSV data" realizedBy="_ROnRgUDnEeyBfMro0AcMxQ _T8a7kUDnEeyBfMro0AcMxQ _4WP3UIBAEeyyCqN7ry3a1w _GePOMczLEeyXN6FQY8J6Pg" parent="_tiNyYEDZEeyBfMro0AcMxQ" parentRelationship="OR"/>
+    <features xmi:id="_04hRkEDZEeyBfMro0AcMxQ" name="text data" realizedBy="_j8MyAUDnEeyBfMro0AcMxQ" parent="_T9aX4EDYEeyBfMro0AcMxQ" parentRelationship="OR"/>
+    <features xmi:id="_2EKlUEDZEeyBfMro0AcMxQ" name="image data" realizedBy="_psIJQUDnEeyBfMro0AcMxQ _5Ulr4UDnEeyBfMro0AcMxQ _RKsWQMvNEeyudatNXAfKYQ" parent="_tiNyYEDZEeyBfMro0AcMxQ" parentRelationship="OR"/>
+    <features xmi:id="_4qqtgEDZEeyBfMro0AcMxQ" name="structure data" realizedBy="_4WP3UIBAEeyyCqN7ry3a1w _RKsWQMvNEeyudatNXAfKYQ" parent="_6nTrQEDXEeyBfMro0AcMxQ" parentRelationship="OR" excludes="_T9aX4EDYEeyBfMro0AcMxQ"/>
+    <features xmi:id="_6TnBQEDZEeyBfMro0AcMxQ" name="transform data" realizedBy="_0xgiQUDnEeyBfMro0AcMxQ _T8a7kUDnEeyBfMro0AcMxQ _5Ulr4UDnEeyBfMro0AcMxQ" parent="_6nTrQEDXEeyBfMro0AcMxQ" parentRelationship="OR" excludes="_T9aX4EDYEeyBfMro0AcMxQ"/>
     <features xmi:id="_73KesEDZEeyBfMro0AcMxQ" name="save as dataset" realizedBy="__RFfgUDnEeyBfMro0AcMxQ" parent="_6nTrQEDXEeyBfMro0AcMxQ" parentRelationship="OR"/>
     <features xmi:id="_-t-60EDZEeyBfMro0AcMxQ" name="network type" children="_AOo1QEDaEeyBfMro0AcMxQ _BujI0EDaEeyBfMro0AcMxQ" parent="_8xg5AEDXEeyBfMro0AcMxQ" parentRelationship="Mandatory"/>
     <features xmi:id="_AOo1QEDaEeyBfMro0AcMxQ" name="multilayer network" realizedBy="_uT5W0EGxEeyUC-UomtVoUw _PLiDwVBvEeyN4P1-Ks0QgQ _69bKoHq-EeyZ-K-uBHH2zg _5YZv0EHiEeyEpZxv_KVsMw _TCUmkUGyEeyUC-UomtVoUw _1OkVAUHUEey6g5nE2PrOCw _3cMqMUHUEey6g5nE2PrOCw _mL2EwIeFEey8e4cqDpGaNg _v_yjAUHUEey6g5nE2PrOCw" parent="_-t-60EDZEeyBfMro0AcMxQ" parentRelationship="XOR"/>
@@ -32,7 +32,7 @@
     <features xmi:id="_SWIPIEHXEeyor9GmK8BPBg" name="library dataset" realizedBy="_UgM6AEHXEeyor9GmK8BPBg" parent="_5egQIEDXEeyBfMro0AcMxQ" parentRelationship="XOR"/>
     <features xmi:id="_-ghkUFYnEeyZn4w4eybuYw" name="evaluate" realizedBy="_EvdLwFYoEeyZn4w4eybuYw _mL2EwIeFEey8e4cqDpGaNg" parent="_95E-AEDXEeyBfMro0AcMxQ" parentRelationship="Optional" requires="_km_uYEDaEeyBfMro0AcMxQ _lbz2gEDaEeyBfMro0AcMxQ"/>
     <features xmi:id="_E8-hkIeEEeya4pIzzxiKVg" name="operate network" children="_95E-AEDXEeyBfMro0AcMxQ _EMiOMEDaEeyBfMro0AcMxQ" parent="_iP1mkkDWEeyBfMro0AcMxQ" parentRelationship="Mandatory"/>
-    <features xmi:id="_UrH68IrxEey-h9vburn2Ag" name="customer 's raw data" realizedBy="_uYWb0I-LEeyJK9rWQnxChw" children=" _T9aX4EDYEeyBfMro0AcMxQ _tiNyYEDZEeyBfMro0AcMxQ" parent="_5egQIEDXEeyBfMro0AcMxQ" parentRelationship="XOR"/>
+    <features xmi:id="_UrH68IrxEey-h9vburn2Ag" name="customer 's raw data" realizedBy="_uYWb0I-LEeyJK9rWQnxChw" children="_T9aX4EDYEeyBfMro0AcMxQ _tiNyYEDZEeyBfMro0AcMxQ" parent="_5egQIEDXEeyBfMro0AcMxQ" parentRelationship="XOR"/>
   </artefacts>
   <artefacts xsi:type="core:COREImpactModel" xmi:id="_iP1mk0DWEeyBfMro0AcMxQ" name="Impact Model"/>
   <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_1XUYUkDXEeyBfMro0AcMxQ" name="DL4J_M1" scene="_1XUYUEDXEeyBfMro0AcMxQ" languageName="Reusable Aspect Models">
