@@ -1,27 +1,99 @@
 <?xml version="1.0" encoding="ASCII"?>
 <ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_BaJN0C-9EeyoztDuLd0r_g" name="CSVTabularTransform">
-  <realizes href="DL4J_M1.core#_rbwuUNgBEeuGxOJxjWx4FA"/>
-  <realizes href="DL4J_M1.core#_CEYy8NgAEeuGxOJxjWx4FA"/>
-  <realizes href="DL4J_M1.core#_ngRjoNgWEeuGxOJxjWx4FA"/>
-  <coreConcern href="DL4J_M1.core#_bV6McNf-EeuGxOJxjWx4FA"/>
   <structuralView xmi:id="_BaJN0S-9EeyoztDuLd0r_g">
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_BaJN0i-9EeyoztDuLd0r_g" name="DataNormalization" visibility="public" instanceClassName="org.nd4j.linalg.dataset.api.preprocessor.DataNormalization" interface="true">
-      <operations xmi:id="_BaJN0y-9EeyoztDuLd0r_g" name="fit" visibility="public" returnType="_BaJN3S-9EeyoztDuLd0r_g">
-        <parameters xmi:id="_BaJN1C-9EeyoztDuLd0r_g" name="arg0" type="_BaJN2S-9EeyoztDuLd0r_g"/>
+    <classes xsi:type="ram:Class" xmi:id="_0K-sYMvREeyudatNXAfKYQ" name="org.datavec.api.transform.TransformProcess.Builder" visibility="public">
+      <operations xmi:id="_UWDswcvSEeyudatNXAfKYQ" name="categoricalToInteger" returnType="_0K-sYMvREeyudatNXAfKYQ">
+        <parameters xmi:id="_UWDswsvSEeyudatNXAfKYQ" name="dotdotdot" type="_BaJN4i-9EeyoztDuLd0r_g"/>
       </operations>
-      <operations xmi:id="_BaJN1S-9EeyoztDuLd0r_g" name="transform" visibility="public" returnType="_BaJN3S-9EeyoztDuLd0r_g">
-        <parameters xmi:id="_BaJN1i-9EeyoztDuLd0r_g" name="arg0" type="_BaJN2i-9EeyoztDuLd0r_g"/>
+      <operations xmi:id="_AKXkocvUEeyudatNXAfKYQ" name="categoricalToOneHot" returnType="_0K-sYMvREeyudatNXAfKYQ">
+        <parameters xmi:id="_AKXkosvUEeyudatNXAfKYQ" name="dotdotdot" type="_BaJN4i-9EeyoztDuLd0r_g"/>
       </operations>
-      <operations xmi:id="_BaJN1y-9EeyoztDuLd0r_g" name="transformLabel" visibility="public" returnType="_BaJN3S-9EeyoztDuLd0r_g">
-        <parameters xmi:id="_BaJN2C-9EeyoztDuLd0r_g" name="arg0" type="_BaJN2i-9EeyoztDuLd0r_g"/>
+      <operations xmi:id="_qZy-0cvUEeyudatNXAfKYQ" name="conditionalReplaceValueTransform" returnType="_0K-sYMvREeyudatNXAfKYQ">
+        <parameters xmi:id="_qZy-0svUEeyudatNXAfKYQ" name="arg0" type="_BaJN4i-9EeyoztDuLd0r_g"/>
+        <parameters xmi:id="_qZy-08vUEeyudatNXAfKYQ" name="arg1" type="_smQPUMvUEeyudatNXAfKYQ"/>
+        <parameters xmi:id="_qZy-1MvUEeyudatNXAfKYQ" name="arg2" type="_xXX08MvUEeyudatNXAfKYQ"/>
+      </operations>
+      <operations xmi:id="_BugbccvVEeyudatNXAfKYQ" name="conditionalCopyValueTransform" returnType="_0K-sYMvREeyudatNXAfKYQ">
+        <parameters xmi:id="_BugbcsvVEeyudatNXAfKYQ" name="arg0" type="_BaJN4i-9EeyoztDuLd0r_g"/>
+        <parameters xmi:id="_Bugbc8vVEeyudatNXAfKYQ" name="arg1" type="_BaJN4i-9EeyoztDuLd0r_g"/>
+        <parameters xmi:id="_BugbdMvVEeyudatNXAfKYQ" name="arg2" type="_xXX08MvUEeyudatNXAfKYQ"/>
+      </operations>
+      <operations xmi:id="_ZjsF4cvrEeyudatNXAfKYQ" name="integerToCategorical" returnType="_0K-sYMvREeyudatNXAfKYQ">
+        <parameters xmi:id="_ZjsF4svrEeyudatNXAfKYQ" name="arg0" type="_BaJN4i-9EeyoztDuLd0r_g"/>
+        <parameters xmi:id="_ZjsF48vrEeyudatNXAfKYQ" name="dotdotdot" type="_BaJN4i-9EeyoztDuLd0r_g"/>
+      </operations>
+      <operations xmi:id="_hHRMEMvrEeyudatNXAfKYQ" name="stringToCategorical" returnType="_0K-sYMvREeyudatNXAfKYQ">
+        <parameters xmi:id="_hHRMEcvrEeyudatNXAfKYQ" name="arg0" type="_BaJN4i-9EeyoztDuLd0r_g"/>
+        <parameters xmi:id="_hHRMEsvrEeyudatNXAfKYQ" name="dotdotdot" type="_BaJN4i-9EeyoztDuLd0r_g"/>
+      </operations>
+      <operations xmi:id="_mpuvEcvrEeyudatNXAfKYQ" name="stringToTimeTransform" returnType="_0K-sYMvREeyudatNXAfKYQ">
+        <parameters xmi:id="_mpuvEsvrEeyudatNXAfKYQ" name="arg0" type="_BaJN4i-9EeyoztDuLd0r_g"/>
+        <parameters xmi:id="_mpuvE8vrEeyudatNXAfKYQ" name="arg1" type="_BaJN4i-9EeyoztDuLd0r_g"/>
+        <parameters xmi:id="_mpuvFMvrEeyudatNXAfKYQ" name="arg2" type="_BaJN4C-9EeyoztDuLd0r_g"/>
       </operations>
     </classes>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_BaJN2S-9EeyoztDuLd0r_g" name="DataSetIterator" instanceClassName="org.nd4j.linalg.dataset.api.iterator.DataSetIterator" interface="true"/>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_BaJN2i-9EeyoztDuLd0r_g" name="INDArray" instanceClassName="org.nd4j.linalg.api.ndarray.INDArray" interface="true"/>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_BaJN2y-9EeyoztDuLd0r_g" name="NormalizerStandardize" visibility="public" instanceClassName="org.nd4j.linalg.dataset.api.preprocessor.NormalizerStandardize">
-      <operations xmi:id="_BaJN3C-9EeyoztDuLd0r_g" name="NormalizerStandardize" visibility="public" returnType="_BaJN2y-9EeyoztDuLd0r_g" operationType="Constructor"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_smQPUMvUEeyudatNXAfKYQ" name="Writable" instanceClassName="org.datavec.api.writable.Writable" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_xXX08MvUEeyudatNXAfKYQ" name="Condition" instanceClassName="org.datavec.api.transform.condition.Condition" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_oNWosMwREeyudatNXAfKYQ" name="NormalizerStandardize" visibility="public" instanceClassName="org.nd4j.linalg.dataset.api.preprocessor.NormalizerStandardize">
+      <operations xmi:id="_p0zHoswREeyudatNXAfKYQ" name="NormalizerStandardize" returnType="_oNWosMwREeyudatNXAfKYQ" operationType="Constructor"/>
+      <operations xmi:id="_qFKe4cwREeyudatNXAfKYQ" name="NormalizerStandardize" returnType="_oNWosMwREeyudatNXAfKYQ" operationType="Constructor">
+        <parameters xmi:id="_qFKe4swREeyudatNXAfKYQ" name="arg0" type="_qFHbkMwREeyudatNXAfKYQ"/>
+        <parameters xmi:id="_qFKe48wREeyudatNXAfKYQ" name="arg1" type="_qFHbkMwREeyudatNXAfKYQ"/>
+      </operations>
+      <operations xmi:id="_qUzdYMwREeyudatNXAfKYQ" name="NormalizerStandardize" returnType="_oNWosMwREeyudatNXAfKYQ" operationType="Constructor">
+        <parameters xmi:id="_qUzdYcwREeyudatNXAfKYQ" name="arg0" type="_qFHbkMwREeyudatNXAfKYQ"/>
+        <parameters xmi:id="_qUzdYswREeyudatNXAfKYQ" name="arg1" type="_qFHbkMwREeyudatNXAfKYQ"/>
+        <parameters xmi:id="_qUzdY8wREeyudatNXAfKYQ" name="arg2" type="_qFHbkMwREeyudatNXAfKYQ"/>
+        <parameters xmi:id="_qUzdZMwREeyudatNXAfKYQ" name="arg3" type="_qFHbkMwREeyudatNXAfKYQ"/>
+      </operations>
+      <operations xmi:id="_s-99lMwREeyudatNXAfKYQ" name="fit" returnType="_BaJN3S-9EeyoztDuLd0r_g">
+        <parameters xmi:id="_s-99lcwREeyudatNXAfKYQ" name="arg0" type="_s-99kMwREeyudatNXAfKYQ"/>
+      </operations>
+      <operations xmi:id="_vM08QcwREeyudatNXAfKYQ" name="transform" returnType="_BaJN3S-9EeyoztDuLd0r_g">
+        <parameters xmi:id="_vM08QswREeyudatNXAfKYQ" name="arg0" type="_vM0VMMwREeyudatNXAfKYQ"/>
+      </operations>
+      <operations xmi:id="_wKYJoMwREeyudatNXAfKYQ" name="fit" returnType="_BaJN3S-9EeyoztDuLd0r_g">
+        <parameters xmi:id="_wKYJocwREeyudatNXAfKYQ" name="arg0" type="_vM0VMMwREeyudatNXAfKYQ"/>
+      </operations>
+      <operations xmi:id="_xvZmscwREeyudatNXAfKYQ" name="transform" returnType="_BaJN3S-9EeyoztDuLd0r_g">
+        <parameters xmi:id="_xvZmsswREeyudatNXAfKYQ" name="arg0" type="_qFHbkMwREeyudatNXAfKYQ"/>
+      </operations>
     </classes>
-    <classes xsi:type="ram:Class" xmi:id="_TPE8UDmzEey74d7HYWi3GA" name="TransformCSV"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_qFHbkMwREeyudatNXAfKYQ" name="INDArray" instanceClassName="org.nd4j.linalg.api.ndarray.INDArray" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_s-99kMwREeyudatNXAfKYQ" name="DataSetIterator" instanceClassName="org.nd4j.linalg.dataset.api.iterator.DataSetIterator" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_vM0VMMwREeyudatNXAfKYQ" name="DataSet" instanceClassName="org.nd4j.linalg.dataset.api.DataSet" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_hQl_8OLQEeyViYlCluD5Kw" name="NormalizerMinMaxScaler" visibility="public" instanceClassName="org.nd4j.linalg.dataset.api.preprocessor.NormalizerMinMaxScaler">
+      <operations xmi:id="_iHOtAuLQEeyViYlCluD5Kw" name="NormalizerMinMaxScaler" returnType="_hQl_8OLQEeyViYlCluD5Kw" operationType="Constructor"/>
+      <operations xmi:id="_iWqQIeLQEeyViYlCluD5Kw" name="NormalizerMinMaxScaler" returnType="_hQl_8OLQEeyViYlCluD5Kw" operationType="Constructor">
+        <parameters xmi:id="_iWqQIuLQEeyViYlCluD5Kw" name="arg0" type="_BaJN4y-9EeyoztDuLd0r_g"/>
+        <parameters xmi:id="_iWqQI-LQEeyViYlCluD5Kw" name="arg1" type="_BaJN4y-9EeyoztDuLd0r_g"/>
+      </operations>
+      <operations xmi:id="_t3IQ4e3MEeyLxYlXGCbECQ" name="fit" returnType="_BaJN3S-9EeyoztDuLd0r_g">
+        <parameters xmi:id="_t3IQ4u3MEeyLxYlXGCbECQ" name="arg0" type="_vM0VMMwREeyudatNXAfKYQ"/>
+      </operations>
+      <operations xmi:id="_umG2we3MEeyLxYlXGCbECQ" name="fit" returnType="_BaJN3S-9EeyoztDuLd0r_g">
+        <parameters xmi:id="_umG2wu3MEeyLxYlXGCbECQ" name="arg0" type="_s-99kMwREeyudatNXAfKYQ"/>
+      </operations>
+      <operations xmi:id="_v7BbQe3MEeyLxYlXGCbECQ" name="transform" returnType="_BaJN3S-9EeyoztDuLd0r_g">
+        <parameters xmi:id="_v7BbQu3MEeyLxYlXGCbECQ" name="arg0" type="_vM0VMMwREeyudatNXAfKYQ"/>
+      </operations>
+      <operations xmi:id="_xzBese3MEeyLxYlXGCbECQ" name="transform" returnType="_BaJN3S-9EeyoztDuLd0r_g">
+        <parameters xmi:id="_xzBesu3MEeyLxYlXGCbECQ" name="arg0" type="_qFHbkMwREeyudatNXAfKYQ"/>
+      </operations>
+      <operations xmi:id="_0uw3Ee3MEeyLxYlXGCbECQ" name="revert" returnType="_BaJN3S-9EeyoztDuLd0r_g">
+        <parameters xmi:id="_0uw3Eu3MEeyLxYlXGCbECQ" name="arg0" type="_vM0VMMwREeyudatNXAfKYQ"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_1JozsOLgEeyViYlCluD5Kw" name="DataNormalization" instanceClassName="org.nd4j.linalg.dataset.api.preprocessor.DataNormalization" interface="true"/>
+    <classes xsi:type="ram:Class" xmi:id="_IDzXoOLhEeyc7rMLsV14hA" name="T"/>
+    <classes xsi:type="ram:Class" xmi:id="_I5214OLhEeyc7rMLsV14hA" name="org.nd4j.linalg.dataset.api.preprocessor.Normalizer" visibility="public">
+      <operations xmi:id="_OqBdsOLhEeyc7rMLsV14hA" name="transform" returnType="_BaJN3S-9EeyoztDuLd0r_g">
+        <parameters xmi:id="_OqBdseLhEeyc7rMLsV14hA" name="arg0" type="_IDzXoOLhEeyc7rMLsV14hA"/>
+      </operations>
+      <operations xmi:id="_RFD8weLhEeyc7rMLsV14hA" name="fit" returnType="_BaJN3S-9EeyoztDuLd0r_g">
+        <parameters xmi:id="_RFD8wuLhEeyc7rMLsV14hA" name="arg0" type="_IDzXoOLhEeyc7rMLsV14hA"/>
+      </operations>
+    </classes>
     <types xsi:type="ram:RVoid" xmi:id="_BaJN3S-9EeyoztDuLd0r_g"/>
     <types xsi:type="ram:RAny" xmi:id="_BaJN3i-9EeyoztDuLd0r_g"/>
     <types xsi:type="ram:RBoolean" xmi:id="_BaJN3y-9EeyoztDuLd0r_g"/>
@@ -33,28 +105,40 @@
     <types xsi:type="ram:RLong" xmi:id="_BaJN5S-9EeyoztDuLd0r_g"/>
     <types xsi:type="ram:RByte" xmi:id="_BaJN5i-9EeyoztDuLd0r_g"/>
   </structuralView>
-  <instantiations xmi:id="_72jKwEDFEeyLS6kOktOebw">
-    <source xsi:type="ram:Aspect" href="transform_data.ram#_JQLAACYnEeycop2z6HNniQ"/>
-  </instantiations>
-  <instantiations xmi:id="_NnxJoEDGEeyLS6kOktOebw">
-    <source xsi:type="ram:Aspect" href="CSV_tabular_data.ram#_bw5TECTQEeyXgIyMe68nzg"/>
-  </instantiations>
   <layout xmi:id="_BaJN6C-9EeyoztDuLd0r_g">
     <containers xmi:id="_BaJN6S-9EeyoztDuLd0r_g" key="_BaJN0S-9EeyoztDuLd0r_g">
-      <value xmi:id="_BaJN6i-9EeyoztDuLd0r_g" key="_BaJN0i-9EeyoztDuLd0r_g">
-        <value xmi:id="_BaJN6y-9EeyoztDuLd0r_g" x="333.0" y="71.0"/>
+      <value xmi:id="_0K-sYcvREeyudatNXAfKYQ" key="_0K-sYMvREeyudatNXAfKYQ">
+        <value xmi:id="_0K-sYsvREeyudatNXAfKYQ" x="-136.2933" y="273.40396"/>
       </value>
-      <value xmi:id="_BaJN7C-9EeyoztDuLd0r_g" key="_BaJN2S-9EeyoztDuLd0r_g">
-        <value xmi:id="_BaJN7S-9EeyoztDuLd0r_g" x="66.10297" y="84.000275"/>
+      <value xmi:id="_smQ2YcvUEeyudatNXAfKYQ" key="_smQPUMvUEeyudatNXAfKYQ">
+        <value xmi:id="_smQ2YsvUEeyudatNXAfKYQ" x="-6.000183" y="154.03516"/>
       </value>
-      <value xmi:id="_BaJN7i-9EeyoztDuLd0r_g" key="_BaJN2i-9EeyoztDuLd0r_g">
-        <value xmi:id="_BaJN7y-9EeyoztDuLd0r_g" x="13.0" y="226.00027"/>
+      <value xmi:id="_xXX08cvUEeyudatNXAfKYQ" key="_xXX08MvUEeyudatNXAfKYQ">
+        <value xmi:id="_xXX08svUEeyudatNXAfKYQ" x="554.0"/>
       </value>
-      <value xmi:id="_BaJN8C-9EeyoztDuLd0r_g" key="_BaJN2y-9EeyoztDuLd0r_g">
-        <value xmi:id="_BaJN8S-9EeyoztDuLd0r_g" x="365.0" y="290.0"/>
+      <value xmi:id="_oNWoscwREeyudatNXAfKYQ" key="_oNWosMwREeyudatNXAfKYQ">
+        <value xmi:id="_oNWosswREeyudatNXAfKYQ" x="113.70645" y="588.0353"/>
       </value>
-      <value xmi:id="_TPLqADmzEey74d7HYWi3GA" key="_TPE8UDmzEey74d7HYWi3GA">
-        <value xmi:id="_TPLqATmzEey74d7HYWi3GA" x="87.0" y="353.0"/>
+      <value xmi:id="_qFHbkcwREeyudatNXAfKYQ" key="_qFHbkMwREeyudatNXAfKYQ">
+        <value xmi:id="_qFHbkswREeyudatNXAfKYQ" x="332.2067" y="-1.4305115E-6"/>
+      </value>
+      <value xmi:id="_s-99kcwREeyudatNXAfKYQ" key="_s-99kMwREeyudatNXAfKYQ">
+        <value xmi:id="_s-99kswREeyudatNXAfKYQ" x="48.53189" y="-4.7683716E-7"/>
+      </value>
+      <value xmi:id="_vM0VMcwREeyudatNXAfKYQ" key="_vM0VMMwREeyudatNXAfKYQ">
+        <value xmi:id="_vM0VMswREeyudatNXAfKYQ" x="-179.35754" y="-86.513504"/>
+      </value>
+      <value xmi:id="_hQl_8eLQEeyViYlCluD5Kw" key="_hQl_8OLQEeyViYlCluD5Kw">
+        <value xmi:id="_hQl_8uLQEeyViYlCluD5Kw" x="1161.981" y="57.0"/>
+      </value>
+      <value xmi:id="_1JozseLgEeyViYlCluD5Kw" key="_1JozsOLgEeyViYlCluD5Kw">
+        <value xmi:id="_1JozsuLgEeyViYlCluD5Kw" x="943.6406" y="-261.7643"/>
+      </value>
+      <value xmi:id="_ID0lwOLhEeyc7rMLsV14hA" key="_IDzXoOLhEeyc7rMLsV14hA">
+        <value xmi:id="_ID0lweLhEeyc7rMLsV14hA" x="696.0" y="144.0"/>
+      </value>
+      <value xmi:id="_I5214eLhEeyc7rMLsV14hA" key="_I5214OLhEeyc7rMLsV14hA">
+        <value xmi:id="_I5214uLhEeyc7rMLsV14hA" x="1229.0369" y="-118.375656"/>
       </value>
     </containers>
   </layout>

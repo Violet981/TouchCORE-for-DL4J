@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="ASCII"?>
 <ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_C-ffIFBvEeyN4P1-Ks0QgQ" name="ComputationGraph_high_level_settings">
   <structuralView xmi:id="_C-ffIVBvEeyN4P1-Ks0QgQ">
+    <classes xsi:type="ram:Class" xmi:id="_-9qPMFusEey7B8ESbWoW2g" name="org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder" visibility="public">
+      <operations xmi:id="_92NHUZBDEeyjnI-k4MEcig" name="create" returnType="_-9qPMFusEey7B8ESbWoW2g" operationType="Constructor"/>
+      <operations xmi:id="_F2txslutEey7B8ESbWoW2g" name="updater" returnType="_-9qPMFusEey7B8ESbWoW2g">
+        <parameters xmi:id="_F2txs1utEey7B8ESbWoW2g" name="arg0" type="_jvbLsJBDEeyjnI-k4MEcig"/>
+      </operations>
+      <operations xmi:id="_IClzYFutEey7B8ESbWoW2g" name="graphBuilder" returnType="_YT6s0FutEey7B8ESbWoW2g"/>
+      <operations xmi:id="_nBRYAFwvEey2kfH7pC-8tQ" name="seed" returnType="_-9qPMFusEey7B8ESbWoW2g">
+        <parameters xmi:id="_nBRYAVwvEey2kfH7pC-8tQ" name="arg0" type="_C-ffKlBvEeyN4P1-Ks0QgQ"/>
+      </operations>
+      <operations xmi:id="_pAbzYVwvEey2kfH7pC-8tQ" name="activation" returnType="_-9qPMFusEey7B8ESbWoW2g">
+        <parameters xmi:id="_pAbzYlwvEey2kfH7pC-8tQ" name="arg0" type="_mCtc8JBDEeyjnI-k4MEcig"/>
+      </operations>
+      <operations xmi:id="_sNUmIVwvEey2kfH7pC-8tQ" name="weightInit" returnType="_-9qPMFusEey7B8ESbWoW2g">
+        <parameters xmi:id="_sNUmIlwvEey2kfH7pC-8tQ" name="arg0" type="_qYJzMJBDEeyjnI-k4MEcig"/>
+      </operations>
+      <operations xmi:id="_wQb2QVwvEey2kfH7pC-8tQ" name="learningRate" returnType="_-9qPMFusEey7B8ESbWoW2g">
+        <parameters xmi:id="_wQb2QlwvEey2kfH7pC-8tQ" name="arg0" type="_C-ffKFBvEeyN4P1-Ks0QgQ"/>
+      </operations>
+      <operations xmi:id="_1CQmgVwvEey2kfH7pC-8tQ" name="miniBatch" returnType="_-9qPMFusEey7B8ESbWoW2g">
+        <parameters xmi:id="_1CQmglwvEey2kfH7pC-8tQ" name="arg0" type="_C-ffJFBvEeyN4P1-Ks0QgQ"/>
+      </operations>
+      <operations xmi:id="_3rM-sVwvEey2kfH7pC-8tQ" name="optimizationAlgo" returnType="_-9qPMFusEey7B8ESbWoW2g">
+        <parameters xmi:id="_3rM-slwvEey2kfH7pC-8tQ" name="arg0" type="_rmyJgJBDEeyjnI-k4MEcig"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_YT6s0FutEey7B8ESbWoW2g" name="org.deeplearning4j.nn.conf.ComputationGraphConfiguration.GraphBuilder" visibility="public"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_jvbLsJBDEeyjnI-k4MEcig" name="IUpdater" instanceClassName="org.nd4j.linalg.learning.config.IUpdater" interface="true"/>
     <types xsi:type="ram:RVoid" xmi:id="_C-ffIlBvEeyN4P1-Ks0QgQ"/>
     <types xsi:type="ram:RAny" xmi:id="_C-ffI1BvEeyN4P1-Ks0QgQ"/>
     <types xsi:type="ram:RBoolean" xmi:id="_C-ffJFBvEeyN4P1-Ks0QgQ"/>
@@ -11,8 +38,30 @@
     <types xsi:type="ram:RFloat" xmi:id="_C-ffKVBvEeyN4P1-Ks0QgQ"/>
     <types xsi:type="ram:RLong" xmi:id="_C-ffKlBvEeyN4P1-Ks0QgQ"/>
     <types xsi:type="ram:RByte" xmi:id="_C-ffK1BvEeyN4P1-Ks0QgQ"/>
+    <types xsi:type="ram:REnum" xmi:id="_mCtc8JBDEeyjnI-k4MEcig" name="org.nd4j.linalg.activations.Activation"/>
+    <types xsi:type="ram:REnum" xmi:id="_qYJzMJBDEeyjnI-k4MEcig" name="org.deeplearning4j.nn.weights.WeightInit"/>
+    <types xsi:type="ram:REnum" xmi:id="_rmyJgJBDEeyjnI-k4MEcig" name="org.deeplearning4j.nn.api.OptimizationAlgo"/>
   </structuralView>
   <layout xmi:id="_C-ffLFBvEeyN4P1-Ks0QgQ">
-    <containers xmi:id="_C-ffLVBvEeyN4P1-Ks0QgQ" key="_C-ffIVBvEeyN4P1-Ks0QgQ"/>
+    <containers xmi:id="_C-ffLVBvEeyN4P1-Ks0QgQ" key="_C-ffIVBvEeyN4P1-Ks0QgQ">
+      <value xmi:id="_-9q2QFusEey7B8ESbWoW2g" key="_-9qPMFusEey7B8ESbWoW2g">
+        <value xmi:id="_-9q2QVusEey7B8ESbWoW2g" x="569.20966" y="-279.51056"/>
+      </value>
+      <value xmi:id="_YT6s0VutEey7B8ESbWoW2g" key="_YT6s0FutEey7B8ESbWoW2g">
+        <value xmi:id="_YT6s0lutEey7B8ESbWoW2g" x="894.7859" y="157.86281"/>
+      </value>
+      <value xmi:id="_jvbLspBDEeyjnI-k4MEcig" key="_jvbLsJBDEeyjnI-k4MEcig">
+        <value xmi:id="_jvbLs5BDEeyjnI-k4MEcig"/>
+      </value>
+      <value xmi:id="_mCtc8pBDEeyjnI-k4MEcig" key="_mCtc8JBDEeyjnI-k4MEcig">
+        <value xmi:id="_mCtc85BDEeyjnI-k4MEcig" x="346.19525" y="162.36281"/>
+      </value>
+      <value xmi:id="_qYJzMpBDEeyjnI-k4MEcig" key="_qYJzMJBDEeyjnI-k4MEcig">
+        <value xmi:id="_qYJzM5BDEeyjnI-k4MEcig" x="323.69525" y="14.499998"/>
+      </value>
+      <value xmi:id="_rmyJgpBDEeyjnI-k4MEcig" key="_rmyJgJBDEeyjnI-k4MEcig">
+        <value xmi:id="_rmyJg5BDEeyjnI-k4MEcig" x="127.20972" y="-185.01056"/>
+      </value>
+    </containers>
   </layout>
 </ram:Aspect>

@@ -1,31 +1,34 @@
 <?xml version="1.0" encoding="ASCII"?>
 <ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_IIv-gFBkEeyPOP323wmxug" name="MLNetwork_high_level_settings">
   <structuralView xmi:id="_IIv-gVBkEeyPOP323wmxug">
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_gwVYQFBkEeyPOP323wmxug" name="NeuralNetConfiguration$Builder" instanceClassName="org.deeplearning4j.nn.conf.NeuralNetConfiguration$Builder"/>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_lxXpMFBkEeyPOP323wmxug" name="MultiLayerConfiguration" instanceClassName="org.deeplearning4j.nn.conf.MultiLayerConfiguration"/>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_mv8xUFBkEeyPOP323wmxug" name="MultiLayerConfiguration$Builder" instanceClassName="org.deeplearning4j.nn.conf.MultiLayerConfiguration$Builder"/>
-    <classes xsi:type="ram:Class" xmi:id="_7XutoFBkEeyPOP323wmxug" name="NeraulNetConfigurationBuilder" visibility="public">
-      <operations xmi:id="_9cpLslBkEeyPOP323wmxug" name="create" returnType="_7XutoFBkEeyPOP323wmxug" operationType="Constructor"/>
-      <operations xmi:id="__IzykVBkEeyPOP323wmxug" name="seed" returnType="_gwVYQFBkEeyPOP323wmxug">
-        <parameters xmi:id="_CAXOgFBlEeyPOP323wmxug" name="arg0" type="_IIv-ilBkEeyPOP323wmxug"/>
+    <classes xsi:type="ram:Class" xmi:id="_jdUhUJA-EeyJK9rWQnxChw" name="org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder" visibility="public">
+      <operations xmi:id="_tiT0UpA-EeyJK9rWQnxChw" name="create" returnType="_jdUhUJA-EeyJK9rWQnxChw" operationType="Constructor"/>
+      <operations xmi:id="_v0mnEZA-EeyJK9rWQnxChw" name="seed" returnType="_jdUhUJA-EeyJK9rWQnxChw">
+        <parameters xmi:id="_v0mnEpA-EeyJK9rWQnxChw" name="arg0" type="_IIv-ilBkEeyPOP323wmxug"/>
       </operations>
-      <operations xmi:id="_FK5Q0VBlEeyPOP323wmxug" name="activation" returnType="_gwVYQFBkEeyPOP323wmxug">
-        <parameters xmi:id="_443-MFBnEeyPOP323wmxug" name="arg0" type="_koE-gFBnEeyPOP323wmxug"/>
+      <operations xmi:id="_x9dJ8JA-EeyJK9rWQnxChw" name="activation" returnType="_jdUhUJA-EeyJK9rWQnxChw">
+        <parameters xmi:id="_x9dJ8ZA-EeyJK9rWQnxChw" name="arg0" type="_KS7jMJBDEeyjnI-k4MEcig"/>
       </operations>
-      <operations xmi:id="_lMPtcVBlEeyPOP323wmxug" name="weightInit" returnType="_gwVYQFBkEeyPOP323wmxug">
-        <parameters xmi:id="_oMmgElBlEeyPOP323wmxug" name="arg0" type="_GzqlcFBlEeyPOP323wmxug"/>
+      <operations xmi:id="_1gVa0ZA-EeyJK9rWQnxChw" name="weightInit" returnType="_jdUhUJA-EeyJK9rWQnxChw">
+        <parameters xmi:id="_1gVa0pA-EeyJK9rWQnxChw" name="arg0" type="_L8s9YJBDEeyjnI-k4MEcig"/>
       </operations>
-      <operations xmi:id="_Vgq9sVBrEeykOf-qDtdW3A" name="learningRate" returnType="_gwVYQFBkEeyPOP323wmxug">
-        <parameters xmi:id="_Vgq9slBrEeykOf-qDtdW3A" name="arg0" type="_IIv-iFBkEeyPOP323wmxug"/>
+      <operations xmi:id="_4MOZUZA-EeyJK9rWQnxChw" name="learningRate" returnType="_jdUhUJA-EeyJK9rWQnxChw">
+        <parameters xmi:id="_4MOZUpA-EeyJK9rWQnxChw" name="arg0" type="_IIv-iFBkEeyPOP323wmxug"/>
       </operations>
-      <operations xmi:id="_irfuUFBtEeyN4P1-Ks0QgQ" name="miniBatch" returnType="_gwVYQFBkEeyPOP323wmxug">
-        <parameters xmi:id="_irfuUVBtEeyN4P1-Ks0QgQ" name="arg0" type="_IIv-hFBkEeyPOP323wmxug"/>
+      <operations xmi:id="_6xKbQZA-EeyJK9rWQnxChw" name="miniBatch" returnType="_jdUhUJA-EeyJK9rWQnxChw">
+        <parameters xmi:id="_6xKbQpA-EeyJK9rWQnxChw" name="arg0" type="_IIv-hFBkEeyPOP323wmxug"/>
       </operations>
-      <operations xmi:id="_FiEEkVBuEeyN4P1-Ks0QgQ" name="updater" returnType="_gwVYQFBkEeyPOP323wmxug"/>
-      <operations xmi:id="_Iswe8VBuEeyN4P1-Ks0QgQ" name="optimizationAlgo" returnType="_gwVYQFBkEeyPOP323wmxug">
-        <parameters xmi:id="_URMygFBuEeyN4P1-Ks0QgQ" name="arg0" type="_MIN5MFBuEeyN4P1-Ks0QgQ"/>
+      <operations xmi:id="_9KEzYZA-EeyJK9rWQnxChw" name="updater" returnType="_jdUhUJA-EeyJK9rWQnxChw">
+        <parameters xmi:id="_9KEzYpA-EeyJK9rWQnxChw" name="arg0" type="_u7O80JBDEeyjnI-k4MEcig"/>
+      </operations>
+      <operations xmi:id="__93JoZA-EeyJK9rWQnxChw" name="optimizationAlgo" returnType="_jdUhUJA-EeyJK9rWQnxChw">
+        <parameters xmi:id="__93JopA-EeyJK9rWQnxChw" name="arg0" type="_URzAEJBDEeyjnI-k4MEcig"/>
+      </operations>
+      <operations xmi:id="_B_EzcZA_EeyJK9rWQnxChw" name="l2" returnType="_jdUhUJA-EeyJK9rWQnxChw">
+        <parameters xmi:id="_B_EzcpA_EeyJK9rWQnxChw" name="arg0" type="_IIv-iFBkEeyPOP323wmxug"/>
       </operations>
     </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_u7O80JBDEeyjnI-k4MEcig" name="IUpdater" instanceClassName="org.nd4j.linalg.learning.config.IUpdater" interface="true"/>
     <types xsi:type="ram:RVoid" xmi:id="_IIv-glBkEeyPOP323wmxug"/>
     <types xsi:type="ram:RAny" xmi:id="_IIv-g1BkEeyPOP323wmxug"/>
     <types xsi:type="ram:RBoolean" xmi:id="_IIv-hFBkEeyPOP323wmxug"/>
@@ -36,82 +39,26 @@
     <types xsi:type="ram:RFloat" xmi:id="_IIv-iVBkEeyPOP323wmxug"/>
     <types xsi:type="ram:RLong" xmi:id="_IIv-ilBkEeyPOP323wmxug"/>
     <types xsi:type="ram:RByte" xmi:id="_IIv-i1BkEeyPOP323wmxug"/>
-    <types xsi:type="ram:REnum" xmi:id="_GzqlcFBlEeyPOP323wmxug" name="WeightInit">
-      <literals xmi:id="_Pqn_EFBlEeyPOP323wmxug" name="DISTRIBUTION"/>
-      <literals xmi:id="_PqomIFBlEeyPOP323wmxug" name="IDENTITY"/>
-      <literals xmi:id="_PqomIVBlEeyPOP323wmxug" name="LECUN_NORMAL"/>
-      <literals xmi:id="_PqomIlBlEeyPOP323wmxug" name="LECUN_UNIFORM"/>
-      <literals xmi:id="_PqomI1BlEeyPOP323wmxug" name="NORMAL"/>
-      <literals xmi:id="_PqpNMFBlEeyPOP323wmxug" name="ONES"/>
-      <literals xmi:id="_PqpNMVBlEeyPOP323wmxug" name="RELU"/>
-      <literals xmi:id="_PqpNMlBlEeyPOP323wmxug" name="RELU_UNIFORM"/>
-      <literals xmi:id="_PqpNM1BlEeyPOP323wmxug" name="SIGMOID_UNIFORM"/>
-      <literals xmi:id="_PqpNNFBlEeyPOP323wmxug" name="SUPPLIED"/>
-      <literals xmi:id="_PqpNNVBlEeyPOP323wmxug" name="UNIFORM"/>
-      <literals xmi:id="_WuQZ4FBlEeyPOP323wmxug" name="VAR_SCALING_NORMAL_FAN_AVG"/>
-      <literals xmi:id="_WuRA8FBlEeyPOP323wmxug" name="VAR_SCALING_NORMAL_FAN_IN"/>
-      <literals xmi:id="_WuRA8VBlEeyPOP323wmxug" name="VAR_SCALING_NORMAL_FAN_OUT"/>
-      <literals xmi:id="_a6megFBlEeyPOP323wmxug" name="VAR_SCALING_UNIFORM_FAN_AVG"/>
-      <literals xmi:id="_hqL78FBlEeyPOP323wmxug" name="VAR_SCALING_UNIFORM_FAN_IN"/>
-      <literals xmi:id="_hqL78VBlEeyPOP323wmxug" name="VAR_SCALING_UNIFORM_FAN_OUT"/>
-      <literals xmi:id="_hqL78lBlEeyPOP323wmxug" name="XAVIER"/>
-      <literals xmi:id="_hqL781BlEeyPOP323wmxug" name="XAVIER_FAN_IN"/>
-      <literals xmi:id="_hqL79FBlEeyPOP323wmxug" name="XAVIER_LEGACY"/>
-      <literals xmi:id="_hqL79VBlEeyPOP323wmxug" name="XAVIER_UNIFORM"/>
-      <literals xmi:id="_hqMjAFBlEeyPOP323wmxug" name="ZERO"/>
-    </types>
-    <types xsi:type="ram:REnum" xmi:id="_koE-gFBnEeyPOP323wmxug" name="Activation">
-      <literals xmi:id="_vbMi0FBnEeyPOP323wmxug" name="CUBE"/>
-      <literals xmi:id="_vbMi0VBnEeyPOP323wmxug" name="ELU"/>
-      <literals xmi:id="_vbMi0lBnEeyPOP323wmxug" name="GELU"/>
-      <literals xmi:id="_vbNJ4FBnEeyPOP323wmxug" name="HARDSIGMOID"/>
-      <literals xmi:id="_vbNJ4VBnEeyPOP323wmxug" name="HARDTANH"/>
-      <literals xmi:id="_vbNJ4lBnEeyPOP323wmxug" name="IDENTITY"/>
-      <literals xmi:id="_vbNJ41BnEeyPOP323wmxug" name="LEAKYRELU"/>
-      <literals xmi:id="_vbNJ5FBnEeyPOP323wmxug" name="MISH"/>
-      <literals xmi:id="_vbNJ5VBnEeyPOP323wmxug" name="RATIONALTANH"/>
-      <literals xmi:id="_vbNJ5lBnEeyPOP323wmxug" name="RECTIFIEDTANH"/>
-      <literals xmi:id="_vbNJ51BnEeyPOP323wmxug" name="RELU"/>
-      <literals xmi:id="_vbNJ6FBnEeyPOP323wmxug" name="RELU6"/>
-      <literals xmi:id="_vbNw8FBnEeyPOP323wmxug" name="RRELU"/>
-      <literals xmi:id="_vbNw8VBnEeyPOP323wmxug" name="SELU"/>
-      <literals xmi:id="_vbNw8lBnEeyPOP323wmxug" name="SIGMOID"/>
-      <literals xmi:id="_ycwPUFBnEeyPOP323wmxug" name="SOFTMAX"/>
-      <literals xmi:id="_ycw2YFBnEeyPOP323wmxug" name="SOFTPLUS"/>
-      <literals xmi:id="_ycw2YVBnEeyPOP323wmxug" name="SOFTSIGN"/>
-      <literals xmi:id="_ycw2YlBnEeyPOP323wmxug" name="SWISH"/>
-      <literals xmi:id="_ycw2Y1BnEeyPOP323wmxug" name="TANH"/>
-      <literals xmi:id="_0kFvQFBnEeyPOP323wmxug" name="THRESHOLDEDRELU"/>
-    </types>
-    <types xsi:type="ram:REnum" xmi:id="_MIN5MFBuEeyN4P1-Ks0QgQ" name="OptimizationAlgo">
-      <literals xmi:id="_Ruch4FBuEeyN4P1-Ks0QgQ" name="CONJUNCTION_GRADIENT"/>
-      <literals xmi:id="_Ruch4VBuEeyN4P1-Ks0QgQ" name="LBFGS"/>
-      <literals xmi:id="_Ruch4lBuEeyN4P1-Ks0QgQ" name="LINE_GRADIENT_DESCENT"/>
-      <literals xmi:id="_Ruch41BuEeyN4P1-Ks0QgQ" name="STOCHASTIC_GRADIENT_DESCENT"/>
-    </types>
+    <types xsi:type="ram:REnum" xmi:id="_KS7jMJBDEeyjnI-k4MEcig" name="org.nd4j.linalg.activations.Activation"/>
+    <types xsi:type="ram:REnum" xmi:id="_L8s9YJBDEeyjnI-k4MEcig" name="org.deeplearning4j.nn.weights.WeightInit"/>
+    <types xsi:type="ram:REnum" xmi:id="_URzAEJBDEeyjnI-k4MEcig" name="org.deeplearning4j.nn.api.OptimizationAlgo"/>
   </structuralView>
   <layout xmi:id="_IIv-jFBkEeyPOP323wmxug">
     <containers xmi:id="_IIv-jVBkEeyPOP323wmxug" key="_IIv-gVBkEeyPOP323wmxug">
-      <value xmi:id="_gwVYQVBkEeyPOP323wmxug" key="_gwVYQFBkEeyPOP323wmxug">
-        <value xmi:id="_gwVYQlBkEeyPOP323wmxug" x="340.0" y="85.0"/>
+      <value xmi:id="_jdUhUZA-EeyJK9rWQnxChw" key="_jdUhUJA-EeyJK9rWQnxChw">
+        <value xmi:id="_jdUhUpA-EeyJK9rWQnxChw" x="954.2018" y="-236.19688"/>
       </value>
-      <value xmi:id="_lxXpMVBkEeyPOP323wmxug" key="_lxXpMFBkEeyPOP323wmxug">
-        <value xmi:id="_lxXpMlBkEeyPOP323wmxug" x="374.5" y="370.66336"/>
+      <value xmi:id="_KS7jMpBDEeyjnI-k4MEcig" key="_KS7jMJBDEeyjnI-k4MEcig">
+        <value xmi:id="_KS7jM5BDEeyjnI-k4MEcig" x="561.0498" y="-45.997517"/>
       </value>
-      <value xmi:id="_mv9YYFBkEeyPOP323wmxug" key="_mv8xUFBkEeyPOP323wmxug">
-        <value xmi:id="_mv9YYVBkEeyPOP323wmxug" x="760.2468" y="427.57492"/>
+      <value xmi:id="_L8s9YpBDEeyjnI-k4MEcig" key="_L8s9YJBDEeyjnI-k4MEcig">
+        <value xmi:id="_L8s9Y5BDEeyjnI-k4MEcig" x="538.5498" y="103.49313"/>
       </value>
-      <value xmi:id="_7Xv7wFBkEeyPOP323wmxug" key="_7XutoFBkEeyPOP323wmxug">
-        <value xmi:id="_7Xv7wVBkEeyPOP323wmxug" x="720.2623" y="-8.000008"/>
+      <value xmi:id="_URzAEpBDEeyjnI-k4MEcig" key="_URzAEJBDEeyjnI-k4MEcig">
+        <value xmi:id="_URzAE5BDEeyjnI-k4MEcig" x="413.9735" y="-247.23581"/>
       </value>
-      <value xmi:id="_GzrzkFBlEeyPOP323wmxug" key="_GzqlcFBlEeyPOP323wmxug">
-        <value xmi:id="_GzrzkVBlEeyPOP323wmxug" x="21.909882" y="411.99988"/>
-      </value>
-      <value xmi:id="_koE-gVBnEeyPOP323wmxug" key="_koE-gFBnEeyPOP323wmxug">
-        <value xmi:id="_koE-glBnEeyPOP323wmxug" x="1234.483" y="293.62354"/>
-      </value>
-      <value xmi:id="_MIOgQFBuEeyN4P1-Ks0QgQ" key="_MIN5MFBuEeyN4P1-Ks0QgQ">
-        <value xmi:id="_MIOgQVBuEeyN4P1-Ks0QgQ" x="430.5" y="714.14984"/>
+      <value xmi:id="_u7O80pBDEeyjnI-k4MEcig" key="_u7O80JBDEeyjnI-k4MEcig">
+        <value xmi:id="_u7O805BDEeyjnI-k4MEcig" x="137.9902" y="19.165329"/>
       </value>
     </containers>
   </layout>

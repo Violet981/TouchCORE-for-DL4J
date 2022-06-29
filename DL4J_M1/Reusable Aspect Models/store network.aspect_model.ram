@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_68bsIHq-EeyZ-K-uBHH2zg" name="MLNetwork_store">
+  <structuralView xmi:id="_68bsIXq-EeyZ-K-uBHH2zg">
+    <classes xsi:type="ram:Class" xmi:id="_JufLMHq_EeyZ-K-uBHH2zg" name="org.deeplearning4j.nn.multilayer.MultiLayerNetwork" superTypes="_0m5asH_SEeyZ-7-iWk9v9g" visibility="public">
+      <operations xmi:id="_OIZKsHq_EeyZ-K-uBHH2zg" name="save" returnType="_68bsInq-EeyZ-K-uBHH2zg">
+        <parameters xmi:id="_OIZKsXq_EeyZ-K-uBHH2zg" name="f" type="_de-TIHq_EeyZ-K-uBHH2zg"/>
+      </operations>
+      <operations xmi:id="_-RXwcZAvEeyJK9rWQnxChw" name="save" returnType="_68bsInq-EeyZ-K-uBHH2zg">
+        <parameters xmi:id="_-RXwcpAvEeyJK9rWQnxChw" name="f" type="_de-TIHq_EeyZ-K-uBHH2zg"/>
+        <parameters xmi:id="_-RXwc5AvEeyJK9rWQnxChw" name="saveUpdater" type="_68bsJHq-EeyZ-K-uBHH2zg"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_YKvZYHq_EeyZ-K-uBHH2zg" name="ModelSerializer" visibility="public" instanceClassName="org.deeplearning4j.util.ModelSerializer">
+      <operations xmi:id="_0nDLsH_SEeyZ-7-iWk9v9g" name="writeModel" returnType="_68bsInq-EeyZ-K-uBHH2zg" static="true">
+        <parameters xmi:id="_0nDLsX_SEeyZ-7-iWk9v9g" name="arg0" type="_0m5asH_SEeyZ-7-iWk9v9g"/>
+        <parameters xmi:id="_0nDLsn_SEeyZ-7-iWk9v9g" name="arg1" type="_de-TIHq_EeyZ-K-uBHH2zg"/>
+        <parameters xmi:id="_0nDLs3_SEeyZ-7-iWk9v9g" name="arg2" type="_68bsJHq-EeyZ-K-uBHH2zg"/>
+      </operations>
+      <operations xmi:id="_1EBJoH_UEeyU_ODeo8VEOg" name="writeModel" returnType="_68bsInq-EeyZ-K-uBHH2zg" static="true">
+        <parameters xmi:id="_1EBJoX_UEeyU_ODeo8VEOg" name="arg0" type="_0m5asH_SEeyZ-7-iWk9v9g"/>
+        <parameters xmi:id="_1EBJon_UEeyU_ODeo8VEOg" name="arg1" type="_68bsJ3q-EeyZ-K-uBHH2zg"/>
+        <parameters xmi:id="_1EBJo3_UEeyU_ODeo8VEOg" name="arg2" type="_68bsJHq-EeyZ-K-uBHH2zg"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_de-TIHq_EeyZ-K-uBHH2zg" name="File" visibility="public" instanceClassName="java.io.File">
+      <operations xmi:id="_l5eaQnq_EeyZ-K-uBHH2zg" name="File" returnType="_de-TIHq_EeyZ-K-uBHH2zg" operationType="Constructor">
+        <parameters xmi:id="_l5eaQ3q_EeyZ-K-uBHH2zg" name="arg0" type="_68bsJ3q-EeyZ-K-uBHH2zg"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_0m5asH_SEeyZ-7-iWk9v9g" name="Model" instanceClassName="org.deeplearning4j.nn.api.Model" interface="true"/>
+    <types xsi:type="ram:RVoid" xmi:id="_68bsInq-EeyZ-K-uBHH2zg"/>
+    <types xsi:type="ram:RAny" xmi:id="_68bsI3q-EeyZ-K-uBHH2zg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_68bsJHq-EeyZ-K-uBHH2zg"/>
+    <types xsi:type="ram:RInt" xmi:id="_68bsJXq-EeyZ-K-uBHH2zg"/>
+    <types xsi:type="ram:RChar" xmi:id="_68bsJnq-EeyZ-K-uBHH2zg"/>
+    <types xsi:type="ram:RString" xmi:id="_68bsJ3q-EeyZ-K-uBHH2zg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_68bsKHq-EeyZ-K-uBHH2zg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_68bsKXq-EeyZ-K-uBHH2zg"/>
+    <types xsi:type="ram:RLong" xmi:id="_68bsKnq-EeyZ-K-uBHH2zg"/>
+    <types xsi:type="ram:RByte" xmi:id="_68bsK3q-EeyZ-K-uBHH2zg"/>
+  </structuralView>
+  <layout xmi:id="_68bsLHq-EeyZ-K-uBHH2zg">
+    <containers xmi:id="_68bsLXq-EeyZ-K-uBHH2zg" key="_68bsIXq-EeyZ-K-uBHH2zg">
+      <value xmi:id="_JufyQHq_EeyZ-K-uBHH2zg" key="_JufLMHq_EeyZ-K-uBHH2zg">
+        <value xmi:id="_JufyQXq_EeyZ-K-uBHH2zg" x="272.00006" y="417.82465"/>
+      </value>
+      <value xmi:id="_YKvZYXq_EeyZ-K-uBHH2zg" key="_YKvZYHq_EeyZ-K-uBHH2zg">
+        <value xmi:id="_YKvZYnq_EeyZ-K-uBHH2zg" x="653.0001" y="544.00006"/>
+      </value>
+      <value xmi:id="_de-TIXq_EeyZ-K-uBHH2zg" key="_de-TIHq_EeyZ-K-uBHH2zg">
+        <value xmi:id="_de-TInq_EeyZ-K-uBHH2zg" x="811.0342" y="216.98251"/>
+      </value>
+      <value xmi:id="_0m5asX_SEeyZ-7-iWk9v9g" key="_0m5asH_SEeyZ-7-iWk9v9g">
+        <value xmi:id="_0m5asn_SEeyZ-7-iWk9v9g" x="206.50037" y="260.01584"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_pWgncJAsEeyJK9rWQnxChw" name="load data">
+  <structuralView xmi:id="_pWgncZAsEeyJK9rWQnxChw">
+    <types xsi:type="ram:RVoid" xmi:id="_pWhOgJAsEeyJK9rWQnxChw"/>
+    <types xsi:type="ram:RAny" xmi:id="_pWhOgZAsEeyJK9rWQnxChw"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_pWhOgpAsEeyJK9rWQnxChw"/>
+    <types xsi:type="ram:RInt" xmi:id="_pWhOg5AsEeyJK9rWQnxChw"/>
+    <types xsi:type="ram:RChar" xmi:id="_pWhOhJAsEeyJK9rWQnxChw"/>
+    <types xsi:type="ram:RString" xmi:id="_pWhOhZAsEeyJK9rWQnxChw"/>
+    <types xsi:type="ram:RDouble" xmi:id="_pWhOhpAsEeyJK9rWQnxChw"/>
+    <types xsi:type="ram:RFloat" xmi:id="_pWhOh5AsEeyJK9rWQnxChw"/>
+    <types xsi:type="ram:RLong" xmi:id="_pWhOiJAsEeyJK9rWQnxChw"/>
+    <types xsi:type="ram:RByte" xmi:id="_pWhOiZAsEeyJK9rWQnxChw"/>
+  </structuralView>
+  <layout xmi:id="_pWhOipAsEeyJK9rWQnxChw">
+    <containers xmi:id="_pWhOi5AsEeyJK9rWQnxChw" key="_pWgncZAsEeyJK9rWQnxChw"/>
+  </layout>
+</ram:Aspect>

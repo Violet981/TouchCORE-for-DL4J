@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_BViWsH-2EeyZ-7-iWk9v9g" name="ComputationGraph_layer_settings">
+  <structuralView xmi:id="_BViWsX-2EeyZ-7-iWk9v9g">
+    <classes xsi:type="ram:Class" xmi:id="_l5VSsH_VEeyU_ODeo8VEOg" name="org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder" visibility="public">
+      <operations xmi:id="_s5gUYn_WEeyU_ODeo8VEOg" name="graphBuilder" returnType="_12L7gH_WEeyU_ODeo8VEOg"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_12L7gH_WEeyU_ODeo8VEOg" name="org.deeplearning4j.nn.conf.ComputationGraphConfiguration.GraphBuilder" visibility="public">
+      <operations xmi:id="_CZcAsX_XEeyU_ODeo8VEOg" name="addLayer" returnType="_12L7gH_WEeyU_ODeo8VEOg">
+        <parameters xmi:id="_CZcAsn_XEeyU_ODeo8VEOg" name="arg0" type="_BViWt3-2EeyZ-7-iWk9v9g"/>
+        <parameters xmi:id="_CZcAs3_XEeyU_ODeo8VEOg" name="arg1" type="_2y880OhwEey72MJhAiLgCQ"/>
+        <parameters xmi:id="_CZcAtH_XEeyU_ODeo8VEOg" name="dotdotdot" type="_BViWt3-2EeyZ-7-iWk9v9g"/>
+      </operations>
+      <operations xmi:id="_bM-5MX_fEeyyCqN7ry3a1w" name="addVertex" returnType="_12L7gH_WEeyU_ODeo8VEOg">
+        <parameters xmi:id="_bM-5Mn_fEeyyCqN7ry3a1w" name="arg0" type="_BViWt3-2EeyZ-7-iWk9v9g"/>
+        <parameters xmi:id="_bM-5M3_fEeyyCqN7ry3a1w" name="arg1" type="_VLHdYH_fEeyyCqN7ry3a1w"/>
+        <parameters xmi:id="_bM-5NH_fEeyyCqN7ry3a1w" name="arg2" type="_bM8c8H_fEeyyCqN7ry3a1w"/>
+      </operations>
+      <operations xmi:id="_vEcKwd10Eeyy4LDpUEoIkw" name="addInputs" returnType="_12L7gH_WEeyU_ODeo8VEOg">
+        <parameters xmi:id="_vEcKwt10Eeyy4LDpUEoIkw" name="dotdotdot" type="_BViWt3-2EeyZ-7-iWk9v9g"/>
+      </operations>
+      <operations xmi:id="_wwNJAd10Eeyy4LDpUEoIkw" name="setOutputs" returnType="_12L7gH_WEeyU_ODeo8VEOg">
+        <parameters xmi:id="_wwNJAt10Eeyy4LDpUEoIkw" name="dotdotdot" type="_BViWt3-2EeyZ-7-iWk9v9g"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_VLHdYH_fEeyyCqN7ry3a1w" name="GraphVertex" abstract="true" instanceClassName="org.deeplearning4j.nn.conf.graph.GraphVertex"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_2y880OhwEey72MJhAiLgCQ" name="Layer" abstract="true" instanceClassName="org.deeplearning4j.nn.conf.layers.Layer"/>
+    <types xsi:type="ram:RVoid" xmi:id="_BViWsn-2EeyZ-7-iWk9v9g"/>
+    <types xsi:type="ram:RAny" xmi:id="_BViWs3-2EeyZ-7-iWk9v9g"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_BViWtH-2EeyZ-7-iWk9v9g"/>
+    <types xsi:type="ram:RInt" xmi:id="_BViWtX-2EeyZ-7-iWk9v9g"/>
+    <types xsi:type="ram:RChar" xmi:id="_BViWtn-2EeyZ-7-iWk9v9g"/>
+    <types xsi:type="ram:RString" xmi:id="_BViWt3-2EeyZ-7-iWk9v9g"/>
+    <types xsi:type="ram:RDouble" xmi:id="_BViWuH-2EeyZ-7-iWk9v9g"/>
+    <types xsi:type="ram:RFloat" xmi:id="_BViWuX-2EeyZ-7-iWk9v9g"/>
+    <types xsi:type="ram:RLong" xmi:id="_BViWun-2EeyZ-7-iWk9v9g"/>
+    <types xsi:type="ram:RByte" xmi:id="_BViWu3-2EeyZ-7-iWk9v9g"/>
+    <types xsi:type="ram:RArray" xmi:id="_bM8c8H_fEeyyCqN7ry3a1w" type="_BViWt3-2EeyZ-7-iWk9v9g"/>
+  </structuralView>
+  <layout xmi:id="_BViWvH-2EeyZ-7-iWk9v9g">
+    <containers xmi:id="_BViWvX-2EeyZ-7-iWk9v9g" key="_BViWsX-2EeyZ-7-iWk9v9g">
+      <value xmi:id="_l5VSsX_VEeyU_ODeo8VEOg" key="_l5VSsH_VEeyU_ODeo8VEOg">
+        <value xmi:id="_l5VSsn_VEeyU_ODeo8VEOg" x="855.44165" y="207.74205"/>
+      </value>
+      <value xmi:id="_12L7gX_WEeyU_ODeo8VEOg" key="_12L7gH_WEeyU_ODeo8VEOg">
+        <value xmi:id="_12L7gn_WEeyU_ODeo8VEOg" x="254.50003" y="341.80164"/>
+      </value>
+      <value xmi:id="_VLHdYX_fEeyyCqN7ry3a1w" key="_VLHdYH_fEeyyCqN7ry3a1w">
+        <value xmi:id="_VLHdYn_fEeyyCqN7ry3a1w" x="1146.4417" y="74.7655"/>
+      </value>
+      <value xmi:id="_2y880ehwEey72MJhAiLgCQ" key="_2y880OhwEey72MJhAiLgCQ">
+        <value xmi:id="_2y880uhwEey72MJhAiLgCQ" x="1387.1115" y="43.999924"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

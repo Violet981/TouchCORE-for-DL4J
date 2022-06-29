@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="ASCII"?>
 <ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_zRiQYNgEEeuGxOJxjWx4FA" name="multiple format of data">
-  <realizes href="DL4J_M1.core#_3P-1MNf_EeuGxOJxjWx4FA"/>
-  <coreConcern href="DL4J_M1.core#_bV6McNf-EeuGxOJxjWx4FA"/>
   <structuralView xmi:id="_zRiQYdgEEeuGxOJxjWx4FA">
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_zRiQYtgEEeuGxOJxjWx4FA" name="BaseRecordReader" instanceClassName="org.datavec.api.records.reader.BaseRecordReader"/>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_zRiQY9gEEeuGxOJxjWx4FA" name="ConcatenatingRecordReader" visibility="public" superTypes="_zRiQYtgEEeuGxOJxjWx4FA" instanceClassName="org.datavec.api.records.reader.impl.ConcatenatingRecordReader">
-      <operations xmi:id="_zRiQZNgEEeuGxOJxjWx4FA" name="next" visibility="public" returnType="_zRiQdNgEEeuGxOJxjWx4FA"/>
-      <operations xmi:id="_zRiQZdgEEeuGxOJxjWx4FA" name="nextRecord" visibility="public" returnType="_zRiQdtgEEeuGxOJxjWx4FA"/>
-      <operations xmi:id="_zRiQZtgEEeuGxOJxjWx4FA" name="hasNext" visibility="public" returnType="_zRiQetgEEeuGxOJxjWx4FA"/>
-      <operations xmi:id="_zRiQZ9gEEeuGxOJxjWx4FA" name="initialize" visibility="public" returnType="_zRiQeNgEEeuGxOJxjWx4FA">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_zRiQYtgEEeuGxOJxjWx4FA" name="BaseRecordReader" superTypes="_gDoV4MvMEeyudatNXAfKYQ" instanceClassName="org.datavec.api.records.reader.BaseRecordReader"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_zRiQY9gEEeuGxOJxjWx4FA" name="ConcatenatingRecordReader" superTypes="_zRiQYtgEEeuGxOJxjWx4FA" visibility="public" instanceClassName="org.datavec.api.records.reader.impl.ConcatenatingRecordReader">
+      <operations xmi:id="_huhxcMvMEeyudatNXAfKYQ" name="ConcatenatingRecordReader" returnType="_zRiQY9gEEeuGxOJxjWx4FA" operationType="Constructor">
+        <parameters xmi:id="_huhxccvMEeyudatNXAfKYQ" name="arg0" type="_gDvqoMvMEeyudatNXAfKYQ"/>
+      </operations>
+      <operations xmi:id="_zRiQZNgEEeuGxOJxjWx4FA" name="next" returnType="_zRiQdNgEEeuGxOJxjWx4FA"/>
+      <operations xmi:id="_zRiQZdgEEeuGxOJxjWx4FA" name="nextRecord" returnType="_zRiQdtgEEeuGxOJxjWx4FA"/>
+      <operations xmi:id="_zRiQZtgEEeuGxOJxjWx4FA" name="hasNext" returnType="_zRiQetgEEeuGxOJxjWx4FA"/>
+      <operations xmi:id="_zRiQZ9gEEeuGxOJxjWx4FA" name="initialize" returnType="_zRiQeNgEEeuGxOJxjWx4FA">
         <parameters xmi:id="_zRiQaNgEEeuGxOJxjWx4FA" name="arg0" type="_zRiQd9gEEeuGxOJxjWx4FA"/>
         <parameters xmi:id="_zRiQadgEEeuGxOJxjWx4FA" name="arg1" type="_zRiQctgEEeuGxOJxjWx4FA"/>
       </operations>
     </classes>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_zRiQatgEEeuGxOJxjWx4FA" name="ComposableRecordReader" visibility="public" superTypes="_zRiQYtgEEeuGxOJxjWx4FA" instanceClassName="org.datavec.api.records.reader.impl.ComposableRecordReader">
-      <operations xmi:id="_zRiQa9gEEeuGxOJxjWx4FA" name="next" visibility="public" returnType="_zRiQdNgEEeuGxOJxjWx4FA"/>
-      <operations xmi:id="_zRiQbNgEEeuGxOJxjWx4FA" name="nextRecord" visibility="public" returnType="_zRiQdtgEEeuGxOJxjWx4FA"/>
-      <operations xmi:id="_zRiQbdgEEeuGxOJxjWx4FA" name="hasNext" visibility="public" returnType="_zRiQetgEEeuGxOJxjWx4FA"/>
-      <operations xmi:id="_zRiQbtgEEeuGxOJxjWx4FA" name="initialize" visibility="public" returnType="_zRiQeNgEEeuGxOJxjWx4FA">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_zRiQatgEEeuGxOJxjWx4FA" name="ComposableRecordReader" superTypes="_zRiQYtgEEeuGxOJxjWx4FA" visibility="public" instanceClassName="org.datavec.api.records.reader.impl.ComposableRecordReader">
+      <operations xmi:id="_gD2_YMvMEeyudatNXAfKYQ" name="ComposableRecordReader" returnType="_zRiQatgEEeuGxOJxjWx4FA" operationType="Constructor">
+        <parameters xmi:id="_gD2_YcvMEeyudatNXAfKYQ" name="arg0" type="_gDvqoMvMEeyudatNXAfKYQ"/>
+      </operations>
+      <operations xmi:id="_zRiQa9gEEeuGxOJxjWx4FA" name="next" returnType="_zRiQdNgEEeuGxOJxjWx4FA"/>
+      <operations xmi:id="_zRiQbNgEEeuGxOJxjWx4FA" name="nextRecord" returnType="_zRiQdtgEEeuGxOJxjWx4FA"/>
+      <operations xmi:id="_zRiQbdgEEeuGxOJxjWx4FA" name="hasNext" returnType="_zRiQetgEEeuGxOJxjWx4FA"/>
+      <operations xmi:id="_zRiQbtgEEeuGxOJxjWx4FA" name="initialize" returnType="_zRiQeNgEEeuGxOJxjWx4FA">
         <parameters xmi:id="_zRiQb9gEEeuGxOJxjWx4FA" name="arg0" type="_zRiQd9gEEeuGxOJxjWx4FA"/>
         <parameters xmi:id="_zRiQcNgEEeuGxOJxjWx4FA" name="arg1" type="_zRiQctgEEeuGxOJxjWx4FA"/>
       </operations>
@@ -30,6 +34,7 @@
     </classes>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_zRiQdtgEEeuGxOJxjWx4FA" name="Record" instanceClassName="org.datavec.api.records.Record" interface="true"/>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_zRiQd9gEEeuGxOJxjWx4FA" name="Configuration" superTypes="_zRiQc9gEEeuGxOJxjWx4FA" instanceClassName="org.datavec.api.conf.Configuration"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_gDoV4MvMEeyudatNXAfKYQ" name="RecordReader" instanceClassName="org.datavec.api.records.reader.RecordReader" interface="true"/>
     <types xsi:type="ram:RVoid" xmi:id="_zRiQeNgEEeuGxOJxjWx4FA"/>
     <types xsi:type="ram:RAny" xmi:id="_zRiQedgEEeuGxOJxjWx4FA"/>
     <types xsi:type="ram:RBoolean" xmi:id="_zRiQetgEEeuGxOJxjWx4FA"/>
@@ -40,6 +45,9 @@
     <types xsi:type="ram:RFloat" xmi:id="_zRiQf9gEEeuGxOJxjWx4FA"/>
     <types xsi:type="ram:RLong" xmi:id="_zRiQgNgEEeuGxOJxjWx4FA"/>
     <types xsi:type="ram:RByte" xmi:id="_zRiQgdgEEeuGxOJxjWx4FA"/>
+    <types xsi:type="ram:RArray" xmi:id="_gDvqoMvMEeyudatNXAfKYQ">
+      <type xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_PIMWII-MEeyJK9rWQnxChw"/>
+    </types>
   </structuralView>
   <layout xmi:id="_zRiQg9gEEeuGxOJxjWx4FA">
     <containers xmi:id="_zRiQhNgEEeuGxOJxjWx4FA" key="_zRiQYdgEEeuGxOJxjWx4FA">
@@ -69,6 +77,9 @@
       </value>
       <value xmi:id="_zRi3dtgEEeuGxOJxjWx4FA" key="_zRiQd9gEEeuGxOJxjWx4FA">
         <value xmi:id="_zRi3d9gEEeuGxOJxjWx4FA" x="744.2101" y="774.00055"/>
+      </value>
+      <value xmi:id="_gDrZMMvMEeyudatNXAfKYQ" key="_gDoV4MvMEeyudatNXAfKYQ">
+        <value xmi:id="_gDrZMcvMEeyudatNXAfKYQ"/>
       </value>
     </containers>
   </layout>
