@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="__xxuE4g8EeqW6O16wdTpZA" name="Stack">
+  <structuralView xmi:id="__xxuFIg8EeqW6O16wdTpZA">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_FAywoIg9EeqW6O16wdTpZA" name="Stack" instanceClassName="java.util.Stack">
+      <typeParameters xmi:id="_FAywoYg9EeqW6O16wdTpZA" name="E" genericType="_O2hfoIg9EeqW6O16wdTpZA"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_O2hfoIg9EeqW6O16wdTpZA" name="Target"/>
+    <classes xsi:type="ram:Class" xmi:id="_QvqLgIg9EeqW6O16wdTpZA" name="Source" visibility="public"/>
+    <types xsi:type="ram:RVoid" xmi:id="__xxuFYg8EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RAny" xmi:id="__xxuFog8EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RBoolean" xmi:id="__xxuF4g8EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RInt" xmi:id="__xxuGIg8EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RChar" xmi:id="__xxuGYg8EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RString" xmi:id="__xxuGog8EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RDouble" xmi:id="__xxuG4g8EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RFloat" xmi:id="__xxuHIg8EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RLong" xmi:id="__xxuHYg8EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RByte" xmi:id="__xxuHog8EeqW6O16wdTpZA"/>
+  </structuralView>
+  <layout xmi:id="__xxuH4g8EeqW6O16wdTpZA">
+    <containers xmi:id="__xxuIIg8EeqW6O16wdTpZA" key="__xxuFIg8EeqW6O16wdTpZA">
+      <value xmi:id="_FAzXsIg9EeqW6O16wdTpZA" key="_FAywoIg9EeqW6O16wdTpZA">
+        <value xmi:id="_FAzXsYg9EeqW6O16wdTpZA" x="633.60785" y="351.13638"/>
+      </value>
+      <value xmi:id="_O2hfoog9EeqW6O16wdTpZA" key="_O2hfoIg9EeqW6O16wdTpZA">
+        <value xmi:id="_O2hfo4g9EeqW6O16wdTpZA" x="965.50024" y="361.13638"/>
+      </value>
+      <value xmi:id="_QvqLgog9EeqW6O16wdTpZA" key="_QvqLgIg9EeqW6O16wdTpZA">
+        <value xmi:id="_QvqLg4g9EeqW6O16wdTpZA" x="264.5001" y="361.13638"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

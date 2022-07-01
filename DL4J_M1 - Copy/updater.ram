@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_oqDKICZtEeyatsJceXdPFg" name="updater">
+  <structuralView xmi:id="_oqDKISZtEeyatsJceXdPFg">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_oqDKIyZtEeyatsJceXdPFg" name="NeuralNetConfiguration$Builder" instanceClassName="org.deeplearning4j.nn.conf.NeuralNetConfiguration$Builder"/>
+    <classes xsi:type="ram:Class" xmi:id="_oqDKJCZtEeyatsJceXdPFg" name="NeuralNetConfigurationBuilder" visibility="public">
+      <operations xmi:id="_X8cTMUHeEeyHeO1CTuNSyA" name="updater" returnType="_oqDKIyZtEeyatsJceXdPFg">
+        <parameters xmi:id="_X8cTMkHeEeyHeO1CTuNSyA" name="updater" type="_zEUU4EHdEeyHeO1CTuNSyA"/>
+      </operations>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_oqDKKCZtEeyatsJceXdPFg"/>
+    <types xsi:type="ram:RAny" xmi:id="_oqDKKSZtEeyatsJceXdPFg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_oqDKKiZtEeyatsJceXdPFg"/>
+    <types xsi:type="ram:RInt" xmi:id="_oqDKKyZtEeyatsJceXdPFg"/>
+    <types xsi:type="ram:RChar" xmi:id="_oqDKLCZtEeyatsJceXdPFg"/>
+    <types xsi:type="ram:RString" xmi:id="_oqDKLSZtEeyatsJceXdPFg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_oqDKLiZtEeyatsJceXdPFg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_oqDKLyZtEeyatsJceXdPFg"/>
+    <types xsi:type="ram:RLong" xmi:id="_oqDKMCZtEeyatsJceXdPFg"/>
+    <types xsi:type="ram:RByte" xmi:id="_oqDKMSZtEeyatsJceXdPFg"/>
+    <types xsi:type="ram:REnum" xmi:id="_zEUU4EHdEeyHeO1CTuNSyA" name="Updater">
+      <literals xmi:id="_2t31gEHdEeyHeO1CTuNSyA" name="ADADELTA"/>
+      <literals xmi:id="_5DykAEHdEeyHeO1CTuNSyA" name="ADAGRAD"/>
+      <literals xmi:id="_5p9MIEHdEeyHeO1CTuNSyA" name="ADAM"/>
+      <literals xmi:id="_6XSzQEHdEeyHeO1CTuNSyA" name="ADAMAX"/>
+      <literals xmi:id="_7Xg6IEHdEeyHeO1CTuNSyA" name="NADAN"/>
+      <literals xmi:id="_8ZTuUEHdEeyHeO1CTuNSyA" name="NESTEROVS"/>
+      <literals xmi:id="_9D5jcEHdEeyHeO1CTuNSyA" name="NONE"/>
+      <literals xmi:id="_973tQEHdEeyHeO1CTuNSyA" name="RMSPROP"/>
+      <literals xmi:id="_-ZvVAEHdEeyHeO1CTuNSyA" name="SGD"/>
+    </types>
+  </structuralView>
+  <layout xmi:id="_oqDKMyZtEeyatsJceXdPFg">
+    <containers xmi:id="_oqDKNCZtEeyatsJceXdPFg" key="_oqDKISZtEeyatsJceXdPFg">
+      <value xmi:id="_oqDKNyZtEeyatsJceXdPFg" key="_oqDKIyZtEeyatsJceXdPFg">
+        <value xmi:id="_oqDKOCZtEeyatsJceXdPFg" x="735.00037" y="416.00012"/>
+      </value>
+      <value xmi:id="_oqDKOSZtEeyatsJceXdPFg" key="_oqDKJCZtEeyatsJceXdPFg">
+        <value xmi:id="_oqDKOiZtEeyatsJceXdPFg" x="512.0" y="575.0"/>
+      </value>
+      <value xmi:id="_zEU78EHdEeyHeO1CTuNSyA" key="_zEUU4EHdEeyHeO1CTuNSyA">
+        <value xmi:id="_zEU78UHdEeyHeO1CTuNSyA" x="1036.0002" y="538.9594"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

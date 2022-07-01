@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_d87AsIdzEeyXwqDbAaieeg" name="ComputationGraph_train">
+  <structuralView xmi:id="_d87AsYdzEeyXwqDbAaieeg">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_ir87oIdzEeyXwqDbAaieeg" name="DataSetIterator" visibility="public" instanceClassName="org.nd4j.linalg.dataset.api.iterator.DataSetIterator" interface="true">
+      <operations xmi:id="_kI5awodzEeyXwqDbAaieeg" name="hasNext" returnType="_d87AtIdzEeyXwqDbAaieeg"/>
+      <operations xmi:id="_k4JtcYdzEeyXwqDbAaieeg" name="next" returnType="_k4JGYIdzEeyXwqDbAaieeg">
+        <parameters xmi:id="_k4JtcodzEeyXwqDbAaieeg" name="arg0" type="_d87AtYdzEeyXwqDbAaieeg"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_k4JGYIdzEeyXwqDbAaieeg" name="DataSet" instanceClassName="org.nd4j.linalg.dataset.DataSet"/>
+    <classes xsi:type="ram:Class" xmi:id="_7So9gIdzEeyXwqDbAaieeg" name="org.deeplearning4j.nn.graph.ComputationGraph" visibility="public">
+      <operations xmi:id="_DcfZgod0EeyXwqDbAaieeg" name="fit" returnType="_d87AsodzEeyXwqDbAaieeg"/>
+      <operations xmi:id="_EnRxoYd0EeyXwqDbAaieeg" name="fit" returnType="_d87AsodzEeyXwqDbAaieeg">
+        <parameters xmi:id="_EnRxood0EeyXwqDbAaieeg" name="arg0" type="_k4JGYIdzEeyXwqDbAaieeg"/>
+      </operations>
+      <operations xmi:id="_MBdEMYd0EeyXwqDbAaieeg" name="fit" returnType="_d87AsodzEeyXwqDbAaieeg">
+        <parameters xmi:id="_MBdEMod0EeyXwqDbAaieeg" name="arg0" type="_ir87oIdzEeyXwqDbAaieeg"/>
+      </operations>
+      <operations xmi:id="_QPfK4Yd0EeyXwqDbAaieeg" name="fit" returnType="_d87AsodzEeyXwqDbAaieeg">
+        <parameters xmi:id="_QPfK4od0EeyXwqDbAaieeg" name="arg0" type="_OewNEId0EeyXwqDbAaieeg"/>
+        <parameters xmi:id="_QPfK44d0EeyXwqDbAaieeg" name="arg1" type="_OewNEId0EeyXwqDbAaieeg"/>
+      </operations>
+      <operations xmi:id="_xR9pcIr6EeywCee_v5QerA" name="setListeners" returnType="_d87AsodzEeyXwqDbAaieeg">
+        <parameters xmi:id="_xR9pcYr6EeywCee_v5QerA" name="dotdotdot" type="_u3o8EIr6EeywCee_v5QerA"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_OewNEId0EeyXwqDbAaieeg" name="INDArray" instanceClassName="org.nd4j.linalg.api.ndarray.INDArray" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_VGPB8Id1EeyXwqDbAaieeg" name="SplitTestAndTrain" visibility="public" instanceClassName="org.nd4j.linalg.dataset.SplitTestAndTrain">
+      <operations xmi:id="_WCcykod1EeyXwqDbAaieeg" name="getTrain" returnType="_k4JGYIdzEeyXwqDbAaieeg"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_u3o8EIr6EeywCee_v5QerA" name="TrainingListener" instanceClassName="org.deeplearning4j.optimize.api.TrainingListener" interface="true"/>
+    <types xsi:type="ram:RVoid" xmi:id="_d87AsodzEeyXwqDbAaieeg"/>
+    <types xsi:type="ram:RAny" xmi:id="_d87As4dzEeyXwqDbAaieeg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_d87AtIdzEeyXwqDbAaieeg"/>
+    <types xsi:type="ram:RInt" xmi:id="_d87AtYdzEeyXwqDbAaieeg"/>
+    <types xsi:type="ram:RChar" xmi:id="_d87AtodzEeyXwqDbAaieeg"/>
+    <types xsi:type="ram:RString" xmi:id="_d87At4dzEeyXwqDbAaieeg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_d87AuIdzEeyXwqDbAaieeg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_d87AuYdzEeyXwqDbAaieeg"/>
+    <types xsi:type="ram:RLong" xmi:id="_d87AuodzEeyXwqDbAaieeg"/>
+    <types xsi:type="ram:RByte" xmi:id="_d87Au4dzEeyXwqDbAaieeg"/>
+  </structuralView>
+  <layout xmi:id="_d87AvIdzEeyXwqDbAaieeg">
+    <containers xmi:id="_d87AvYdzEeyXwqDbAaieeg" key="_d87AsYdzEeyXwqDbAaieeg">
+      <value xmi:id="_ir87oYdzEeyXwqDbAaieeg" key="_ir87oIdzEeyXwqDbAaieeg">
+        <value xmi:id="_ir87oodzEeyXwqDbAaieeg" x="463.0" y="118.0"/>
+      </value>
+      <value xmi:id="_k4JGYYdzEeyXwqDbAaieeg" key="_k4JGYIdzEeyXwqDbAaieeg">
+        <value xmi:id="_k4JGYodzEeyXwqDbAaieeg" x="137.99994" y="130.0"/>
+      </value>
+      <value xmi:id="_7So9gYdzEeyXwqDbAaieeg" key="_7So9gIdzEeyXwqDbAaieeg">
+        <value xmi:id="_7So9godzEeyXwqDbAaieeg" x="644.6605" y="278.0001"/>
+      </value>
+      <value xmi:id="_OewNEYd0EeyXwqDbAaieeg" key="_OewNEId0EeyXwqDbAaieeg">
+        <value xmi:id="_OewNEod0EeyXwqDbAaieeg" x="260.99994" y="319.0001"/>
+      </value>
+      <value xmi:id="_VGPB8Yd1EeyXwqDbAaieeg" key="_VGPB8Id1EeyXwqDbAaieeg">
+        <value xmi:id="_VGPB8od1EeyXwqDbAaieeg" x="549.99976" y="551.00006"/>
+      </value>
+      <value xmi:id="_u3o8EYr6EeywCee_v5QerA" key="_u3o8EIr6EeywCee_v5QerA">
+        <value xmi:id="_u3o8Eor6EeywCee_v5QerA" x="726.3156" y="692.90436"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

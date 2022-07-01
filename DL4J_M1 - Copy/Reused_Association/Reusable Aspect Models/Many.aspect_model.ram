@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_7Tsn8Ig2Eeq1FIh4giSfig" name="Many">
+  <structuralView xmi:id="_7Tsn8Yg2Eeq1FIh4giSfig">
+    <classes xsi:type="ram:Class" xmi:id="_8QUBMIg2Eeq1FIh4giSfig" name="Source" visibility="public">
+      <operations xmi:id="_BkIrQog3Eeq1FIh4giSfig" name="create" returnType="_8QUBMIg2Eeq1FIh4giSfig" operationType="Constructor"/>
+      <operations xmi:id="_DEg44Yg3Eeq1FIh4giSfig" name="contains" returnType="_7Tsn9Ig2Eeq1FIh4giSfig">
+        <parameters xmi:id="_DEg44og3Eeq1FIh4giSfig" name="t" type="_8ugZEIg2Eeq1FIh4giSfig"/>
+      </operations>
+      <operations xmi:id="_EsI-AYg3Eeq1FIh4giSfig" name="sizeOfTarget" returnType="_7Tsn9Yg2Eeq1FIh4giSfig"/>
+      <operations xmi:id="_H-SEMIg3Eeq1FIh4giSfig" name="getTargets" returnType="_9sfrUIg2Eeq1FIh4giSfig"/>
+      <associationEnds xmi:id="_ZBD90Ig5EeqWyfRjfA1X_A" name="myTarget" lowerBound="1" referenceType="Composition" assoc="_V3xRoIg5EeqWyfRjfA1X_A"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_8ugZEIg2Eeq1FIh4giSfig" name="Target">
+      <associationEnds xmi:id="_dVdVwIg6EeqWyfRjfA1X_A" name="myCollection" navigable="false" assoc="_btTFIIg6EeqWyfRjfA1X_A"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_9sfrUIg2Eeq1FIh4giSfig" name="Collection">
+      <associationEnds xmi:id="_aht4QIg5EeqWyfRjfA1X_A" name="mySource" navigable="false" assoc="_V3xRoIg5EeqWyfRjfA1X_A"/>
+      <associationEnds xmi:id="_cjWjYIg6EeqWyfRjfA1X_A" name="elements" upperBound="-1" referenceType="Aggregation" assoc="_btTFIIg6EeqWyfRjfA1X_A"/>
+    </classes>
+    <associations xmi:id="_V3xRoIg5EeqWyfRjfA1X_A" name="AssociationSourceToCollection" ends="_ZBD90Ig5EeqWyfRjfA1X_A _aht4QIg5EeqWyfRjfA1X_A"/>
+    <associations xmi:id="_btTFIIg6EeqWyfRjfA1X_A" name="AssociationCollectionToTarget" ends="_dVdVwIg6EeqWyfRjfA1X_A _cjWjYIg6EeqWyfRjfA1X_A"/>
+    <types xsi:type="ram:RVoid" xmi:id="_7Tsn8og2Eeq1FIh4giSfig"/>
+    <types xsi:type="ram:RAny" xmi:id="_7Tsn84g2Eeq1FIh4giSfig"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_7Tsn9Ig2Eeq1FIh4giSfig"/>
+    <types xsi:type="ram:RInt" xmi:id="_7Tsn9Yg2Eeq1FIh4giSfig"/>
+    <types xsi:type="ram:RChar" xmi:id="_7Tsn9og2Eeq1FIh4giSfig"/>
+    <types xsi:type="ram:RString" xmi:id="_7Tsn94g2Eeq1FIh4giSfig"/>
+    <types xsi:type="ram:RDouble" xmi:id="_7Tsn-Ig2Eeq1FIh4giSfig"/>
+    <types xsi:type="ram:RFloat" xmi:id="_7Tsn-Yg2Eeq1FIh4giSfig"/>
+    <types xsi:type="ram:RLong" xmi:id="_7Tsn-og2Eeq1FIh4giSfig"/>
+    <types xsi:type="ram:RByte" xmi:id="_7Tsn-4g2Eeq1FIh4giSfig"/>
+  </structuralView>
+  <layout xmi:id="_7Tsn_Ig2Eeq1FIh4giSfig">
+    <containers xmi:id="_7Tsn_Yg2Eeq1FIh4giSfig" key="_7Tsn8Yg2Eeq1FIh4giSfig">
+      <value xmi:id="_8QUBMog2Eeq1FIh4giSfig" key="_8QUBMIg2Eeq1FIh4giSfig">
+        <value xmi:id="_8QUBM4g2Eeq1FIh4giSfig" x="166.49982" y="241.99411"/>
+      </value>
+      <value xmi:id="_8ugZEog2Eeq1FIh4giSfig" key="_8ugZEIg2Eeq1FIh4giSfig">
+        <value xmi:id="_8ugZE4g2Eeq1FIh4giSfig" x="962.5001" y="280.0156"/>
+      </value>
+      <value xmi:id="_9sfrUYg2Eeq1FIh4giSfig" key="_9sfrUIg2Eeq1FIh4giSfig">
+        <value xmi:id="_9sfrUog2Eeq1FIh4giSfig" x="599.50006" y="279.9882"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

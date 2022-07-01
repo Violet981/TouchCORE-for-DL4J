@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_JtQ04Ig_EeqW6O16wdTpZA" name="HashMap">
+  <structuralView xmi:id="_JtQ04Yg_EeqW6O16wdTpZA">
+    <classes xsi:type="ram:Class" xmi:id="_LjevoIg_EeqW6O16wdTpZA" name="Source" visibility="public"/>
+    <classes xsi:type="ram:Class" xmi:id="_McYtkIg_EeqW6O16wdTpZA" name="Target"/>
+    <classes xsi:type="ram:Class" xmi:id="_N0l2oIg_EeqW6O16wdTpZA" name="Key"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_SksIkIg_EeqW6O16wdTpZA" name="HashMap" instanceClassName="java.util.HashMap">
+      <typeParameters xmi:id="_SksIkYg_EeqW6O16wdTpZA" name="K" genericType="_N0l2oIg_EeqW6O16wdTpZA"/>
+      <typeParameters xmi:id="_SksIkog_EeqW6O16wdTpZA" name="V" genericType="_McYtkIg_EeqW6O16wdTpZA"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_JtQ04og_EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RAny" xmi:id="_JtQ044g_EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_JtQ05Ig_EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RInt" xmi:id="_JtQ05Yg_EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RChar" xmi:id="_JtQ05og_EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RString" xmi:id="_JtQ054g_EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RDouble" xmi:id="_JtQ06Ig_EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RFloat" xmi:id="_JtQ06Yg_EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RLong" xmi:id="_JtQ06og_EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RByte" xmi:id="_JtQ064g_EeqW6O16wdTpZA"/>
+  </structuralView>
+  <layout xmi:id="_JtQ07Ig_EeqW6O16wdTpZA">
+    <containers xmi:id="_JtQ07Yg_EeqW6O16wdTpZA" key="_JtQ04Yg_EeqW6O16wdTpZA">
+      <value xmi:id="_Ljevoog_EeqW6O16wdTpZA" key="_LjevoIg_EeqW6O16wdTpZA">
+        <value xmi:id="_Ljevo4g_EeqW6O16wdTpZA" x="348.25308" y="406.8967"/>
+      </value>
+      <value xmi:id="_McYtkog_EeqW6O16wdTpZA" key="_McYtkIg_EeqW6O16wdTpZA">
+        <value xmi:id="_McYtk4g_EeqW6O16wdTpZA" x="944.9063" y="406.8967"/>
+      </value>
+      <value xmi:id="_N0l2oog_EeqW6O16wdTpZA" key="_N0l2oIg_EeqW6O16wdTpZA">
+        <value xmi:id="_N0l2o4g_EeqW6O16wdTpZA" x="700.7688" y="206.29066"/>
+      </value>
+      <value xmi:id="_SksIk4g_EeqW6O16wdTpZA" key="_SksIkIg_EeqW6O16wdTpZA">
+        <value xmi:id="_SksIlIg_EeqW6O16wdTpZA" x="619.58484" y="396.8967"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

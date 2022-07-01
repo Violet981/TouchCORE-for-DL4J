@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_EvbWkFYoEeyZn4w4eybuYw" name="computationGraph_Evaluate">
+  <structuralView xmi:id="_EvbWkVYoEeyZn4w4eybuYw">
+    <classes xsi:type="ram:Class" xmi:id="_TM664FYoEeyZn4w4eybuYw" name="org.nd4j.evaluation.Classification.Evaluation" visibility="public">
+      <operations xmi:id="_jkVagIeGEeyXy4GnIViC7Q" name="create" returnType="_TM664FYoEeyZn4w4eybuYw" operationType="Constructor"/>
+      <operations xmi:id="_Q-ENgYeHEeyXy4GnIViC7Q" name="create" returnType="_TM664FYoEeyZn4w4eybuYw" operationType="Constructor">
+        <parameters xmi:id="_T3lYUIeHEeyXy4GnIViC7Q" name="arg0" type="_EvbWlVYoEeyZn4w4eybuYw"/>
+      </operations>
+      <operations xmi:id="_CjngsYeIEeyXy4GnIViC7Q" name="eval" returnType="_EvbWklYoEeyZn4w4eybuYw">
+        <parameters xmi:id="_CjngsoeIEeyXy4GnIViC7Q" name="arg0" type="_tn9PQFYoEeyZn4w4eybuYw"/>
+        <parameters xmi:id="_Cjngs4eIEeyXy4GnIViC7Q" name="arg1" type="_tn9PQFYoEeyZn4w4eybuYw"/>
+      </operations>
+      <operations xmi:id="_ITgbsYeIEeyXy4GnIViC7Q" name="eval" returnType="_EvbWklYoEeyZn4w4eybuYw">
+        <parameters xmi:id="_ITgbsoeIEeyXy4GnIViC7Q" name="arg0" type="_EvbWlVYoEeyZn4w4eybuYw"/>
+        <parameters xmi:id="_ITgbs4eIEeyXy4GnIViC7Q" name="arg1" type="_EvbWlVYoEeyZn4w4eybuYw"/>
+      </operations>
+      <operations xmi:id="_PUgZQIeIEeyXy4GnIViC7Q" name="confusionToString" returnType="_EvbWl1YoEeyZn4w4eybuYw"/>
+      <operations xmi:id="_VIZDcYeIEeyXy4GnIViC7Q" name="confusionMatrix" returnType="_EvbWl1YoEeyZn4w4eybuYw"/>
+      <operations xmi:id="_R-RA0Y-LEeyJK9rWQnxChw" name="stats" returnType="_EvbWl1YoEeyZn4w4eybuYw"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_tn9PQFYoEeyZn4w4eybuYw" name="INDArray" instanceClassName="org.nd4j.linalg.api.ndarray.INDArray" interface="true"/>
+    <classes xsi:type="ram:Class" xmi:id="_pCfsUIeGEeyXy4GnIViC7Q" name="org.deeplearning4j.nn.graph.ComputationGraph" visibility="public">
+      <operations xmi:id="_t56HMoeGEeyXy4GnIViC7Q" name="evaluate" returnType="_TM664FYoEeyZn4w4eybuYw">
+        <parameters xmi:id="_t56HM4eGEeyXy4GnIViC7Q" name="arg0" type="_CtGCQIeHEeyXy4GnIViC7Q"/>
+      </operations>
+      <operations xmi:id="_vfzrAYenEeynpNogO2lIBg" name="evaluateRegression" returnType="_ZpXjMIenEeynpNogO2lIBg">
+        <parameters xmi:id="_vf0SEIenEeynpNogO2lIBg" name="arg0" type="_CtGCQIeHEeyXy4GnIViC7Q"/>
+      </operations>
+      <operations xmi:id="_1mVs4YrzEeyvw-HDFtFjFQ" name="doEvaluation" returnType="_lB0xsIrzEeyvw-HDFtFjFQ">
+        <parameters xmi:id="_1mVs4orzEeyvw-HDFtFjFQ" name="arg0" type="_CtGCQIeHEeyXy4GnIViC7Q"/>
+        <parameters xmi:id="_1mVs44rzEeyvw-HDFtFjFQ" name="dotdotdot" type="_lB0xsIrzEeyvw-HDFtFjFQ"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_CtGCQIeHEeyXy4GnIViC7Q" name="DataSetIterator" instanceClassName="org.nd4j.linalg.dataset.api.iterator.DataSetIterator" interface="true"/>
+    <classes xsi:type="ram:Class" xmi:id="_ZpXjMIenEeynpNogO2lIBg" name="org.nd4j.eval.RegressionEvaluation" visibility="public">
+      <operations xmi:id="_lh0-8YenEeynpNogO2lIBg" name="create" returnType="_ZpXjMIenEeynpNogO2lIBg" operationType="Constructor"/>
+      <operations xmi:id="_mu7rQYenEeynpNogO2lIBg" name="create" returnType="_ZpXjMIenEeynpNogO2lIBg" operationType="Constructor">
+        <parameters xmi:id="_oXe9cIenEeynpNogO2lIBg" name="arg0" type="_EvbWmlYoEeyZn4w4eybuYw"/>
+      </operations>
+      <operations xmi:id="_VYUvUYeoEeynpNogO2lIBg" name="stats" returnType="_EvbWl1YoEeyZn4w4eybuYw">
+        <parameters xmi:id="_S0zzQN0nEeyhWuhRH9Xz9w" name="arg0" type="_tn9PQFYoEeyZn4w4eybuYw"/>
+        <parameters xmi:id="_TqVGAN0nEeyhWuhRH9Xz9w" name="arg1" type="_tn9PQFYoEeyZn4w4eybuYw"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_lB0xsIrzEeyvw-HDFtFjFQ" name="T"/>
+    <types xsi:type="ram:RVoid" xmi:id="_EvbWklYoEeyZn4w4eybuYw"/>
+    <types xsi:type="ram:RAny" xmi:id="_EvbWk1YoEeyZn4w4eybuYw"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_EvbWlFYoEeyZn4w4eybuYw"/>
+    <types xsi:type="ram:RInt" xmi:id="_EvbWlVYoEeyZn4w4eybuYw"/>
+    <types xsi:type="ram:RChar" xmi:id="_EvbWllYoEeyZn4w4eybuYw"/>
+    <types xsi:type="ram:RString" xmi:id="_EvbWl1YoEeyZn4w4eybuYw"/>
+    <types xsi:type="ram:RDouble" xmi:id="_EvbWmFYoEeyZn4w4eybuYw"/>
+    <types xsi:type="ram:RFloat" xmi:id="_EvbWmVYoEeyZn4w4eybuYw"/>
+    <types xsi:type="ram:RLong" xmi:id="_EvbWmlYoEeyZn4w4eybuYw"/>
+    <types xsi:type="ram:RByte" xmi:id="_EvbWm1YoEeyZn4w4eybuYw"/>
+  </structuralView>
+  <layout xmi:id="_EvbWnFYoEeyZn4w4eybuYw">
+    <containers xmi:id="_EvbWnVYoEeyZn4w4eybuYw" key="_EvbWkVYoEeyZn4w4eybuYw">
+      <value xmi:id="_TM8JAFYoEeyZn4w4eybuYw" key="_TM664FYoEeyZn4w4eybuYw">
+        <value xmi:id="_TM8JAVYoEeyZn4w4eybuYw" x="609.6609" y="7.9999256"/>
+      </value>
+      <value xmi:id="_tn92UFYoEeyZn4w4eybuYw" key="_tn9PQFYoEeyZn4w4eybuYw">
+        <value xmi:id="_tn92UVYoEeyZn4w4eybuYw" x="292.99982" y="74.99992"/>
+      </value>
+      <value xmi:id="_pCgTYIeGEeyXy4GnIViC7Q" key="_pCfsUIeGEeyXy4GnIViC7Q">
+        <value xmi:id="_pCgTYYeGEeyXy4GnIViC7Q" x="138.88629" y="-202.53317"/>
+      </value>
+      <value xmi:id="_CtGCQYeHEeyXy4GnIViC7Q" key="_CtGCQIeHEeyXy4GnIViC7Q">
+        <value xmi:id="_CtGCQoeHEeyXy4GnIViC7Q" x="1081.2535" y="-46.534275"/>
+      </value>
+      <value xmi:id="_ZpYKQIenEeynpNogO2lIBg" key="_ZpXjMIenEeynpNogO2lIBg">
+        <value xmi:id="_ZpYKQYenEeynpNogO2lIBg" x="857.0559" y="-256.22522"/>
+      </value>
+      <value xmi:id="_lB4cEIrzEeyvw-HDFtFjFQ" key="_lB0xsIrzEeyvw-HDFtFjFQ">
+        <value xmi:id="_lB4cEYrzEeyvw-HDFtFjFQ" x="676.1459" y="467.3438"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

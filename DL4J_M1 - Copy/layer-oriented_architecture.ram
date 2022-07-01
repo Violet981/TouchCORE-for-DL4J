@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_cfM1oOMIEeup8sSe_2PnyA" name="layer-oriented architecture">
+  <coreConcern href="DL4J_M1.core#_bV6McNf-EeuGxOJxjWx4FA"/>
+  <structuralView xmi:id="_cfM1oeMIEeup8sSe_2PnyA">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_cfM1ouMIEeup8sSe_2PnyA" name="NeuralNetConfiguration" instanceClassName="org.deeplearning4j.nn.conf.NeuralNetConfiguration"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_cfNcsOMIEeup8sSe_2PnyA" name="NeuralNetConfiguration$Builder" instanceClassName="org.deeplearning4j.nn.conf.NeuralNetConfiguration$Builder"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_MSfEgOMKEeup8sSe_2PnyA" name="DenseLayer" instanceClassName="org.deeplearning4j.nn.conf.layers.DenseLayer"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_QEldIOMKEeup8sSe_2PnyA" name="ConvolutionLayer" instanceClassName="org.deeplearning4j.nn.conf.layers.ConvolutionLayer"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_7HYjEOMMEeup8sSe_2PnyA" name="MultiLayerConfiguration" instanceClassName="org.deeplearning4j.nn.conf.MultiLayerConfiguration"/>
+    <types xsi:type="ram:RVoid" xmi:id="_cfNcseMIEeup8sSe_2PnyA"/>
+    <types xsi:type="ram:RAny" xmi:id="_cfNcsuMIEeup8sSe_2PnyA"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_cfNcs-MIEeup8sSe_2PnyA"/>
+    <types xsi:type="ram:RInt" xmi:id="_cfNctOMIEeup8sSe_2PnyA"/>
+    <types xsi:type="ram:RChar" xmi:id="_cfNcteMIEeup8sSe_2PnyA"/>
+    <types xsi:type="ram:RString" xmi:id="_cfNctuMIEeup8sSe_2PnyA"/>
+    <types xsi:type="ram:RDouble" xmi:id="_cfNct-MIEeup8sSe_2PnyA"/>
+    <types xsi:type="ram:RFloat" xmi:id="_cfNcuOMIEeup8sSe_2PnyA"/>
+    <types xsi:type="ram:RLong" xmi:id="_cfNcueMIEeup8sSe_2PnyA"/>
+    <types xsi:type="ram:RByte" xmi:id="_cfNcuuMIEeup8sSe_2PnyA"/>
+  </structuralView>
+  <layout xmi:id="_cfUxcOMIEeup8sSe_2PnyA">
+    <containers xmi:id="_cfUxceMIEeup8sSe_2PnyA" key="_cfM1oeMIEeup8sSe_2PnyA">
+      <value xmi:id="_cfUxcuMIEeup8sSe_2PnyA" key="_cfM1ouMIEeup8sSe_2PnyA">
+        <value xmi:id="_cfUxc-MIEeup8sSe_2PnyA" x="301.93903" y="458.8849"/>
+      </value>
+      <value xmi:id="_cfUxduMIEeup8sSe_2PnyA" key="_cfNcsOMIEeup8sSe_2PnyA">
+        <value xmi:id="_cfUxd-MIEeup8sSe_2PnyA" x="105.0343" y="323.8848"/>
+      </value>
+      <value xmi:id="_MSlLIOMKEeup8sSe_2PnyA" key="_MSfEgOMKEeup8sSe_2PnyA">
+        <value xmi:id="_MSlLIeMKEeup8sSe_2PnyA" x="1047.0001" y="383.0001"/>
+      </value>
+      <value xmi:id="_QEnSUOMKEeup8sSe_2PnyA" key="_QEldIOMKEeup8sSe_2PnyA">
+        <value xmi:id="_QEnSUeMKEeup8sSe_2PnyA" x="976.9999" y="565.0"/>
+      </value>
+      <value xmi:id="_7HdbkOMMEeup8sSe_2PnyA" key="_7HYjEOMMEeup8sSe_2PnyA">
+        <value xmi:id="_7HdbkeMMEeup8sSe_2PnyA" x="559.8492" y="127.4509"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>
