@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_8XuCsNgNEeuGxOJxjWx4FA" name="image data">
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_8XuCsNgNEeuGxOJxjWx4FA" name="imageLoad">
   <structuralView xmi:id="_8XuCsdgNEeuGxOJxjWx4FA">
     <classes xsi:type="ram:ImplementationClass" xmi:id="_8XuCstgNEeuGxOJxjWx4FA" name="BaseImageRecordReader" instanceClassName="org.datavec.image.recordreader.BaseImageRecordReader"/>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_8XuCs9gNEeuGxOJxjWx4FA" name="ImageRecordReader" superTypes="_8XuCstgNEeuGxOJxjWx4FA" visibility="public" instanceClassName="org.datavec.image.recordreader.ImageRecordReader">

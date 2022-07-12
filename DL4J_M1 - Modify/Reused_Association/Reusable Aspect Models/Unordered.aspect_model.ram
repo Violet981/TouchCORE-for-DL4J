@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_KsxmkIg-EeqW6O16wdTpZA" name="Unordered">
+  <structuralView xmi:id="_KsxmkYg-EeqW6O16wdTpZA">
+    <classes xsi:type="ram:Class" xmi:id="_LdM98Ig-EeqW6O16wdTpZA" name="Source" visibility="public"/>
+    <classes xsi:type="ram:Class" xmi:id="_L52dsIg-EeqW6O16wdTpZA" name="Target"/>
+    <classes xsi:type="ram:Class" xmi:id="_MfCOYIg-EeqW6O16wdTpZA" name="Set"/>
+    <types xsi:type="ram:RVoid" xmi:id="_Ksxmkog-EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RAny" xmi:id="_Ksxmk4g-EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_KsxmlIg-EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RInt" xmi:id="_KsxmlYg-EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RChar" xmi:id="_Ksxmlog-EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RString" xmi:id="_Ksxml4g-EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RDouble" xmi:id="_KsxmmIg-EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RFloat" xmi:id="_KsxmmYg-EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RLong" xmi:id="_Ksxmmog-EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RByte" xmi:id="_Ksxmm4g-EeqW6O16wdTpZA"/>
+  </structuralView>
+  <layout xmi:id="_KsxmnIg-EeqW6O16wdTpZA">
+    <containers xmi:id="_KsxmnYg-EeqW6O16wdTpZA" key="_KsxmkYg-EeqW6O16wdTpZA">
+      <value xmi:id="_LdM98og-EeqW6O16wdTpZA" key="_LdM98Ig-EeqW6O16wdTpZA">
+        <value xmi:id="_LdM984g-EeqW6O16wdTpZA" x="170.4996" y="159.07031"/>
+      </value>
+      <value xmi:id="_L52dsog-EeqW6O16wdTpZA" key="_L52dsIg-EeqW6O16wdTpZA">
+        <value xmi:id="_L52ds4g-EeqW6O16wdTpZA" x="873.5002" y="159.0"/>
+      </value>
+      <value xmi:id="_MfCOYog-EeqW6O16wdTpZA" key="_MfCOYIg-EeqW6O16wdTpZA">
+        <value xmi:id="_MfCOY4g-EeqW6O16wdTpZA" x="513.50006" y="159.07031"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

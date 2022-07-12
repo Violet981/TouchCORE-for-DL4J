@@ -8,43 +8,6 @@
       </operations>
     </classes>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_xXde1iZwEeyD3eQvvo0_7w" name="DataSet" instanceClassName="org.nd4j.linalg.dataset.DataSet"/>
-    <classes xsi:type="ram:Class" xmi:id="_o9GjQMwUEeyudatNXAfKYQ" name="org.nd4j.linalg.factory.Nd4j" visibility="public">
-      <operations xmi:id="_ulr8YcwUEeyudatNXAfKYQ" name="create" returnType="_o9GjQMwUEeyudatNXAfKYQ" operationType="Constructor"/>
-      <operations xmi:id="_4BhksswUEeyudatNXAfKYQ" name="create" returnType="_8qc3oMwUEeyudatNXAfKYQ">
-        <parameters xmi:id="_4Bhks8wUEeyudatNXAfKYQ" name="data" type="_4BhksMwUEeyudatNXAfKYQ"/>
-      </operations>
-      <operations xmi:id="_BFLWgswVEeyudatNXAfKYQ" name="create" returnType="_8qc3oMwUEeyudatNXAfKYQ">
-        <parameters xmi:id="_BFL9kMwVEeyudatNXAfKYQ" name="data" type="_BFLWgMwVEeyudatNXAfKYQ"/>
-      </operations>
-      <operations xmi:id="_CvrwgswVEeyudatNXAfKYQ" name="create" returnType="_8qc3oMwUEeyudatNXAfKYQ">
-        <parameters xmi:id="_Cvrwg8wVEeyudatNXAfKYQ" name="data" type="_CvrwgMwVEeyudatNXAfKYQ"/>
-      </operations>
-      <operations xmi:id="_YqTNsswVEeyudatNXAfKYQ" name="create" returnType="_8qc3oMwUEeyudatNXAfKYQ">
-        <parameters xmi:id="_YqTNs8wVEeyudatNXAfKYQ" name="data" type="_YqTNsMwVEeyudatNXAfKYQ"/>
-      </operations>
-      <operations xmi:id="_aJrVwswVEeyudatNXAfKYQ" name="create" returnType="_8qc3oMwUEeyudatNXAfKYQ">
-        <parameters xmi:id="_aJrVw8wVEeyudatNXAfKYQ" name="data" type="_aJrVwMwVEeyudatNXAfKYQ"/>
-      </operations>
-      <operations xmi:id="_bauG4swVEeyudatNXAfKYQ" name="create" returnType="_8qc3oMwUEeyudatNXAfKYQ">
-        <parameters xmi:id="_bauG48wVEeyudatNXAfKYQ" name="data" type="_bauG4MwVEeyudatNXAfKYQ"/>
-      </operations>
-      <operations xmi:id="_ehuUEswVEeyudatNXAfKYQ" name="create" returnType="_8qc3oMwUEeyudatNXAfKYQ">
-        <parameters xmi:id="_ehuUE8wVEeyudatNXAfKYQ" name="data" type="_ehuUEMwVEeyudatNXAfKYQ"/>
-      </operations>
-      <operations xmi:id="_fjbBoswVEeyudatNXAfKYQ" name="create" returnType="_8qc3oMwUEeyudatNXAfKYQ">
-        <parameters xmi:id="_fjbBo8wVEeyudatNXAfKYQ" name="data" type="_fjbBoMwVEeyudatNXAfKYQ"/>
-      </operations>
-      <operations xmi:id="_g55FUswVEeyudatNXAfKYQ" name="create" returnType="_8qc3oMwUEeyudatNXAfKYQ">
-        <parameters xmi:id="_g55FU8wVEeyudatNXAfKYQ" name="data" type="_g55FUMwVEeyudatNXAfKYQ"/>
-      </operations>
-      <operations xmi:id="_GFJPcN03EeyhWuhRH9Xz9w" name="hstack" returnType="_8qc3oMwUEeyudatNXAfKYQ">
-        <parameters xmi:id="_GFJPcd03EeyhWuhRH9Xz9w" name="dotdotdot" type="_8qc3oMwUEeyudatNXAfKYQ"/>
-      </operations>
-      <operations xmi:id="_HiGVoN03EeyhWuhRH9Xz9w" name="vstack" returnType="_8qc3oMwUEeyudatNXAfKYQ">
-        <parameters xmi:id="_HiGVod03EeyhWuhRH9Xz9w" name="dotdotdot" type="_8qc3oMwUEeyudatNXAfKYQ"/>
-      </operations>
-    </classes>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_8qc3oMwUEeyudatNXAfKYQ" name="INDArray" instanceClassName="org.nd4j.linalg.api.ndarray.INDArray" interface="true"/>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_Y8LkoOLOEeyViYlCluD5Kw" name="ScoreIterationListener" superTypes="_eUGEgOLOEeyViYlCluD5Kw" visibility="public" instanceClassName="org.deeplearning4j.optimize.listeners.ScoreIterationListener">
       <operations xmi:id="_ZmZmUeLOEeyViYlCluD5Kw" name="ScoreIterationListener" returnType="_Y8LkoOLOEeyViYlCluD5Kw" operationType="Constructor"/>
       <operations xmi:id="_Z6qmIOLOEeyViYlCluD5Kw" name="ScoreIterationListener" returnType="_Y8LkoOLOEeyViYlCluD5Kw" operationType="Constructor">
@@ -101,12 +64,6 @@
       </value>
       <value xmi:id="_xXde5SZwEeyD3eQvvo0_7w" key="_xXde1iZwEeyD3eQvvo0_7w">
         <value xmi:id="_xXde5iZwEeyD3eQvvo0_7w" x="772.0" y="203.91359"/>
-      </value>
-      <value xmi:id="_o9GjQcwUEeyudatNXAfKYQ" key="_o9GjQMwUEeyudatNXAfKYQ">
-        <value xmi:id="_o9GjQswUEeyudatNXAfKYQ" x="1009.57764" y="-22.513933"/>
-      </value>
-      <value xmi:id="_8qc3ocwUEeyudatNXAfKYQ" key="_8qc3oMwUEeyudatNXAfKYQ">
-        <value xmi:id="_8qc3oswUEeyudatNXAfKYQ" x="647.9656" y="27.17363"/>
       </value>
       <value xmi:id="_Y8LkoeLOEeyViYlCluD5Kw" key="_Y8LkoOLOEeyViYlCluD5Kw">
         <value xmi:id="_Y8LkouLOEeyViYlCluD5Kw" x="1386.5776" y="381.0"/>

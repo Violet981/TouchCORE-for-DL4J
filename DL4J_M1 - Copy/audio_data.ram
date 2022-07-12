@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_7twGgCSqEeyXgIyMe68nzg" name="audio data">
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_7twGgCSqEeyXgIyMe68nzg" name="audioLoad">
   <structuralView xmi:id="_7twGgSSqEeyXgIyMe68nzg">
     <classes xsi:type="ram:ImplementationClass" xmi:id="_7twGhiSqEeyXgIyMe68nzg" name="InputStream" instanceClassName="java.io.InputStream"/>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_V3-FwCStEeyXgIyMe68nzg" name="SequenceRecordReaderDataSetIterator" visibility="public" instanceClassName="org.deeplearning4j.datasets.datavec.SequenceRecordReaderDataSetIterator">

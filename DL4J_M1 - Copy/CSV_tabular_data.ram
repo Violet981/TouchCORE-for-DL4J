@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_bw5TECTQEeyXgIyMe68nzg" name="CSV tabular data">
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_bw5TECTQEeyXgIyMe68nzg" name="CSVLoad">
   <structuralView xmi:id="_bw5TESTQEeyXgIyMe68nzg">
     <classes xsi:type="ram:ImplementationClass" xmi:id="_bw5TEiTQEeyXgIyMe68nzg" name="CSVRecordReader" visibility="public" instanceClassName="org.datavec.api.records.reader.impl.csv.CSVRecordReader">
       <operations xmi:id="_qvW2AVYeEey_CbpQ1r_TjQ" name="CSVRecordReader" returnType="_bw5TEiTQEeyXgIyMe68nzg" operationType="Constructor">

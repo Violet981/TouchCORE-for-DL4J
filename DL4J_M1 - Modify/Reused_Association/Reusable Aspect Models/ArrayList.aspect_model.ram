@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_EGs8YIg8EeqW6O16wdTpZA" name="ArrayList">
+  <structuralView xmi:id="_EGs8YYg8EeqW6O16wdTpZA">
+    <classes xsi:type="ram:Class" xmi:id="_E4oIkIg8EeqW6O16wdTpZA" name="Source" visibility="public"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_ONQ8sIg8EeqW6O16wdTpZA" name="ArrayList" instanceClassName="java.util.ArrayList">
+      <typeParameters xmi:id="_ONQ8sYg8EeqW6O16wdTpZA" name="E" genericType="_PWDwwIg8EeqW6O16wdTpZA"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_PWDwwIg8EeqW6O16wdTpZA" name="Target"/>
+    <types xsi:type="ram:RVoid" xmi:id="_EGs8Yog8EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RAny" xmi:id="_EGs8Y4g8EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_EGs8ZIg8EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RInt" xmi:id="_EGs8ZYg8EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RChar" xmi:id="_EGs8Zog8EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RString" xmi:id="_EGs8Z4g8EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RDouble" xmi:id="_EGs8aIg8EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RFloat" xmi:id="_EGs8aYg8EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RLong" xmi:id="_EGs8aog8EeqW6O16wdTpZA"/>
+    <types xsi:type="ram:RByte" xmi:id="_EGs8a4g8EeqW6O16wdTpZA"/>
+  </structuralView>
+  <layout xmi:id="_EGs8bIg8EeqW6O16wdTpZA">
+    <containers xmi:id="_EGs8bYg8EeqW6O16wdTpZA" key="_EGs8YYg8EeqW6O16wdTpZA">
+      <value xmi:id="_E4oIkog8EeqW6O16wdTpZA" key="_E4oIkIg8EeqW6O16wdTpZA">
+        <value xmi:id="_E4oIk4g8EeqW6O16wdTpZA" x="187.50027" y="292.99997"/>
+      </value>
+      <value xmi:id="_ONQ8sog8EeqW6O16wdTpZA" key="_ONQ8sIg8EeqW6O16wdTpZA">
+        <value xmi:id="_ONQ8s4g8EeqW6O16wdTpZA" x="557.18805" y="283.05328"/>
+      </value>
+      <value xmi:id="_PWDwwog8EeqW6O16wdTpZA" key="_PWDwwIg8EeqW6O16wdTpZA">
+        <value xmi:id="_PWDww4g8EeqW6O16wdTpZA" x="911.7059" y="293.03073"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

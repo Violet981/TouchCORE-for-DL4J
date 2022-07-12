@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_3MNlcPlHEey0EdHrFMiQyg" name="CSV_image_structure">
+  <structuralView xmi:id="_3MNlcflHEey0EdHrFMiQyg">
+    <types xsi:type="ram:RVoid" xmi:id="_3MNlcvlHEey0EdHrFMiQyg"/>
+    <types xsi:type="ram:RAny" xmi:id="_3MNlc_lHEey0EdHrFMiQyg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_3MNldPlHEey0EdHrFMiQyg"/>
+    <types xsi:type="ram:RInt" xmi:id="_3MNldflHEey0EdHrFMiQyg"/>
+    <types xsi:type="ram:RChar" xmi:id="_3MNldvlHEey0EdHrFMiQyg"/>
+    <types xsi:type="ram:RString" xmi:id="_3MNld_lHEey0EdHrFMiQyg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_3MNlePlHEey0EdHrFMiQyg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_3MNleflHEey0EdHrFMiQyg"/>
+    <types xsi:type="ram:RLong" xmi:id="_3MNlevlHEey0EdHrFMiQyg"/>
+    <types xsi:type="ram:RByte" xmi:id="_3MNle_lHEey0EdHrFMiQyg"/>
+  </structuralView>
+  <layout xmi:id="_3MNlfPlHEey0EdHrFMiQyg">
+    <containers xmi:id="_3MNlfflHEey0EdHrFMiQyg" key="_3MNlcflHEey0EdHrFMiQyg"/>
+  </layout>
+</ram:Aspect>

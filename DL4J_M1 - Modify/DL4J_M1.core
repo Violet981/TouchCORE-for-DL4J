@@ -1,0 +1,2196 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:COREConcern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://cs.mcgill.ca/sel/core/2.0" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_iP1mkEDWEeyBfMro0AcMxQ" name="DL4J_M1" featureModel="_iP1mkUDWEeyBfMro0AcMxQ" impactModel="_iP1mk0DWEeyBfMro0AcMxQ">
+  <artefacts xsi:type="core:COREFeatureModel" xmi:id="_iP1mkUDWEeyBfMro0AcMxQ" root="_iP1mkkDWEeyBfMro0AcMxQ">
+    <features xmi:id="_iP1mkkDWEeyBfMro0AcMxQ" name="DL4J_M1" realizedBy="_1XUYUEDXEeyBfMro0AcMxQ" children="_5egQIEDXEeyBfMro0AcMxQ _6nTrQEDXEeyBfMro0AcMxQ _8xg5AEDXEeyBfMro0AcMxQ _E8-hkIeEEeya4pIzzxiKVg"/>
+    <features xmi:id="_5egQIEDXEeyBfMro0AcMxQ" name="load data" children="_UrH68IrxEey-h9vburn2Ag _SWIPIEHXEeyor9GmK8BPBg" parent="_iP1mkkDWEeyBfMro0AcMxQ" parentRelationship="Mandatory"/>
+    <features xmi:id="_6nTrQEDXEeyBfMro0AcMxQ" name="operate input data" children="_4qqtgEDZEeyBfMro0AcMxQ _6TnBQEDZEeyBfMro0AcMxQ _73KesEDZEeyBfMro0AcMxQ" parent="_iP1mkkDWEeyBfMro0AcMxQ" parentRelationship="Optional"/>
+    <features xmi:id="_8xg5AEDXEeyBfMro0AcMxQ" name="specify network" children="_-t-60EDZEeyBfMro0AcMxQ _R4vfgEDaEeyBfMro0AcMxQ" parent="_iP1mkkDWEeyBfMro0AcMxQ" parentRelationship="Mandatory"/>
+    <features xmi:id="_95E-AEDXEeyBfMro0AcMxQ" name="run network" realizedBy="_zEecAUHUEey6g5nE2PrOCw _8SBFYFYnEeyZn4w4eybuYw" children="_km_uYEDaEeyBfMro0AcMxQ _lbz2gEDaEeyBfMro0AcMxQ _-ghkUFYnEeyZn4w4eybuYw" parent="_E8-hkIeEEeya4pIzzxiKVg" parentRelationship="Mandatory"/>
+    <features xmi:id="_T9aX4EDYEeyBfMro0AcMxQ" name="sequence data" children="_vyM4AEDZEeyBfMro0AcMxQ _wnDcYEDZEeyBfMro0AcMxQ _04hRkEDZEeyBfMro0AcMxQ" parent="_UrH68IrxEey-h9vburn2Ag" parentRelationship="OR"/>
+    <features xmi:id="_tiNyYEDZEeyBfMro0AcMxQ" name="nonsequence data" children="_zK0ZoEDZEeyBfMro0AcMxQ _2EKlUEDZEeyBfMro0AcMxQ" parent="_UrH68IrxEey-h9vburn2Ag" parentRelationship="OR"/>
+    <features xmi:id="_vyM4AEDZEeyBfMro0AcMxQ" name="audio data" realizedBy="_DYDn0EDbEeyBfMro0AcMxQ _DBSn8PlGEey0EdHrFMiQyg _P-KHAPlGEey0EdHrFMiQyg _XJP0sPlGEey0EdHrFMiQyg _d8mX0PlGEey0EdHrFMiQyg" parent="_T9aX4EDYEeyBfMro0AcMxQ" parentRelationship="OR"/>
+    <features xmi:id="_wnDcYEDZEeyBfMro0AcMxQ" name="video data" realizedBy="_LUrgIUDbEeyBfMro0AcMxQ _DBSn8PlGEey0EdHrFMiQyg _i3sY0PlGEey0EdHrFMiQyg _qjltgPlGEey0EdHrFMiQyg _yl_dsPlGEey0EdHrFMiQyg" parent="_T9aX4EDYEeyBfMro0AcMxQ" parentRelationship="OR"/>
+    <features xmi:id="_zK0ZoEDZEeyBfMro0AcMxQ" name="CSV data" realizedBy="_ROnRgUDnEeyBfMro0AcMxQ _T8a7kUDnEeyBfMro0AcMxQ _4WP3UIBAEeyyCqN7ry3a1w _GePOMczLEeyXN6FQY8J6Pg _XJP0sPlGEey0EdHrFMiQyg _qjltgPlGEey0EdHrFMiQyg _6C8XcPlGEey0EdHrFMiQyg _FVqB0PlHEey0EdHrFMiQyg _3MOzkPlHEey0EdHrFMiQyg _WOZZMPlKEey0EdHrFMiQyg _mqhHEP1gEey2fJqXG2R9uA" parent="_tiNyYEDZEeyBfMro0AcMxQ" parentRelationship="OR"/>
+    <features xmi:id="_04hRkEDZEeyBfMro0AcMxQ" name="text data" realizedBy="_j8MyAUDnEeyBfMro0AcMxQ _P-KHAPlGEey0EdHrFMiQyg _i3sY0PlGEey0EdHrFMiQyg _6C8XcPlGEey0EdHrFMiQyg __eYFYPlGEey0EdHrFMiQyg" parent="_T9aX4EDYEeyBfMro0AcMxQ" parentRelationship="OR"/>
+    <features xmi:id="_2EKlUEDZEeyBfMro0AcMxQ" name="image data" realizedBy="_psIJQUDnEeyBfMro0AcMxQ _5Ulr4UDnEeyBfMro0AcMxQ _RKsWQMvNEeyudatNXAfKYQ _d8mX0PlGEey0EdHrFMiQyg _yl_dsPlGEey0EdHrFMiQyg __eYFYPlGEey0EdHrFMiQyg _FVqB0PlHEey0EdHrFMiQyg _3MOzkPlHEey0EdHrFMiQyg _WOZZMPlKEey0EdHrFMiQyg" parent="_tiNyYEDZEeyBfMro0AcMxQ" parentRelationship="OR"/>
+    <features xmi:id="_4qqtgEDZEeyBfMro0AcMxQ" name="structure data" realizedBy="_4WP3UIBAEeyyCqN7ry3a1w _RKsWQMvNEeyudatNXAfKYQ _3MOzkPlHEey0EdHrFMiQyg" parent="_6nTrQEDXEeyBfMro0AcMxQ" parentRelationship="OR" excludes="_T9aX4EDYEeyBfMro0AcMxQ"/>
+    <features xmi:id="_6TnBQEDZEeyBfMro0AcMxQ" name="transform data" realizedBy="_0xgiQUDnEeyBfMro0AcMxQ _T8a7kUDnEeyBfMro0AcMxQ _5Ulr4UDnEeyBfMro0AcMxQ _WOZZMPlKEey0EdHrFMiQyg" parent="_6nTrQEDXEeyBfMro0AcMxQ" parentRelationship="OR" excludes="_T9aX4EDYEeyBfMro0AcMxQ"/>
+    <features xmi:id="_73KesEDZEeyBfMro0AcMxQ" name="save as dataset" realizedBy="__RFfgUDnEeyBfMro0AcMxQ" parent="_6nTrQEDXEeyBfMro0AcMxQ" parentRelationship="OR"/>
+    <features xmi:id="_-t-60EDZEeyBfMro0AcMxQ" name="network type" children="_AOo1QEDaEeyBfMro0AcMxQ _BujI0EDaEeyBfMro0AcMxQ" parent="_8xg5AEDXEeyBfMro0AcMxQ" parentRelationship="Mandatory"/>
+    <features xmi:id="_AOo1QEDaEeyBfMro0AcMxQ" name="multilayer network" realizedBy="_uT5W0EGxEeyUC-UomtVoUw _PLiDwVBvEeyN4P1-Ks0QgQ _69bKoHq-EeyZ-K-uBHH2zg _5YZv0EHiEeyEpZxv_KVsMw _TCUmkUGyEeyUC-UomtVoUw _1OkVAUHUEey6g5nE2PrOCw _3cMqMUHUEey6g5nE2PrOCw _mL2EwIeFEey8e4cqDpGaNg _v_yjAUHUEey6g5nE2PrOCw" parent="_-t-60EDZEeyBfMro0AcMxQ" parentRelationship="XOR"/>
+    <features xmi:id="_BujI0EDaEeyBfMro0AcMxQ" name="computationGraph" realizedBy="_vyifEEGxEeyUC-UomtVoUw _C-mM0FBvEeyN4P1-Ks0QgQ _IPVlIUGyEeyUC-UomtVoUw _BVvLAH-2EeyZ-7-iWk9v9g _Qe7cwUGyEeyUC-UomtVoUw _JJIOYIeDEeya4pIzzxiKVg _d89c8IdzEeyXwqDbAaieeg _DiSgMIs9EeyM3NB952VwDQ" parent="_-t-60EDZEeyBfMro0AcMxQ" parentRelationship="XOR"/>
+    <features xmi:id="_EMiOMEDaEeyBfMro0AcMxQ" name="save network" realizedBy="_IPVlIUGyEeyUC-UomtVoUw _69bKoHq-EeyZ-K-uBHH2zg" parent="_E8-hkIeEEeya4pIzzxiKVg" parentRelationship="Optional"/>
+    <features xmi:id="_R4vfgEDaEeyBfMro0AcMxQ" name="construct network" children="_UJrnYEDaEeyBfMro0AcMxQ _VvwNUEDaEeyBfMro0AcMxQ" parent="_8xg5AEDXEeyBfMro0AcMxQ" parentRelationship="Mandatory"/>
+    <features xmi:id="_UJrnYEDaEeyBfMro0AcMxQ" name="load network" children="_XQtpwEDaEeyBfMro0AcMxQ _YM0ssEDaEeyBfMro0AcMxQ" parent="_R4vfgEDaEeyBfMro0AcMxQ" parentRelationship="XOR"/>
+    <features xmi:id="_VvwNUEDaEeyBfMro0AcMxQ" name="manually build network" realizedBy="_v_yjAUHUEey6g5nE2PrOCw _DiSgMIs9EeyM3NB952VwDQ" children="_bN3b0EDaEeyBfMro0AcMxQ _dpCdwEDaEeyBfMro0AcMxQ" parent="_R4vfgEDaEeyBfMro0AcMxQ" parentRelationship="XOR"/>
+    <features xmi:id="_XQtpwEDaEeyBfMro0AcMxQ" name="load from disk" realizedBy="_NRw9MUGyEeyUC-UomtVoUw _Qe7cwUGyEeyUC-UomtVoUw _TCUmkUGyEeyUC-UomtVoUw" parent="_UJrnYEDaEeyBfMro0AcMxQ" parentRelationship="XOR"/>
+    <features xmi:id="_YM0ssEDaEeyBfMro0AcMxQ" name="load built-in model" realizedBy="_8RGV4EHPEey6g5nE2PrOCw" parent="_UJrnYEDaEeyBfMro0AcMxQ" parentRelationship="XOR"/>
+    <features xmi:id="_bN3b0EDaEeyBfMro0AcMxQ" name="customize high level settings" realizedBy="_PLiDwVBvEeyN4P1-Ks0QgQ _C-mM0FBvEeyN4P1-Ks0QgQ _GIH3AJBAEeyLZYLWYJ9cng" parent="_VvwNUEDaEeyBfMro0AcMxQ" parentRelationship="Optional"/>
+    <features xmi:id="_dpCdwEDaEeyBfMro0AcMxQ" name="customize layer settings" realizedBy="_5YZv0EHiEeyEpZxv_KVsMw _BVvLAH-2EeyZ-7-iWk9v9g _13JwoJBEEeyjnI-k4MEcig" parent="_VvwNUEDaEeyBfMro0AcMxQ" parentRelationship="Mandatory"/>
+    <features xmi:id="_km_uYEDaEeyBfMro0AcMxQ" name="train" realizedBy="_1OkVAUHUEey6g5nE2PrOCw _d89c8IdzEeyXwqDbAaieeg" parent="_95E-AEDXEeyBfMro0AcMxQ" parentRelationship="Optional"/>
+    <features xmi:id="_lbz2gEDaEeyBfMro0AcMxQ" name="predict" realizedBy="_3cMqMUHUEey6g5nE2PrOCw _JJIOYIeDEeya4pIzzxiKVg" parent="_95E-AEDXEeyBfMro0AcMxQ" parentRelationship="Optional"/>
+    <features xmi:id="_SWIPIEHXEeyor9GmK8BPBg" name="library dataset" realizedBy="_UgM6AEHXEeyor9GmK8BPBg" parent="_5egQIEDXEeyBfMro0AcMxQ" parentRelationship="XOR"/>
+    <features xmi:id="_-ghkUFYnEeyZn4w4eybuYw" name="evaluate" realizedBy="_EvdLwFYoEeyZn4w4eybuYw _mL2EwIeFEey8e4cqDpGaNg" parent="_95E-AEDXEeyBfMro0AcMxQ" parentRelationship="Optional" requires="_km_uYEDaEeyBfMro0AcMxQ _lbz2gEDaEeyBfMro0AcMxQ"/>
+    <features xmi:id="_E8-hkIeEEeya4pIzzxiKVg" name="operate network" children="_95E-AEDXEeyBfMro0AcMxQ _EMiOMEDaEeyBfMro0AcMxQ" parent="_iP1mkkDWEeyBfMro0AcMxQ" parentRelationship="Mandatory"/>
+    <features xmi:id="_UrH68IrxEey-h9vburn2Ag" name="customer 's raw data" realizedBy="_uYWb0I-LEeyJK9rWQnxChw" children="_T9aX4EDYEeyBfMro0AcMxQ _tiNyYEDZEeyBfMro0AcMxQ" parent="_5egQIEDXEeyBfMro0AcMxQ" parentRelationship="XOR"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREImpactModel" xmi:id="_iP1mk0DWEeyBfMro0AcMxQ" name="Impact Model"/>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_1XUYUkDXEeyBfMro0AcMxQ" name="DL4J_M1" scene="_1XUYUEDXEeyBfMro0AcMxQ" languageName="Reusable Aspect Models">
+    <rootModelElement href="Reusable%20Aspect%20Models/DL4J_M1.aspect_model.ram#_1WMW8EDXEeyBfMro0AcMxQ"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_ASOfUEDbEeyBfMro0AcMxQ" name="multiple format of data" scene="_ASPGYEDbEeyBfMro0AcMxQ" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_3DzwEI-LEeyJK9rWQnxChw" source="_uYWb0o-LEeyJK9rWQnxChw"/>
+    <uiElements xmi:id="_gD2YUMvMEeyudatNXAfKYQ">
+      <modelElement href="multiple_format_of_data.ram#_gD2_YMvMEeyudatNXAfKYQ"/>
+    </uiElements>
+    <uiElements xmi:id="_huhKYMvMEeyudatNXAfKYQ">
+      <modelElement href="multiple_format_of_data.ram#_huhxcMvMEeyudatNXAfKYQ"/>
+    </uiElements>
+    <rootModelElement href="multiple_format_of_data.ram#_zRiQYNgEEeuGxOJxjWx4FA"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_DYDAwEDbEeyBfMro0AcMxQ" name="audio data" scene="_DYDn0EDbEeyBfMro0AcMxQ" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_8HzOYI-LEeyJK9rWQnxChw" source="_uYWb0o-LEeyJK9rWQnxChw"/>
+    <uiElements xmi:id="_YtzuMIbIEeyREf-n8o6hBw">
+      <modelElement href="audio_data.ram#_Wrw98IbIEeyREf-n8o6hBw"/>
+    </uiElements>
+    <uiElements xmi:id="_YtzuMYbIEeyREf-n8o6hBw">
+      <modelElement href="audio_data.ram#_Yt0VQIbIEeyREf-n8o6hBw"/>
+    </uiElements>
+    <uiElements xmi:id="_af-PYIbIEeyREf-n8o6hBw">
+      <modelElement href="audio_data.ram#_af-PYYbIEeyREf-n8o6hBw"/>
+    </uiElements>
+    <uiElements xmi:id="_cizp0IbIEeyREf-n8o6hBw">
+      <modelElement href="audio_data.ram#_cizp0YbIEeyREf-n8o6hBw"/>
+    </uiElements>
+    <uiElements xmi:id="_fGV9kobIEeyREf-n8o6hBw">
+      <modelElement href="audio_data.ram#_fGV9k4bIEeyREf-n8o6hBw"/>
+    </uiElements>
+    <uiElements xmi:id="_glCJIIbIEeyREf-n8o6hBw">
+      <modelElement href="audio_data.ram#_glCJIYbIEeyREf-n8o6hBw"/>
+    </uiElements>
+    <uiElements xmi:id="_lGYNYIbIEeyREf-n8o6hBw">
+      <modelElement href="audio_data.ram#_lGYNYYbIEeyREf-n8o6hBw"/>
+    </uiElements>
+    <uiElements xmi:id="_mEHA8IbIEeyREf-n8o6hBw">
+      <modelElement href="audio_data.ram#_mEHA8YbIEeyREf-n8o6hBw"/>
+    </uiElements>
+    <uiElements xmi:id="_N0JgMIbMEeyREf-n8o6hBw">
+      <modelElement href="audio_data.ram#_N0JgMYbMEeyREf-n8o6hBw"/>
+    </uiElements>
+    <uiElements xmi:id="_PKBuAIbMEeyREf-n8o6hBw">
+      <modelElement href="audio_data.ram#_PKBuAYbMEeyREf-n8o6hBw"/>
+    </uiElements>
+    <uiElements xmi:id="_PbcOIIbMEeyREf-n8o6hBw">
+      <modelElement href="audio_data.ram#_PbcOIYbMEeyREf-n8o6hBw"/>
+    </uiElements>
+    <uiElements xmi:id="_PqFHEIbMEeyREf-n8o6hBw">
+      <modelElement href="audio_data.ram#_PqFuIIbMEeyREf-n8o6hBw"/>
+    </uiElements>
+    <uiElements xmi:id="_RuU2wIbMEeyREf-n8o6hBw">
+      <modelElement href="audio_data.ram#_RuU2wYbMEeyREf-n8o6hBw"/>
+    </uiElements>
+    <uiElements xmi:id="_SAY3IIbMEeyREf-n8o6hBw">
+      <modelElement href="audio_data.ram#_SAY3IYbMEeyREf-n8o6hBw"/>
+    </uiElements>
+    <uiElements xmi:id="_SQ1G4IbMEeyREf-n8o6hBw">
+      <modelElement href="audio_data.ram#_SQ1t8IbMEeyREf-n8o6hBw"/>
+    </uiElements>
+    <uiElements xmi:id="_SjPFgIbMEeyREf-n8o6hBw">
+      <modelElement href="audio_data.ram#_SjPFgYbMEeyREf-n8o6hBw"/>
+    </uiElements>
+    <rootModelElement href="audio_data.ram#_7twGgCSqEeyXgIyMe68nzg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_LUrgIEDbEeyBfMro0AcMxQ" name="video data" scene="_LUrgIUDbEeyBfMro0AcMxQ" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="__NhCII-LEeyJK9rWQnxChw" source="_uYWb0o-LEeyJK9rWQnxChw">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="__jw-8I-LEeyJK9rWQnxChw">
+        <to xsi:type="ram:ImplementationClass" href="video_data.ram#_Y2ebECSpEeyXgIyMe68nzg"/>
+        <from xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_wIeVoI-LEeyJK9rWQnxChw"/>
+      </compositions>
+    </modelExtensions>
+    <uiElements xmi:id="_E2CtwMvNEeyudatNXAfKYQ">
+      <modelElement href="video_data.ram#_E2DU0MvNEeyudatNXAfKYQ"/>
+    </uiElements>
+    <rootModelElement href="video_data.ram#_Jbd7ECSoEeyXgIyMe68nzg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_ROnRgEDnEeyBfMro0AcMxQ" name="CSV tabular data" scene="_ROnRgUDnEeyBfMro0AcMxQ" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_CjuwAI-MEeyJK9rWQnxChw" source="_uYWb0o-LEeyJK9rWQnxChw">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_UpeNYI-MEeyJK9rWQnxChw">
+        <to xsi:type="ram:ImplementationClass" href="CSV_tabular_data.ram#_bw5TGiTQEeyXgIyMe68nzg"/>
+        <from xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_N8UY4I-MEeyJK9rWQnxChw"/>
+      </compositions>
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_VdwxEI-MEeyJK9rWQnxChw">
+        <to xsi:type="ram:ImplementationClass" href="CSV_tabular_data.ram#_wA0voFYeEey_CbpQ1r_TjQ"/>
+        <from xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_PIMWII-MEeyJK9rWQnxChw"/>
+      </compositions>
+    </modelExtensions>
+    <uiElements xmi:id="_qvW2AFYeEey_CbpQ1r_TjQ">
+      <modelElement href="CSV_tabular_data.ram#_qvW2AVYeEey_CbpQ1r_TjQ"/>
+    </uiElements>
+    <uiElements xmi:id="_sN4pgFYeEey_CbpQ1r_TjQ">
+      <modelElement href="CSV_tabular_data.ram#_sN4pgVYeEey_CbpQ1r_TjQ"/>
+    </uiElements>
+    <uiElements xmi:id="_sufcMFYeEey_CbpQ1r_TjQ">
+      <modelElement href="CSV_tabular_data.ram#_sufcMVYeEey_CbpQ1r_TjQ"/>
+    </uiElements>
+    <uiElements xmi:id="_wA0vo1YeEey_CbpQ1r_TjQ">
+      <modelElement href="CSV_tabular_data.ram#_wA1WsFYeEey_CbpQ1r_TjQ"/>
+    </uiElements>
+    <uiElements xmi:id="_0Cvs8FYeEey_CbpQ1r_TjQ">
+      <modelElement href="CSV_tabular_data.ram#_0Cvs8VYeEey_CbpQ1r_TjQ"/>
+    </uiElements>
+    <uiElements xmi:id="_45OTsFYeEey_CbpQ1r_TjQ">
+      <modelElement href="CSV_tabular_data.ram#_bw5THCTQEeyXgIyMe68nzg"/>
+    </uiElements>
+    <uiElements xmi:id="_45OTsVYeEey_CbpQ1r_TjQ">
+      <modelElement href="CSV_tabular_data.ram#_45OTslYeEey_CbpQ1r_TjQ"/>
+    </uiElements>
+    <uiElements xmi:id="_5hChoFYeEey_CbpQ1r_TjQ">
+      <modelElement href="CSV_tabular_data.ram#_5hChoVYeEey_CbpQ1r_TjQ"/>
+    </uiElements>
+    <uiElements xmi:id="_IuAwMFYhEey_CbpQ1r_TjQ">
+      <modelElement href="CSV_tabular_data.ram#_wA0voFYeEey_CbpQ1r_TjQ"/>
+    </uiElements>
+    <uiElements xmi:id="_IuAwMVYhEey_CbpQ1r_TjQ">
+      <modelElement href="CSV_tabular_data.ram#_IuAwMlYhEey_CbpQ1r_TjQ"/>
+    </uiElements>
+    <uiElements xmi:id="_K_hf0FYhEey_CbpQ1r_TjQ">
+      <modelElement href="CSV_tabular_data.ram#_K_hf0VYhEey_CbpQ1r_TjQ"/>
+    </uiElements>
+    <uiElements xmi:id="_P8oLII-JEeypnfMsjRFa3Q">
+      <modelElement href="CSV_tabular_data.ram#_P8oLIY-JEeypnfMsjRFa3Q"/>
+    </uiElements>
+    <uiElements xmi:id="_Qyc_4I-JEeypnfMsjRFa3Q">
+      <modelElement href="CSV_tabular_data.ram#_Qyc_4Y-JEeypnfMsjRFa3Q"/>
+    </uiElements>
+    <uiElements xmi:id="_Rfj9gI-JEeypnfMsjRFa3Q">
+      <modelElement href="CSV_tabular_data.ram#_Rfj9gY-JEeypnfMsjRFa3Q"/>
+    </uiElements>
+    <uiElements xmi:id="_uSCN4I-KEeyJK9rWQnxChw">
+      <modelElement href="CSV_tabular_data.ram#_uSC08I-KEeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_vB49gI-KEeyJK9rWQnxChw">
+      <modelElement href="CSV_tabular_data.ram#_vB49gY-KEeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_aZmrwO3NEeyLxYlXGCbECQ">
+      <modelElement href="CSV_tabular_data.ram#_aZmrwe3NEeyLxYlXGCbECQ"/>
+    </uiElements>
+    <uiElements xmi:id="_dWIHQO3NEeyLxYlXGCbECQ">
+      <modelElement href="CSV_tabular_data.ram#_dWIHQe3NEeyLxYlXGCbECQ"/>
+    </uiElements>
+    <rootModelElement href="CSV_tabular_data.ram#_bw5TECTQEeyXgIyMe68nzg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_T8a7kEDnEeyBfMro0AcMxQ" name="CSVTabularTransform" scene="_T8a7kUDnEeyBfMro0AcMxQ" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_y-hoAIrxEey-h9vburn2Ag" source="_clqA0oqqEey-h9vburn2Ag">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_zcum8IrxEey-h9vburn2Ag">
+        <to xsi:type="ram:ImplementationClass" href="CSV_transform.ram#_BaJN2i-9EeyoztDuLd0r_g"/>
+        <from xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/operate%20network.aspect_model.ram#_st0-QIqqEey-h9vburn2Ag"/>
+      </compositions>
+    </modelExtensions>
+    <modelExtensions xmi:id="_8MSgcMzOEeyXN6FQY8J6Pg" source="_GePOMMzLEeyXN6FQY8J6Pg">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_8go_0MzOEeyXN6FQY8J6Pg">
+        <to xsi:type="ram:Class" href="CSV_transform.ram#_0K-sYMvREeyudatNXAfKYQ"/>
+        <from xsi:type="ram:Class" href="Reusable%20Aspect%20Models/CSV%20tabular%20data.aspect_model.ram#_afaWIMzOEeyXN6FQY8J6Pg"/>
+      </compositions>
+    </modelExtensions>
+    <uiElements xmi:id="_AMuVYIr3Eeyg0uuS8fvWqw">
+      <modelElement href="CSV_transform.ram#_mQL64Ir2Eeyg0uuS8fvWqw"/>
+    </uiElements>
+    <uiElements xmi:id="_AMuVYYr3Eeyg0uuS8fvWqw">
+      <modelElement href="CSV_transform.ram#_AMuVYor3Eeyg0uuS8fvWqw"/>
+    </uiElements>
+    <uiElements xmi:id="_B19kEIr3Eeyg0uuS8fvWqw">
+      <modelElement href="CSV_transform.ram#_B19kEYr3Eeyg0uuS8fvWqw"/>
+    </uiElements>
+    <uiElements xmi:id="_iHOtAOLQEeyViYlCluD5Kw">
+      <modelElement href="CSV_transform.ram#_hQl_8OLQEeyViYlCluD5Kw"/>
+    </uiElements>
+    <uiElements xmi:id="_iHOtAeLQEeyViYlCluD5Kw">
+      <modelElement href="CSV_transform.ram#_iHOtAuLQEeyViYlCluD5Kw"/>
+    </uiElements>
+    <uiElements xmi:id="_iWqQIOLQEeyViYlCluD5Kw">
+      <modelElement href="CSV_transform.ram#_iWqQIeLQEeyViYlCluD5Kw"/>
+    </uiElements>
+    <uiElements xmi:id="_OqA2oOLhEeyc7rMLsV14hA">
+      <modelElement href="CSV_transform.ram#_I5214OLhEeyc7rMLsV14hA"/>
+    </uiElements>
+    <uiElements xmi:id="_OqA2oeLhEeyc7rMLsV14hA">
+      <modelElement href="CSV_transform.ram#_OqBdsOLhEeyc7rMLsV14hA"/>
+    </uiElements>
+    <uiElements xmi:id="_RFD8wOLhEeyc7rMLsV14hA">
+      <modelElement href="CSV_transform.ram#_RFD8weLhEeyc7rMLsV14hA"/>
+    </uiElements>
+    <uiElements xmi:id="_t3IQ4O3MEeyLxYlXGCbECQ">
+      <modelElement href="CSV_transform.ram#_t3IQ4e3MEeyLxYlXGCbECQ"/>
+    </uiElements>
+    <uiElements xmi:id="_umG2wO3MEeyLxYlXGCbECQ">
+      <modelElement href="CSV_transform.ram#_umG2we3MEeyLxYlXGCbECQ"/>
+    </uiElements>
+    <uiElements xmi:id="_v7BbQO3MEeyLxYlXGCbECQ">
+      <modelElement href="CSV_transform.ram#_v7BbQe3MEeyLxYlXGCbECQ"/>
+    </uiElements>
+    <uiElements xmi:id="_xzBesO3MEeyLxYlXGCbECQ">
+      <modelElement href="CSV_transform.ram#_xzBese3MEeyLxYlXGCbECQ"/>
+    </uiElements>
+    <uiElements xmi:id="_0uw3EO3MEeyLxYlXGCbECQ">
+      <modelElement href="CSV_transform.ram#_0uw3Ee3MEeyLxYlXGCbECQ"/>
+    </uiElements>
+    <rootModelElement href="CSV_transform.ram#_BaJN0C-9EeyoztDuLd0r_g"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_j8MyAEDnEeyBfMro0AcMxQ" name="raw text data" scene="_j8MyAUDnEeyBfMro0AcMxQ" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_EmfR8I-MEeyJK9rWQnxChw" source="_uYWb0o-LEeyJK9rWQnxChw"/>
+    <rootModelElement href="raw_text_data.ram#_G2L_wCX5EeyXgIyMe68nzg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_psIJQEDnEeyBfMro0AcMxQ" name="image data" scene="_psIJQUDnEeyBfMro0AcMxQ" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_HFuUgI-MEeyJK9rWQnxChw" source="_uYWb0o-LEeyJK9rWQnxChw"/>
+    <uiElements xmi:id="_YY4DMIbMEeyREf-n8o6hBw">
+      <modelElement href="image_data.ram#_YY4DMYbMEeyREf-n8o6hBw"/>
+    </uiElements>
+    <uiElements xmi:id="_ZNO4UIbMEeyREf-n8o6hBw">
+      <modelElement href="image_data.ram#_ZNO4UYbMEeyREf-n8o6hBw"/>
+    </uiElements>
+    <uiElements xmi:id="_Z6JBoobMEeyREf-n8o6hBw">
+      <modelElement href="image_data.ram#_Z6JBo4bMEeyREf-n8o6hBw"/>
+    </uiElements>
+    <uiElements xmi:id="_auNi4IbMEeyREf-n8o6hBw">
+      <modelElement href="image_data.ram#_auOJ8IbMEeyREf-n8o6hBw"/>
+    </uiElements>
+    <uiElements xmi:id="_bHwrUIbMEeyREf-n8o6hBw">
+      <modelElement href="image_data.ram#_bHxSYIbMEeyREf-n8o6hBw"/>
+    </uiElements>
+    <uiElements xmi:id="_kM65AIbMEeyREf-n8o6hBw">
+      <modelElement href="image_data.ram#_kM65AYbMEeyREf-n8o6hBw"/>
+    </uiElements>
+    <uiElements xmi:id="_nAJOkIbMEeyREf-n8o6hBw">
+      <modelElement href="image_data.ram#_nAJOkYbMEeyREf-n8o6hBw"/>
+    </uiElements>
+    <uiElements xmi:id="_nwvlEIbMEeyREf-n8o6hBw">
+      <modelElement href="image_data.ram#_nwvlEYbMEeyREf-n8o6hBw"/>
+    </uiElements>
+    <uiElements xmi:id="_tKxrAJBzEeyV4r6u3iMaJQ">
+      <modelElement href="image_data.ram#_sD_CEJBzEeyV4r6u3iMaJQ"/>
+    </uiElements>
+    <uiElements xmi:id="_tKxrAZBzEeyV4r6u3iMaJQ">
+      <modelElement href="image_data.ram#_tKxrApBzEeyV4r6u3iMaJQ"/>
+    </uiElements>
+    <uiElements xmi:id="_t2NxYNZTEeyBP5tFtpdo7A">
+      <modelElement href="image_data.ram#_sHEH8NZTEeyBP5tFtpdo7A"/>
+    </uiElements>
+    <uiElements xmi:id="_t2NxYdZTEeyBP5tFtpdo7A">
+      <modelElement href="image_data.ram#_t2NxYtZTEeyBP5tFtpdo7A"/>
+    </uiElements>
+    <uiElements xmi:id="_D2OE4NZUEeyBP5tFtpdo7A">
+      <modelElement href="image_data.ram#__TNMsNZTEeyBP5tFtpdo7A"/>
+    </uiElements>
+    <uiElements xmi:id="_D2OE4dZUEeyBP5tFtpdo7A">
+      <modelElement href="image_data.ram#_D2Or8NZUEeyBP5tFtpdo7A"/>
+    </uiElements>
+    <uiElements xmi:id="_FgxiMNZUEeyBP5tFtpdo7A">
+      <modelElement href="image_data.ram#_FgxiMdZUEeyBP5tFtpdo7A"/>
+    </uiElements>
+    <rootModelElement href="image_data.ram#_8XuCsNgNEeuGxOJxjWx4FA"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_0xgiQEDnEeyBfMro0AcMxQ" name="transform data" scene="_0xgiQUDnEeyBfMro0AcMxQ" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_0xgiQ0DnEeyBfMro0AcMxQ" source="_1XUYUkDXEeyBfMro0AcMxQ"/>
+    <rootModelElement href="transform_data.ram#_JQLAACYnEeycop2z6HNniQ"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_5Ulr4EDnEeyBfMro0AcMxQ" name="transform data" scene="_5Ulr4UDnEeyBfMro0AcMxQ" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_5Ulr40DnEeyBfMro0AcMxQ" source="_1XUYUkDXEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_yxmEUFuTEeyYFcy3y-QhYQ" source="_psIJQEDnEeyBfMro0AcMxQ"/>
+    <uiElements xmi:id="__mZ1oJBvEeypRsCuVT-yPA">
+      <modelElement href="ImageTransform.ram#_RRLqwJBvEeyqm49WQ95NxA"/>
+    </uiElements>
+    <uiElements xmi:id="__mcR4JBvEeypRsCuVT-yPA">
+      <modelElement href="ImageTransform.ram#__mcR4ZBvEeypRsCuVT-yPA"/>
+    </uiElements>
+    <uiElements xmi:id="__qDmkJBvEeypRsCuVT-yPA">
+      <modelElement href="ImageTransform.ram#__qDmkZBvEeypRsCuVT-yPA"/>
+    </uiElements>
+    <uiElements xmi:id="__t3vkJBvEeypRsCuVT-yPA">
+      <modelElement href="ImageTransform.ram#__t3vkZBvEeypRsCuVT-yPA"/>
+    </uiElements>
+    <uiElements xmi:id="__xXvgJBvEeypRsCuVT-yPA">
+      <modelElement href="ImageTransform.ram#__xXvgZBvEeypRsCuVT-yPA"/>
+    </uiElements>
+    <uiElements xmi:id="_VUOM8JBwEeypRsCuVT-yPA">
+      <modelElement href="ImageTransform.ram#_VUOM8ZBwEeypRsCuVT-yPA"/>
+    </uiElements>
+    <uiElements xmi:id="_pH9dMJBwEeypRsCuVT-yPA">
+      <modelElement href="ImageTransform.ram#_k_FjUJBwEeypRsCuVT-yPA"/>
+    </uiElements>
+    <uiElements xmi:id="_pH9dMZBwEeypRsCuVT-yPA">
+      <modelElement href="ImageTransform.ram#_pH9dMpBwEeypRsCuVT-yPA"/>
+    </uiElements>
+    <uiElements xmi:id="_pO8O8JBwEeypRsCuVT-yPA">
+      <modelElement href="ImageTransform.ram#_pO8O8ZBwEeypRsCuVT-yPA"/>
+    </uiElements>
+    <uiElements xmi:id="_0ylRQJBwEeypRsCuVT-yPA">
+      <modelElement href="ImageTransform.ram#_tQbHYJBwEeypRsCuVT-yPA"/>
+    </uiElements>
+    <uiElements xmi:id="_0ylRQZBwEeypRsCuVT-yPA">
+      <modelElement href="ImageTransform.ram#_0ylRQpBwEeypRsCuVT-yPA"/>
+    </uiElements>
+    <uiElements xmi:id="_NN-CEJBxEeyV4r6u3iMaJQ">
+      <modelElement href="ImageTransform.ram#_NN-CEZBxEeyV4r6u3iMaJQ"/>
+    </uiElements>
+    <uiElements xmi:id="_ZpV9oJBxEeyV4r6u3iMaJQ">
+      <modelElement href="ImageTransform.ram#_T2ZuoJBxEeyV4r6u3iMaJQ"/>
+    </uiElements>
+    <uiElements xmi:id="_ZpV9oZBxEeyV4r6u3iMaJQ">
+      <modelElement href="ImageTransform.ram#_ZpV9opBxEeyV4r6u3iMaJQ"/>
+    </uiElements>
+    <uiElements xmi:id="_Zs3ywJBxEeyV4r6u3iMaJQ">
+      <modelElement href="ImageTransform.ram#_Zs3ywZBxEeyV4r6u3iMaJQ"/>
+    </uiElements>
+    <uiElements xmi:id="_eaUZUJBxEeyV4r6u3iMaJQ">
+      <modelElement href="ImageTransform.ram#_eaUZUZBxEeyV4r6u3iMaJQ"/>
+    </uiElements>
+    <uiElements xmi:id="_vruPsJBxEeyV4r6u3iMaJQ">
+      <modelElement href="ImageTransform.ram#_sBTMYJBxEeyV4r6u3iMaJQ"/>
+    </uiElements>
+    <uiElements xmi:id="_vruPsZBxEeyV4r6u3iMaJQ">
+      <modelElement href="ImageTransform.ram#_vruPspBxEeyV4r6u3iMaJQ"/>
+    </uiElements>
+    <uiElements xmi:id="_vv2hwJBxEeyV4r6u3iMaJQ">
+      <modelElement href="ImageTransform.ram#_vv2hwZBxEeyV4r6u3iMaJQ"/>
+    </uiElements>
+    <uiElements xmi:id="_v0oUEJBxEeyV4r6u3iMaJQ">
+      <modelElement href="ImageTransform.ram#_v0oUEZBxEeyV4r6u3iMaJQ"/>
+    </uiElements>
+    <uiElements xmi:id="__HTz8JBxEeyV4r6u3iMaJQ">
+      <modelElement href="ImageTransform.ram#__HTz8ZBxEeyV4r6u3iMaJQ"/>
+    </uiElements>
+    <uiElements xmi:id="_IcCHoJByEeyV4r6u3iMaJQ">
+      <modelElement href="ImageTransform.ram#_Es0D4JByEeyV4r6u3iMaJQ"/>
+    </uiElements>
+    <uiElements xmi:id="_IcCusJByEeyV4r6u3iMaJQ">
+      <modelElement href="ImageTransform.ram#_IcCusZByEeyV4r6u3iMaJQ"/>
+    </uiElements>
+    <uiElements xmi:id="_IfiHkJByEeyV4r6u3iMaJQ">
+      <modelElement href="ImageTransform.ram#_IfiHkZByEeyV4r6u3iMaJQ"/>
+    </uiElements>
+    <uiElements xmi:id="_IitXYJByEeyV4r6u3iMaJQ">
+      <modelElement href="ImageTransform.ram#_IitXYZByEeyV4r6u3iMaJQ"/>
+    </uiElements>
+    <uiElements xmi:id="_IlQVEJByEeyV4r6u3iMaJQ">
+      <modelElement href="ImageTransform.ram#_IlQVEZByEeyV4r6u3iMaJQ"/>
+    </uiElements>
+    <uiElements xmi:id="_ZPwjgJByEeyV4r6u3iMaJQ">
+      <modelElement href="ImageTransform.ram#_ZPwjgZByEeyV4r6u3iMaJQ"/>
+    </uiElements>
+    <uiElements xmi:id="_fxfyMJByEeyV4r6u3iMaJQ">
+      <modelElement href="ImageTransform.ram#_cRZIgJByEeyV4r6u3iMaJQ"/>
+    </uiElements>
+    <uiElements xmi:id="_fxgZQJByEeyV4r6u3iMaJQ">
+      <modelElement href="ImageTransform.ram#_fxgZQZByEeyV4r6u3iMaJQ"/>
+    </uiElements>
+    <uiElements xmi:id="_sEq0AJByEeyV4r6u3iMaJQ">
+      <modelElement href="ImageTransform.ram#_sEq0AZByEeyV4r6u3iMaJQ"/>
+    </uiElements>
+    <uiElements xmi:id="_Z6PVsNZUEeyBP5tFtpdo7A">
+      <modelElement href="ImageTransform.ram#_XHL_QNZUEeyBP5tFtpdo7A"/>
+    </uiElements>
+    <uiElements xmi:id="_Z6PVsdZUEeyBP5tFtpdo7A">
+      <modelElement href="ImageTransform.ram#_Z6PVstZUEeyBP5tFtpdo7A"/>
+    </uiElements>
+    <uiElements xmi:id="_3r2GYNu8EeyTCK3XnFWs1w">
+      <modelElement href="ImageTransform.ram#_sPZRMNu8EeyTCK3XnFWs1w"/>
+    </uiElements>
+    <uiElements xmi:id="_3r2GYdu8EeyTCK3XnFWs1w">
+      <modelElement href="ImageTransform.ram#_3r2GYtu8EeyTCK3XnFWs1w"/>
+    </uiElements>
+    <uiElements xmi:id="_3xjs0Nu8EeyTCK3XnFWs1w">
+      <modelElement href="ImageTransform.ram#_3xjs0du8EeyTCK3XnFWs1w"/>
+    </uiElements>
+    <uiElements xmi:id="_32poMNu8EeyTCK3XnFWs1w">
+      <modelElement href="ImageTransform.ram#_32poMdu8EeyTCK3XnFWs1w"/>
+    </uiElements>
+    <uiElements xmi:id="_doVrwNu9EeyTCK3XnFWs1w">
+      <modelElement href="ImageTransform.ram#_doW54Nu9EeyTCK3XnFWs1w"/>
+    </uiElements>
+    <uiElements xmi:id="_e3e_cNu9EeyTCK3XnFWs1w">
+      <modelElement href="ImageTransform.ram#_e3e_cdu9EeyTCK3XnFWs1w"/>
+    </uiElements>
+    <uiElements xmi:id="_vzra0Nu9EeyTCK3XnFWs1w">
+      <modelElement href="ImageTransform.ram#_iHNq0Nu9EeyTCK3XnFWs1w"/>
+    </uiElements>
+    <uiElements xmi:id="_vzra0du9EeyTCK3XnFWs1w">
+      <modelElement href="ImageTransform.ram#_vzra0tu9EeyTCK3XnFWs1w"/>
+    </uiElements>
+    <rootModelElement href="ImageTransform.ram#_4BtCUC-9Eey7CdRMNoOOSg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="__RFfgEDnEeyBfMro0AcMxQ" name="publish data" scene="__RFfgUDnEeyBfMro0AcMxQ" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="__RFfg0DnEeyBfMro0AcMxQ" source="_1XUYUkDXEeyBfMro0AcMxQ"/>
+    <uiElements xmi:id="__QfIQJAoEeyJK9rWQnxChw">
+      <modelElement href="publish_data.ram#_-XjVIJAoEeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="__QfIQZAoEeyJK9rWQnxChw">
+      <modelElement href="publish_data.ram#__QfIQpAoEeyJK9rWQnxChw"/>
+    </uiElements>
+    <rootModelElement href="publish_data.ram#_YdY-0CYsEeycop2z6HNniQ"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_uTz3QEGxEeyUC-UomtVoUw" name="MLNetwork" scene="_uT5W0EGxEeyUC-UomtVoUw" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_uT594EGxEeyUC-UomtVoUw" source="_1XUYUkDXEeyBfMro0AcMxQ"/>
+    <uiElements xmi:id="_V_cswFBdEeySrLOMo4jR_g">
+      <modelElement href="multilayer_network.ram#_V_fwEFBdEeySrLOMo4jR_g"/>
+    </uiElements>
+    <uiElements xmi:id="_XXKGkFBdEeySrLOMo4jR_g">
+      <modelElement href="multilayer_network.ram#_XXKGkVBdEeySrLOMo4jR_g"/>
+    </uiElements>
+    <uiElements xmi:id="_BqTGoFBfEeySrLOMo4jR_g">
+      <modelElement href="multilayer_network.ram#_BqTGoVBfEeySrLOMo4jR_g"/>
+    </uiElements>
+    <uiElements xmi:id="_v6PI4FBfEeySrLOMo4jR_g">
+      <modelElement href="multilayer_network.ram#_v6PI4VBfEeySrLOMo4jR_g"/>
+    </uiElements>
+    <uiElements xmi:id="_Eh51gIUbEeyY46T0rVYR4Q">
+      <modelElement href="multilayer_network.ram#_Eh51gYUbEeyY46T0rVYR4Q"/>
+    </uiElements>
+    <rootModelElement href="multilayer_network.ram#_UwYUQOikEeuYGrJtKWO0Hg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_vyh4AEGxEeyUC-UomtVoUw" name="ComputationGraph" scene="_vyifEEGxEeyUC-UomtVoUw" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_vyifEkGxEeyUC-UomtVoUw" source="_1XUYUkDXEeyBfMro0AcMxQ"/>
+    <uiElements xmi:id="_g5km8FugEeyXfJE6Kd1O8A">
+      <modelElement href="computationGraph.ram#_fumooFugEeyXfJE6Kd1O8A"/>
+    </uiElements>
+    <uiElements xmi:id="_g5km8VugEeyXfJE6Kd1O8A">
+      <modelElement href="computationGraph.ram#_g5km8lugEeyXfJE6Kd1O8A"/>
+    </uiElements>
+    <uiElements xmi:id="_5tksEFugEey7lsxjJkMbzQ">
+      <modelElement href="computationGraph.ram#_2RDh4FugEey7lsxjJkMbzQ"/>
+    </uiElements>
+    <uiElements xmi:id="_5tksEVugEey7lsxjJkMbzQ">
+      <modelElement href="computationGraph.ram#_5tksElugEey7lsxjJkMbzQ"/>
+    </uiElements>
+    <uiElements xmi:id="_xdby8IdzEeyXwqDbAaieeg">
+      <modelElement href="computationGraph.ram#_xdcaAIdzEeyXwqDbAaieeg"/>
+    </uiElements>
+    <rootModelElement href="computationGraph.ram#_mzi-wOikEeuYGrJtKWO0Hg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_IPVlIEGyEeyUC-UomtVoUw" name="ComputationGraph_store" scene="_IPVlIUGyEeyUC-UomtVoUw" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_IPVlI0GyEeyUC-UomtVoUw" source="_1XUYUkDXEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_gL3VoHpbEeyOw5BiW9joAA" source="_vyh4AEGxEeyUC-UomtVoUw">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_gvuQoHpbEeyOw5BiW9joAA">
+        <to xsi:type="ram:Class" href="store_network.ram#_8VPQkHpaEeyOw5BiW9joAA"/>
+        <from xsi:type="ram:Class" href="computationGraph.ram#_2RDh4FugEey7lsxjJkMbzQ"/>
+      </compositions>
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_iUzYEHpbEeyOw5BiW9joAA">
+        <to xsi:type="ram:Class" href="store_network.ram#_8VPQkHpaEeyOw5BiW9joAA"/>
+        <from xsi:type="ram:ImplementationClass" href="computationGraph.ram#_fumooFugEeyXfJE6Kd1O8A"/>
+      </compositions>
+    </modelExtensions>
+    <uiElements xmi:id="_HY2vAHpbEeyOw5BiW9joAA">
+      <modelElement href="store_network.ram#_8VPQkHpaEeyOw5BiW9joAA"/>
+    </uiElements>
+    <uiElements xmi:id="_HY2vAXpbEeyOw5BiW9joAA">
+      <modelElement href="store_network.ram#_HY2vAnpbEeyOw5BiW9joAA"/>
+    </uiElements>
+    <uiElements xmi:id="_C2mZsJAxEeyJK9rWQnxChw">
+      <modelElement href="store_network.ram#_C2mZsZAxEeyJK9rWQnxChw"/>
+    </uiElements>
+    <rootModelElement href="store_network.ram#_LGE8QCYoEeycop2z6HNniQ"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_NRw9MEGyEeyUC-UomtVoUw" name="load from disk" scene="_NRw9MUGyEeyUC-UomtVoUw" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_NRw9M0GyEeyUC-UomtVoUw" source="_1XUYUkDXEeyBfMro0AcMxQ"/>
+    <rootModelElement href="load_from_disk.ram#_UvkmECYoEeycop2z6HNniQ"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_Qe7cwEGyEeyUC-UomtVoUw" name="load from disk" scene="_Qe7cwUGyEeyUC-UomtVoUw" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_Qe7cw0GyEeyUC-UomtVoUw" source="_1XUYUkDXEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_8ryzUH_UEeyU_ODeo8VEOg" source="_vyh4AEGxEeyUC-UomtVoUw">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_9JrCIH_UEeyU_ODeo8VEOg">
+        <to xsi:type="ram:Class" href="ComputationGraph_load_from_disk.ram#_tLrw4H_TEeyZ-7-iWk9v9g"/>
+        <from xsi:type="ram:Class" href="computationGraph.ram#_2RDh4FugEey7lsxjJkMbzQ"/>
+      </compositions>
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_99g54H_UEeyU_ODeo8VEOg">
+        <to xsi:type="ram:ImplementationClass" href="ComputationGraph_load_from_disk.ram#_KTBLoC_AEey7CdRMNoOOSg"/>
+        <from xsi:type="ram:ImplementationClass" href="computationGraph.ram#_fumooFugEeyXfJE6Kd1O8A"/>
+      </compositions>
+    </modelExtensions>
+    <rootModelElement href="ComputationGraph_load_from_disk.ram#_GfLGkC_AEey7CdRMNoOOSg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_TCUmkEGyEeyUC-UomtVoUw" name="MLNetwork_load_from_disk" scene="_TCUmkUGyEeyUC-UomtVoUw" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_TCUmk0GyEeyUC-UomtVoUw" source="_1XUYUkDXEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_awxrcIUbEeyY46T0rVYR4Q" source="_uTz3QEGxEeyUC-UomtVoUw">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_bM0uQIUbEeyY46T0rVYR4Q">
+        <to xsi:type="ram:Class" href="MultilayerNN_load_from_disk.ram#_HepR4H_VEeyU_ODeo8VEOg"/>
+        <from xsi:type="ram:Class" href="multilayer_network.ram#_ympgQFBpEeykOf-qDtdW3A"/>
+      </compositions>
+    </modelExtensions>
+    <uiElements xmi:id="_FAwTIn_VEeyU_ODeo8VEOg">
+      <modelElement href="MultilayerNN_load_from_disk.ram#_FAwTI3_VEeyU_ODeo8VEOg"/>
+    </uiElements>
+    <uiElements xmi:id="_GRzEQH_VEeyU_ODeo8VEOg">
+      <modelElement href="MultilayerNN_load_from_disk.ram#_GRzrUH_VEeyU_ODeo8VEOg"/>
+    </uiElements>
+    <uiElements xmi:id="_NWLtAH_VEeyU_ODeo8VEOg">
+      <modelElement href="MultilayerNN_load_from_disk.ram#_HepR4H_VEeyU_ODeo8VEOg"/>
+    </uiElements>
+    <uiElements xmi:id="_NWLtAX_VEeyU_ODeo8VEOg">
+      <modelElement href="MultilayerNN_load_from_disk.ram#_NWLtAn_VEeyU_ODeo8VEOg"/>
+    </uiElements>
+    <uiElements xmi:id="_bfK805AvEeyJK9rWQnxChw">
+      <modelElement href="MultilayerNN_load_from_disk.ram#_FAvsEH_VEeyU_ODeo8VEOg"/>
+    </uiElements>
+    <uiElements xmi:id="_bfK81JAvEeyJK9rWQnxChw">
+      <modelElement href="MultilayerNN_load_from_disk.ram#_bfK81ZAvEeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_buXPYJAvEeyJK9rWQnxChw">
+      <modelElement href="MultilayerNN_load_from_disk.ram#_buXPYZAvEeyJK9rWQnxChw"/>
+    </uiElements>
+    <rootModelElement href="MultilayerNN_load_from_disk.ram#_il9AgC-_Eey7CdRMNoOOSg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_8RBdYEHPEey6g5nE2PrOCw" name="load built-in model" scene="_8RGV4EHPEey6g5nE2PrOCw" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_8RGV4kHPEey6g5nE2PrOCw" source="_1XUYUkDXEeyBfMro0AcMxQ"/>
+    <rootModelElement href="load_built-in_model.ram#_xQ0jkCYpEeycop2z6HNniQ"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_v_yjAEHUEey6g5nE2PrOCw" name="MLNetwork_manually_build_network" scene="_v_yjAUHUEey6g5nE2PrOCw" languageName="Reusable Aspect Models">
+    <uiElements xmi:id="_HvbSAFCEEey2tsXMXVXHbQ">
+      <modelElement href="manually_build_network.ram#_FYGOQFCEEey2tsXMXVXHbQ"/>
+    </uiElements>
+    <uiElements xmi:id="_HvbSAVCEEey2tsXMXVXHbQ">
+      <modelElement href="manually_build_network.ram#_HvgxkFCEEey2tsXMXVXHbQ"/>
+    </uiElements>
+    <uiElements xmi:id="__EMkQIs8EeyM3NB952VwDQ">
+      <modelElement href="manually_build_network.ram#_6wRQ8Is8EeyM3NB952VwDQ"/>
+    </uiElements>
+    <uiElements xmi:id="__EMkQYs8EeyM3NB952VwDQ">
+      <modelElement href="manually_build_network.ram#__EMkQos8EeyM3NB952VwDQ"/>
+    </uiElements>
+    <uiElements xmi:id="_44a9IOLhEeyc7rMLsV14hA">
+      <modelElement href="manually_build_network.ram#_44a9IeLhEeyc7rMLsV14hA"/>
+    </uiElements>
+    <uiElements xmi:id="_nvcNgOLiEeyUqM2sAlhFpA">
+      <modelElement href="manually_build_network.ram#_YtqQYOLiEeyUqM2sAlhFpA"/>
+    </uiElements>
+    <uiElements xmi:id="_nvcNgeLiEeyUqM2sAlhFpA">
+      <modelElement href="manually_build_network.ram#_nvcNguLiEeyUqM2sAlhFpA"/>
+    </uiElements>
+    <uiElements xmi:id="_rCMXsOLiEeyUqM2sAlhFpA">
+      <modelElement href="manually_build_network.ram#_rCMXseLiEeyUqM2sAlhFpA"/>
+    </uiElements>
+    <uiElements xmi:id="_t1TYgOLiEeyUqM2sAlhFpA">
+      <modelElement href="manually_build_network.ram#_t1TYgeLiEeyUqM2sAlhFpA"/>
+    </uiElements>
+    <uiElements xmi:id="_vzI-MOLiEeyUqM2sAlhFpA">
+      <modelElement href="manually_build_network.ram#_vzI-MeLiEeyUqM2sAlhFpA"/>
+    </uiElements>
+    <uiElements xmi:id="_6fNfUOLiEeyUqM2sAlhFpA">
+      <modelElement href="manually_build_network.ram#_6fNfUeLiEeyUqM2sAlhFpA"/>
+    </uiElements>
+    <uiElements xmi:id="_965jEOLiEeyUqM2sAlhFpA">
+      <modelElement href="manually_build_network.ram#_965jEeLiEeyUqM2sAlhFpA"/>
+    </uiElements>
+    <uiElements xmi:id="_AtC6kOLjEeyUqM2sAlhFpA">
+      <modelElement href="manually_build_network.ram#_AtC6keLjEeyUqM2sAlhFpA"/>
+    </uiElements>
+    <uiElements xmi:id="_Cf1G0OLjEeyUqM2sAlhFpA">
+      <modelElement href="manually_build_network.ram#_Cf1G0eLjEeyUqM2sAlhFpA"/>
+    </uiElements>
+    <rootModelElement href="manually_build_network.ram#_kETWUAmKEeyWSY4C072WoQ"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_zEecAEHUEey6g5nE2PrOCw" name="run network" scene="_zEecAUHUEey6g5nE2PrOCw" languageName="Reusable Aspect Models">
+    <uiElements xmi:id="_GFIoYN03EeyhWuhRH9Xz9w">
+      <modelElement href="run_network.ram#_GFJPcN03EeyhWuhRH9Xz9w"/>
+    </uiElements>
+    <uiElements xmi:id="_HiFukN03EeyhWuhRH9Xz9w">
+      <modelElement href="run_network.ram#_HiGVoN03EeyhWuhRH9Xz9w"/>
+    </uiElements>
+    <rootModelElement href="run_network.ram#_xXde0CZwEeyD3eQvvo0_7w"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_1OkVAEHUEey6g5nE2PrOCw" name="MLNetwork_train" scene="_1OkVAUHUEey6g5nE2PrOCw" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_1OkVA0HUEey6g5nE2PrOCw" source="_zEecAEHUEey6g5nE2PrOCw">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_NQ45cEPhEey69-6DTnDjGA">
+        <to xsi:type="ram:ImplementationClass" href="train.ram#_9QeUMiZwEeyD3eQvvo0_7w"/>
+        <from xsi:type="ram:ImplementationClass" href="run_network.ram#_xXde0iZwEeyD3eQvvo0_7w"/>
+      </compositions>
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_QJYBIEjREey06sh_fNcVhg">
+        <to xsi:type="ram:ImplementationClass" href="train.ram#__DtzcCZwEeyD3eQvvo0_7w"/>
+        <from xsi:type="ram:ImplementationClass" href="run_network.ram#_xXde1iZwEeyD3eQvvo0_7w"/>
+      </compositions>
+    </modelExtensions>
+    <modelExtensions xmi:id="_CrFAIIdzEeyXwqDbAaieeg" source="_uTz3QEGxEeyUC-UomtVoUw">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_DGYcEIdzEeyXwqDbAaieeg">
+        <to xsi:type="ram:Class" href="train.ram#_OsTy0IdyEeyXwqDbAaieeg"/>
+        <from xsi:type="ram:Class" href="multilayer_network.ram#_ympgQFBpEeykOf-qDtdW3A"/>
+      </compositions>
+    </modelExtensions>
+    <modelExtensions xmi:id="_6S00UIqqEey-h9vburn2Ag" source="_clqA0oqqEey-h9vburn2Ag">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_6stT8IqqEey-h9vburn2Ag">
+        <to xsi:type="ram:ImplementationClass" href="train.ram#_7EawwIdyEeyXwqDbAaieeg"/>
+        <from xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/operate%20network.aspect_model.ram#_st0-QIqqEey-h9vburn2Ag"/>
+      </compositions>
+    </modelExtensions>
+    <uiElements xmi:id="_28AmYIdxEey9s9rg1qpZmA">
+      <modelElement href="train.ram#_0UmfQIdxEey9s9rg1qpZmA"/>
+    </uiElements>
+    <uiElements xmi:id="_28AmYYdxEey9s9rg1qpZmA">
+      <modelElement href="train.ram#_28AmYodxEey9s9rg1qpZmA"/>
+    </uiElements>
+    <uiElements xmi:id="_30j_AIdxEey9s9rg1qpZmA">
+      <modelElement href="train.ram#_30j_AYdxEey9s9rg1qpZmA"/>
+    </uiElements>
+    <uiElements xmi:id="_n6eEYIdyEeyXwqDbAaieeg">
+      <modelElement href="train.ram#_OsTy0IdyEeyXwqDbAaieeg"/>
+    </uiElements>
+    <uiElements xmi:id="_n6ercIdyEeyXwqDbAaieeg">
+      <modelElement href="train.ram#_n6ercYdyEeyXwqDbAaieeg"/>
+    </uiElements>
+    <uiElements xmi:id="_pExUUIdyEeyXwqDbAaieeg">
+      <modelElement href="train.ram#_pExUUYdyEeyXwqDbAaieeg"/>
+    </uiElements>
+    <uiElements xmi:id="_yeYIAIdyEeyXwqDbAaieeg">
+      <modelElement href="train.ram#_yeYIAYdyEeyXwqDbAaieeg"/>
+    </uiElements>
+    <uiElements xmi:id="_9mUFwIdyEeyXwqDbAaieeg">
+      <modelElement href="train.ram#_9mUFwYdyEeyXwqDbAaieeg"/>
+    </uiElements>
+    <uiElements xmi:id="_f912QIr6EeywCee_v5QerA">
+      <modelElement href="train.ram#_f945kIr6EeywCee_v5QerA"/>
+    </uiElements>
+    <uiElements xmi:id="_6zU1gIr7EeywCee_v5QerA">
+      <modelElement href="train.ram#_SoFgoIr7EeywCee_v5QerA"/>
+    </uiElements>
+    <uiElements xmi:id="_6zU1gYr7EeywCee_v5QerA">
+      <modelElement href="train.ram#_6zVckIr7EeywCee_v5QerA"/>
+    </uiElements>
+    <uiElements xmi:id="_7KGWwIr7EeywCee_v5QerA">
+      <modelElement href="train.ram#_7KGWwYr7EeywCee_v5QerA"/>
+    </uiElements>
+    <uiElements xmi:id="_74pe0Ir7EeywCee_v5QerA">
+      <modelElement href="train.ram#_74pe0Yr7EeywCee_v5QerA"/>
+    </uiElements>
+    <uiElements xmi:id="_8jwRUIr7EeywCee_v5QerA">
+      <modelElement href="train.ram#_8jwRUYr7EeywCee_v5QerA"/>
+    </uiElements>
+    <uiElements xmi:id="_g6zjgI-JEeypnfMsjRFa3Q">
+      <modelElement href="train.ram#_g6zjgY-JEeypnfMsjRFa3Q"/>
+    </uiElements>
+    <uiElements xmi:id="_ENRSYN04EeyhWuhRH9Xz9w">
+      <modelElement href="train.ram#_ENRSYd04EeyhWuhRH9Xz9w"/>
+    </uiElements>
+    <rootModelElement href="train.ram#_9QeUMCZwEeyD3eQvvo0_7w"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_3cMqMEHUEey6g5nE2PrOCw" name="MLNetwork_predict" scene="_3cMqMUHUEey6g5nE2PrOCw" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_3cMqM0HUEey6g5nE2PrOCw" source="_zEecAEHUEey6g5nE2PrOCw">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_RGggIEPhEey69-6DTnDjGA">
+        <to xsi:type="ram:ImplementationClass" href="predict.ram#_Cla_oiZxEeyD3eQvvo0_7w"/>
+        <from xsi:type="ram:ImplementationClass" href="run_network.ram#_xXde0iZwEeyD3eQvvo0_7w"/>
+      </compositions>
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_SOONwEjREey06sh_fNcVhg">
+        <to xsi:type="ram:ImplementationClass" href="predict.ram#_Cla_pCZxEeyD3eQvvo0_7w"/>
+        <from xsi:type="ram:ImplementationClass" href="run_network.ram#_xXde1iZwEeyD3eQvvo0_7w"/>
+      </compositions>
+    </modelExtensions>
+    <modelExtensions xmi:id="_pTTsUIeCEeya4pIzzxiKVg" source="_uTz3QEGxEeyUC-UomtVoUw">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_pvob8IeCEeya4pIzzxiKVg">
+        <to xsi:type="ram:Class" href="predict.ram#_gnvEwFYpEeyZn4w4eybuYw"/>
+        <from xsi:type="ram:Class" href="multilayer_network.ram#_ympgQFBpEeykOf-qDtdW3A"/>
+      </compositions>
+    </modelExtensions>
+    <modelExtensions xmi:id="_9Nw7cIqqEey-h9vburn2Ag" source="_clqA0oqqEey-h9vburn2Ag">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_9nKS4IqqEey-h9vburn2Ag">
+        <to xsi:type="ram:ImplementationClass" href="predict.ram#_rGTAQFYnEeyZn4w4eybuYw"/>
+        <from xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/operate%20network.aspect_model.ram#_st0-QIqqEey-h9vburn2Ag"/>
+      </compositions>
+    </modelExtensions>
+    <uiElements xmi:id="_Y5ZgEFYpEeyZn4w4eybuYw">
+      <modelElement href="predict.ram#_Cla_pCZxEeyD3eQvvo0_7w"/>
+    </uiElements>
+    <uiElements xmi:id="_Y5ZgEVYpEeyZn4w4eybuYw">
+      <modelElement href="predict.ram#_Y5ZgElYpEeyZn4w4eybuYw"/>
+    </uiElements>
+    <uiElements xmi:id="_mS6e4FYpEeyZn4w4eybuYw">
+      <modelElement href="predict.ram#_gnvEwFYpEeyZn4w4eybuYw"/>
+    </uiElements>
+    <uiElements xmi:id="_mS6e4VYpEeyZn4w4eybuYw">
+      <modelElement href="predict.ram#_mS6e4lYpEeyZn4w4eybuYw"/>
+    </uiElements>
+    <uiElements xmi:id="_WAohwIeCEeya4pIzzxiKVg">
+      <modelElement href="predict.ram#_WAohwYeCEeya4pIzzxiKVg"/>
+    </uiElements>
+    <uiElements xmi:id="_fq8D4IeCEeya4pIzzxiKVg">
+      <modelElement href="predict.ram#_fq8D4YeCEeya4pIzzxiKVg"/>
+    </uiElements>
+    <uiElements xmi:id="_1YHiAIeCEeya4pIzzxiKVg">
+      <modelElement href="predict.ram#_a3xP0IeCEeya4pIzzxiKVg"/>
+    </uiElements>
+    <uiElements xmi:id="_1YHiAYeCEeya4pIzzxiKVg">
+      <modelElement href="predict.ram#_1YHiAoeCEeya4pIzzxiKVg"/>
+    </uiElements>
+    <uiElements xmi:id="_2DVpQIeCEeya4pIzzxiKVg">
+      <modelElement href="predict.ram#_2DWQUIeCEeya4pIzzxiKVg"/>
+    </uiElements>
+    <uiElements xmi:id="_x6CfsIfREeyK1IcStswRng">
+      <modelElement href="predict.ram#_x6CfsYfREeyK1IcStswRng"/>
+    </uiElements>
+    <uiElements xmi:id="_xoYjoN1zEeyy4LDpUEoIkw">
+      <modelElement href="predict.ram#_xoYjod1zEeyy4LDpUEoIkw"/>
+    </uiElements>
+    <rootModelElement href="predict.ram#_Cla_oCZxEeyD3eQvvo0_7w"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_UgM6AkHXEeyor9GmK8BPBg" name="built-in data" scene="_UgM6AEHXEeyor9GmK8BPBg" languageName="Reusable Aspect Models">
+    <uiElements xmi:id="_pOj_cEHXEeyor9GmK8BPBg">
+      <modelElement href="Reusable%20Aspect%20Models/built-in%20data.aspect_model.ram#_kifR4EHXEeyor9GmK8BPBg"/>
+    </uiElements>
+    <uiElements xmi:id="_pOj_cUHXEeyor9GmK8BPBg">
+      <modelElement href="Reusable%20Aspect%20Models/built-in%20data.aspect_model.ram#_pOj_ckHXEeyor9GmK8BPBg"/>
+    </uiElements>
+    <uiElements xmi:id="_C6Se0F4IEeyLur6ijdpPtg">
+      <modelElement href="Reusable%20Aspect%20Models/built-in%20data.aspect_model.ram#_B2zokF4IEeyLur6ijdpPtg"/>
+    </uiElements>
+    <uiElements xmi:id="_C6TF4F4IEeyLur6ijdpPtg">
+      <modelElement href="Reusable%20Aspect%20Models/built-in%20data.aspect_model.ram#_C6TF4V4IEeyLur6ijdpPtg"/>
+    </uiElements>
+    <uiElements xmi:id="_DR-mEF4IEeyLur6ijdpPtg">
+      <modelElement href="Reusable%20Aspect%20Models/built-in%20data.aspect_model.ram#_DR_NIF4IEeyLur6ijdpPtg"/>
+    </uiElements>
+    <uiElements xmi:id="_FA93cF4IEeyLur6ijdpPtg">
+      <modelElement href="Reusable%20Aspect%20Models/built-in%20data.aspect_model.ram#_FA93cV4IEeyLur6ijdpPtg"/>
+    </uiElements>
+    <uiElements xmi:id="_SJnvxl4IEeyLur6ijdpPtg">
+      <modelElement href="Reusable%20Aspect%20Models/built-in%20data.aspect_model.ram#_J3AZUF4IEeyLur6ijdpPtg"/>
+    </uiElements>
+    <uiElements xmi:id="_SJoW0F4IEeyLur6ijdpPtg">
+      <modelElement href="Reusable%20Aspect%20Models/built-in%20data.aspect_model.ram#_SJoW0V4IEeyLur6ijdpPtg"/>
+    </uiElements>
+    <uiElements xmi:id="_TDUX4F4IEeyLur6ijdpPtg">
+      <modelElement href="Reusable%20Aspect%20Models/built-in%20data.aspect_model.ram#_TDUX4V4IEeyLur6ijdpPtg"/>
+    </uiElements>
+    <uiElements xmi:id="_TWpjkF4IEeyLur6ijdpPtg">
+      <modelElement href="Reusable%20Aspect%20Models/built-in%20data.aspect_model.ram#_TWpjkV4IEeyLur6ijdpPtg"/>
+    </uiElements>
+    <uiElements xmi:id="_Ts5gYF4IEeyLur6ijdpPtg">
+      <modelElement href="Reusable%20Aspect%20Models/built-in%20data.aspect_model.ram#_Ts5gYV4IEeyLur6ijdpPtg"/>
+    </uiElements>
+    <uiElements xmi:id="_U2tBEV4IEeyLur6ijdpPtg">
+      <modelElement href="Reusable%20Aspect%20Models/built-in%20data.aspect_model.ram#_U2tBEl4IEeyLur6ijdpPtg"/>
+    </uiElements>
+    <uiElements xmi:id="_VLb68F4IEeyLur6ijdpPtg">
+      <modelElement href="Reusable%20Aspect%20Models/built-in%20data.aspect_model.ram#_VLb68V4IEeyLur6ijdpPtg"/>
+    </uiElements>
+    <uiElements xmi:id="_ahmHUF4IEeyLur6ijdpPtg">
+      <modelElement href="Reusable%20Aspect%20Models/built-in%20data.aspect_model.ram#_IqY1MF4IEeyLur6ijdpPtg"/>
+    </uiElements>
+    <uiElements xmi:id="_ahmHUV4IEeyLur6ijdpPtg">
+      <modelElement href="Reusable%20Aspect%20Models/built-in%20data.aspect_model.ram#_ahmuYF4IEeyLur6ijdpPtg"/>
+    </uiElements>
+    <uiElements xmi:id="_azOp4F4IEeyLur6ijdpPtg">
+      <modelElement href="Reusable%20Aspect%20Models/built-in%20data.aspect_model.ram#_azOp4V4IEeyLur6ijdpPtg"/>
+    </uiElements>
+    <uiElements xmi:id="_bVC9gF4IEeyLur6ijdpPtg">
+      <modelElement href="Reusable%20Aspect%20Models/built-in%20data.aspect_model.ram#_bVC9gV4IEeyLur6ijdpPtg"/>
+    </uiElements>
+    <uiElements xmi:id="_buIy8F4IEeyLur6ijdpPtg">
+      <modelElement href="Reusable%20Aspect%20Models/built-in%20data.aspect_model.ram#_buIy8V4IEeyLur6ijdpPtg"/>
+    </uiElements>
+    <rootModelElement href="Reusable%20Aspect%20Models/built-in%20data.aspect_model.ram#_UgIokEHXEeyor9GmK8BPBg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_5YaW4EHiEeyEpZxv_KVsMw" name="MLNetwork_customize_layer_settings" scene="_5YZv0EHiEeyEpZxv_KVsMw" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_ILPWYIs_Eeyg9vSEv4_zkw" source="_v_yjAEHUEey6g5nE2PrOCw">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_J8bAIIs_Eeyg9vSEv4_zkw">
+        <to xsi:type="ram:Class" href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_QN9PoIs_Eeyg9vSEv4_zkw"/>
+        <from xsi:type="ram:Class" href="manually_build_network.ram#_0rE0UIs8EeyM3NB952VwDQ"/>
+      </compositions>
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_ah16QIs_Eeyg9vSEv4_zkw">
+        <to xsi:type="ram:Class" href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_uVwP0EHkEeyEpZxv_KVsMw"/>
+        <from xsi:type="ram:Class" href="manually_build_network.ram#_FYGOQFCEEey2tsXMXVXHbQ"/>
+      </compositions>
+    </modelExtensions>
+    <modelExtensions xmi:id="_sNqNMJBMEeyPq4UNJ95luw" source="_13JwopBEEeyjnI-k4MEcig"/>
+    <uiElements xmi:id="_NpuegEHkEeyEpZxv_KVsMw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_Mm-dgEHjEeyEpZxv_KVsMw"/>
+    </uiElements>
+    <uiElements xmi:id="_NpvFkEHkEeyEpZxv_KVsMw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_NpvFkUHkEeyEpZxv_KVsMw"/>
+    </uiElements>
+    <uiElements xmi:id="_gd6WQEHkEeyEpZxv_KVsMw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_gd6WQUHkEeyEpZxv_KVsMw"/>
+    </uiElements>
+    <uiElements xmi:id="_z6kjQEHkEeyEpZxv_KVsMw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_uVwP0EHkEeyEpZxv_KVsMw"/>
+    </uiElements>
+    <uiElements xmi:id="_z6kjQUHkEeyEpZxv_KVsMw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_z6kjQkHkEeyEpZxv_KVsMw"/>
+    </uiElements>
+    <uiElements xmi:id="_hHW3YIeqEeynpNogO2lIBg">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_hHW3YYeqEeynpNogO2lIBg"/>
+    </uiElements>
+    <uiElements xmi:id="_LT7c8IfOEeyK1IcStswRng">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_LT8EAIfOEeyK1IcStswRng"/>
+    </uiElements>
+    <uiElements xmi:id="_OHzSwIfOEeyK1IcStswRng">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_OHzSwYfOEeyK1IcStswRng"/>
+    </uiElements>
+    <uiElements xmi:id="_GxceUIfQEeyK1IcStswRng">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#__qC90IfPEeyK1IcStswRng"/>
+    </uiElements>
+    <uiElements xmi:id="_GxceUYfQEeyK1IcStswRng">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_GxdFYIfQEeyK1IcStswRng"/>
+    </uiElements>
+    <uiElements xmi:id="_6PrCYIqZEey-h9vburn2Ag">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_6PuFsIqZEey-h9vburn2Ag"/>
+    </uiElements>
+    <uiElements xmi:id="_VlPFUIqaEey-h9vburn2Ag">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_VlPFUYqaEey-h9vburn2Ag"/>
+    </uiElements>
+    <uiElements xmi:id="_g4hdMIr3Eeyg0uuS8fvWqw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_g4hdMYr3Eeyg0uuS8fvWqw"/>
+    </uiElements>
+    <uiElements xmi:id="_EJpMAIr5EeyDbpYWzP3TvA">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_9QF6QIr4EeyDbpYWzP3TvA"/>
+    </uiElements>
+    <uiElements xmi:id="_EJpzEIr5EeyDbpYWzP3TvA">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_EJpzEYr5EeyDbpYWzP3TvA"/>
+    </uiElements>
+    <uiElements xmi:id="_PKTdEIr5EeyDbpYWzP3TvA">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_PKUEIIr5EeyDbpYWzP3TvA"/>
+    </uiElements>
+    <uiElements xmi:id="_IsjjoJA1EeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_Gw5vQJA1EeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_IsjjoZA1EeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_IsjjopA1EeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_JZzrMJA1EeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_JZ0SQJA1EeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_bmRboJA1EeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_bmRboZA1EeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_c68vkJA1EeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_c68vkZA1EeyJK9rWQnxChw"/>
+    </uiElements>
+    <rootModelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_5XjbQEHiEeyEpZxv_KVsMw"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_C-mM0lBvEeyN4P1-Ks0QgQ" name="ComputationGraph_high_level_settings" scene="_C-mM0FBvEeyN4P1-Ks0QgQ" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_6jR9AHpVEeyIrcQAurnHWA" source="_vyh4AEGxEeyUC-UomtVoUw"/>
+    <modelExtensions xmi:id="_2kwn4Is-Eeyg9vSEv4_zkw" source="_DiSgMos9EeyM3NB952VwDQ">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_9XjKUIs-Eeyg9vSEv4_zkw">
+        <to xsi:type="ram:Class" href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-a.aspect_model.ram#_YT6s0FutEey7B8ESbWoW2g"/>
+        <from xsi:type="ram:Class" href="Reusable%20Aspect%20Models/manually%20build%20network.aspect_model.ram#_FAEFwIs9EeyM3NB952VwDQ"/>
+      </compositions>
+    </modelExtensions>
+    <modelExtensions xmi:id="_iShI0JBDEeyjnI-k4MEcig" source="_GIH3ApBAEeyLZYLWYJ9cng">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_jvbLsZBDEeyjnI-k4MEcig">
+        <to xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-a.aspect_model.ram#_jvbLsJBDEeyjnI-k4MEcig"/>
+        <from xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_MbfdEJBBEeyjnI-k4MEcig"/>
+      </compositions>
+      <compositions xsi:type="ram:EnumMapping" xmi:id="_mCtc8ZBDEeyjnI-k4MEcig">
+        <to xsi:type="ram:REnum" href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-a.aspect_model.ram#_mCtc8JBDEeyjnI-k4MEcig"/>
+        <from xsi:type="ram:REnum" href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_Q_fMsJBBEeyjnI-k4MEcig"/>
+      </compositions>
+      <compositions xsi:type="ram:EnumMapping" xmi:id="_qYJzMZBDEeyjnI-k4MEcig">
+        <to xsi:type="ram:REnum" href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-a.aspect_model.ram#_qYJzMJBDEeyjnI-k4MEcig"/>
+        <from xsi:type="ram:REnum" href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_3IGigJBBEeyjnI-k4MEcig"/>
+      </compositions>
+      <compositions xsi:type="ram:EnumMapping" xmi:id="_rmyJgZBDEeyjnI-k4MEcig">
+        <to xsi:type="ram:REnum" href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-a.aspect_model.ram#_rmyJgJBDEeyjnI-k4MEcig"/>
+        <from xsi:type="ram:REnum" href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_sFo6oJBBEeyjnI-k4MEcig"/>
+      </compositions>
+    </modelExtensions>
+    <uiElements xmi:id="_F2txsFutEey7B8ESbWoW2g">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-a.aspect_model.ram#_-9qPMFusEey7B8ESbWoW2g"/>
+    </uiElements>
+    <uiElements xmi:id="_F2txsVutEey7B8ESbWoW2g">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-a.aspect_model.ram#_F2txslutEey7B8ESbWoW2g"/>
+    </uiElements>
+    <uiElements xmi:id="_IClMUFutEey7B8ESbWoW2g">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-a.aspect_model.ram#_IClzYFutEey7B8ESbWoW2g"/>
+    </uiElements>
+    <uiElements xmi:id="_riQxAFutEey7B8ESbWoW2g">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-a.aspect_model.ram#_YT6s0FutEey7B8ESbWoW2g"/>
+    </uiElements>
+    <uiElements xmi:id="_riQxAVutEey7B8ESbWoW2g">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-a.aspect_model.ram#_riQxAlutEey7B8ESbWoW2g"/>
+    </uiElements>
+    <uiElements xmi:id="_nBOUsFwvEey2kfH7pC-8tQ">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-a.aspect_model.ram#_nBRYAFwvEey2kfH7pC-8tQ"/>
+    </uiElements>
+    <uiElements xmi:id="_pAbzYFwvEey2kfH7pC-8tQ">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-a.aspect_model.ram#_pAbzYVwvEey2kfH7pC-8tQ"/>
+    </uiElements>
+    <uiElements xmi:id="_sNUmIFwvEey2kfH7pC-8tQ">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-a.aspect_model.ram#_sNUmIVwvEey2kfH7pC-8tQ"/>
+    </uiElements>
+    <uiElements xmi:id="_wQb2QFwvEey2kfH7pC-8tQ">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-a.aspect_model.ram#_wQb2QVwvEey2kfH7pC-8tQ"/>
+    </uiElements>
+    <uiElements xmi:id="_1CQmgFwvEey2kfH7pC-8tQ">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-a.aspect_model.ram#_1CQmgVwvEey2kfH7pC-8tQ"/>
+    </uiElements>
+    <uiElements xmi:id="_3rM-sFwvEey2kfH7pC-8tQ">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-a.aspect_model.ram#_3rM-sVwvEey2kfH7pC-8tQ"/>
+    </uiElements>
+    <uiElements xmi:id="_92NHUJBDEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-a.aspect_model.ram#_92NHUZBDEeyjnI-k4MEcig"/>
+    </uiElements>
+    <rootModelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-a.aspect_model.ram#_C-ffIFBvEeyN4P1-Ks0QgQ"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_PLiDwFBvEeyN4P1-Ks0QgQ" name="MLNetwork_high_level_settings" scene="_PLiDwVBvEeyN4P1-Ks0QgQ" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_kwE8AFwwEey2kfH7pC-8tQ" source="_uTz3QEGxEeyUC-UomtVoUw"/>
+    <modelExtensions xmi:id="_EHpakIs-EeydOJarrHhTKg" source="_v_yjAEHUEey6g5nE2PrOCw"/>
+    <modelExtensions xmi:id="_3VS0gJBCEeyjnI-k4MEcig" source="_GIH3ApBAEeyLZYLWYJ9cng">
+      <compositions xsi:type="ram:EnumMapping" xmi:id="_KS7jMZBDEeyjnI-k4MEcig">
+        <to xsi:type="ram:REnum" href="Reusable%20Aspect%20Models/customize%20high%20level%20settings.aspect_model.ram#_KS7jMJBDEeyjnI-k4MEcig"/>
+        <from xsi:type="ram:REnum" href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_Q_fMsJBBEeyjnI-k4MEcig"/>
+      </compositions>
+      <compositions xsi:type="ram:EnumMapping" xmi:id="_L8s9YZBDEeyjnI-k4MEcig">
+        <to xsi:type="ram:REnum" href="Reusable%20Aspect%20Models/customize%20high%20level%20settings.aspect_model.ram#_L8s9YJBDEeyjnI-k4MEcig"/>
+        <from xsi:type="ram:REnum" href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_3IGigJBBEeyjnI-k4MEcig"/>
+      </compositions>
+      <compositions xsi:type="ram:EnumMapping" xmi:id="_URzAEZBDEeyjnI-k4MEcig">
+        <to xsi:type="ram:REnum" href="Reusable%20Aspect%20Models/customize%20high%20level%20settings.aspect_model.ram#_URzAEJBDEeyjnI-k4MEcig"/>
+        <from xsi:type="ram:REnum" href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_sFo6oJBBEeyjnI-k4MEcig"/>
+      </compositions>
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_u7O80ZBDEeyjnI-k4MEcig">
+        <to xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/customize%20high%20level%20settings.aspect_model.ram#_u7O80JBDEeyjnI-k4MEcig"/>
+        <from xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_MbfdEJBBEeyjnI-k4MEcig"/>
+      </compositions>
+    </modelExtensions>
+    <uiElements xmi:id="_l0sJYIfPEeyK1IcStswRng">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings.aspect_model.ram#_l0sJYYfPEeyK1IcStswRng"/>
+    </uiElements>
+    <uiElements xmi:id="_tiT0UJA-EeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings.aspect_model.ram#_jdUhUJA-EeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_tiT0UZA-EeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings.aspect_model.ram#_tiT0UpA-EeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_v0mnEJA-EeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings.aspect_model.ram#_v0mnEZA-EeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_x9ci4JA-EeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings.aspect_model.ram#_x9dJ8JA-EeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_1gVa0JA-EeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings.aspect_model.ram#_1gVa0ZA-EeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_4MOZUJA-EeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings.aspect_model.ram#_4MOZUZA-EeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_6xKbQJA-EeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings.aspect_model.ram#_6xKbQZA-EeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_9KEzYJA-EeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings.aspect_model.ram#_9KEzYZA-EeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="__93JoJA-EeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings.aspect_model.ram#__93JoZA-EeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_B_EzcJA_EeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings.aspect_model.ram#_B_EzcZA_EeyJK9rWQnxChw"/>
+    </uiElements>
+    <rootModelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings.aspect_model.ram#_IIv-gFBkEeyPOP323wmxug"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_8SBFYlYnEeyZn4w4eybuYw" name="run network" scene="_8SBFYFYnEeyZn4w4eybuYw" languageName="Reusable Aspect Models">
+    <rootModelElement href="Reusable%20Aspect%20Models/run%20network.aspect_model.ram#_8R3UYFYnEeyZn4w4eybuYw"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_EvdLwlYoEeyZn4w4eybuYw" name="computationGraph_Evaluate" scene="_EvdLwFYoEeyZn4w4eybuYw" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_yuMngIeEEeya4pIzzxiKVg" source="_d89c8odzEeyXwqDbAaieeg">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_zZbV0IeEEeya4pIzzxiKVg">
+        <to xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/Evaluate.aspect_model.ram#_tn9PQFYoEeyZn4w4eybuYw"/>
+        <from xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/train.aspect_model.ram#_OewNEId0EeyXwqDbAaieeg"/>
+      </compositions>
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_G7tF0IeJEeynpNogO2lIBg">
+        <to xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/Evaluate.aspect_model.ram#_CtGCQIeHEeyXy4GnIViC7Q"/>
+        <from xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/train.aspect_model.ram#_ir87oIdzEeyXwqDbAaieeg"/>
+      </compositions>
+    </modelExtensions>
+    <modelExtensions xmi:id="__mkBEIeEEeya4pIzzxiKVg" source="_JJIOYoeDEeya4pIzzxiKVg">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_AC70AIeFEeya4pIzzxiKVg">
+        <to xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/Evaluate.aspect_model.ram#_tn9PQFYoEeyZn4w4eybuYw"/>
+        <from xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/predict.aspect_model.ram#_b_w9MIeDEeya4pIzzxiKVg"/>
+      </compositions>
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_FplWoIeJEeynpNogO2lIBg">
+        <to xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/Evaluate.aspect_model.ram#_CtGCQIeHEeyXy4GnIViC7Q"/>
+        <from xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/predict.aspect_model.ram#_ikw7QIeDEeya4pIzzxiKVg"/>
+      </compositions>
+    </modelExtensions>
+    <modelExtensions xmi:id="_AwIO8IqrEey-h9vburn2Ag" source="_clqA0oqqEey-h9vburn2Ag">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_BGs74IqrEey-h9vburn2Ag">
+        <to xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/Evaluate.aspect_model.ram#_tn9PQFYoEeyZn4w4eybuYw"/>
+        <from xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/operate%20network.aspect_model.ram#_st0-QIqqEey-h9vburn2Ag"/>
+      </compositions>
+    </modelExtensions>
+    <uiElements xmi:id="_xOClIFYoEeyZn4w4eybuYw">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate.aspect_model.ram#_TM664FYoEeyZn4w4eybuYw"/>
+    </uiElements>
+    <uiElements xmi:id="_xODMMFYoEeyZn4w4eybuYw">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate.aspect_model.ram#_xODMMVYoEeyZn4w4eybuYw"/>
+    </uiElements>
+    <uiElements xmi:id="_jkUzcIeGEeyXy4GnIViC7Q">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate.aspect_model.ram#_jkVagIeGEeyXy4GnIViC7Q"/>
+    </uiElements>
+    <uiElements xmi:id="_jyt0wIeGEeyXy4GnIViC7Q">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate.aspect_model.ram#_jyt0wYeGEeyXy4GnIViC7Q"/>
+    </uiElements>
+    <uiElements xmi:id="_t56HMIeGEeyXy4GnIViC7Q">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate.aspect_model.ram#_pCfsUIeGEeyXy4GnIViC7Q"/>
+    </uiElements>
+    <uiElements xmi:id="_t56HMYeGEeyXy4GnIViC7Q">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate.aspect_model.ram#_t56HMoeGEeyXy4GnIViC7Q"/>
+    </uiElements>
+    <uiElements xmi:id="_lh0X4IenEeynpNogO2lIBg">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate.aspect_model.ram#_ZpXjMIenEeynpNogO2lIBg"/>
+    </uiElements>
+    <uiElements xmi:id="_lh0-8IenEeynpNogO2lIBg">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate.aspect_model.ram#_lh0-8YenEeynpNogO2lIBg"/>
+    </uiElements>
+    <uiElements xmi:id="_mu7rQIenEeynpNogO2lIBg">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate.aspect_model.ram#_mu7rQYenEeynpNogO2lIBg"/>
+    </uiElements>
+    <uiElements xmi:id="_vfzrAIenEeynpNogO2lIBg">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate.aspect_model.ram#_vfzrAYenEeynpNogO2lIBg"/>
+    </uiElements>
+    <uiElements xmi:id="_VYUvUIeoEeynpNogO2lIBg">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate.aspect_model.ram#_VYUvUYeoEeynpNogO2lIBg"/>
+    </uiElements>
+    <uiElements xmi:id="_quKCYIrzEeyvw-HDFtFjFQ">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate.aspect_model.ram#_quKCYYrzEeyvw-HDFtFjFQ"/>
+    </uiElements>
+    <uiElements xmi:id="_R-RA0I-LEeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate.aspect_model.ram#_R-RA0Y-LEeyJK9rWQnxChw"/>
+    </uiElements>
+    <rootModelElement href="Reusable%20Aspect%20Models/Evaluate.aspect_model.ram#_EvbWkFYoEeyZn4w4eybuYw"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_69bKonq-EeyZ-K-uBHH2zg" name="MLNetwork_store" scene="_69bKoHq-EeyZ-K-uBHH2zg" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_pd90sHq_EeyZ-K-uBHH2zg" source="_uTz3QEGxEeyUC-UomtVoUw">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_qcfScHq_EeyZ-K-uBHH2zg">
+        <to xsi:type="ram:Class" href="Reusable%20Aspect%20Models/store%20network.aspect_model.ram#_JufLMHq_EeyZ-K-uBHH2zg"/>
+        <from xsi:type="ram:Class" href="multilayer_network.ram#_ympgQFBpEeykOf-qDtdW3A"/>
+      </compositions>
+    </modelExtensions>
+    <uiElements xmi:id="_OIYjoHq_EeyZ-K-uBHH2zg">
+      <modelElement href="Reusable%20Aspect%20Models/store%20network.aspect_model.ram#_JufLMHq_EeyZ-K-uBHH2zg"/>
+    </uiElements>
+    <uiElements xmi:id="_OIYjoXq_EeyZ-K-uBHH2zg">
+      <modelElement href="Reusable%20Aspect%20Models/store%20network.aspect_model.ram#_OIZKsHq_EeyZ-K-uBHH2zg"/>
+    </uiElements>
+    <uiElements xmi:id="_dfBWcHq_EeyZ-K-uBHH2zg">
+      <modelElement href="Reusable%20Aspect%20Models/store%20network.aspect_model.ram#_YKvZYHq_EeyZ-K-uBHH2zg"/>
+    </uiElements>
+    <uiElements xmi:id="_dfBWcXq_EeyZ-K-uBHH2zg">
+      <modelElement href="Reusable%20Aspect%20Models/store%20network.aspect_model.ram#_dfBWcnq_EeyZ-K-uBHH2zg"/>
+    </uiElements>
+    <uiElements xmi:id="_l5eaQHq_EeyZ-K-uBHH2zg">
+      <modelElement href="Reusable%20Aspect%20Models/store%20network.aspect_model.ram#_de-TIHq_EeyZ-K-uBHH2zg"/>
+    </uiElements>
+    <uiElements xmi:id="_l5eaQXq_EeyZ-K-uBHH2zg">
+      <modelElement href="Reusable%20Aspect%20Models/store%20network.aspect_model.ram#_l5eaQnq_EeyZ-K-uBHH2zg"/>
+    </uiElements>
+    <uiElements xmi:id="_1EAikH_UEeyU_ODeo8VEOg">
+      <modelElement href="Reusable%20Aspect%20Models/store%20network.aspect_model.ram#_1EBJoH_UEeyU_ODeo8VEOg"/>
+    </uiElements>
+    <uiElements xmi:id="_-RXwcJAvEeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/store%20network.aspect_model.ram#_-RXwcZAvEeyJK9rWQnxChw"/>
+    </uiElements>
+    <rootModelElement href="Reusable%20Aspect%20Models/store%20network.aspect_model.ram#_68bsIHq-EeyZ-K-uBHH2zg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_BVvLAn-2EeyZ-7-iWk9v9g" name="ComputationGraph_layer_settings" scene="_BVvLAH-2EeyZ-7-iWk9v9g" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_jtLBYIs_Eeyg9vSEv4_zkw" source="_DiSgMos9EeyM3NB952VwDQ">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_kEricIs_Eeyg9vSEv4_zkw">
+        <to xsi:type="ram:Class" href="Reusable%20Aspect%20Models/customize%20layer%20settings-b.aspect_model.ram#_12L7gH_WEeyU_ODeo8VEOg"/>
+        <from xsi:type="ram:Class" href="Reusable%20Aspect%20Models/manually%20build%20network.aspect_model.ram#_FAEFwIs9EeyM3NB952VwDQ"/>
+      </compositions>
+    </modelExtensions>
+    <modelExtensions xmi:id="_uunuEJBMEeyPq4UNJ95luw" source="_13JwopBEEeyjnI-k4MEcig"/>
+    <uiElements xmi:id="_s5gUYH_WEeyU_ODeo8VEOg">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-b.aspect_model.ram#_l5VSsH_VEeyU_ODeo8VEOg"/>
+    </uiElements>
+    <uiElements xmi:id="_s5gUYX_WEeyU_ODeo8VEOg">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-b.aspect_model.ram#_s5gUYn_WEeyU_ODeo8VEOg"/>
+    </uiElements>
+    <uiElements xmi:id="_7r-qMH_WEeyU_ODeo8VEOg">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-b.aspect_model.ram#_12L7gH_WEeyU_ODeo8VEOg"/>
+    </uiElements>
+    <uiElements xmi:id="_7r-qMX_WEeyU_ODeo8VEOg">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-b.aspect_model.ram#_7r-qMn_WEeyU_ODeo8VEOg"/>
+    </uiElements>
+    <uiElements xmi:id="_CZcAsH_XEeyU_ODeo8VEOg">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-b.aspect_model.ram#_CZcAsX_XEeyU_ODeo8VEOg"/>
+    </uiElements>
+    <uiElements xmi:id="_Og5hwH_XEeyU_ODeo8VEOg">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-b.aspect_model.ram#_Og5hwX_XEeyU_ODeo8VEOg"/>
+    </uiElements>
+    <uiElements xmi:id="_bM-5MH_fEeyyCqN7ry3a1w">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-b.aspect_model.ram#_bM-5MX_fEeyyCqN7ry3a1w"/>
+    </uiElements>
+    <uiElements xmi:id="_vEcKwN10Eeyy4LDpUEoIkw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-b.aspect_model.ram#_vEcKwd10Eeyy4LDpUEoIkw"/>
+    </uiElements>
+    <uiElements xmi:id="_wwNJAN10Eeyy4LDpUEoIkw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-b.aspect_model.ram#_wwNJAd10Eeyy4LDpUEoIkw"/>
+    </uiElements>
+    <rootModelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-b.aspect_model.ram#_BViWsH-2EeyZ-7-iWk9v9g"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_4WP3UoBAEeyyCqN7ry3a1w" name="CSV_structure_data" scene="_4WP3UIBAEeyyCqN7ry3a1w" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_QXBRMMzLEeyXN6FQY8J6Pg" source="_GePOMMzLEeyXN6FQY8J6Pg">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_QPwrQMzOEeyXN6FQY8J6Pg">
+        <to xsi:type="ram:Class" href="Reusable%20Aspect%20Models/structure%20data.aspect_model.ram#_f6LAkMzMEeyXN6FQY8J6Pg"/>
+        <from xsi:type="ram:Class" href="Reusable%20Aspect%20Models/CSV%20tabular%20data.aspect_model.ram#_afaWIMzOEeyXN6FQY8J6Pg"/>
+      </compositions>
+    </modelExtensions>
+    <rootModelElement href="Reusable%20Aspect%20Models/structure%20data.aspect_model.ram#_4WERIIBAEeyyCqN7ry3a1w"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_d89c8odzEeyXwqDbAaieeg" name="ComputationGraph_train" scene="_d89c8IdzEeyXwqDbAaieeg" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_9Q354Id1Eeya4pIzzxiKVg" source="_zEecAEHUEey6g5nE2PrOCw">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_9pBUIId1Eeya4pIzzxiKVg">
+        <to xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/train.aspect_model.ram#_VGPB8Id1EeyXwqDbAaieeg"/>
+        <from xsi:type="ram:ImplementationClass" href="run_network.ram#_xXde0iZwEeyD3eQvvo0_7w"/>
+      </compositions>
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_-7BHgId1Eeya4pIzzxiKVg">
+        <to xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/train.aspect_model.ram#_k4JGYIdzEeyXwqDbAaieeg"/>
+        <from xsi:type="ram:ImplementationClass" href="run_network.ram#_xXde1iZwEeyD3eQvvo0_7w"/>
+      </compositions>
+    </modelExtensions>
+    <modelExtensions xmi:id="_BO-uMId2Eeya4pIzzxiKVg" source="_vyh4AEGxEeyUC-UomtVoUw">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_BqciMId2Eeya4pIzzxiKVg">
+        <to xsi:type="ram:Class" href="Reusable%20Aspect%20Models/train.aspect_model.ram#_7So9gIdzEeyXwqDbAaieeg"/>
+        <from xsi:type="ram:Class" href="computationGraph.ram#_2RDh4FugEey7lsxjJkMbzQ"/>
+      </compositions>
+    </modelExtensions>
+    <modelExtensions xmi:id="_zketAIqqEey-h9vburn2Ag" source="_clqA0oqqEey-h9vburn2Ag">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_0LRAMIqqEey-h9vburn2Ag">
+        <to xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/train.aspect_model.ram#_OewNEId0EeyXwqDbAaieeg"/>
+        <from xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/operate%20network.aspect_model.ram#_st0-QIqqEey-h9vburn2Ag"/>
+      </compositions>
+    </modelExtensions>
+    <uiElements xmi:id="_kI5awIdzEeyXwqDbAaieeg">
+      <modelElement href="Reusable%20Aspect%20Models/train.aspect_model.ram#_ir87oIdzEeyXwqDbAaieeg"/>
+    </uiElements>
+    <uiElements xmi:id="_kI5awYdzEeyXwqDbAaieeg">
+      <modelElement href="Reusable%20Aspect%20Models/train.aspect_model.ram#_kI5awodzEeyXwqDbAaieeg"/>
+    </uiElements>
+    <uiElements xmi:id="_k4JtcIdzEeyXwqDbAaieeg">
+      <modelElement href="Reusable%20Aspect%20Models/train.aspect_model.ram#_k4JtcYdzEeyXwqDbAaieeg"/>
+    </uiElements>
+    <uiElements xmi:id="_xR9CYIr6EeywCee_v5QerA">
+      <modelElement href="Reusable%20Aspect%20Models/train.aspect_model.ram#_xR9pcIr6EeywCee_v5QerA"/>
+    </uiElements>
+    <uiElements xmi:id="_KuaZMIr8EeyM3NB952VwDQ">
+      <modelElement href="Reusable%20Aspect%20Models/train.aspect_model.ram#_Kuc1cIr8EeyM3NB952VwDQ"/>
+    </uiElements>
+    <uiElements xmi:id="_LX_hsIr8EeyM3NB952VwDQ">
+      <modelElement href="Reusable%20Aspect%20Models/train.aspect_model.ram#_LX_hsYr8EeyM3NB952VwDQ"/>
+    </uiElements>
+    <uiElements xmi:id="_MFBm0Ir8EeyM3NB952VwDQ">
+      <modelElement href="Reusable%20Aspect%20Models/train.aspect_model.ram#_kCyc8Ir7EeywCee_v5QerA"/>
+    </uiElements>
+    <uiElements xmi:id="_MFBm0Yr8EeyM3NB952VwDQ">
+      <modelElement href="Reusable%20Aspect%20Models/train.aspect_model.ram#_MFBm0or8EeyM3NB952VwDQ"/>
+    </uiElements>
+    <uiElements xmi:id="_MXeBsIr8EeyM3NB952VwDQ">
+      <modelElement href="Reusable%20Aspect%20Models/train.aspect_model.ram#_MXeowIr8EeyM3NB952VwDQ"/>
+    </uiElements>
+    <rootModelElement href="Reusable%20Aspect%20Models/train.aspect_model.ram#_d87AsIdzEeyXwqDbAaieeg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_JJIOYoeDEeya4pIzzxiKVg" name="ComputationGraph_predict" scene="_JJIOYIeDEeya4pIzzxiKVg" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_3Oh0kIeDEeya4pIzzxiKVg" source="_vyh4AEGxEeyUC-UomtVoUw">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_3nVWIIeDEeya4pIzzxiKVg">
+        <to xsi:type="ram:Class" href="Reusable%20Aspect%20Models/predict.aspect_model.ram#_LYPxUIeDEeya4pIzzxiKVg"/>
+        <from xsi:type="ram:Class" href="computationGraph.ram#_2RDh4FugEey7lsxjJkMbzQ"/>
+      </compositions>
+    </modelExtensions>
+    <modelExtensions xmi:id="_8VH68IeDEeya4pIzzxiKVg" source="_zEecAEHUEey6g5nE2PrOCw">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_8rgaoIeDEeya4pIzzxiKVg">
+        <to xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/predict.aspect_model.ram#_dfj8AIeDEeya4pIzzxiKVg"/>
+        <from xsi:type="ram:ImplementationClass" href="run_network.ram#_xXde1iZwEeyD3eQvvo0_7w"/>
+      </compositions>
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_9o2zsIeDEeya4pIzzxiKVg">
+        <to xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/predict.aspect_model.ram#_ryUP8IeDEeya4pIzzxiKVg"/>
+        <from xsi:type="ram:ImplementationClass" href="run_network.ram#_xXde0iZwEeyD3eQvvo0_7w"/>
+      </compositions>
+    </modelExtensions>
+    <modelExtensions xmi:id="_3I9gYIqqEey-h9vburn2Ag" source="_clqA0oqqEey-h9vburn2Ag">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_3gE_4IqqEey-h9vburn2Ag">
+        <to xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/predict.aspect_model.ram#_b_w9MIeDEeya4pIzzxiKVg"/>
+        <from xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/operate%20network.aspect_model.ram#_st0-QIqqEey-h9vburn2Ag"/>
+      </compositions>
+    </modelExtensions>
+    <uiElements xmi:id="_eiW1wIeDEeya4pIzzxiKVg">
+      <modelElement href="Reusable%20Aspect%20Models/predict.aspect_model.ram#_dfj8AIeDEeya4pIzzxiKVg"/>
+    </uiElements>
+    <uiElements xmi:id="_eiXc0IeDEeya4pIzzxiKVg">
+      <modelElement href="Reusable%20Aspect%20Models/predict.aspect_model.ram#_eiXc0YeDEeya4pIzzxiKVg"/>
+    </uiElements>
+    <uiElements xmi:id="_jfPmgIeDEeya4pIzzxiKVg">
+      <modelElement href="Reusable%20Aspect%20Models/predict.aspect_model.ram#_ikw7QIeDEeya4pIzzxiKVg"/>
+    </uiElements>
+    <uiElements xmi:id="_jfPmgYeDEeya4pIzzxiKVg">
+      <modelElement href="Reusable%20Aspect%20Models/predict.aspect_model.ram#_jfPmgoeDEeya4pIzzxiKVg"/>
+    </uiElements>
+    <uiElements xmi:id="_kHNlcIeDEeya4pIzzxiKVg">
+      <modelElement href="Reusable%20Aspect%20Models/predict.aspect_model.ram#_kHOMgIeDEeya4pIzzxiKVg"/>
+    </uiElements>
+    <uiElements xmi:id="_sfna0IeDEeya4pIzzxiKVg">
+      <modelElement href="Reusable%20Aspect%20Models/predict.aspect_model.ram#_ryUP8IeDEeya4pIzzxiKVg"/>
+    </uiElements>
+    <uiElements xmi:id="_sfna0YeDEeya4pIzzxiKVg">
+      <modelElement href="Reusable%20Aspect%20Models/predict.aspect_model.ram#_sfna0oeDEeya4pIzzxiKVg"/>
+    </uiElements>
+    <uiElements xmi:id="_uacIwIeDEeya4pIzzxiKVg">
+      <modelElement href="Reusable%20Aspect%20Models/predict.aspect_model.ram#_LYPxUIeDEeya4pIzzxiKVg"/>
+    </uiElements>
+    <uiElements xmi:id="_uacIwYeDEeya4pIzzxiKVg">
+      <modelElement href="Reusable%20Aspect%20Models/predict.aspect_model.ram#_uacIwoeDEeya4pIzzxiKVg"/>
+    </uiElements>
+    <uiElements xmi:id="_wtdUQIeDEeya4pIzzxiKVg">
+      <modelElement href="Reusable%20Aspect%20Models/predict.aspect_model.ram#_wtd7UIeDEeya4pIzzxiKVg"/>
+    </uiElements>
+    <uiElements xmi:id="_zcoQQIeDEeya4pIzzxiKVg">
+      <modelElement href="Reusable%20Aspect%20Models/predict.aspect_model.ram#_zco3UIeDEeya4pIzzxiKVg"/>
+    </uiElements>
+    <rootModelElement href="Reusable%20Aspect%20Models/predict.aspect_model.ram#_JJGZMIeDEeya4pIzzxiKVg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_mL2EwoeFEey8e4cqDpGaNg" name="multilayerNN_Evaluate" scene="_mL2EwIeFEey8e4cqDpGaNg" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_4DsX0IfMEeyHn6iDvY1JCQ" source="_1OkVAEHUEey6g5nE2PrOCw">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_5WgqkIfMEeyHn6iDvY1JCQ">
+        <to xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_ldyMoIfMEeyHn6iDvY1JCQ"/>
+        <from xsi:type="ram:ImplementationClass" href="train.ram#_7EawwIdyEeyXwqDbAaieeg"/>
+      </compositions>
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_8SWwoIfMEeyHn6iDvY1JCQ">
+        <to xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_GuvFYIfMEeyHn6iDvY1JCQ"/>
+        <from xsi:type="ram:ImplementationClass" href="train.ram#_0UmfQIdxEey9s9rg1qpZmA"/>
+      </compositions>
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="__oDu4IfREeyK1IcStswRng">
+        <to xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_7v38YIfREeyK1IcStswRng"/>
+        <from xsi:type="ram:ImplementationClass" href="train.ram#_9QeUMiZwEeyD3eQvvo0_7w"/>
+      </compositions>
+    </modelExtensions>
+    <modelExtensions xmi:id="_5CGg0IfMEeyHn6iDvY1JCQ" source="_3cMqMEHUEey6g5nE2PrOCw">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_Da6HsIfNEeyHn6iDvY1JCQ">
+        <to xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_ldyMoIfMEeyHn6iDvY1JCQ"/>
+        <from xsi:type="ram:ImplementationClass" href="predict.ram#_rGTAQFYnEeyZn4w4eybuYw"/>
+      </compositions>
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_EaUWQIfNEeyHn6iDvY1JCQ">
+        <to xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_GuvFYIfMEeyHn6iDvY1JCQ"/>
+        <from xsi:type="ram:ImplementationClass" href="predict.ram#_a3xP0IeCEeya4pIzzxiKVg"/>
+      </compositions>
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_BBx64IfSEeyK1IcStswRng">
+        <to xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_7v38YIfREeyK1IcStswRng"/>
+        <from xsi:type="ram:ImplementationClass" href="predict.ram#_Cla_oiZxEeyD3eQvvo0_7w"/>
+      </compositions>
+    </modelExtensions>
+    <modelExtensions xmi:id="_ENJvcIqrEey-h9vburn2Ag" source="_clqA0oqqEey-h9vburn2Ag">
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_Elog4IqrEey-h9vburn2Ag">
+        <to xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_ldyMoIfMEeyHn6iDvY1JCQ"/>
+        <from xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/operate%20network.aspect_model.ram#_st0-QIqqEey-h9vburn2Ag"/>
+      </compositions>
+    </modelExtensions>
+    <uiElements xmi:id="_bcS5kIfMEeyHn6iDvY1JCQ">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_TBURUIfMEeyHn6iDvY1JCQ"/>
+    </uiElements>
+    <uiElements xmi:id="_bcS5kYfMEeyHn6iDvY1JCQ">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_bcS5kofMEeyHn6iDvY1JCQ"/>
+    </uiElements>
+    <uiElements xmi:id="_bs46UIfMEeyHn6iDvY1JCQ">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_bs46UYfMEeyHn6iDvY1JCQ"/>
+    </uiElements>
+    <uiElements xmi:id="_bzPZ8IfMEeyHn6iDvY1JCQ">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_bzQBAIfMEeyHn6iDvY1JCQ"/>
+    </uiElements>
+    <uiElements xmi:id="_fRaxAIfMEeyHn6iDvY1JCQ">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_fRbYEIfMEeyHn6iDvY1JCQ"/>
+    </uiElements>
+    <uiElements xmi:id="_iv5qEIfMEeyHn6iDvY1JCQ">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_iv5qEYfMEeyHn6iDvY1JCQ"/>
+    </uiElements>
+    <uiElements xmi:id="_kTe8sIfMEeyHn6iDvY1JCQ">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_kTe8sYfMEeyHn6iDvY1JCQ"/>
+    </uiElements>
+    <uiElements xmi:id="_r1WLoIfMEeyHn6iDvY1JCQ">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_oK3d8IfMEeyHn6iDvY1JCQ"/>
+    </uiElements>
+    <uiElements xmi:id="_r1WLoYfMEeyHn6iDvY1JCQ">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_r1WLoofMEeyHn6iDvY1JCQ"/>
+    </uiElements>
+    <uiElements xmi:id="_sW71wIfMEeyHn6iDvY1JCQ">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_sW8c0IfMEeyHn6iDvY1JCQ"/>
+    </uiElements>
+    <uiElements xmi:id="_sbEu4IfMEeyHn6iDvY1JCQ">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_sbEu4YfMEeyHn6iDvY1JCQ"/>
+    </uiElements>
+    <uiElements xmi:id="_w9UyEIfMEeyHn6iDvY1JCQ">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_HvSjcIfMEeyHn6iDvY1JCQ"/>
+    </uiElements>
+    <uiElements xmi:id="_w9UyEYfMEeyHn6iDvY1JCQ">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_w9UyEofMEeyHn6iDvY1JCQ"/>
+    </uiElements>
+    <uiElements xmi:id="_zLyNsIfMEeyHn6iDvY1JCQ">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_zLyNsYfMEeyHn6iDvY1JCQ"/>
+    </uiElements>
+    <uiElements xmi:id="_7v4jcIfREeyK1IcStswRng">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_6jXF8IfREeyK1IcStswRng"/>
+    </uiElements>
+    <uiElements xmi:id="_7v4jcYfREeyK1IcStswRng">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_7v4jcofREeyK1IcStswRng"/>
+    </uiElements>
+    <uiElements xmi:id="_9EJAoIfREeyK1IcStswRng">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_9EJnsIfREeyK1IcStswRng"/>
+    </uiElements>
+    <uiElements xmi:id="_1iJ7AIr0Eeyg0uuS8fvWqw">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_1iJ7AYr0Eeyg0uuS8fvWqw"/>
+    </uiElements>
+    <uiElements xmi:id="_6OLPwI-KEeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_6OL20I-KEeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_k-qDAN1zEeyy4LDpUEoIkw">
+      <modelElement href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_k-uUcN1zEeyy4LDpUEoIkw"/>
+    </uiElements>
+    <rootModelElement href="Reusable%20Aspect%20Models/Evaluate-a.aspect_model.ram#_mLv-IIeFEey8e4cqDpGaNg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_clqA0oqqEey-h9vburn2Ag" name="INDArray_type" scene="_clqA0IqqEey-h9vburn2Ag" languageName="Reusable Aspect Models">
+    <rootModelElement href="Reusable%20Aspect%20Models/operate%20network.aspect_model.ram#_clfBsIqqEey-h9vburn2Ag"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_DiSgMos9EeyM3NB952VwDQ" name="ComputationGraph_manually_build_network" scene="_DiSgMIs9EeyM3NB952VwDQ" languageName="Reusable Aspect Models">
+    <uiElements xmi:id="_Z-53MIs9EeyM3NB952VwDQ">
+      <modelElement href="Reusable%20Aspect%20Models/manually%20build%20network.aspect_model.ram#_FAEFwIs9EeyM3NB952VwDQ"/>
+    </uiElements>
+    <uiElements xmi:id="_Z-53MYs9EeyM3NB952VwDQ">
+      <modelElement href="Reusable%20Aspect%20Models/manually%20build%20network.aspect_model.ram#_Z-53Mos9EeyM3NB952VwDQ"/>
+    </uiElements>
+    <uiElements xmi:id="_ilBYcIs9EeyM3NB952VwDQ">
+      <modelElement href="Reusable%20Aspect%20Models/manually%20build%20network.aspect_model.ram#_d-460Is9EeyM3NB952VwDQ"/>
+    </uiElements>
+    <uiElements xmi:id="_ilBYcYs9EeyM3NB952VwDQ">
+      <modelElement href="Reusable%20Aspect%20Models/manually%20build%20network.aspect_model.ram#_ilBYcos9EeyM3NB952VwDQ"/>
+    </uiElements>
+    <rootModelElement href="Reusable%20Aspect%20Models/manually%20build%20network.aspect_model.ram#_DiNAoIs9EeyM3NB952VwDQ"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_uYWb0o-LEeyJK9rWQnxChw" name="customer  raw data" scene="_uYWb0I-LEeyJK9rWQnxChw" languageName="Reusable Aspect Models">
+    <uiElements xmi:id="_xDWCcI-LEeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_wIeVoI-LEeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_xDWCcY-LEeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_xDWCco-LEeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_xh600o-LEeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_xh6004-LEeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_yArNYI-LEeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_yArNYY-LEeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_yRMVoI-LEeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_yRMVoY-LEeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_ymjhoI-LEeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_ymjhoY-LEeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_PIM9MI-MEeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_N8UY4I-MEeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_PIM9MY-MEeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_PIM9Mo-MEeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_PZgvoI-MEeyJK9rWQnxChw">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_PZgvoY-MEeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_sG5FwJBrEey--fqeZYhrrA">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_sG5s0JBrEey--fqeZYhrrA"/>
+    </uiElements>
+    <uiElements xmi:id="_vHKY0ZBrEey--fqeZYhrrA">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_vHKY0pBrEey--fqeZYhrrA"/>
+    </uiElements>
+    <uiElements xmi:id="_zc64IJBrEey--fqeZYhrrA">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_sG00UJBrEey--fqeZYhrrA"/>
+    </uiElements>
+    <uiElements xmi:id="_zc64IZBrEey--fqeZYhrrA">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_zc64IpBrEey--fqeZYhrrA"/>
+    </uiElements>
+    <uiElements xmi:id="_z4FKIJBrEey--fqeZYhrrA">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_z4FKIZBrEey--fqeZYhrrA"/>
+    </uiElements>
+    <uiElements xmi:id="_KISc0JBsEey--fqeZYhrrA">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_HWiG4JBsEey--fqeZYhrrA"/>
+    </uiElements>
+    <uiElements xmi:id="_KISc0ZBsEey--fqeZYhrrA">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_KISc0pBsEey--fqeZYhrrA"/>
+    </uiElements>
+    <uiElements xmi:id="_KaV2IJBsEey--fqeZYhrrA">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_KaV2IZBsEey--fqeZYhrrA"/>
+    </uiElements>
+    <uiElements xmi:id="_NY7uMJBsEey--fqeZYhrrA">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_NY8VQJBsEey--fqeZYhrrA"/>
+    </uiElements>
+    <uiElements xmi:id="_zizkEZBzEeyV4r6u3iMaJQ">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_zizkEpBzEeyV4r6u3iMaJQ"/>
+    </uiElements>
+    <uiElements xmi:id="_SOblMN0mEeyhWuhRH9Xz9w">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_xDVbYI-LEeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_SOczUN0mEeyhWuhRH9Xz9w">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_SOdaYN0mEeyhWuhRH9Xz9w"/>
+    </uiElements>
+    <uiElements xmi:id="_S3fwUN0mEeyhWuhRH9Xz9w">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_S3fwUd0mEeyhWuhRH9Xz9w"/>
+    </uiElements>
+    <uiElements xmi:id="_TN-WoN0mEeyhWuhRH9Xz9w">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_TN-9sN0mEeyhWuhRH9Xz9w"/>
+    </uiElements>
+    <uiElements xmi:id="_ThnEUN0mEeyhWuhRH9Xz9w">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_ThnEUd0mEeyhWuhRH9Xz9w"/>
+    </uiElements>
+    <uiElements xmi:id="_KQ1FUOLgEeyViYlCluD5Kw">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_IuS7kOLgEeyViYlCluD5Kw"/>
+    </uiElements>
+    <uiElements xmi:id="_KQ1FUeLgEeyViYlCluD5Kw">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_KQ1FUuLgEeyViYlCluD5Kw"/>
+    </uiElements>
+    <uiElements xmi:id="_Km5b8OLgEeyViYlCluD5Kw">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_Km5b8eLgEeyViYlCluD5Kw"/>
+    </uiElements>
+    <uiElements xmi:id="_K1Fo8OLgEeyViYlCluD5Kw">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_K1Fo8eLgEeyViYlCluD5Kw"/>
+    </uiElements>
+    <uiElements xmi:id="_MiDU0O3HEeyJyK94f72caw">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_J-gaAO3HEeyJyK94f72caw"/>
+    </uiElements>
+    <uiElements xmi:id="_MiD74O3HEeyJyK94f72caw">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_MiD74e3HEeyJyK94f72caw"/>
+    </uiElements>
+    <uiElements xmi:id="_M6_ZQO3HEeyJyK94f72caw">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_M6_ZQe3HEeyJyK94f72caw"/>
+    </uiElements>
+    <uiElements xmi:id="_N6DCgO3HEeyJyK94f72caw">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_N6DCge3HEeyJyK94f72caw"/>
+    </uiElements>
+    <uiElements xmi:id="_PiQWcO3HEeyJyK94f72caw">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_PiQWce3HEeyJyK94f72caw"/>
+    </uiElements>
+    <uiElements xmi:id="_QmgBsO3HEeyJyK94f72caw">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_QmgBse3HEeyJyK94f72caw"/>
+    </uiElements>
+    <uiElements xmi:id="_4haJ0O3uEeyLxYlXGCbECQ">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_PIMWII-MEeyJK9rWQnxChw"/>
+    </uiElements>
+    <uiElements xmi:id="_4haJ0e3uEeyLxYlXGCbECQ">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_4haJ0u3uEeyLxYlXGCbECQ"/>
+    </uiElements>
+    <uiElements xmi:id="_7WUhcO3uEeyLxYlXGCbECQ">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_7WUhce3uEeyLxYlXGCbECQ"/>
+    </uiElements>
+    <uiElements xmi:id="_CJAWMO3vEeyLxYlXGCbECQ">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_vvK4IO3uEeyLxYlXGCbECQ"/>
+    </uiElements>
+    <uiElements xmi:id="_CJAWMe3vEeyLxYlXGCbECQ">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_CJAWMu3vEeyLxYlXGCbECQ"/>
+    </uiElements>
+    <uiElements xmi:id="_CyexAO3vEeyLxYlXGCbECQ">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_CyexAe3vEeyLxYlXGCbECQ"/>
+    </uiElements>
+    <uiElements xmi:id="_GMPiIO3vEeyLxYlXGCbECQ">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_GMPiIe3vEeyLxYlXGCbECQ"/>
+    </uiElements>
+    <uiElements xmi:id="_G8susO3vEeyLxYlXGCbECQ">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_G8suse3vEeyLxYlXGCbECQ"/>
+    </uiElements>
+    <uiElements xmi:id="_b69L4P1GEeyI4OROD249jg">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_Y9QEoP1GEeyI4OROD249jg"/>
+    </uiElements>
+    <uiElements xmi:id="_b69L4f1GEeyI4OROD249jg">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_b69L4v1GEeyI4OROD249jg"/>
+    </uiElements>
+    <uiElements xmi:id="_qSpDIP1GEeyI4OROD249jg">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_qSpDIf1GEeyI4OROD249jg"/>
+    </uiElements>
+    <rootModelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_uYNR4I-LEeyJK9rWQnxChw"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_GIH3ApBAEeyLZYLWYJ9cng" name="general_high_level_settings" scene="_GIH3AJBAEeyLZYLWYJ9cng" languageName="Reusable Aspect Models">
+    <uiElements xmi:id="_NX7FkJBAEeyLZYLWYJ9cng">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_MbMXkJBAEeyLZYLWYJ9cng"/>
+    </uiElements>
+    <uiElements xmi:id="_NX7soJBAEeyLZYLWYJ9cng">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_NX7soZBAEeyLZYLWYJ9cng"/>
+    </uiElements>
+    <uiElements xmi:id="_TLql0JBAEeyLZYLWYJ9cng">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_SUKWEJBAEeyLZYLWYJ9cng"/>
+    </uiElements>
+    <uiElements xmi:id="_TLql0ZBAEeyLZYLWYJ9cng">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_TLql0pBAEeyLZYLWYJ9cng"/>
+    </uiElements>
+    <uiElements xmi:id="_VqjqIpBAEeyLZYLWYJ9cng">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_VCx4cJBAEeyLZYLWYJ9cng"/>
+    </uiElements>
+    <uiElements xmi:id="_VqjqI5BAEeyLZYLWYJ9cng">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_VqjqJJBAEeyLZYLWYJ9cng"/>
+    </uiElements>
+    <uiElements xmi:id="_Z_aKgJBAEeyLZYLWYJ9cng">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_VqjDEJBAEeyLZYLWYJ9cng"/>
+    </uiElements>
+    <uiElements xmi:id="_Z_aKgZBAEeyLZYLWYJ9cng">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_Z_aKgpBAEeyLZYLWYJ9cng"/>
+    </uiElements>
+    <uiElements xmi:id="_alU7AJBAEeyLZYLWYJ9cng">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_alU7AZBAEeyLZYLWYJ9cng"/>
+    </uiElements>
+    <uiElements xmi:id="_a3mWwJBAEeyLZYLWYJ9cng">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_a3mWwZBAEeyLZYLWYJ9cng"/>
+    </uiElements>
+    <uiElements xmi:id="_eV6QsJBAEeyLZYLWYJ9cng">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_c_vH8JBAEeyLZYLWYJ9cng"/>
+    </uiElements>
+    <uiElements xmi:id="_eV6QsZBAEeyLZYLWYJ9cng">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_eV6QspBAEeyLZYLWYJ9cng"/>
+    </uiElements>
+    <uiElements xmi:id="_fL-9EJBAEeyLZYLWYJ9cng">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_eV5poJBAEeyLZYLWYJ9cng"/>
+    </uiElements>
+    <uiElements xmi:id="_fL_kIJBAEeyLZYLWYJ9cng">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_fL_kIZBAEeyLZYLWYJ9cng"/>
+    </uiElements>
+    <uiElements xmi:id="_fZJ2YJBAEeyLZYLWYJ9cng">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_fZJ2YZBAEeyLZYLWYJ9cng"/>
+    </uiElements>
+    <uiElements xmi:id="_fliFgJBAEeyLZYLWYJ9cng">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_fliFgZBAEeyLZYLWYJ9cng"/>
+    </uiElements>
+    <uiElements xmi:id="_vbobgJBAEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_ugtrYJBAEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_vbobgZBAEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_vbobgpBAEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_yudeMpBAEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_yH5NcJBAEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_yudeM5BAEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_yudeNJBAEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_3S22cpBAEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_2jBU8JBAEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_3S22c5BAEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_3S22dJBAEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_6AZawpBAEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_5VvUMJBAEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_6AZaw5BAEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_6AZaxJBAEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_8vW7Y5BAEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_8JZuoJBAEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_8vW7ZJBAEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_8vW7ZZBAEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="__fCNsJBAEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_8vW7YJBAEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="__fCNsZBAEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#__fCNspBAEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_ATWmkJBBEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_NX1mAJBAEeyLZYLWYJ9cng"/>
+    </uiElements>
+    <uiElements xmi:id="_ATWmkZBBEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_ATWmkpBBEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_AiTokJBBEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_AiUPoJBBEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_BcTysJBBEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_TLp-wJBAEeyLZYLWYJ9cng"/>
+    </uiElements>
+    <uiElements xmi:id="_BcTysZBBEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_BcTyspBBEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_BtBIMJBBEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_BtBIMZBBEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_B7b-sJBBEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_B7b-sZBBEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_C6iEMJBBEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_3S2PYJBAEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_C6iEMZBBEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_C6irQJBBEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_DJ1EcJBBEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_DJ1EcZBBEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_D6DAcJBBEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_yuc3IJBAEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_D6DAcZBBEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_D6DAcpBBEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_ELG7QJBBEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_ELG7QZBBEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_EhjsYJBBEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_EhjsYZBBEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_GZv9EJBBEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_Q0YlYJBAEeyLZYLWYJ9cng"/>
+    </uiElements>
+    <uiElements xmi:id="_GZv9EZBBEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_GZv9EpBBEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_GsUTwJBBEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_GsUTwZBBEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_G8rD8JBBEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_G8rD8ZBBEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_HdU58JBBEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_6AYzsJBAEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_HdU58ZBBEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_HdU58pBBEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_HwVVgJBBEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_HwVVgZBBEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_IA-ZkJBBEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_IA-ZkZBBEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_zK-MUJBGEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_zK-MUZBGEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_4nxMMJBGEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_3lMU4JBGEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_4nxMMZBGEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_4nxMMpBGEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_iXUZsN05EeyhWuhRH9Xz9w">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_iXUZsd05EeyhWuhRH9Xz9w"/>
+    </uiElements>
+    <uiElements xmi:id="_jbZs4N05EeyhWuhRH9Xz9w">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_jbZs4d05EeyhWuhRH9Xz9w"/>
+    </uiElements>
+    <uiElements xmi:id="_qoMqwN05EeyhWuhRH9Xz9w">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_pOhiEN05EeyhWuhRH9Xz9w"/>
+    </uiElements>
+    <uiElements xmi:id="_qoMqwd05EeyhWuhRH9Xz9w">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_qoNR0N05EeyhWuhRH9Xz9w"/>
+    </uiElements>
+    <rootModelElement href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_GH8Q0JBAEeyLZYLWYJ9cng"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_13JwopBEEeyjnI-k4MEcig" name="general_layer_settings" scene="_13JwoJBEEeyjnI-k4MEcig" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_zKcV8JBIEeyadOU3Wqy4Tw" source="_GIH3ApBAEeyLZYLWYJ9cng">
+      <compositions xsi:type="ram:EnumMapping" xmi:id="_1l_yYZBIEeyadOU3Wqy4Tw">
+        <to xsi:type="ram:REnum" href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_1l_yYJBIEeyadOU3Wqy4Tw"/>
+        <from xsi:type="ram:REnum" href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_Q_fMsJBBEeyjnI-k4MEcig"/>
+      </compositions>
+      <compositions xsi:type="ram:EnumMapping" xmi:id="_3IwloZBIEeyadOU3Wqy4Tw">
+        <to xsi:type="ram:REnum" href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_3IwloJBIEeyadOU3Wqy4Tw"/>
+        <from xsi:type="ram:REnum" href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_3IGigJBBEeyjnI-k4MEcig"/>
+      </compositions>
+      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_jTi5QZBJEeyadOU3Wqy4Tw">
+        <to xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_jTi5QJBJEeyadOU3Wqy4Tw"/>
+        <from xsi:type="ram:ImplementationClass" href="Reusable%20Aspect%20Models/customize%20high%20level%20settings-b.aspect_model.ram#_MbfdEJBBEeyjnI-k4MEcig"/>
+      </compositions>
+    </modelExtensions>
+    <uiElements xmi:id="_OUIncJBGEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_JnFpgJBGEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_OUIncZBGEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_OUIncpBGEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_Qf3fMJBGEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_Qf3fMZBGEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_SFRWwJBGEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_SFRWwZBGEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_TvcZkJBGEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_TvcZkZBGEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_VWczoJBGEeyjnI-k4MEcig">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_VWczoZBGEeyjnI-k4MEcig"/>
+    </uiElements>
+    <uiElements xmi:id="_FTPj0JBIEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_B0_UQJBIEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_FTPj0ZBIEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_FTPj0pBIEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_FXqw0JBIEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_FXqw0ZBIEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_H3BIIJBIEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_H3BIIZBIEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_vzpZQJBIEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_qAP3QJBIEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_vzpZQZBIEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_vzpZQpBIEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_x2QxQJBIEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_x2QxQZBIEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_X7DXAJBJEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_X7DXAZBJEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_ZkA44JBJEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_ZkA44ZBJEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_hTY_YJBJEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_hTY_YZBJEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_1daBoJBJEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_xuYyMJBJEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_1daBoZBJEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_1daBopBJEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_2iT0MJBJEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_2iT0MZBJEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_FXF3IJBKEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_BZmG0JBKEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_FXGeMJBKEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_FXGeMZBKEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_KqoNUJBKEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_KqoNUZBKEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_MqoWMJBKEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_MqoWMZBKEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_OKEvsJBKEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_OKEvsZBKEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_Qa7YAJBKEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_Qa7YAZBKEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_7RKTgJBKEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_0MyR0JBKEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_7RKTgZBKEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_7RKTgpBKEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_-iGf0JBKEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_-iGf0ZBKEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_acsicJBLEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_WTf4cJBLEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_acsicZBLEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_acsicpBLEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_fwq9gJBLEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_fwq9gZBLEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_i-rxoJBLEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_i-rxoZBLEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_k4YeMJBLEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_k4ZFQJBLEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_Ea7e8JBMEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_DgDyIJBMEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_Ea7e8ZBMEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_Ea7e8pBMEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_FR0qsJBMEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_FR0qsZBMEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_FkKX4JBMEeyadOU3Wqy4Tw">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_FkK-8JBMEeyadOU3Wqy4Tw"/>
+    </uiElements>
+    <uiElements xmi:id="_KR78UNI8EeyBP5tFtpdo7A">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_KR8jYNI8EeyBP5tFtpdo7A"/>
+    </uiElements>
+    <uiElements xmi:id="_MFVzoNI8EeyBP5tFtpdo7A">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_MFVzodI8EeyBP5tFtpdo7A"/>
+    </uiElements>
+    <uiElements xmi:id="_oSzu8NI8EeyBP5tFtpdo7A">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_oS0WANI8EeyBP5tFtpdo7A"/>
+    </uiElements>
+    <uiElements xmi:id="_pq2f8NI8EeyBP5tFtpdo7A">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_pq2f8dI8EeyBP5tFtpdo7A"/>
+    </uiElements>
+    <uiElements xmi:id="_3s1IMOLrEeyUqM2sAlhFpA">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_yWhK0OLrEeyUqM2sAlhFpA"/>
+    </uiElements>
+    <uiElements xmi:id="_3s1IMeLrEeyUqM2sAlhFpA">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_3s1IMuLrEeyUqM2sAlhFpA"/>
+    </uiElements>
+    <uiElements xmi:id="_HjjJQOLsEeyUqM2sAlhFpA">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_HjjJQeLsEeyUqM2sAlhFpA"/>
+    </uiElements>
+    <uiElements xmi:id="_JpdF0OLsEeyUqM2sAlhFpA">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_JpdF0eLsEeyUqM2sAlhFpA"/>
+    </uiElements>
+    <uiElements xmi:id="_LaBEgeLsEeyUqM2sAlhFpA">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_LaBEguLsEeyUqM2sAlhFpA"/>
+    </uiElements>
+    <uiElements xmi:id="_M2AhYeLsEeyUqM2sAlhFpA">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_M2AhYuLsEeyUqM2sAlhFpA"/>
+    </uiElements>
+    <uiElements xmi:id="_RK5eAeLsEeyUqM2sAlhFpA">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_RK5eAuLsEeyUqM2sAlhFpA"/>
+    </uiElements>
+    <uiElements xmi:id="_SqdMQOLsEeyUqM2sAlhFpA">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_SqdMQeLsEeyUqM2sAlhFpA"/>
+    </uiElements>
+    <uiElements xmi:id="_UIDysOLsEeyUqM2sAlhFpA">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_UIDyseLsEeyUqM2sAlhFpA"/>
+    </uiElements>
+    <uiElements xmi:id="_Vx-94OLsEeyUqM2sAlhFpA">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_Vx-94eLsEeyUqM2sAlhFpA"/>
+    </uiElements>
+    <uiElements xmi:id="_XbnOIOLsEeyUqM2sAlhFpA">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_Xbn1MOLsEeyUqM2sAlhFpA"/>
+    </uiElements>
+    <uiElements xmi:id="_Y8_hUOLsEeyUqM2sAlhFpA">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_Y8_hUeLsEeyUqM2sAlhFpA"/>
+    </uiElements>
+    <uiElements xmi:id="_0BmW4OhtEey72MJhAiLgCQ">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_0Bm98OhtEey72MJhAiLgCQ"/>
+    </uiElements>
+    <uiElements xmi:id="_QXHwEOhwEey72MJhAiLgCQ">
+      <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_QXIXIOhwEey72MJhAiLgCQ"/>
+    </uiElements>
+    <rootModelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-d.aspect_model.ram#_13FfMJBEEeyjnI-k4MEcig"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_RKsWQsvNEeyudatNXAfKYQ" name="image_structure_data" scene="_RKsWQMvNEeyudatNXAfKYQ" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_yi3sIMzvEeyX_qvwv6CqXA" source="_psIJQEDnEeyBfMro0AcMxQ"/>
+    <uiElements xmi:id="_-ffJcMvOEeyudatNXAfKYQ">
+      <modelElement href="Reusable%20Aspect%20Models/structure%20data-a.aspect_model.ram#_qkjsEMvOEeyudatNXAfKYQ"/>
+    </uiElements>
+    <uiElements xmi:id="_-ffJccvOEeyudatNXAfKYQ">
+      <modelElement href="Reusable%20Aspect%20Models/structure%20data-a.aspect_model.ram#_-ffJcsvOEeyudatNXAfKYQ"/>
+    </uiElements>
+    <uiElements xmi:id="_-5u1cMvOEeyudatNXAfKYQ">
+      <modelElement href="Reusable%20Aspect%20Models/structure%20data-a.aspect_model.ram#_urj9sMvOEeyudatNXAfKYQ"/>
+    </uiElements>
+    <uiElements xmi:id="_-5u1ccvOEeyudatNXAfKYQ">
+      <modelElement href="Reusable%20Aspect%20Models/structure%20data-a.aspect_model.ram#_-5u1csvOEeyudatNXAfKYQ"/>
+    </uiElements>
+    <uiElements xmi:id="__Otm8MvOEeyudatNXAfKYQ">
+      <modelElement href="Reusable%20Aspect%20Models/structure%20data-a.aspect_model.ram#_xdhH8MvOEeyudatNXAfKYQ"/>
+    </uiElements>
+    <uiElements xmi:id="__Otm8cvOEeyudatNXAfKYQ">
+      <modelElement href="Reusable%20Aspect%20Models/structure%20data-a.aspect_model.ram#__OuOAMvOEeyudatNXAfKYQ"/>
+    </uiElements>
+    <uiElements xmi:id="__iGdAMvOEeyudatNXAfKYQ">
+      <modelElement href="Reusable%20Aspect%20Models/structure%20data-a.aspect_model.ram#_0s51EMvOEeyudatNXAfKYQ"/>
+    </uiElements>
+    <uiElements xmi:id="__iHEEMvOEeyudatNXAfKYQ">
+      <modelElement href="Reusable%20Aspect%20Models/structure%20data-a.aspect_model.ram#__iHEEcvOEeyudatNXAfKYQ"/>
+    </uiElements>
+    <uiElements xmi:id="__2c8YMvOEeyudatNXAfKYQ">
+      <modelElement href="Reusable%20Aspect%20Models/structure%20data-a.aspect_model.ram#_6NH8YMvOEeyudatNXAfKYQ"/>
+    </uiElements>
+    <uiElements xmi:id="__2c8YcvOEeyudatNXAfKYQ">
+      <modelElement href="Reusable%20Aspect%20Models/structure%20data-a.aspect_model.ram#__2c8YsvOEeyudatNXAfKYQ"/>
+    </uiElements>
+    <uiElements xmi:id="_dIbBoMvPEeyudatNXAfKYQ">
+      <modelElement href="Reusable%20Aspect%20Models/structure%20data-a.aspect_model.ram#_dIbBocvPEeyudatNXAfKYQ"/>
+    </uiElements>
+    <uiElements xmi:id="_dNNbAMvPEeyudatNXAfKYQ">
+      <modelElement href="Reusable%20Aspect%20Models/structure%20data-a.aspect_model.ram#_dNNbAcvPEeyudatNXAfKYQ"/>
+    </uiElements>
+    <uiElements xmi:id="_dRVGAMvPEeyudatNXAfKYQ">
+      <modelElement href="Reusable%20Aspect%20Models/structure%20data-a.aspect_model.ram#_dRVGAcvPEeyudatNXAfKYQ"/>
+    </uiElements>
+    <uiElements xmi:id="_COFssMvQEeyudatNXAfKYQ">
+      <modelElement href="Reusable%20Aspect%20Models/structure%20data-a.aspect_model.ram#_COFsscvQEeyudatNXAfKYQ"/>
+    </uiElements>
+    <uiElements xmi:id="_CSNXsMvQEeyudatNXAfKYQ">
+      <modelElement href="Reusable%20Aspect%20Models/structure%20data-a.aspect_model.ram#_CSNXscvQEeyudatNXAfKYQ"/>
+    </uiElements>
+    <uiElements xmi:id="_KrldcMvQEeyudatNXAfKYQ">
+      <modelElement href="Reusable%20Aspect%20Models/structure%20data-a.aspect_model.ram#_KrldccvQEeyudatNXAfKYQ"/>
+    </uiElements>
+    <uiElements xmi:id="_ilkKUMvQEeyudatNXAfKYQ">
+      <modelElement href="Reusable%20Aspect%20Models/structure%20data-a.aspect_model.ram#_ilkKUcvQEeyudatNXAfKYQ"/>
+    </uiElements>
+    <uiElements xmi:id="_inWTAMvQEeyudatNXAfKYQ">
+      <modelElement href="Reusable%20Aspect%20Models/structure%20data-a.aspect_model.ram#_inWTAcvQEeyudatNXAfKYQ"/>
+    </uiElements>
+    <rootModelElement href="Reusable%20Aspect%20Models/structure%20data-a.aspect_model.ram#_RKpS8MvNEeyudatNXAfKYQ"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_GePOMMzLEeyXN6FQY8J6Pg" name="CSV tabular data" scene="_GePOMczLEeyXN6FQY8J6Pg" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_GePOM8zLEeyXN6FQY8J6Pg" source="_uYWb0o-LEeyJK9rWQnxChw"/>
+    <modelExtensions xmi:id="_rxEoMMzvEeyX_qvwv6CqXA" source="_ROnRgEDnEeyBfMro0AcMxQ"/>
+    <uiElements xmi:id="_fxEdAMzOEeyXN6FQY8J6Pg">
+      <modelElement href="Reusable%20Aspect%20Models/CSV%20tabular%20data.aspect_model.ram#_afaWIMzOEeyXN6FQY8J6Pg"/>
+    </uiElements>
+    <uiElements xmi:id="_fxEdAczOEeyXN6FQY8J6Pg">
+      <modelElement href="Reusable%20Aspect%20Models/CSV%20tabular%20data.aspect_model.ram#_fxEdAszOEeyXN6FQY8J6Pg"/>
+    </uiElements>
+    <uiElements xmi:id="_oRe-4MzOEeyXN6FQY8J6Pg">
+      <modelElement href="Reusable%20Aspect%20Models/CSV%20tabular%20data.aspect_model.ram#_oRe-4czOEeyXN6FQY8J6Pg"/>
+    </uiElements>
+    <uiElements xmi:id="_gN5icO3JEeyJyK94f72caw">
+      <modelElement href="Reusable%20Aspect%20Models/CSV%20tabular%20data.aspect_model.ram#_e68FwO3JEeyJyK94f72caw"/>
+    </uiElements>
+    <uiElements xmi:id="_gN6JgO3JEeyJyK94f72caw">
+      <modelElement href="Reusable%20Aspect%20Models/CSV%20tabular%20data.aspect_model.ram#_gN6Jge3JEeyJyK94f72caw"/>
+    </uiElements>
+    <uiElements xmi:id="_kXWrIO3JEeyJyK94f72caw">
+      <modelElement href="Reusable%20Aspect%20Models/CSV%20tabular%20data.aspect_model.ram#_kXWrIe3JEeyJyK94f72caw"/>
+    </uiElements>
+    <uiElements xmi:id="_reRqgu3JEeyJyK94f72caw">
+      <modelElement href="Reusable%20Aspect%20Models/CSV%20tabular%20data.aspect_model.ram#_reRqg-3JEeyJyK94f72caw"/>
+    </uiElements>
+    <uiElements xmi:id="_sqhbMO3JEeyJyK94f72caw">
+      <modelElement href="Reusable%20Aspect%20Models/CSV%20tabular%20data.aspect_model.ram#_sqhbMe3JEeyJyK94f72caw"/>
+    </uiElements>
+    <uiElements xmi:id="_g3ZV8O3KEeyJyK94f72caw">
+      <modelElement href="Reusable%20Aspect%20Models/CSV%20tabular%20data.aspect_model.ram#_Zp08AO3KEeyJyK94f72caw"/>
+    </uiElements>
+    <uiElements xmi:id="_g3Z9AO3KEeyJyK94f72caw">
+      <modelElement href="Reusable%20Aspect%20Models/CSV%20tabular%20data.aspect_model.ram#_g3Z9Ae3KEeyJyK94f72caw"/>
+    </uiElements>
+    <uiElements xmi:id="_rtSE8O3LEeyLxYlXGCbECQ">
+      <modelElement href="Reusable%20Aspect%20Models/CSV%20tabular%20data.aspect_model.ram#_rd-IgO3JEeyJyK94f72caw"/>
+    </uiElements>
+    <uiElements xmi:id="_rtUhMO3LEeyLxYlXGCbECQ">
+      <modelElement href="Reusable%20Aspect%20Models/CSV%20tabular%20data.aspect_model.ram#_rtUhMe3LEeyLxYlXGCbECQ"/>
+    </uiElements>
+    <uiElements xmi:id="_8ycPEO3LEeyLxYlXGCbECQ">
+      <modelElement href="Reusable%20Aspect%20Models/CSV%20tabular%20data.aspect_model.ram#_8DwkIO3LEeyLxYlXGCbECQ"/>
+    </uiElements>
+    <uiElements xmi:id="_8ycPEe3LEeyLxYlXGCbECQ">
+      <modelElement href="Reusable%20Aspect%20Models/CSV%20tabular%20data.aspect_model.ram#_8ycPEu3LEeyLxYlXGCbECQ"/>
+    </uiElements>
+    <rootModelElement href="Reusable%20Aspect%20Models/CSV%20tabular%20data.aspect_model.ram#_9USxUMyBEeyudatNXAfKYQ"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_DBSn8vlGEey0EdHrFMiQyg" name="audio_video" scene="_DBSn8PlGEey0EdHrFMiQyg" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_JMSKkPlGEey0EdHrFMiQyg" source="_DYDAwEDbEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_LS0ZQPlGEey0EdHrFMiQyg" source="_LUrgIEDbEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_MjCD8PlGEey0EdHrFMiQyg" source="_ASOfUEDbEeyBfMro0AcMxQ"/>
+    <rootModelElement href="Reusable%20Aspect%20Models/audio%20data.aspect_model.ram#_DAHjQPlGEey0EdHrFMiQyg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_P-KuEflGEey0EdHrFMiQyg" name="audio_text" scene="_P-KHAPlGEey0EdHrFMiQyg" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_SHgZIPlGEey0EdHrFMiQyg" source="_DYDAwEDbEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_TH8icPlGEey0EdHrFMiQyg" source="_ASOfUEDbEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_Uv27cPlGEey0EdHrFMiQyg" source="_j8MyAEDnEeyBfMro0AcMxQ"/>
+    <rootModelElement href="Reusable%20Aspect%20Models/audio%20data-a.aspect_model.ram#_P-IR0PlGEey0EdHrFMiQyg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_XJP0svlGEey0EdHrFMiQyg" name="audio_CSV" scene="_XJP0sPlGEey0EdHrFMiQyg" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_ZDvLcPlGEey0EdHrFMiQyg" source="_DYDAwEDbEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_aj1FMPlGEey0EdHrFMiQyg" source="_ROnRgEDnEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_bbfF8PlGEey0EdHrFMiQyg" source="_ASOfUEDbEeyBfMro0AcMxQ"/>
+    <rootModelElement href="Reusable%20Aspect%20Models/audio%20data-b.aspect_model.ram#_XJN_gPlGEey0EdHrFMiQyg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_d8mX0vlGEey0EdHrFMiQyg" name="audio_image" scene="_d8mX0PlGEey0EdHrFMiQyg" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_fYl0sPlGEey0EdHrFMiQyg" source="_DYDAwEDbEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_gDi2MPlGEey0EdHrFMiQyg" source="_psIJQEDnEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_grtCYPlGEey0EdHrFMiQyg" source="_ASOfUEDbEeyBfMro0AcMxQ"/>
+    <rootModelElement href="Reusable%20Aspect%20Models/audio%20data-c.aspect_model.ram#_d8lJsPlGEey0EdHrFMiQyg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_i3sY0vlGEey0EdHrFMiQyg" name="video_text" scene="_i3sY0PlGEey0EdHrFMiQyg" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_lK6_sPlGEey0EdHrFMiQyg" source="_j8MyAEDnEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_mAiZEPlGEey0EdHrFMiQyg" source="_LUrgIEDbEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_mmu2YPlGEey0EdHrFMiQyg" source="_ASOfUEDbEeyBfMro0AcMxQ"/>
+    <rootModelElement href="Reusable%20Aspect%20Models/video%20data.aspect_model.ram#_i3rKsPlGEey0EdHrFMiQyg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_qjltgvlGEey0EdHrFMiQyg" name="video_CSV" scene="_qjltgPlGEey0EdHrFMiQyg" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_sMm5wPlGEey0EdHrFMiQyg" source="_ROnRgEDnEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_tUOpIPlGEey0EdHrFMiQyg" source="_LUrgIEDbEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_t9r10PlGEey0EdHrFMiQyg" source="_ASOfUEDbEeyBfMro0AcMxQ"/>
+    <rootModelElement href="Reusable%20Aspect%20Models/video%20data-a.aspect_model.ram#_qjkfYPlGEey0EdHrFMiQyg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_yl_dsvlGEey0EdHrFMiQyg" name="video_image" scene="_yl_dsPlGEey0EdHrFMiQyg" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_18bOAPlGEey0EdHrFMiQyg" source="_LUrgIEDbEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_2otsQPlGEey0EdHrFMiQyg" source="_ASOfUEDbEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_4Gpp4PlGEey0EdHrFMiQyg" source="_psIJQEDnEeyBfMro0AcMxQ"/>
+    <rootModelElement href="Reusable%20Aspect%20Models/video%20data-b.aspect_model.ram#_yl-PkPlGEey0EdHrFMiQyg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_6C8XcvlGEey0EdHrFMiQyg" name="text_CSV" scene="_6C8XcPlGEey0EdHrFMiQyg" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_7_4lQPlGEey0EdHrFMiQyg" source="_ROnRgEDnEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_87WH8PlGEey0EdHrFMiQyg" source="_j8MyAEDnEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_9aI8wPlGEey0EdHrFMiQyg" source="_ASOfUEDbEeyBfMro0AcMxQ"/>
+    <rootModelElement href="Reusable%20Aspect%20Models/text%20data.aspect_model.ram#_6C7JUPlGEey0EdHrFMiQyg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="__eYFYvlGEey0EdHrFMiQyg" name="text_image" scene="__eYFYPlGEey0EdHrFMiQyg" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_Bur7IPlHEey0EdHrFMiQyg" source="_ASOfUEDbEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_CM1PsPlHEey0EdHrFMiQyg" source="_psIJQEDnEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_DiRYoPlHEey0EdHrFMiQyg" source="_j8MyAEDnEeyBfMro0AcMxQ"/>
+    <rootModelElement href="Reusable%20Aspect%20Models/text%20data-a.aspect_model.ram#__eW3QPlGEey0EdHrFMiQyg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_FVqB0vlHEey0EdHrFMiQyg" name="CSV_image" scene="_FVqB0PlHEey0EdHrFMiQyg" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_H1m2EPlHEey0EdHrFMiQyg" source="_ROnRgEDnEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_IVWtIPlHEey0EdHrFMiQyg" source="_psIJQEDnEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_I2_akPlHEey0EdHrFMiQyg" source="_ASOfUEDbEeyBfMro0AcMxQ"/>
+    <rootModelElement href="Reusable%20Aspect%20Models/CSV%20data.aspect_model.ram#_FVozsPlHEey0EdHrFMiQyg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_3MOzkvlHEey0EdHrFMiQyg" name="CSV_image_structure" scene="_3MOzkPlHEey0EdHrFMiQyg" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_GKTVYPlIEey0EdHrFMiQyg" source="_FVqB0vlHEey0EdHrFMiQyg"/>
+    <modelExtensions xmi:id="_shTFcPlIEey0EdHrFMiQyg" source="_4WP3UoBAEeyyCqN7ry3a1w"/>
+    <modelExtensions xmi:id="_x_U0YPlIEey0EdHrFMiQyg" source="_RKsWQsvNEeyudatNXAfKYQ"/>
+    <rootModelElement href="Reusable%20Aspect%20Models/CSV%20data-a.aspect_model.ram#_3MNlcPlHEey0EdHrFMiQyg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_WOaAQPlKEey0EdHrFMiQyg" name="CSV_image_transform" scene="_WOZZMPlKEey0EdHrFMiQyg" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_pRzYsPlKEey0EdHrFMiQyg" source="_T8a7kEDnEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_qNWa8PlKEey0EdHrFMiQyg" source="_5Ulr4EDnEeyBfMro0AcMxQ"/>
+    <modelExtensions xmi:id="_ueticPlKEey0EdHrFMiQyg" source="_ASOfUEDbEeyBfMro0AcMxQ"/>
+    <rootModelElement href="Reusable%20Aspect%20Models/CSV%20data-b.aspect_model.ram#_WOYLEPlKEey0EdHrFMiQyg"/>
+  </artefacts>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_mqdcsP1gEey2fJqXG2R9uA" name="CSV data" scene="_mqhHEP1gEey2fJqXG2R9uA" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_mqhHEv1gEey2fJqXG2R9uA" source="_uYWb0o-LEeyJK9rWQnxChw"/>
+    <rootModelElement href="Reusable%20Aspect%20Models/CSV%20tabular%20data.aspect_model.ram#_9USxUMyBEeyudatNXAfKYQ"/>
+  </artefacts>
+  <scenes xmi:id="_1XUYUEDXEeyBfMro0AcMxQ" realizes="_iP1mkkDWEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_1XUYUUDXEeyBfMro0AcMxQ" value="_1XUYUkDXEeyBfMro0AcMxQ" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_ASPGYEDbEeyBfMro0AcMxQ" name="multiple format of data" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_ASPGYUDbEeyBfMro0AcMxQ" value="_ASOfUEDbEeyBfMro0AcMxQ" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_DYDn0EDbEeyBfMro0AcMxQ" name="audio data" realizes="_vyM4AEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_DYDn0UDbEeyBfMro0AcMxQ" value="_DYDAwEDbEeyBfMro0AcMxQ" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_LUrgIUDbEeyBfMro0AcMxQ" name="video data" realizes="_wnDcYEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_LUrgIkDbEeyBfMro0AcMxQ" value="_LUrgIEDbEeyBfMro0AcMxQ" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_ROnRgUDnEeyBfMro0AcMxQ" name="CSV tabular data" realizes="_zK0ZoEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_ROnRgkDnEeyBfMro0AcMxQ" value="_ROnRgEDnEeyBfMro0AcMxQ" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_T8a7kUDnEeyBfMro0AcMxQ" name="CSVTabularTransform" realizes="_zK0ZoEDZEeyBfMro0AcMxQ _6TnBQEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_T8a7kkDnEeyBfMro0AcMxQ" value="_T8a7kEDnEeyBfMro0AcMxQ" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_j8MyAUDnEeyBfMro0AcMxQ" name="raw text data" realizes="_04hRkEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_j8MyAkDnEeyBfMro0AcMxQ" value="_j8MyAEDnEeyBfMro0AcMxQ" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_psIJQUDnEeyBfMro0AcMxQ" name="image data" realizes="_2EKlUEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_psIJQkDnEeyBfMro0AcMxQ" value="_psIJQEDnEeyBfMro0AcMxQ" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_0xgiQUDnEeyBfMro0AcMxQ" name="transform data" realizes="_6TnBQEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_0xgiQkDnEeyBfMro0AcMxQ" value="_0xgiQEDnEeyBfMro0AcMxQ" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_5Ulr4UDnEeyBfMro0AcMxQ" name="ImageTransform" realizes="_6TnBQEDZEeyBfMro0AcMxQ _2EKlUEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_5Ulr4kDnEeyBfMro0AcMxQ" value="_5Ulr4EDnEeyBfMro0AcMxQ" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="__RFfgUDnEeyBfMro0AcMxQ" name="publish data" realizes="_73KesEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="__RFfgkDnEeyBfMro0AcMxQ" value="__RFfgEDnEeyBfMro0AcMxQ" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_uT5W0EGxEeyUC-UomtVoUw" name="MLNetwork" realizes="_AOo1QEDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_uT5W0UGxEeyUC-UomtVoUw" value="_uTz3QEGxEeyUC-UomtVoUw" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_vyifEEGxEeyUC-UomtVoUw" name="ComputationGraph" realizes="_BujI0EDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_vyifEUGxEeyUC-UomtVoUw" value="_vyh4AEGxEeyUC-UomtVoUw" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_IPVlIUGyEeyUC-UomtVoUw" name="ComputationGraph_store" realizes="_EMiOMEDaEeyBfMro0AcMxQ _BujI0EDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_IPVlIkGyEeyUC-UomtVoUw" value="_IPVlIEGyEeyUC-UomtVoUw" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_NRw9MUGyEeyUC-UomtVoUw" name="load from disk" realizes="_XQtpwEDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_NRw9MkGyEeyUC-UomtVoUw" value="_NRw9MEGyEeyUC-UomtVoUw" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_Qe7cwUGyEeyUC-UomtVoUw" name="ComputationGraph_load_from_disk" realizes="_XQtpwEDaEeyBfMro0AcMxQ _BujI0EDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_Qe7cwkGyEeyUC-UomtVoUw" value="_Qe7cwEGyEeyUC-UomtVoUw" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_TCUmkUGyEeyUC-UomtVoUw" name="MLNetwork_load_from_disk" realizes="_XQtpwEDaEeyBfMro0AcMxQ _AOo1QEDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_TCUmkkGyEeyUC-UomtVoUw" value="_TCUmkEGyEeyUC-UomtVoUw" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_8RGV4EHPEey6g5nE2PrOCw" name="load built-in model" realizes="_YM0ssEDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_8RGV4UHPEey6g5nE2PrOCw" value="_8RBdYEHPEey6g5nE2PrOCw" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_v_yjAUHUEey6g5nE2PrOCw" name="MLNetwork_manually_build_network" realizes="_VvwNUEDaEeyBfMro0AcMxQ _AOo1QEDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_v_yjAkHUEey6g5nE2PrOCw" value="_v_yjAEHUEey6g5nE2PrOCw" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_zEecAUHUEey6g5nE2PrOCw" name="run network" realizes="_95E-AEDXEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_zEecAkHUEey6g5nE2PrOCw" value="_zEecAEHUEey6g5nE2PrOCw" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_1OkVAUHUEey6g5nE2PrOCw" name="MLNetwork_train" realizes="_km_uYEDaEeyBfMro0AcMxQ _AOo1QEDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_1OkVAkHUEey6g5nE2PrOCw" value="_1OkVAEHUEey6g5nE2PrOCw" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_3cMqMUHUEey6g5nE2PrOCw" name="MLNetwork_predict" realizes="_lbz2gEDaEeyBfMro0AcMxQ _AOo1QEDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_3cMqMkHUEey6g5nE2PrOCw" value="_3cMqMEHUEey6g5nE2PrOCw" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_UgM6AEHXEeyor9GmK8BPBg" realizes="_SWIPIEHXEeyor9GmK8BPBg" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_UgM6AUHXEeyor9GmK8BPBg" value="_UgM6AkHXEeyor9GmK8BPBg" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_5YZv0EHiEeyEpZxv_KVsMw" name="MLNetwork_customize_layer_settings" realizes="_dpCdwEDaEeyBfMro0AcMxQ _AOo1QEDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_5YZv0UHiEeyEpZxv_KVsMw" value="_5YaW4EHiEeyEpZxv_KVsMw" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_C-mM0FBvEeyN4P1-Ks0QgQ" name="ComputationGraph_high_level_settings" realizes="_bN3b0EDaEeyBfMro0AcMxQ _BujI0EDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_C-mM0VBvEeyN4P1-Ks0QgQ" value="_C-mM0lBvEeyN4P1-Ks0QgQ" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_PLiDwVBvEeyN4P1-Ks0QgQ" name="MLNetwork_high_level_settings" realizes="_AOo1QEDaEeyBfMro0AcMxQ _bN3b0EDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_PLiDwlBvEeyN4P1-Ks0QgQ" value="_PLiDwFBvEeyN4P1-Ks0QgQ" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_8SBFYFYnEeyZn4w4eybuYw" realizes="_95E-AEDXEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_8SBFYVYnEeyZn4w4eybuYw" value="_8SBFYlYnEeyZn4w4eybuYw" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_EvdLwFYoEeyZn4w4eybuYw" name="computationGraph_Evaluate" realizes="_-ghkUFYnEeyZn4w4eybuYw" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_EvdLwVYoEeyZn4w4eybuYw" value="_EvdLwlYoEeyZn4w4eybuYw" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_69bKoHq-EeyZ-K-uBHH2zg" name="MLNetwork_store" realizes="_EMiOMEDaEeyBfMro0AcMxQ _AOo1QEDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_69bKoXq-EeyZ-K-uBHH2zg" value="_69bKonq-EeyZ-K-uBHH2zg" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_BVvLAH-2EeyZ-7-iWk9v9g" name="ComputationGraph_layer_settings" realizes="_dpCdwEDaEeyBfMro0AcMxQ _BujI0EDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_BVvLAX-2EeyZ-7-iWk9v9g" value="_BVvLAn-2EeyZ-7-iWk9v9g" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_4WP3UIBAEeyyCqN7ry3a1w" name="CSV_structure_data" realizes="_4qqtgEDZEeyBfMro0AcMxQ _zK0ZoEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_4WP3UYBAEeyyCqN7ry3a1w" value="_4WP3UoBAEeyyCqN7ry3a1w" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_d89c8IdzEeyXwqDbAaieeg" name="ComputationGraph_train" realizes="_km_uYEDaEeyBfMro0AcMxQ _BujI0EDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_d89c8YdzEeyXwqDbAaieeg" value="_d89c8odzEeyXwqDbAaieeg" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_JJIOYIeDEeya4pIzzxiKVg" name="ComputationGraph_predict" realizes="_lbz2gEDaEeyBfMro0AcMxQ _BujI0EDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_JJIOYYeDEeya4pIzzxiKVg" value="_JJIOYoeDEeya4pIzzxiKVg" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_mL2EwIeFEey8e4cqDpGaNg" name="multilayerNN_Evaluate" realizes="_-ghkUFYnEeyZn4w4eybuYw _AOo1QEDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_mL2EwYeFEey8e4cqDpGaNg" value="_mL2EwoeFEey8e4cqDpGaNg" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_clqA0IqqEey-h9vburn2Ag" name="INDArray_type" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_clqA0YqqEey-h9vburn2Ag" value="_clqA0oqqEey-h9vburn2Ag" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_DiSgMIs9EeyM3NB952VwDQ" name="ComputationGraph_manually_build_network" realizes="_VvwNUEDaEeyBfMro0AcMxQ _BujI0EDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_DiSgMYs9EeyM3NB952VwDQ" value="_DiSgMos9EeyM3NB952VwDQ" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_uYWb0I-LEeyJK9rWQnxChw" name="customer  raw data" realizes="_UrH68IrxEey-h9vburn2Ag" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_uYWb0Y-LEeyJK9rWQnxChw" value="_uYWb0o-LEeyJK9rWQnxChw" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_GIH3AJBAEeyLZYLWYJ9cng" name="general_high_level_settings" realizes="_bN3b0EDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_GIH3AZBAEeyLZYLWYJ9cng" value="_GIH3ApBAEeyLZYLWYJ9cng" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_13JwoJBEEeyjnI-k4MEcig" name="general_layer_settings" realizes="_dpCdwEDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_13JwoZBEEeyjnI-k4MEcig" value="_13JwopBEEeyjnI-k4MEcig" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_RKsWQMvNEeyudatNXAfKYQ" name="image_structure_data" realizes="_4qqtgEDZEeyBfMro0AcMxQ _2EKlUEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_RKsWQcvNEeyudatNXAfKYQ" value="_RKsWQsvNEeyudatNXAfKYQ" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_GePOMczLEeyXN6FQY8J6Pg" name="CSV_operation" realizes="_zK0ZoEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_GePOMszLEeyXN6FQY8J6Pg" value="_GePOMMzLEeyXN6FQY8J6Pg" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_DBSn8PlGEey0EdHrFMiQyg" name="audio_video" realizes="_vyM4AEDZEeyBfMro0AcMxQ _wnDcYEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_DBSn8flGEey0EdHrFMiQyg" value="_DBSn8vlGEey0EdHrFMiQyg" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_P-KHAPlGEey0EdHrFMiQyg" name="audio_text" realizes="_vyM4AEDZEeyBfMro0AcMxQ _04hRkEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_P-KuEPlGEey0EdHrFMiQyg" value="_P-KuEflGEey0EdHrFMiQyg" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_XJP0sPlGEey0EdHrFMiQyg" name="audio_CSV" realizes="_vyM4AEDZEeyBfMro0AcMxQ _zK0ZoEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_XJP0sflGEey0EdHrFMiQyg" value="_XJP0svlGEey0EdHrFMiQyg" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_d8mX0PlGEey0EdHrFMiQyg" name="audio_image" realizes="_vyM4AEDZEeyBfMro0AcMxQ _2EKlUEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_d8mX0flGEey0EdHrFMiQyg" value="_d8mX0vlGEey0EdHrFMiQyg" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_i3sY0PlGEey0EdHrFMiQyg" name="video_text" realizes="_wnDcYEDZEeyBfMro0AcMxQ _04hRkEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_i3sY0flGEey0EdHrFMiQyg" value="_i3sY0vlGEey0EdHrFMiQyg" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_qjltgPlGEey0EdHrFMiQyg" name="video_CSV" realizes="_wnDcYEDZEeyBfMro0AcMxQ _zK0ZoEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_qjltgflGEey0EdHrFMiQyg" value="_qjltgvlGEey0EdHrFMiQyg" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_yl_dsPlGEey0EdHrFMiQyg" name="video_image" realizes="_wnDcYEDZEeyBfMro0AcMxQ _2EKlUEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_yl_dsflGEey0EdHrFMiQyg" value="_yl_dsvlGEey0EdHrFMiQyg" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_6C8XcPlGEey0EdHrFMiQyg" name="text_CSV" realizes="_04hRkEDZEeyBfMro0AcMxQ _zK0ZoEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_6C8XcflGEey0EdHrFMiQyg" value="_6C8XcvlGEey0EdHrFMiQyg" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="__eYFYPlGEey0EdHrFMiQyg" name="text_image" realizes="_04hRkEDZEeyBfMro0AcMxQ _2EKlUEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="__eYFYflGEey0EdHrFMiQyg" value="__eYFYvlGEey0EdHrFMiQyg" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_FVqB0PlHEey0EdHrFMiQyg" name="CSV_image" realizes="_zK0ZoEDZEeyBfMro0AcMxQ _2EKlUEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_FVqB0flHEey0EdHrFMiQyg" value="_FVqB0vlHEey0EdHrFMiQyg" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_3MOzkPlHEey0EdHrFMiQyg" name="CSV_image_structure" realizes="_zK0ZoEDZEeyBfMro0AcMxQ _2EKlUEDZEeyBfMro0AcMxQ _4qqtgEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_3MOzkflHEey0EdHrFMiQyg" value="_3MOzkvlHEey0EdHrFMiQyg" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_WOZZMPlKEey0EdHrFMiQyg" name="CSV_image_transform" realizes="_zK0ZoEDZEeyBfMro0AcMxQ _2EKlUEDZEeyBfMro0AcMxQ _6TnBQEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_WOZZMflKEey0EdHrFMiQyg" value="_WOaAQPlKEey0EdHrFMiQyg" key="Aspect Model"/>
+  </scenes>
+  <scenes xmi:id="_mqhHEP1gEey2fJqXG2R9uA" name="CSV_operation" realizes="_zK0ZoEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+    <artefacts xmi:id="_mqhHEf1gEey2fJqXG2R9uA" value="_mqdcsP1gEey2fJqXG2R9uA" key="Aspect Model"/>
+  </scenes>
+</core:COREConcern>

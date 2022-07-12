@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_WASkACScEeyXgIyMe68nzg" name="sequence data">
+  <realizes href="DL4J_M1.core#_ZoVOUNgUEeuGxOJxjWx4FA"/>
+  <coreConcern href="DL4J_M1.core#_bV6McNf-EeuGxOJxjWx4FA"/>
+  <structuralView xmi:id="_WASkASScEeyXgIyMe68nzg">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_WASkAiScEeyXgIyMe68nzg" name="SequenceRecordReader" visibility="public" superTypes="_8dXQ4CafEeyD3eQvvo0_7w" instanceClassName="org.datavec.api.records.reader.SequenceRecordReader" interface="true">
+      <operations xmi:id="_Y2iYYCScEeyXgIyMe68nzg" name="next" visibility="public" returnType="_Y2eG8CScEeyXgIyMe68nzg">
+        <parameters xmi:id="_Y2iYYSScEeyXgIyMe68nzg" name="arg0" type="_WASkBiScEeyXgIyMe68nzg"/>
+      </operations>
+      <operations xmi:id="_gejSoCScEeyXgIyMe68nzg" name="initialize" visibility="public" returnType="_WASkAyScEeyXgIyMe68nzg">
+        <parameters xmi:id="_gejSoSScEeyXgIyMe68nzg" name="arg0" type="_cXXa0CScEeyXgIyMe68nzg"/>
+      </operations>
+      <operations xmi:id="_F_QPYCYHEeyXgIyMe68nzg" name="next" visibility="public" returnType="_Y2WyMCScEeyXgIyMe68nzg"/>
+      <operations xmi:id="_HW70ACYHEeyXgIyMe68nzg" name="hasNext" visibility="public" returnType="_WASkBSScEeyXgIyMe68nzg"/>
+      <operations xmi:id="__pUyoCYHEeyXgIyMe68nzg" name="sequenceRecord" visibility="public" returnType="_Y2eG8CScEeyXgIyMe68nzg"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_Y2QEgCScEeyXgIyMe68nzg" name="Writable" instanceClassName="org.datavec.api.writable.Writable" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_Y2WyMCScEeyXgIyMe68nzg" name="List" instanceClassName="java.util.List" interface="true">
+      <typeParameters xmi:id="_Y2WyMSScEeyXgIyMe68nzg" name="E" genericType="_Y2QEgCScEeyXgIyMe68nzg"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_Y2eG8CScEeyXgIyMe68nzg" name="List" instanceClassName="java.util.List" interface="true">
+      <typeParameters xmi:id="_Y2eG8SScEeyXgIyMe68nzg" name="E" genericType="_Y2WyMCScEeyXgIyMe68nzg"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_cXXa0CScEeyXgIyMe68nzg" name="InputSplit" instanceClassName="org.datavec.api.split.InputSplit" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_mkwb4CScEeyXgIyMe68nzg" name="SequenceRecordReaderDataSetIterator" visibility="public" instanceClassName="org.deeplearning4j.datasets.datavec.SequenceRecordReaderDataSetIterator">
+      <operations xmi:id="_F-lVwCSuEeyXgIyMe68nzg" name="next" visibility="public" returnType="_F-hrYCSuEeyXgIyMe68nzg"/>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_37bg4CSpEeyXgIyMe68nzg" name="FileSplit" visibility="public" instanceClassName="org.datavec.api.split.FileSplit">
+      <operations xmi:id="_4dJt4CSpEeyXgIyMe68nzg" name="FileSplit" visibility="public" returnType="_37bg4CSpEeyXgIyMe68nzg" operationType="Constructor">
+        <parameters xmi:id="_4dJt4SSpEeyXgIyMe68nzg" name="arg0" type="_4dGqkCSpEeyXgIyMe68nzg"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_4dGqkCSpEeyXgIyMe68nzg" name="File" instanceClassName="java.io.File"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_F-hrYCSuEeyXgIyMe68nzg" name="DataSet" instanceClassName="org.nd4j.linalg.dataset.DataSet"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_8dXQ4CafEeyD3eQvvo0_7w" name="RecordReader" instanceClassName="org.datavec.api.records.reader.RecordReader" interface="true"/>
+    <types xsi:type="ram:RVoid" xmi:id="_WASkAyScEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RAny" xmi:id="_WASkBCScEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_WASkBSScEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RInt" xmi:id="_WASkBiScEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RChar" xmi:id="_WASkByScEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RString" xmi:id="_WASkCCScEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_WASkCSScEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_WASkCiScEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RLong" xmi:id="_WASkCyScEeyXgIyMe68nzg"/>
+    <types xsi:type="ram:RByte" xmi:id="_WASkDCScEeyXgIyMe68nzg"/>
+  </structuralView>
+  <layout xmi:id="_WASkDiScEeyXgIyMe68nzg">
+    <containers xmi:id="_WASkDyScEeyXgIyMe68nzg" key="_WASkASScEeyXgIyMe68nzg">
+      <value xmi:id="_WASkECScEeyXgIyMe68nzg" key="_WASkAiScEeyXgIyMe68nzg">
+        <value xmi:id="_WASkESScEeyXgIyMe68nzg" x="212.9997" y="626.0"/>
+      </value>
+      <value xmi:id="_Y2RSoCScEeyXgIyMe68nzg" key="_Y2QEgCScEeyXgIyMe68nzg">
+        <value xmi:id="_Y2RSoSScEeyXgIyMe68nzg" x="987.5005" y="239.00006"/>
+      </value>
+      <value xmi:id="_Y2YnYCScEeyXgIyMe68nzg" key="_Y2WyMCScEeyXgIyMe68nzg">
+        <value xmi:id="_Y2YnYSScEeyXgIyMe68nzg" x="979.0005" y="353.02377"/>
+      </value>
+      <value xmi:id="_Y2hKQCScEeyXgIyMe68nzg" key="_Y2eG8CScEeyXgIyMe68nzg">
+        <value xmi:id="_Y2hKQSScEeyXgIyMe68nzg" x="954.0005" y="476.00024"/>
+      </value>
+      <value xmi:id="_cXYo8CScEeyXgIyMe68nzg" key="_cXXa0CScEeyXgIyMe68nzg">
+        <value xmi:id="_cXZQACScEeyXgIyMe68nzg" x="716.1489" y="353.02377"/>
+      </value>
+      <value xmi:id="_mkyRECScEeyXgIyMe68nzg" key="_mkwb4CScEeyXgIyMe68nzg">
+        <value xmi:id="_mkyRESScEeyXgIyMe68nzg" x="594.1489" y="664.0"/>
+      </value>
+      <value xmi:id="_37d9ICSpEeyXgIyMe68nzg" key="_37bg4CSpEeyXgIyMe68nzg">
+        <value xmi:id="_37d9ISSpEeyXgIyMe68nzg" x="700.1489" y="476.00024"/>
+      </value>
+      <value xmi:id="_4dIfwCSpEeyXgIyMe68nzg" key="_4dGqkCSpEeyXgIyMe68nzg">
+        <value xmi:id="_4dIfwSSpEeyXgIyMe68nzg" x="717.645" y="239.00006"/>
+      </value>
+      <value xmi:id="_F-jgkCSuEeyXgIyMe68nzg" key="_F-hrYCSuEeyXgIyMe68nzg">
+        <value xmi:id="_F-jgkSSuEeyXgIyMe68nzg" x="1203.0011" y="522.00037"/>
+      </value>
+      <value xmi:id="_8da7QCafEeyD3eQvvo0_7w" key="_8dXQ4CafEeyD3eQvvo0_7w">
+        <value xmi:id="_8dbiUCafEeyD3eQvvo0_7w" x="304.4997" y="395.00012"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

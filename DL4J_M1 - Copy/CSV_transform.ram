@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_BaJN0C-9EeyoztDuLd0r_g" name="CSVTabularTransform">
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_BaJN0C-9EeyoztDuLd0r_g" name="CSVTransform">
   <structuralView xmi:id="_BaJN0S-9EeyoztDuLd0r_g">
     <classes xsi:type="ram:Class" xmi:id="_0K-sYMvREeyudatNXAfKYQ" name="org.datavec.api.transform.TransformProcess.Builder" visibility="public">
       <operations xmi:id="_UWDswcvSEeyudatNXAfKYQ" name="categoricalToInteger" returnType="_0K-sYMvREeyudatNXAfKYQ">
@@ -94,6 +94,34 @@
         <parameters xmi:id="_RFD8wuLhEeyc7rMLsV14hA" name="arg0" type="_IDzXoOLhEeyc7rMLsV14hA"/>
       </operations>
     </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_U_6G4P2qEey2fJqXG2R9uA" name="StringRegexColumnCondition" visibility="public" instanceClassName="org.datavec.api.transform.condition.string.StringRegexColumnCondition">
+      <operations xmi:id="_XoG4Mv2qEey2fJqXG2R9uA" name="StringRegexColumnCondition" returnType="_U_6G4P2qEey2fJqXG2R9uA" operationType="Constructor">
+        <parameters xmi:id="_XoG4M_2qEey2fJqXG2R9uA" name="arg0" type="_BaJN4i-9EeyoztDuLd0r_g"/>
+        <parameters xmi:id="_XoG4NP2qEey2fJqXG2R9uA" name="arg1" type="_BaJN4i-9EeyoztDuLd0r_g"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_eNAIkP2qEey2fJqXG2R9uA" name="IntegerColumnCondition" visibility="public" instanceClassName="org.datavec.api.transform.condition.column.IntegerColumnCondition">
+      <operations xmi:id="_fzAdEv2qEey2fJqXG2R9uA" name="IntegerColumnCondition" returnType="_eNAIkP2qEey2fJqXG2R9uA" operationType="Constructor">
+        <parameters xmi:id="_fzAdE_2qEey2fJqXG2R9uA" name="arg0" type="_BaJN4i-9EeyoztDuLd0r_g"/>
+        <parameters xmi:id="_fzAdFP2qEey2fJqXG2R9uA" name="arg1" type="_fy_O8P2qEey2fJqXG2R9uA"/>
+        <parameters xmi:id="_fzAdFf2qEey2fJqXG2R9uA" name="arg2" type="_BaJN4C-9EeyoztDuLd0r_g"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_ij7FgP2qEey2fJqXG2R9uA" name="StringColumnCondition" visibility="public" instanceClassName="org.datavec.api.transform.condition.column.StringColumnCondition">
+      <operations xmi:id="_j65fgv2qEey2fJqXG2R9uA" name="StringColumnCondition" returnType="_ij7FgP2qEey2fJqXG2R9uA" operationType="Constructor">
+        <parameters xmi:id="_j65fg_2qEey2fJqXG2R9uA" name="arg0" type="_BaJN4i-9EeyoztDuLd0r_g"/>
+        <parameters xmi:id="_j65fhP2qEey2fJqXG2R9uA" name="arg1" type="_fy_O8P2qEey2fJqXG2R9uA"/>
+        <parameters xmi:id="_j65fhf2qEey2fJqXG2R9uA" name="arg2" type="_BaJN4i-9EeyoztDuLd0r_g"/>
+      </operations>
+      <operations xmi:id="_kTFWAf2qEey2fJqXG2R9uA" name="StringColumnCondition" returnType="_ij7FgP2qEey2fJqXG2R9uA" operationType="Constructor">
+        <parameters xmi:id="_kTFWAv2qEey2fJqXG2R9uA" name="arg0" type="_BaJN4i-9EeyoztDuLd0r_g"/>
+        <parameters xmi:id="_kTFWA_2qEey2fJqXG2R9uA" name="arg1" type="_fy_O8P2qEey2fJqXG2R9uA"/>
+        <parameters xmi:id="_kTFWBP2qEey2fJqXG2R9uA" name="arg2" type="_kSx0AP2qEey2fJqXG2R9uA"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_kSx0AP2qEey2fJqXG2R9uA" name="Set" instanceClassName="java.util.Set" interface="true">
+      <typeParameters xmi:id="_kSx0Af2qEey2fJqXG2R9uA" name="E" genericType="_BaJN4i-9EeyoztDuLd0r_g"/>
+    </classes>
     <types xsi:type="ram:RVoid" xmi:id="_BaJN3S-9EeyoztDuLd0r_g"/>
     <types xsi:type="ram:RAny" xmi:id="_BaJN3i-9EeyoztDuLd0r_g"/>
     <types xsi:type="ram:RBoolean" xmi:id="_BaJN3y-9EeyoztDuLd0r_g"/>
@@ -104,6 +132,16 @@
     <types xsi:type="ram:RFloat" xmi:id="_BaJN5C-9EeyoztDuLd0r_g"/>
     <types xsi:type="ram:RLong" xmi:id="_BaJN5S-9EeyoztDuLd0r_g"/>
     <types xsi:type="ram:RByte" xmi:id="_BaJN5i-9EeyoztDuLd0r_g"/>
+    <types xsi:type="ram:REnum" xmi:id="_fy_O8P2qEey2fJqXG2R9uA" name="ConditionOp" instanceClassName="org.datavec.api.transform.condition.ConditionOp">
+      <literals xmi:id="_fy_O8f2qEey2fJqXG2R9uA" name="LessThan"/>
+      <literals xmi:id="_fy_O8v2qEey2fJqXG2R9uA" name="LessOrEqual"/>
+      <literals xmi:id="_fy_O8_2qEey2fJqXG2R9uA" name="GreaterThan"/>
+      <literals xmi:id="_fy_O9P2qEey2fJqXG2R9uA" name="GreaterOrEqual"/>
+      <literals xmi:id="_fy_O9f2qEey2fJqXG2R9uA" name="Equal"/>
+      <literals xmi:id="_fy_O9v2qEey2fJqXG2R9uA" name="NotEqual"/>
+      <literals xmi:id="_fy_O9_2qEey2fJqXG2R9uA" name="InSet"/>
+      <literals xmi:id="_fy_O-P2qEey2fJqXG2R9uA" name="NotInSet"/>
+    </types>
   </structuralView>
   <layout xmi:id="_BaJN6C-9EeyoztDuLd0r_g">
     <containers xmi:id="_BaJN6S-9EeyoztDuLd0r_g" key="_BaJN0S-9EeyoztDuLd0r_g">
@@ -117,7 +155,7 @@
         <value xmi:id="_xXX08svUEeyudatNXAfKYQ" x="554.0"/>
       </value>
       <value xmi:id="_oNWoscwREeyudatNXAfKYQ" key="_oNWosMwREeyudatNXAfKYQ">
-        <value xmi:id="_oNWosswREeyudatNXAfKYQ" x="113.70645" y="588.0353"/>
+        <value xmi:id="_oNWosswREeyudatNXAfKYQ" x="43.706795" y="707.2127"/>
       </value>
       <value xmi:id="_qFHbkcwREeyudatNXAfKYQ" key="_qFHbkMwREeyudatNXAfKYQ">
         <value xmi:id="_qFHbkswREeyudatNXAfKYQ" x="332.2067" y="-1.4305115E-6"/>
@@ -139,6 +177,21 @@
       </value>
       <value xmi:id="_I5214eLhEeyc7rMLsV14hA" key="_I5214OLhEeyc7rMLsV14hA">
         <value xmi:id="_I5214uLhEeyc7rMLsV14hA" x="1229.0369" y="-118.375656"/>
+      </value>
+      <value xmi:id="_U_6G4f2qEey2fJqXG2R9uA" key="_U_6G4P2qEey2fJqXG2R9uA">
+        <value xmi:id="_U_6t8P2qEey2fJqXG2R9uA" x="1079.77" y="481.01465"/>
+      </value>
+      <value xmi:id="_eNAIkf2qEey2fJqXG2R9uA" key="_eNAIkP2qEey2fJqXG2R9uA">
+        <value xmi:id="_eNAIkv2qEey2fJqXG2R9uA" x="874.4415"/>
+      </value>
+      <value xmi:id="_fy_O-f2qEey2fJqXG2R9uA" key="_fy_O8P2qEey2fJqXG2R9uA">
+        <value xmi:id="_fy_O-v2qEey2fJqXG2R9uA" x="-440.72656" y="-479.48535"/>
+      </value>
+      <value xmi:id="_ij7Fgf2qEey2fJqXG2R9uA" key="_ij7FgP2qEey2fJqXG2R9uA">
+        <value xmi:id="_ij7Fgv2qEey2fJqXG2R9uA" x="441.0" y="73.0"/>
+      </value>
+      <value xmi:id="_kSx0Av2qEey2fJqXG2R9uA" key="_kSx0AP2qEey2fJqXG2R9uA">
+        <value xmi:id="_kSx0A_2qEey2fJqXG2R9uA" x="211.07227" y="-102.86872"/>
       </value>
     </containers>
   </layout>

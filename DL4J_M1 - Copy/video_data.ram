@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_Jbd7ECSoEeyXgIyMe68nzg" name="video data">
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_Jbd7ECSoEeyXgIyMe68nzg" name="videoLoad">
   <structuralView xmi:id="_Jbd7ESSoEeyXgIyMe68nzg">
     <classes xsi:type="ram:Class" xmi:id="_Jbd7EiSoEeyXgIyMe68nzg" name="CodecRecordReader" abstract="true" visibility="public">
       <operations xmi:id="_E2DU0MvNEeyudatNXAfKYQ" name="create" returnType="_Jbd7EiSoEeyXgIyMe68nzg" operationType="Constructor"/>

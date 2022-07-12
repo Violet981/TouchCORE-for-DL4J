@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_clfBsIqqEey-h9vburn2Ag" name="INDArray_type">
+  <structuralView xmi:id="_clfBsYqqEey-h9vburn2Ag">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_st0-QIqqEey-h9vburn2Ag" name="INDArray" instanceClassName="org.nd4j.linalg.api.ndarray.INDArray" interface="true"/>
+    <types xsi:type="ram:RVoid" xmi:id="_clfBsoqqEey-h9vburn2Ag"/>
+    <types xsi:type="ram:RAny" xmi:id="_clfBs4qqEey-h9vburn2Ag"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_clfBtIqqEey-h9vburn2Ag"/>
+    <types xsi:type="ram:RInt" xmi:id="_clfBtYqqEey-h9vburn2Ag"/>
+    <types xsi:type="ram:RChar" xmi:id="_clfBtoqqEey-h9vburn2Ag"/>
+    <types xsi:type="ram:RString" xmi:id="_clfBt4qqEey-h9vburn2Ag"/>
+    <types xsi:type="ram:RDouble" xmi:id="_clfBuIqqEey-h9vburn2Ag"/>
+    <types xsi:type="ram:RFloat" xmi:id="_clfBuYqqEey-h9vburn2Ag"/>
+    <types xsi:type="ram:RLong" xmi:id="_clfBuoqqEey-h9vburn2Ag"/>
+    <types xsi:type="ram:RByte" xmi:id="_clfBu4qqEey-h9vburn2Ag"/>
+  </structuralView>
+  <layout xmi:id="_clfBvIqqEey-h9vburn2Ag">
+    <containers xmi:id="_clfBvYqqEey-h9vburn2Ag" key="_clfBsYqqEey-h9vburn2Ag">
+      <value xmi:id="_st0-QYqqEey-h9vburn2Ag" key="_st0-QIqqEey-h9vburn2Ag">
+        <value xmi:id="_st0-QoqqEey-h9vburn2Ag" x="391.00018" y="254.99994"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_SZZ9EJAtEeyJK9rWQnxChw" name="presaved dataset">
+  <structuralView xmi:id="_SZZ9EZAtEeyJK9rWQnxChw">
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_WahCEJAtEeyJK9rWQnxChw" name="ExistingMiniBatchDataSetIterator" visibility="public" instanceClassName="org.nd4j.linalg.dataset.ExistingMiniBatchDataSetIterator">
+      <operations xmi:id="_YJUGNJAtEeyJK9rWQnxChw" name="ExistingMiniBatchDataSetIterator" returnType="_WahCEJAtEeyJK9rWQnxChw" operationType="Constructor">
+        <parameters xmi:id="_YJUGNZAtEeyJK9rWQnxChw" name="arg0" type="_YJTfIJAtEeyJK9rWQnxChw"/>
+      </operations>
+      <operations xmi:id="_YbD9gZAtEeyJK9rWQnxChw" name="ExistingMiniBatchDataSetIterator" returnType="_WahCEJAtEeyJK9rWQnxChw" operationType="Constructor">
+        <parameters xmi:id="_YbD9gpAtEeyJK9rWQnxChw" name="arg0" type="_YJTfIJAtEeyJK9rWQnxChw"/>
+        <parameters xmi:id="_YbD9g5AtEeyJK9rWQnxChw" name="arg1" type="_SZZ9F5AtEeyJK9rWQnxChw"/>
+      </operations>
+    </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_YJTfIJAtEeyJK9rWQnxChw" name="File" instanceClassName="java.io.File"/>
+    <types xsi:type="ram:RVoid" xmi:id="_SZZ9EpAtEeyJK9rWQnxChw"/>
+    <types xsi:type="ram:RAny" xmi:id="_SZZ9E5AtEeyJK9rWQnxChw"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_SZZ9FJAtEeyJK9rWQnxChw"/>
+    <types xsi:type="ram:RInt" xmi:id="_SZZ9FZAtEeyJK9rWQnxChw"/>
+    <types xsi:type="ram:RChar" xmi:id="_SZZ9FpAtEeyJK9rWQnxChw"/>
+    <types xsi:type="ram:RString" xmi:id="_SZZ9F5AtEeyJK9rWQnxChw"/>
+    <types xsi:type="ram:RDouble" xmi:id="_SZZ9GJAtEeyJK9rWQnxChw"/>
+    <types xsi:type="ram:RFloat" xmi:id="_SZZ9GZAtEeyJK9rWQnxChw"/>
+    <types xsi:type="ram:RLong" xmi:id="_SZZ9GpAtEeyJK9rWQnxChw"/>
+    <types xsi:type="ram:RByte" xmi:id="_SZZ9G5AtEeyJK9rWQnxChw"/>
+  </structuralView>
+  <layout xmi:id="_SZZ9HJAtEeyJK9rWQnxChw">
+    <containers xmi:id="_SZZ9HZAtEeyJK9rWQnxChw" key="_SZZ9EZAtEeyJK9rWQnxChw">
+      <value xmi:id="_WahCEZAtEeyJK9rWQnxChw" key="_WahCEJAtEeyJK9rWQnxChw">
+        <value xmi:id="_WahCEpAtEeyJK9rWQnxChw" x="354.99994" y="147.00002"/>
+      </value>
+      <value xmi:id="_YJUGMJAtEeyJK9rWQnxChw" key="_YJTfIJAtEeyJK9rWQnxChw">
+        <value xmi:id="_YJUGMZAtEeyJK9rWQnxChw" x="76.00018" y="201.00006"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>
