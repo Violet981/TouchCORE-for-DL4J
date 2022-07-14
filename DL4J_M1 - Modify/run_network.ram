@@ -7,7 +7,9 @@
         <parameters xmi:id="_xXde1SZwEeyD3eQvvo0_7w" name="arg1" type="_xXde1iZwEeyD3eQvvo0_7w"/>
       </operations>
     </classes>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_xXde1iZwEeyD3eQvvo0_7w" name="DataSet" instanceClassName="org.nd4j.linalg.dataset.DataSet"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_xXde1iZwEeyD3eQvvo0_7w" name="DataSet" visibility="public" instanceClassName="org.nd4j.linalg.dataset.DataSet">
+      <operations xmi:id="_QnPBUgObEe2M84u6IJStww" name="getFeatures" returnType="_8qc3oMwUEeyudatNXAfKYQ"/>
+    </classes>
     <classes xsi:type="ram:Class" xmi:id="_o9GjQMwUEeyudatNXAfKYQ" name="org.nd4j.linalg.factory.Nd4j" visibility="public">
       <operations xmi:id="_ulr8YcwUEeyudatNXAfKYQ" name="create" returnType="_o9GjQMwUEeyudatNXAfKYQ" operationType="Constructor"/>
       <operations xmi:id="_4BhksswUEeyudatNXAfKYQ" name="create" returnType="_8qc3oMwUEeyudatNXAfKYQ">

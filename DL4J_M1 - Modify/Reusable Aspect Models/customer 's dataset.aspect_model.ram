@@ -151,6 +151,17 @@
       </operations>
     </classes>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_b60B8P1GEeyI4OROD249jg" name="PathLabelGenerator" instanceClassName="org.datavec.api.io.labels.PathLabelGenerator" interface="true"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_FX5Y4AOMEe24jexEhnI7Jg" name="ClassPathResource" visibility="public" instanceClassName="org.nd4j.common.io.ClassPathResource">
+      <operations xmi:id="_G_khUgOMEe24jexEhnI7Jg" name="ClassPathResource" returnType="_FX5Y4AOMEe24jexEhnI7Jg" operationType="Constructor">
+        <parameters xmi:id="_G_khUwOMEe24jexEhnI7Jg" name="arg0" type="_uYNR54-LEeyJK9rWQnxChw"/>
+      </operations>
+      <operations xmi:id="_JVIDcQOMEe24jexEhnI7Jg" name="getFile" returnType="_xDVbYI-LEeyJK9rWQnxChw"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_Gn8PAAONEe2M84u6IJStww" name="org.datavec.api.records.reader.impl.collection.CollectionRecordReader" visibility="public">
+      <operations xmi:id="_Ocr9sgONEe2M84u6IJStww" name="create" returnType="_Gn8PAAONEe2M84u6IJStww" operationType="Constructor">
+        <parameters xmi:id="_RBdnkAONEe2M84u6IJStww" name="arg0" type="_G8sHoO3vEeyLxYlXGCbECQ"/>
+      </operations>
+    </classes>
     <types xsi:type="ram:RVoid" xmi:id="_uYNR4o-LEeyJK9rWQnxChw"/>
     <types xsi:type="ram:RAny" xmi:id="_uYNR44-LEeyJK9rWQnxChw"/>
     <types xsi:type="ram:RBoolean" xmi:id="_uYNR5I-LEeyJK9rWQnxChw"/>
@@ -169,7 +180,7 @@
   <layout xmi:id="_uYNR7I-LEeyJK9rWQnxChw">
     <containers xmi:id="_uYNR7Y-LEeyJK9rWQnxChw" key="_uYNR4Y-LEeyJK9rWQnxChw">
       <value xmi:id="_wIeVoY-LEeyJK9rWQnxChw" key="_wIeVoI-LEeyJK9rWQnxChw">
-        <value xmi:id="_wIeVoo-LEeyJK9rWQnxChw" x="205.99997" y="148.00005"/>
+        <value xmi:id="_wIeVoo-LEeyJK9rWQnxChw" x="252.94351" y="148.00005"/>
       </value>
       <value xmi:id="_xDVbYY-LEeyJK9rWQnxChw" key="_xDVbYI-LEeyJK9rWQnxChw">
         <value xmi:id="_xDVbYo-LEeyJK9rWQnxChw" x="833.0" y="165.55258"/>
@@ -178,7 +189,7 @@
         <value xmi:id="_xh600Y-LEeyJK9rWQnxChw" x="-241.00003" y="418.0001"/>
       </value>
       <value xmi:id="_N8UY4Y-MEeyJK9rWQnxChw" key="_N8UY4I-MEeyJK9rWQnxChw">
-        <value xmi:id="_N8UY4o-MEeyJK9rWQnxChw" x="-651.5808" y="191.55258"/>
+        <value xmi:id="_N8UY4o-MEeyJK9rWQnxChw" x="-713.0565" y="191.55258"/>
       </value>
       <value xmi:id="_PIMWIY-MEeyJK9rWQnxChw" key="_PIMWII-MEeyJK9rWQnxChw">
         <value xmi:id="_PIMWIo-MEeyJK9rWQnxChw" x="283.00006" y="-106.83804"/>
@@ -202,43 +213,49 @@
         <value xmi:id="_zibJkZBzEeyV4r6u3iMaJQ" x="292.00006" y="35.161957"/>
       </value>
       <value xmi:id="_ziy9AZBzEeyV4r6u3iMaJQ" key="_ziy9AJBzEeyV4r6u3iMaJQ">
-        <value xmi:id="_ziy9ApBzEeyV4r6u3iMaJQ" x="527.2142" y="-0.03710556"/>
+        <value xmi:id="_ziy9ApBzEeyV4r6u3iMaJQ" x="723.50006" y="418.0001"/>
       </value>
       <value xmi:id="_IuS7keLgEeyViYlCluD5Kw" key="_IuS7kOLgEeyViYlCluD5Kw">
         <value xmi:id="_IuS7kuLgEeyViYlCluD5Kw" x="494.00006" y="-131.83804"/>
       </value>
       <value xmi:id="_Km1xkOLgEeyViYlCluD5Kw" key="_Km1KgOLgEeyViYlCluD5Kw">
-        <value xmi:id="_Km1xkeLgEeyViYlCluD5Kw"/>
+        <value xmi:id="_Km1xkeLgEeyViYlCluD5Kw" x="25.443512" y="46.99977"/>
       </value>
       <value xmi:id="_J-gaAe3HEeyJyK94f72caw" key="_J-gaAO3HEeyJyK94f72caw">
-        <value xmi:id="_J-gaAu3HEeyJyK94f72caw" x="720.6001" y="418.0001"/>
+        <value xmi:id="_J-gaAu3HEeyJyK94f72caw" x="966.42993" y="506.00006"/>
       </value>
       <value xmi:id="_vvK4Ie3uEeyLxYlXGCbECQ" key="_vvK4IO3uEeyLxYlXGCbECQ">
-        <value xmi:id="_vvK4Iu3uEeyLxYlXGCbECQ" x="-320.00012" y="557.00006"/>
+        <value xmi:id="_vvK4Iu3uEeyLxYlXGCbECQ" x="-448.50003" y="742.03564"/>
       </value>
       <value xmi:id="_4gpU0O3uEeyLxYlXGCbECQ" key="_4gotwO3uEeyLxYlXGCbECQ">
-        <value xmi:id="_4gpU0e3uEeyLxYlXGCbECQ" x="669.6949" y="-282.3569"/>
+        <value xmi:id="_4gpU0e3uEeyLxYlXGCbECQ" x="-288.90765" y="-322.56155"/>
       </value>
       <value xmi:id="_4hZiwu3uEeyLxYlXGCbECQ" key="_4hZiwO3uEeyLxYlXGCbECQ">
         <value xmi:id="_4hZiw-3uEeyLxYlXGCbECQ" x="24.431076" y="-184.57477"/>
       </value>
       <value xmi:id="_CI_vIe3vEeyLxYlXGCbECQ" key="_CI_vIO3vEeyLxYlXGCbECQ">
-        <value xmi:id="_CI_vIu3vEeyLxYlXGCbECQ"/>
+        <value xmi:id="_CI_vIu3vEeyLxYlXGCbECQ" x="-42.000122" y="387.77588"/>
       </value>
       <value xmi:id="_CyXcQe3vEeyLxYlXGCbECQ" key="_CyXcQO3vEeyLxYlXGCbECQ">
-        <value xmi:id="_CyXcQu3vEeyLxYlXGCbECQ"/>
+        <value xmi:id="_CyXcQu3vEeyLxYlXGCbECQ" x="-292.40765" y="46.99977"/>
       </value>
       <value xmi:id="_G7ueUe3vEeyLxYlXGCbECQ" key="_G7ueUO3vEeyLxYlXGCbECQ">
-        <value xmi:id="_G7ueUu3vEeyLxYlXGCbECQ"/>
+        <value xmi:id="_G7ueUu3vEeyLxYlXGCbECQ" x="485.1905" y="-389.4461"/>
       </value>
       <value xmi:id="_G8sHou3vEeyLxYlXGCbECQ" key="_G8sHoO3vEeyLxYlXGCbECQ">
-        <value xmi:id="_G8sHo-3vEeyLxYlXGCbECQ"/>
+        <value xmi:id="_G8sHo-3vEeyLxYlXGCbECQ" x="258.50006" y="-282.3569"/>
       </value>
       <value xmi:id="_Y9QEof1GEeyI4OROD249jg" key="_Y9QEoP1GEeyI4OROD249jg">
         <value xmi:id="_Y9QEov1GEeyI4OROD249jg" x="1174.3768" y="346.87976"/>
       </value>
       <value xmi:id="_b60B8f1GEeyI4OROD249jg" key="_b60B8P1GEeyI4OROD249jg">
-        <value xmi:id="_b60B8v1GEeyI4OROD249jg"/>
+        <value xmi:id="_b60B8v1GEeyI4OROD249jg" x="-9.05649" y="203.55258"/>
+      </value>
+      <value xmi:id="_FX5Y4QOMEe24jexEhnI7Jg" key="_FX5Y4AOMEe24jexEhnI7Jg">
+        <value xmi:id="_FX5Y4gOMEe24jexEhnI7Jg" x="858.5" y="-334.56155"/>
+      </value>
+      <value xmi:id="_GoFY8AONEe2M84u6IJStww" key="_Gn8PAAONEe2M84u6IJStww">
+        <value xmi:id="_GoFY8QONEe2M84u6IJStww" x="1283.3893" y="-215.17645"/>
       </value>
     </containers>
   </layout>

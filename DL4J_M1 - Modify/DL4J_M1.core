@@ -22,11 +22,10 @@
     <features xmi:id="_EMiOMEDaEeyBfMro0AcMxQ" name="save network" realizedBy="_IPVlIUGyEeyUC-UomtVoUw _69bKoHq-EeyZ-K-uBHH2zg" parent="_E8-hkIeEEeya4pIzzxiKVg" parentRelationship="Optional"/>
     <features xmi:id="_R4vfgEDaEeyBfMro0AcMxQ" name="construct network" children="_UJrnYEDaEeyBfMro0AcMxQ _VvwNUEDaEeyBfMro0AcMxQ" parent="_8xg5AEDXEeyBfMro0AcMxQ" parentRelationship="Mandatory"/>
     <features xmi:id="_UJrnYEDaEeyBfMro0AcMxQ" name="load network" children="_XQtpwEDaEeyBfMro0AcMxQ _YM0ssEDaEeyBfMro0AcMxQ" parent="_R4vfgEDaEeyBfMro0AcMxQ" parentRelationship="XOR"/>
-    <features xmi:id="_VvwNUEDaEeyBfMro0AcMxQ" name="manually build network" realizedBy="_v_yjAUHUEey6g5nE2PrOCw _DiSgMIs9EeyM3NB952VwDQ" children="_bN3b0EDaEeyBfMro0AcMxQ _dpCdwEDaEeyBfMro0AcMxQ" parent="_R4vfgEDaEeyBfMro0AcMxQ" parentRelationship="XOR"/>
+    <features xmi:id="_VvwNUEDaEeyBfMro0AcMxQ" name="manually build network" realizedBy="_v_yjAUHUEey6g5nE2PrOCw _DiSgMIs9EeyM3NB952VwDQ _13JwoJBEEeyjnI-k4MEcig _BVvLAH-2EeyZ-7-iWk9v9g _5YZv0EHiEeyEpZxv_KVsMw" children="_bN3b0EDaEeyBfMro0AcMxQ" parent="_R4vfgEDaEeyBfMro0AcMxQ" parentRelationship="XOR"/>
     <features xmi:id="_XQtpwEDaEeyBfMro0AcMxQ" name="load from disk" realizedBy="_NRw9MUGyEeyUC-UomtVoUw _Qe7cwUGyEeyUC-UomtVoUw _TCUmkUGyEeyUC-UomtVoUw" parent="_UJrnYEDaEeyBfMro0AcMxQ" parentRelationship="XOR"/>
     <features xmi:id="_YM0ssEDaEeyBfMro0AcMxQ" name="load built-in model" realizedBy="_8RGV4EHPEey6g5nE2PrOCw" parent="_UJrnYEDaEeyBfMro0AcMxQ" parentRelationship="XOR"/>
     <features xmi:id="_bN3b0EDaEeyBfMro0AcMxQ" name="customize high level settings" realizedBy="_PLiDwVBvEeyN4P1-Ks0QgQ _C-mM0FBvEeyN4P1-Ks0QgQ _GIH3AJBAEeyLZYLWYJ9cng" parent="_VvwNUEDaEeyBfMro0AcMxQ" parentRelationship="Optional"/>
-    <features xmi:id="_dpCdwEDaEeyBfMro0AcMxQ" name="customize layer settings" realizedBy="_5YZv0EHiEeyEpZxv_KVsMw _BVvLAH-2EeyZ-7-iWk9v9g _13JwoJBEEeyjnI-k4MEcig" parent="_VvwNUEDaEeyBfMro0AcMxQ" parentRelationship="Mandatory"/>
     <features xmi:id="_km_uYEDaEeyBfMro0AcMxQ" name="train" realizedBy="_1OkVAUHUEey6g5nE2PrOCw _d89c8IdzEeyXwqDbAaieeg" parent="_95E-AEDXEeyBfMro0AcMxQ" parentRelationship="Optional"/>
     <features xmi:id="_lbz2gEDaEeyBfMro0AcMxQ" name="predict" realizedBy="_3cMqMUHUEey6g5nE2PrOCw _JJIOYIeDEeya4pIzzxiKVg" parent="_95E-AEDXEeyBfMro0AcMxQ" parentRelationship="Optional"/>
     <features xmi:id="_SWIPIEHXEeyor9GmK8BPBg" name="library dataset" realizedBy="_UgM6AEHXEeyor9GmK8BPBg" parent="_5egQIEDXEeyBfMro0AcMxQ" parentRelationship="XOR"/>
@@ -543,6 +542,8 @@
     <rootModelElement href="load_built-in_model.ram#_xQ0jkCYpEeycop2z6HNniQ"/>
   </artefacts>
   <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_v_yjAEHUEey6g5nE2PrOCw" name="MLNetwork_manually_build_network" scene="_v_yjAUHUEey6g5nE2PrOCw" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_TUjqAAMpEe2Ij9lNw0vi9Q" source="_5YaW4EHiEeyEpZxv_KVsMw"/>
+    <modelExtensions xmi:id="_-RTDQAODEe29kfK6blBLHg" source="_13JwopBEEeyjnI-k4MEcig"/>
     <uiElements xmi:id="_HvbSAFCEEey2tsXMXVXHbQ">
       <modelElement href="manually_build_network.ram#_FYGOQFCEEey2tsXMXVXHbQ"/>
     </uiElements>
@@ -593,6 +594,12 @@
     </uiElements>
     <uiElements xmi:id="_HiFukN03EeyhWuhRH9Xz9w">
       <modelElement href="run_network.ram#_HiGVoN03EeyhWuhRH9Xz9w"/>
+    </uiElements>
+    <uiElements xmi:id="_QnPBUAObEe2M84u6IJStww">
+      <modelElement href="run_network.ram#_xXde1iZwEeyD3eQvvo0_7w"/>
+    </uiElements>
+    <uiElements xmi:id="_QnPBUQObEe2M84u6IJStww">
+      <modelElement href="run_network.ram#_QnPBUgObEe2M84u6IJStww"/>
     </uiElements>
     <rootModelElement href="run_network.ram#_xXde0CZwEeyD3eQvvo0_7w"/>
   </artefacts>
@@ -784,18 +791,7 @@
     </uiElements>
     <rootModelElement href="Reusable%20Aspect%20Models/built-in%20data.aspect_model.ram#_UgIokEHXEeyor9GmK8BPBg"/>
   </artefacts>
-  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_5YaW4EHiEeyEpZxv_KVsMw" name="MLNetwork_customize_layer_settings" scene="_5YZv0EHiEeyEpZxv_KVsMw" languageName="Reusable Aspect Models">
-    <modelExtensions xmi:id="_ILPWYIs_Eeyg9vSEv4_zkw" source="_v_yjAEHUEey6g5nE2PrOCw">
-      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_J8bAIIs_Eeyg9vSEv4_zkw">
-        <to xsi:type="ram:Class" href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_QN9PoIs_Eeyg9vSEv4_zkw"/>
-        <from xsi:type="ram:Class" href="manually_build_network.ram#_0rE0UIs8EeyM3NB952VwDQ"/>
-      </compositions>
-      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_ah16QIs_Eeyg9vSEv4_zkw">
-        <to xsi:type="ram:Class" href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_uVwP0EHkEeyEpZxv_KVsMw"/>
-        <from xsi:type="ram:Class" href="manually_build_network.ram#_FYGOQFCEEey2tsXMXVXHbQ"/>
-      </compositions>
-    </modelExtensions>
-    <modelExtensions xmi:id="_sNqNMJBMEeyPq4UNJ95luw" source="_13JwopBEEeyjnI-k4MEcig"/>
+  <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_5YaW4EHiEeyEpZxv_KVsMw" name="MLNetwork_layer_settings" scene="_5YZv0EHiEeyEpZxv_KVsMw" languageName="Reusable Aspect Models">
     <uiElements xmi:id="_NpuegEHkEeyEpZxv_KVsMw">
       <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-a.aspect_model.ram#_Mm-dgEHjEeyEpZxv_KVsMw"/>
     </uiElements>
@@ -1086,13 +1082,6 @@
     <rootModelElement href="Reusable%20Aspect%20Models/store%20network.aspect_model.ram#_68bsIHq-EeyZ-K-uBHH2zg"/>
   </artefacts>
   <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_BVvLAn-2EeyZ-7-iWk9v9g" name="ComputationGraph_layer_settings" scene="_BVvLAH-2EeyZ-7-iWk9v9g" languageName="Reusable Aspect Models">
-    <modelExtensions xmi:id="_jtLBYIs_Eeyg9vSEv4_zkw" source="_DiSgMos9EeyM3NB952VwDQ">
-      <compositions xsi:type="ram:ClassifierMapping" xmi:id="_kEricIs_Eeyg9vSEv4_zkw">
-        <to xsi:type="ram:Class" href="Reusable%20Aspect%20Models/customize%20layer%20settings-b.aspect_model.ram#_12L7gH_WEeyU_ODeo8VEOg"/>
-        <from xsi:type="ram:Class" href="Reusable%20Aspect%20Models/manually%20build%20network.aspect_model.ram#_FAEFwIs9EeyM3NB952VwDQ"/>
-      </compositions>
-    </modelExtensions>
-    <modelExtensions xmi:id="_uunuEJBMEeyPq4UNJ95luw" source="_13JwopBEEeyjnI-k4MEcig"/>
     <uiElements xmi:id="_s5gUYH_WEeyU_ODeo8VEOg">
       <modelElement href="Reusable%20Aspect%20Models/customize%20layer%20settings-b.aspect_model.ram#_l5VSsH_VEeyU_ODeo8VEOg"/>
     </uiElements>
@@ -1342,6 +1331,8 @@
     <rootModelElement href="Reusable%20Aspect%20Models/operate%20network.aspect_model.ram#_clfBsIqqEey-h9vburn2Ag"/>
   </artefacts>
   <artefacts xsi:type="core:COREExternalArtefact" xmi:id="_DiSgMos9EeyM3NB952VwDQ" name="ComputationGraph_manually_build_network" scene="_DiSgMIs9EeyM3NB952VwDQ" languageName="Reusable Aspect Models">
+    <modelExtensions xmi:id="_aTYdUAMpEe2Ij9lNw0vi9Q" source="_BVvLAn-2EeyZ-7-iWk9v9g"/>
+    <modelExtensions xmi:id="_7k7joAODEe29kfK6blBLHg" source="_13JwopBEEeyjnI-k4MEcig"/>
     <uiElements xmi:id="_Z-53MIs9EeyM3NB952VwDQ">
       <modelElement href="Reusable%20Aspect%20Models/manually%20build%20network.aspect_model.ram#_FAEFwIs9EeyM3NB952VwDQ"/>
     </uiElements>
@@ -1491,6 +1482,21 @@
     </uiElements>
     <uiElements xmi:id="_qSpDIP1GEeyI4OROD249jg">
       <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_qSpDIf1GEeyI4OROD249jg"/>
+    </uiElements>
+    <uiElements xmi:id="_G_khUAOMEe24jexEhnI7Jg">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_FX5Y4AOMEe24jexEhnI7Jg"/>
+    </uiElements>
+    <uiElements xmi:id="_G_khUQOMEe24jexEhnI7Jg">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_G_khUgOMEe24jexEhnI7Jg"/>
+    </uiElements>
+    <uiElements xmi:id="_JVIDcAOMEe24jexEhnI7Jg">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_JVIDcQOMEe24jexEhnI7Jg"/>
+    </uiElements>
+    <uiElements xmi:id="_Ocr9sAONEe2M84u6IJStww">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_Gn8PAAONEe2M84u6IJStww"/>
+    </uiElements>
+    <uiElements xmi:id="_Ocr9sQONEe2M84u6IJStww">
+      <modelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_Ocr9sgONEe2M84u6IJStww"/>
     </uiElements>
     <rootModelElement href="Reusable%20Aspect%20Models/customer%20's%20dataset.aspect_model.ram#_uYNR4I-LEeyJK9rWQnxChw"/>
   </artefacts>
@@ -2100,7 +2106,7 @@
   <scenes xmi:id="_UgM6AEHXEeyor9GmK8BPBg" realizes="_SWIPIEHXEeyor9GmK8BPBg" perspectiveName="Design Modelling with RAM">
     <artefacts xmi:id="_UgM6AUHXEeyor9GmK8BPBg" value="_UgM6AkHXEeyor9GmK8BPBg" key="Aspect Model"/>
   </scenes>
-  <scenes xmi:id="_5YZv0EHiEeyEpZxv_KVsMw" name="MLNetwork_customize_layer_settings" realizes="_dpCdwEDaEeyBfMro0AcMxQ _AOo1QEDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+  <scenes xmi:id="_5YZv0EHiEeyEpZxv_KVsMw" name="MLNetwork_layer_settings" realizes="_AOo1QEDaEeyBfMro0AcMxQ _VvwNUEDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
     <artefacts xmi:id="_5YZv0UHiEeyEpZxv_KVsMw" value="_5YaW4EHiEeyEpZxv_KVsMw" key="Aspect Model"/>
   </scenes>
   <scenes xmi:id="_C-mM0FBvEeyN4P1-Ks0QgQ" name="ComputationGraph_high_level_settings" realizes="_bN3b0EDaEeyBfMro0AcMxQ _BujI0EDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
@@ -2118,7 +2124,7 @@
   <scenes xmi:id="_69bKoHq-EeyZ-K-uBHH2zg" name="MLNetwork_store" realizes="_EMiOMEDaEeyBfMro0AcMxQ _AOo1QEDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
     <artefacts xmi:id="_69bKoXq-EeyZ-K-uBHH2zg" value="_69bKonq-EeyZ-K-uBHH2zg" key="Aspect Model"/>
   </scenes>
-  <scenes xmi:id="_BVvLAH-2EeyZ-7-iWk9v9g" name="ComputationGraph_layer_settings" realizes="_dpCdwEDaEeyBfMro0AcMxQ _BujI0EDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+  <scenes xmi:id="_BVvLAH-2EeyZ-7-iWk9v9g" name="ComputationGraph_layer_settings" realizes="_BujI0EDaEeyBfMro0AcMxQ _VvwNUEDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
     <artefacts xmi:id="_BVvLAX-2EeyZ-7-iWk9v9g" value="_BVvLAn-2EeyZ-7-iWk9v9g" key="Aspect Model"/>
   </scenes>
   <scenes xmi:id="_4WP3UIBAEeyyCqN7ry3a1w" name="CSV_structure_data" realizes="_4qqtgEDZEeyBfMro0AcMxQ _zK0ZoEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
@@ -2145,7 +2151,7 @@
   <scenes xmi:id="_GIH3AJBAEeyLZYLWYJ9cng" name="general_high_level_settings" realizes="_bN3b0EDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
     <artefacts xmi:id="_GIH3AZBAEeyLZYLWYJ9cng" value="_GIH3ApBAEeyLZYLWYJ9cng" key="Aspect Model"/>
   </scenes>
-  <scenes xmi:id="_13JwoJBEEeyjnI-k4MEcig" name="general_layer_settings" realizes="_dpCdwEDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
+  <scenes xmi:id="_13JwoJBEEeyjnI-k4MEcig" name="general_layer_settings" realizes="_VvwNUEDaEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
     <artefacts xmi:id="_13JwoZBEEeyjnI-k4MEcig" value="_13JwopBEEeyjnI-k4MEcig" key="Aspect Model"/>
   </scenes>
   <scenes xmi:id="_RKsWQMvNEeyudatNXAfKYQ" name="image_structure_data" realizes="_4qqtgEDZEeyBfMro0AcMxQ _2EKlUEDZEeyBfMro0AcMxQ" perspectiveName="Design Modelling with RAM">
