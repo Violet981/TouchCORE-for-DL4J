@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_5XjbQEHiEeyEpZxv_KVsMw" name="MLNetwork_customize_layer_settings">
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_5XjbQEHiEeyEpZxv_KVsMw" name="MLNetwork_layer_settings">
   <structuralView xmi:id="_5XjbQUHiEeyEpZxv_KVsMw">
     <classes xsi:type="ram:Class" xmi:id="_Mm-dgEHjEeyEpZxv_KVsMw" name="org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder" visibility="public">
       <operations xmi:id="_NpvFkUHkEeyEpZxv_KVsMw" name="list" returnType="_uVwP0EHkEeyEpZxv_KVsMw"/>

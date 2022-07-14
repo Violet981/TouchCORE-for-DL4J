@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_4WERIIBAEeyyCqN7ry3a1w" name="CSVStructure">
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_4WERIIBAEeyyCqN7ry3a1w" name="CSV_structure_data">
   <structuralView xmi:id="_4WERIYBAEeyyCqN7ry3a1w">
     <classes xsi:type="ram:Class" xmi:id="_f6LAkMzMEeyXN6FQY8J6Pg" name="org.datavec.api.transform.TransformProcess.Builder" visibility="public">
       <operations xmi:id="_x6TlMczMEeyXN6FQY8J6Pg" name="addConstantDoubleColumn" returnType="_f6LAkMzMEeyXN6FQY8J6Pg">

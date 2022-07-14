@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_4BtCUC-9Eey7CdRMNoOOSg" name="imageTransform">
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_4BtCUC-9Eey7CdRMNoOOSg" name="ImageTransform">
   <structuralView xmi:id="_4BtCUS-9Eey7CdRMNoOOSg">
     <classes xsi:type="ram:ImplementationClass" xmi:id="_4BtCVi-9Eey7CdRMNoOOSg" name="ImageWritable" instanceClassName="org.datavec.image.data.ImageWritable"/>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_4BtCVy-9Eey7CdRMNoOOSg" name="Random" instanceClassName="java.util.Random"/>

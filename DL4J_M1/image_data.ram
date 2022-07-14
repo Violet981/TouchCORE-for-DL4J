@@ -105,6 +105,7 @@
       </operations>
     </classes>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_D2JzcNZUEeyBP5tFtpdo7A" name="Random" instanceClassName="java.util.Random"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_JWrbQAOPEe2M84u6IJStww" name="NativeImageLoader" superTypes="_ln028JBzEeyV4r6u3iMaJQ" instanceClassName="org.datavec.image.loader.NativeImageLoader"/>
     <types xsi:type="ram:RVoid" xmi:id="_8XuCtdgNEeuGxOJxjWx4FA"/>
     <types xsi:type="ram:RAny" xmi:id="_8XuCttgNEeuGxOJxjWx4FA"/>
     <types xsi:type="ram:RBoolean" xmi:id="_8XuCt9gNEeuGxOJxjWx4FA"/>
@@ -170,6 +171,9 @@
       </value>
       <value xmi:id="_D2JzcdZUEeyBP5tFtpdo7A" key="_D2JzcNZUEeyBP5tFtpdo7A">
         <value xmi:id="_D2JzctZUEeyBP5tFtpdo7A" x="4.999998" y="294.9238"/>
+      </value>
+      <value xmi:id="_JWrbQQOPEe2M84u6IJStww" key="_JWrbQAOPEe2M84u6IJStww">
+        <value xmi:id="_JWrbQgOPEe2M84u6IJStww" x="411.55676" y="-246.58037"/>
       </value>
     </containers>
   </layout>

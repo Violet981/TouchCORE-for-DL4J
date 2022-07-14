@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="ASCII"?>
-<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_G2L_wCX5EeyXgIyMe68nzg" name="textLoad">
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_G2L_wCX5EeyXgIyMe68nzg" name="raw text data">
+  <realizes href="DL4J_M1.core#_EzD_sNgAEeuGxOJxjWx4FA"/>
+  <coreConcern href="DL4J_M1.core#_bV6McNf-EeuGxOJxjWx4FA"/>
   <structuralView xmi:id="_G2L_wSX5EeyXgIyMe68nzg">
     <classes xsi:type="ram:ImplementationClass" xmi:id="_G2L_wiX5EeyXgIyMe68nzg" name="File" visibility="public" instanceClassName="java.io.File">
-      <operations xmi:id="_G2L_wyX5EeyXgIyMe68nzg" name="getAbsolutePath" returnType="_G2L_ySX5EeyXgIyMe68nzg"/>
+      <operations xmi:id="_G2L_wyX5EeyXgIyMe68nzg" name="getAbsolutePath" visibility="public" returnType="_G2L_ySX5EeyXgIyMe68nzg"/>
     </classes>
-    <classes xsi:type="ram:Class" xmi:id="_uiGooCYrEeycop2z6HNniQ" name="BasicLineIterator" superTypes="_8HFpcCagEeyD3eQvvo0_7w" visibility="public">
-      <operations xmi:id="_6jRGQCagEeyD3eQvvo0_7w" name="create" returnType="_uiGooCYrEeycop2z6HNniQ" operationType="Constructor"/>
+    <classes xsi:type="ram:Class" xmi:id="_uiGooCYrEeycop2z6HNniQ" name="BasicLineIterator" visibility="public" superTypes="_8HFpcCagEeyD3eQvvo0_7w">
+      <operations xmi:id="_6jRGQCagEeyD3eQvvo0_7w" name="create" visibility="public" returnType="_uiGooCYrEeycop2z6HNniQ" operationType="Constructor"/>
     </classes>
     <classes xsi:type="ram:Class" xmi:id="_8HFpcCagEeyD3eQvvo0_7w" name="SentenceIterator"/>
-    <classes xsi:type="ram:Class" xmi:id="_ApA8gCahEeyD3eQvvo0_7w" name="DefaultTokenizerFactory" superTypes="_LHaOACahEeyD3eQvvo0_7w" visibility="public">
-      <operations xmi:id="_ZfqtACahEeyD3eQvvo0_7w" name="create" returnType="_ApA8gCahEeyD3eQvvo0_7w" operationType="Constructor"/>
+    <classes xsi:type="ram:Class" xmi:id="_ApA8gCahEeyD3eQvvo0_7w" name="DefaultTokenizerFactory" visibility="public" superTypes="_LHaOACahEeyD3eQvvo0_7w">
+      <operations xmi:id="_ZfqtACahEeyD3eQvvo0_7w" name="create" visibility="public" returnType="_ApA8gCahEeyD3eQvvo0_7w" operationType="Constructor"/>
     </classes>
     <classes xsi:type="ram:Class" xmi:id="_LHaOACahEeyD3eQvvo0_7w" name="TokenizerFactory" visibility="public">
-      <operations xmi:id="_ViDA4CahEeyD3eQvvo0_7w" name="create" returnType="_LHaOACahEeyD3eQvvo0_7w" operationType="Constructor"/>
+      <operations xmi:id="_ViDA4CahEeyD3eQvvo0_7w" name="create" visibility="public" returnType="_LHaOACahEeyD3eQvvo0_7w" operationType="Constructor"/>
     </classes>
     <types xsi:type="ram:RVoid" xmi:id="_G2L_xCX5EeyXgIyMe68nzg"/>
     <types xsi:type="ram:RAny" xmi:id="_G2L_xSX5EeyXgIyMe68nzg"/>

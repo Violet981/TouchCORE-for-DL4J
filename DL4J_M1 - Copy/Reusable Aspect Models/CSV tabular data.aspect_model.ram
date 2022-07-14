@@ -63,8 +63,9 @@
       <operations xmi:id="_fxEdAszOEeyXN6FQY8J6Pg" name="create" returnType="_afaWIMzOEeyXN6FQY8J6Pg" operationType="Constructor">
         <parameters xmi:id="_g-sGsMzOEeyXN6FQY8J6Pg" name="arg0" type="_HQ16AMyCEeyudatNXAfKYQ"/>
       </operations>
-      <operations xmi:id="_oRe-4czOEeyXN6FQY8J6Pg" name="build" returnType="_LQZe0P1hEey2fJqXG2R9uA"/>
+      <operations xmi:id="_oRe-4czOEeyXN6FQY8J6Pg" name="build" returnType="_m9vfEMzOEeyXN6FQY8J6Pg"/>
     </classes>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_m9vfEMzOEeyXN6FQY8J6Pg" name="TransformProcess" instanceClassName="org.datavec.api.transform.TransformProcess"/>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_e68FwO3JEeyJyK94f72caw" name="CSVRecordWriter" visibility="public" instanceClassName="org.datavec.api.records.writer.impl.csv.CSVRecordWriter">
       <operations xmi:id="_gN6Jge3JEeyJyK94f72caw" name="CSVRecordWriter" returnType="_e68FwO3JEeyJyK94f72caw" operationType="Constructor"/>
       <operations xmi:id="_kXWrIe3JEeyJyK94f72caw" name="initialize" returnType="_9USxUsyBEeyudatNXAfKYQ">
@@ -92,14 +93,11 @@
     <classes xsi:type="ram:Class" xmi:id="_Zp08AO3KEeyJyK94f72caw" name="org.datavec.local.transforms.LocalTransformExecutor" visibility="public">
       <operations xmi:id="_g3Z9Ae3KEeyJyK94f72caw" name="execute" returnType="_rd-IgO3JEeyJyK94f72caw">
         <parameters xmi:id="_g3Z9Au3KEeyJyK94f72caw" name="arg0" type="_rd-IgO3JEeyJyK94f72caw"/>
-        <parameters xmi:id="_g3Z9A-3KEeyJyK94f72caw" name="arg1" type="_LQZe0P1hEey2fJqXG2R9uA"/>
+        <parameters xmi:id="_g3Z9A-3KEeyJyK94f72caw" name="arg1" type="_m9vfEMzOEeyXN6FQY8J6Pg"/>
       </operations>
     </classes>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_8DwkIO3LEeyLxYlXGCbECQ" name="NumberOfRecordsPartitioner" superTypes="_kXOIQO3JEeyJyK94f72caw" visibility="public" instanceClassName="org.datavec.api.split.partition.NumberOfRecordsPartitioner">
       <operations xmi:id="_8ycPEu3LEeyLxYlXGCbECQ" name="NumberOfRecordsPartitioner" returnType="_8DwkIO3LEeyLxYlXGCbECQ" operationType="Constructor"/>
-    </classes>
-    <classes xsi:type="ram:Class" xmi:id="_LQZe0P1hEey2fJqXG2R9uA" name="org.datavec.api.transform.TransformProcess" visibility="public">
-      <operations xmi:id="_ZPVe4v1hEey2fJqXG2R9uA" name="getFinalSchema" returnType="_HQ16AMyCEeyudatNXAfKYQ"/>
     </classes>
     <types xsi:type="ram:RVoid" xmi:id="_9USxUsyBEeyudatNXAfKYQ"/>
     <types xsi:type="ram:RAny" xmi:id="_9USxU8yBEeyudatNXAfKYQ"/>
@@ -122,6 +120,9 @@
       </value>
       <value xmi:id="_afaWIczOEeyXN6FQY8J6Pg" key="_afaWIMzOEeyXN6FQY8J6Pg">
         <value xmi:id="_afaWIszOEeyXN6FQY8J6Pg" x="-157.4255" y="149.36241"/>
+      </value>
+      <value xmi:id="_m9vfEczOEeyXN6FQY8J6Pg" key="_m9vfEMzOEeyXN6FQY8J6Pg">
+        <value xmi:id="_m9vfEszOEeyXN6FQY8J6Pg" x="-6.3759327" y="25.990952"/>
       </value>
       <value xmi:id="_e68Fwe3JEeyJyK94f72caw" key="_e68FwO3JEeyJyK94f72caw">
         <value xmi:id="_e68Fwu3JEeyJyK94f72caw" x="433.682" y="-204.2347"/>
@@ -149,9 +150,6 @@
       </value>
       <value xmi:id="_8DwkIe3LEeyLxYlXGCbECQ" key="_8DwkIO3LEeyLxYlXGCbECQ">
         <value xmi:id="_8DwkIu3LEeyLxYlXGCbECQ" x="-633.7704" y="-46.64627"/>
-      </value>
-      <value xmi:id="_LQas8P1hEey2fJqXG2R9uA" key="_LQZe0P1hEey2fJqXG2R9uA">
-        <value xmi:id="_LQas8f1hEey2fJqXG2R9uA" x="-858.8079" y="96.988525"/>
       </value>
     </containers>
   </layout>

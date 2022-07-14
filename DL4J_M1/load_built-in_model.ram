@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="ASCII"?>
 <ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_xQ0jkCYpEeycop2z6HNniQ" name="load built-in model">
-  <realizes href="DL4J_M1.core#__fXoQPkLEeuiC8tSaKvCTg"/>
-  <coreConcern href="DL4J_M1.core#_bV6McNf-EeuGxOJxjWx4FA"/>
   <structuralView xmi:id="_xQ0jkSYpEeycop2z6HNniQ">
     <classes xsi:type="ram:Class" xmi:id="_xQ0jkiYpEeycop2z6HNniQ" name="ZooModel" visibility="public">
-      <operations xmi:id="_xQ0jkyYpEeycop2z6HNniQ" name="init" visibility="public" returnType="_xQ0jlSYpEeycop2z6HNniQ"/>
+      <operations xmi:id="_xQ0jkyYpEeycop2z6HNniQ" name="init" returnType="_xQ0jlSYpEeycop2z6HNniQ"/>
     </classes>
     <classes xsi:type="ram:Class" xmi:id="_xQ0jlCYpEeycop2z6HNniQ" name="AlexNet"/>
     <classes xsi:type="ram:Class" xmi:id="_xQ0jlSYpEeycop2z6HNniQ" name="Model"/>
     <classes xsi:type="ram:Class" xmi:id="_xQ0jliYpEeycop2z6HNniQ" name="AlexNetBuilder" visibility="public">
-      <operations xmi:id="_xQ0jlyYpEeycop2z6HNniQ" name="numClasses" visibility="public" returnType="_xQ0jliYpEeycop2z6HNniQ">
+      <operations xmi:id="_xQ0jlyYpEeycop2z6HNniQ" name="numClasses" returnType="_xQ0jliYpEeycop2z6HNniQ">
         <parameters xmi:id="_xQ0jmCYpEeycop2z6HNniQ" name="arg0" type="_xQ1KpiYpEeycop2z6HNniQ"/>
       </operations>
-      <operations xmi:id="_xQ1KoCYpEeycop2z6HNniQ" name="seed" visibility="public" returnType="_xQ0jliYpEeycop2z6HNniQ">
+      <operations xmi:id="_xQ1KoCYpEeycop2z6HNniQ" name="seed" returnType="_xQ0jliYpEeycop2z6HNniQ">
         <parameters xmi:id="_xQ1KoSYpEeycop2z6HNniQ" name="arg0" type="_xQ1KpiYpEeycop2z6HNniQ"/>
       </operations>
-      <operations xmi:id="_xQ1KoiYpEeycop2z6HNniQ" name="build" visibility="public" returnType="_xQ0jkiYpEeycop2z6HNniQ"/>
+      <operations xmi:id="_xQ1KoiYpEeycop2z6HNniQ" name="build" returnType="_xQ0jkiYpEeycop2z6HNniQ"/>
     </classes>
     <classes xsi:type="ram:Class" xmi:id="_71UWgC_AEey7CdRMNoOOSg" name="LeNet"/>
     <classes xsi:type="ram:Class" xmi:id="_9CJWAC_AEey7CdRMNoOOSg" name="VGG16"/>
@@ -50,10 +48,10 @@
         <value xmi:id="_xQ1KtCYpEeycop2z6HNniQ" x="490.0" y="267.0"/>
       </value>
       <value xmi:id="_xQ1KtSYpEeycop2z6HNniQ" key="_xQ0jliYpEeycop2z6HNniQ">
-        <value xmi:id="_xQ1KtiYpEeycop2z6HNniQ" x="864.0" y="360.0"/>
+        <value xmi:id="_xQ1KtiYpEeycop2z6HNniQ" x="960.0" y="242.0"/>
       </value>
       <value xmi:id="_71WywC_AEey7CdRMNoOOSg" key="_71UWgC_AEey7CdRMNoOOSg">
-        <value xmi:id="_71WywS_AEey7CdRMNoOOSg" x="554.0" y="477.0"/>
+        <value xmi:id="_71WywS_AEey7CdRMNoOOSg" x="490.0" y="450.0"/>
       </value>
       <value xmi:id="_9CJ9EC_AEey7CdRMNoOOSg" key="_9CJWAC_AEey7CdRMNoOOSg">
         <value xmi:id="_9CJ9ES_AEey7CdRMNoOOSg" x="703.0" y="632.0"/>
@@ -62,16 +60,16 @@
         <value xmi:id="_9qiywS_AEey7CdRMNoOOSg" x="915.0" y="604.0"/>
       </value>
       <value xmi:id="_-xIAUC_AEey7CdRMNoOOSg" key="_-xGyMC_AEey7CdRMNoOOSg">
-        <value xmi:id="_-xIAUS_AEey7CdRMNoOOSg" x="402.0" y="549.0"/>
+        <value xmi:id="_-xIAUS_AEey7CdRMNoOOSg" x="226.0" y="538.0"/>
       </value>
       <value xmi:id="_AYPvIC_BEey7CdRMNoOOSg" key="_AYN58C_BEey7CdRMNoOOSg">
-        <value xmi:id="_AYPvIS_BEey7CdRMNoOOSg" x="532.0" y="538.0"/>
+        <value xmi:id="_AYPvIS_BEey7CdRMNoOOSg" x="489.95117" y="604.0"/>
       </value>
       <value xmi:id="_BoOJQC_BEey7CdRMNoOOSg" key="_BoLtAC_BEey7CdRMNoOOSg">
         <value xmi:id="_BoOJQS_BEey7CdRMNoOOSg" x="226.0" y="363.0"/>
       </value>
       <value xmi:id="_DGh6UC_BEey7CdRMNoOOSg" key="_DGe3AC_BEey7CdRMNoOOSg">
-        <value xmi:id="_DGh6US_BEey7CdRMNoOOSg" x="373.0" y="589.0"/>
+        <value xmi:id="_DGh6US_BEey7CdRMNoOOSg" x="369.0" y="686.0"/>
       </value>
       <value xmi:id="_G4P4cC_BEey7CdRMNoOOSg" key="_G4ODQC_BEey7CdRMNoOOSg">
         <value xmi:id="_G4P4cS_BEey7CdRMNoOOSg" x="692.0" y="328.0"/>
